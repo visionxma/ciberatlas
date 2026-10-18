@@ -1,0 +1,354 @@
+# Mapa de categorias do CiberAtlas.
+#
+# Cada categoria pertence a um grupo. Seis grupos são as funções do NIST CSF 2.0
+# (GV, ID, PR, DE, RS, RC); dois são do Atlas: AP (aprender) e PE (pessoas).
+# `d3fend` é a tática defensiva do MITRE D3FEND que a categoria mais exerce
+# (Model, Harden, Detect, Isolate, Deceive, Evict, Restore).
+# `cis` lista os CIS Controls v8.1 que a categoria ajuda a cumprir.
+
+grupos:
+  - id: GV
+    nome: Governar
+    name: Govern
+    descricao: Estratégia, papéis, políticas, conformidade e privacidade.
+    description: Strategy, roles, policy, compliance and privacy.
+  - id: ID
+    nome: Identificar
+    name: Identify
+    descricao: Saber o que você tem, o que está exposto e o que pode dar errado.
+    description: Know what you have, what is exposed and what can go wrong.
+  - id: PR
+    nome: Proteger
+    name: Protect
+    descricao: Código, identidades, sistemas, nuvem e rede endurecidos antes do ataque.
+    description: Code, identities, systems, cloud and network hardened before the attack.
+  - id: DE
+    nome: Detectar
+    name: Detect
+    descricao: Ver o ataque acontecendo — logs, rede, endpoint, inteligência e iscas.
+    description: See the attack happening — logs, network, endpoint, intel and decoys.
+  - id: RS
+    nome: Responder
+    name: Respond
+    descricao: Conter, investigar e entender o que aconteceu.
+    description: Contain, investigate and understand what happened.
+  - id: RC
+    nome: Recuperar
+    name: Recover
+    descricao: Voltar a operar com os dados íntegros.
+    description: Get back to operation with intact data.
+  - id: AP
+    nome: Aprender
+    name: Learn
+    descricao: Laboratórios legais, cursos, certificações, guias e comunidades.
+    description: Legal labs, courses, certifications, guides and communities.
+  - id: PE
+    nome: Pessoas
+    name: People
+    descricao: Proteção para qualquer pessoa — senhas, 2FA, privacidade e comunicação.
+    description: Protection for anyone — passwords, 2FA, privacy and communication.
+
+categorias:
+  # --- GV · Governar
+  - id: grc-e-conformidade
+    grupo: GV
+    nome: GRC e conformidade
+    name: GRC & compliance
+    descricao: Gestão de riscos, controles e auditorias (ISO 27001, NIST, CIS, LGPD).
+    description: Risk, controls and audit management (ISO 27001, NIST, CIS, GDPR).
+    d3fend: Model
+    cis: [15, 17]
+  - id: privacidade-e-dados-pessoais
+    grupo: GV
+    nome: Privacidade e dados pessoais
+    name: Privacy & personal data
+    descricao: Encontrar, classificar e proteger dados pessoais — base técnica da LGPD.
+    description: Find, classify and protect personal data — the technical side of GDPR/LGPD.
+    d3fend: Model
+    cis: [3]
+
+  # --- ID · Identificar
+  - id: inventario-de-ativos
+    grupo: ID
+    nome: Inventário de ativos
+    name: Asset inventory
+    descricao: Saber quais máquinas, softwares e contas existem na sua organização.
+    description: Know which machines, software and accounts exist in your organization.
+    d3fend: Model
+    cis: [1, 2]
+  - id: gestao-de-vulnerabilidades
+    grupo: ID
+    nome: Gestão de vulnerabilidades
+    name: Vulnerability management
+    descricao: Achar e priorizar falhas conhecidas nos seus próprios sistemas, imagens e dependências.
+    description: Find and prioritize known flaws in your own systems, images and dependencies.
+    d3fend: Harden
+    cis: [7]
+  - id: cadeia-de-suprimentos-e-sbom
+    grupo: ID
+    nome: Cadeia de suprimentos e SBOM
+    name: Supply chain & SBOM
+    descricao: Lista de componentes (SBOM), assinatura de artefatos e saúde das dependências.
+    description: Software bill of materials, artifact signing and dependency health.
+    d3fend: Model
+    cis: [2, 16]
+  - id: modelagem-de-ameacas
+    grupo: ID
+    nome: Modelagem de ameaças
+    name: Threat modeling
+    descricao: Desenhar o sistema e descobrir onde ele pode ser atacado antes de escrever o código.
+    description: Diagram the system and find where it can be attacked before writing code.
+    d3fend: Model
+    cis: [16]
+
+  # --- PR · Proteger
+  - id: analise-estatica-de-codigo
+    grupo: PR
+    nome: Análise estática de código (SAST)
+    name: Static code analysis (SAST)
+    descricao: Encontrar falhas de segurança no código-fonte antes de ir para produção.
+    description: Find security flaws in source code before it ships.
+    d3fend: Harden
+    cis: [16]
+  - id: segredos-no-codigo
+    grupo: PR
+    nome: Segredos vazados no código
+    name: Leaked secrets in code
+    descricao: Achar chaves, senhas e tokens esquecidos no git antes que outra pessoa ache.
+    description: Find keys, passwords and tokens left in git before someone else does.
+    d3fend: Harden
+    cis: [3, 16]
+  - id: gestao-de-segredos
+    grupo: PR
+    nome: Gestão de segredos
+    name: Secrets management
+    descricao: Guardar e distribuir credenciais de aplicação sem deixá-las em texto puro.
+    description: Store and distribute application credentials without plaintext.
+    d3fend: Harden
+    cis: [3, 6]
+  - id: identidade-e-acesso
+    grupo: PR
+    nome: Identidade e acesso (IAM)
+    name: Identity & access (IAM)
+    descricao: Login único, MFA, controle de acesso e acesso privilegiado.
+    description: Single sign-on, MFA, access control and privileged access.
+    d3fend: Harden
+    cis: [5, 6]
+  - id: hardening-de-sistemas
+    grupo: PR
+    nome: Hardening de sistemas
+    name: System hardening
+    descricao: Auditar e endurecer Linux, Windows e macOS contra benchmarks conhecidos.
+    description: Audit and harden Linux, Windows and macOS against known benchmarks.
+    d3fend: Harden
+    cis: [4]
+  - id: seguranca-em-nuvem
+    grupo: PR
+    nome: Segurança em nuvem e IaC
+    name: Cloud & IaC security
+    descricao: Auditar contas AWS, Azure e GCP e a infraestrutura como código antes do deploy.
+    description: Audit AWS, Azure and GCP accounts and infrastructure-as-code before deploy.
+    d3fend: Harden
+    cis: [4, 16]
+  - id: containers-e-kubernetes
+    grupo: PR
+    nome: Containers e Kubernetes
+    name: Containers & Kubernetes
+    descricao: Políticas, benchmarks e varredura para imagens e clusters.
+    description: Policies, benchmarks and scanning for images and clusters.
+    d3fend: Harden
+    cis: [4, 7]
+  - id: rede-firewall-e-vpn
+    grupo: PR
+    nome: Rede, firewall e VPN
+    name: Network, firewall & VPN
+    descricao: Segmentar, filtrar e conectar com segurança.
+    description: Segment, filter and connect securely.
+    d3fend: Isolate
+    cis: [12, 13]
+  - id: waf-e-protecao-web
+    grupo: PR
+    nome: WAF e proteção de aplicações web
+    name: WAF & web application protection
+    descricao: Filtrar tráfego malicioso antes que ele chegue à aplicação.
+    description: Filter malicious traffic before it reaches the application.
+    d3fend: Isolate
+    cis: [13, 16]
+  - id: testes-dinamicos-de-aplicacao
+    grupo: PR
+    nome: Testes dinâmicos de aplicação (DAST)
+    name: Dynamic application testing (DAST)
+    descricao: Testar a própria aplicação rodando, no pipeline, antes do atacante.
+    description: Test your own running application in the pipeline, before attackers do.
+    d3fend: Harden
+    cis: [16, 18]
+  - id: criptografia-e-tls
+    grupo: PR
+    nome: Criptografia e TLS
+    name: Cryptography & TLS
+    descricao: Certificados, criptografia de arquivos e auditoria de configuração TLS.
+    description: Certificates, file encryption and TLS configuration audit.
+    d3fend: Harden
+    cis: [3]
+  - id: seguranca-de-email
+    grupo: PR
+    nome: Segurança de e-mail
+    name: Email security
+    descricao: SPF, DKIM, DMARC, antispam e relatórios de abuso do seu domínio.
+    description: SPF, DKIM, DMARC, anti-spam and abuse reports for your domain.
+    d3fend: Isolate
+    cis: [9]
+  - id: seguranca-de-ia
+    grupo: PR
+    nome: Segurança de IA e LLM
+    name: AI & LLM security
+    descricao: Testar e proteger seus próprios modelos e agentes contra injeção de prompt e vazamento.
+    description: Test and protect your own models and agents against prompt injection and leakage.
+    d3fend: Harden
+    cis: [16]
+
+  # --- DE · Detectar
+  - id: siem-e-logs
+    grupo: DE
+    nome: SIEM e gestão de logs
+    name: SIEM & log management
+    descricao: Centralizar, correlacionar e alertar sobre eventos de segurança.
+    description: Centralize, correlate and alert on security events.
+    d3fend: Detect
+    cis: [8, 13]
+  - id: regras-de-deteccao
+    grupo: DE
+    nome: Regras de detecção
+    name: Detection rules
+    descricao: Regras prontas e abertas (Sigma, YARA e afins) e ferramentas que as aplicam.
+    description: Ready-made open rules (Sigma, YARA and friends) and tools that run them.
+    d3fend: Detect
+    cis: [8, 13]
+  - id: deteccao-de-rede
+    grupo: DE
+    nome: Detecção de intrusão em rede (IDS/NSM)
+    name: Network intrusion detection (IDS/NSM)
+    descricao: Ver o tráfego, registrar sessões e detectar comportamento anômalo.
+    description: See traffic, record sessions and detect anomalous behavior.
+    d3fend: Detect
+    cis: [13]
+  - id: endpoint-e-telemetria
+    grupo: DE
+    nome: Endpoint e telemetria (EDR)
+    name: Endpoint & telemetry (EDR)
+    descricao: Visibilidade e detecção em servidores, estações e containers.
+    description: Visibility and detection on servers, workstations and containers.
+    d3fend: Detect
+    cis: [10, 13]
+  - id: inteligencia-de-ameacas
+    grupo: DE
+    nome: Inteligência de ameaças
+    name: Threat intelligence
+    descricao: Compartilhar e enriquecer indicadores e entender quem ataca e como.
+    description: Share and enrich indicators and understand who attacks and how.
+    d3fend: Detect
+    cis: [13]
+  - id: enganacao-e-iscas
+    grupo: DE
+    nome: Enganação e iscas (honeypots)
+    name: Deception & decoys (honeypots)
+    descricao: Armadilhas que só um intruso tocaria — alarme quase sem falso positivo.
+    description: Traps only an intruder would touch — alarms with almost no false positives.
+    d3fend: Deceive
+    cis: [13]
+
+  # --- RS · Responder
+  - id: resposta-a-incidentes
+    grupo: RS
+    nome: Resposta a incidentes e SOAR
+    name: Incident response & SOAR
+    descricao: Casos, playbooks, automação e coleta remota durante o incidente.
+    description: Cases, playbooks, automation and remote collection during an incident.
+    d3fend: Evict
+    cis: [17]
+  - id: forense-digital
+    grupo: RS
+    nome: Forense digital
+    name: Digital forensics
+    descricao: Memória, disco e linha do tempo para reconstruir o que aconteceu.
+    description: Memory, disk and timeline to reconstruct what happened.
+    d3fend: Detect
+    cis: [17]
+  - id: analise-de-malware
+    grupo: RS
+    nome: Análise de malware (defensiva)
+    name: Malware analysis (defensive)
+    descricao: Entender um arquivo suspeito para detectar e remover — engenharia reversa e triagem.
+    description: Understand a suspicious file to detect and remove it — reversing and triage.
+    d3fend: Detect
+    cis: [10, 17]
+
+  # --- RC · Recuperar
+  - id: backup-e-recuperacao
+    grupo: RC
+    nome: Backup e recuperação
+    name: Backup & recovery
+    descricao: Cópias criptografadas, verificáveis e restauráveis — a última linha contra ransomware.
+    description: Encrypted, verifiable, restorable copies — the last line against ransomware.
+    d3fend: Restore
+    cis: [11]
+
+  # --- AP · Aprender
+  - id: laboratorios-e-ctf
+    grupo: AP
+    nome: Laboratórios e CTF (prática legal)
+    name: Labs & CTF (legal practice)
+    descricao: Ambientes feitos para treinar sem tocar em sistema de ninguém.
+    description: Environments built for training without touching anyone's systems.
+    cis: [14]
+  - id: cursos-gratuitos
+    grupo: AP
+    nome: Cursos gratuitos
+    name: Free courses
+    descricao: Cursos abertos de universidades e organizações reconhecidas.
+    description: Open courses from recognized universities and organizations.
+    cis: [14]
+  - id: certificacoes
+    grupo: AP
+    nome: Certificações
+    name: Certifications
+    descricao: As certificações mais pedidas, por nível e foco (sem preço — ele muda).
+    description: The most requested certifications by level and focus (no prices — they change).
+    cis: [14]
+  - id: guias-e-referencias
+    grupo: AP
+    nome: Guias e referências
+    name: Guides & references
+    descricao: Cheat sheets, guias de teste, normas e livros abertos.
+    description: Cheat sheets, testing guides, standards and open books.
+    cis: [14]
+  - id: listas-irmas
+    grupo: AP
+    nome: Listas irmãs
+    name: Sister lists
+    descricao: Outras listas abertas, mantidas, que aprofundam um tema específico.
+    description: Other open, maintained lists that go deep on one topic.
+    cis: [14]
+  - id: comunidade-lusofona
+    grupo: AP
+    nome: Comunidade lusófona
+    name: Portuguese-speaking community
+    descricao: Eventos, grupos e materiais em português.
+    description: Events, groups and material in Portuguese.
+    cis: [14]
+
+  # --- PE · Pessoas
+  - id: senhas-e-autenticacao
+    grupo: PE
+    nome: Senhas e autenticação em dois fatores
+    name: Passwords & two-factor authentication
+    descricao: Gerenciadores de senha e apps de 2FA abertos e auditáveis.
+    description: Open, auditable password managers and 2FA apps.
+    cis: [5, 6]
+  - id: privacidade-pessoal
+    grupo: PE
+    nome: Privacidade e comunicação segura
+    name: Privacy & secure communication
+    descricao: Mensageiros, navegador, bloqueio de rastreadores e guias para o dia a dia.
+    description: Messengers, browser, tracker blocking and everyday guides.
+    cis: [9]

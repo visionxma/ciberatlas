@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "CiberAtlas: o atlas aberto e vivo da cibersegurança defensiva"
+message: "Se usar os dados do CiberAtlas em pesquisa, cite assim. If you use CiberAtlas data in research, please cite it."
+type: dataset
+authors:
+  - name: VisionX
+    website: "https://visionxma.com"
+repository-code: "https://github.com/visionxma/ciberatlas"
+license: CC0-1.0
+keywords:
+  - cybersecurity
+  - ciberseguranca
+  - nist-csf
+  - d3fend
+  - cis-controls
+  - lgpd

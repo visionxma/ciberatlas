@@ -1,0 +1,538 @@
+# CiberAtlas
+
+> Atlas aberto e vivo de cibersegurança defensiva, em português e inglês. Cada projeto é conferido toda semana por robô (existe, não está arquivado, teve atividade) e cada categoria é mapeada no NIST CSF 2.0, no MITRE D3FEND e nos CIS Controls v8.1. Dados em CC0.
+
+Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/api/catalogo.json
+
+## Guias
+
+- [Comece aqui por perfil](https://github.com/visionxma/ciberatlas/blob/main/docs/comece-aqui/README.md): pequena empresa, desenvolvedor, estudante, analista de SOC, pessoa comum
+- [Brasil: legislação, LGPD e incidentes](https://github.com/visionxma/ciberatlas/blob/main/docs/brasil/README.md)
+- [Portugal: NIS2 e CNCS](https://github.com/visionxma/ciberatlas/blob/main/docs/portugal/README.md)
+- [Checklists](https://github.com/visionxma/ciberatlas/blob/main/docs/checklists/README.md)
+- [Trilhas de estudo](https://github.com/visionxma/ciberatlas/blob/main/docs/trilhas/README.md)
+- [Frameworks](https://github.com/visionxma/ciberatlas/blob/main/docs/frameworks.md)
+- [Glossário PT-EN](https://github.com/visionxma/ciberatlas/blob/main/docs/glossario.md)
+
+## Governar / GRC e conformidade
+
+- [CISO Assistant](https://github.com/intuitem/ciso-assistant-community): Plataforma GRC aberta: riscos, controles, auditorias e conformidade com mais de 100 frameworks (ISO 27001, NIST, CIS, LGPD).
+- [CSET](https://github.com/cisagov/cset): Ferramenta da CISA para autoavaliar a postura de segurança contra padrões como NIST CSF e CIS Controls.
+- [Probo](https://github.com/getprobo/probo): Plataforma aberta para preparar e manter conformidade com SOC 2, ISO 27001 e GDPR, com tarefas, evidências e políticas.
+- [OSCAL](https://github.com/usnistgov/OSCAL): Linguagem do NIST em JSON, XML e YAML para descrever controles, avaliações e planos de segurança de forma legível por máquina.
+- [gapps](https://github.com/bmarsh9/gapps): Plataforma de conformidade que acompanha controles de SOC 2, ISO 27001, NIST CSF, CIS e HIPAA com evidências e políticas.
+- [Deming](https://github.com/sourcentis/deming): Gestão do SGSI (ISO 27001): controles, medições periódicas, plano de ação e acompanhamento de auditorias.
+- [Compliance Trestle](https://github.com/oscal-compass/compliance-trestle): Ferramenta Python para gerir conformidade como código com OSCAL do NIST, integrável a pipelines de CI.
+
+## Governar / Privacidade e dados pessoais
+
+- [Presidio](https://github.com/data-privacy-stack/presidio): Framework que detecta, mascara e anonimiza dados pessoais (PII) em texto, imagens e dados estruturados.
+- [CookieConsent](https://github.com/orestbida/cookieconsent): Biblioteca JavaScript leve para banner de cookies com consentimento por categoria, compatível com LGPD e GDPR.
+- [Klaro](https://github.com/kiprotect/klaro): Gerenciador de consentimento aberto que bloqueia scripts de terceiros até o visitante autorizar.
+- [Databunker](https://github.com/securitybunker/databunker): Cofre para registros pessoais de clientes com criptografia, consentimento e atendimento a pedidos de titulares.
+- [ARX](https://github.com/arx-deidentifier/arx): Ferramenta de anonimização de dados com k-anonimato e privacidade diferencial, com análise do risco de reidentificação.
+- [Privado](https://github.com/Privado-Inc/privado): Análise estática que mapeia fluxos de dados pessoais no código e aponta vazamentos para terceiros.
+- [HawkEye](https://github.com/rohitcoder/hawk-eye): Varre arquivos, bancos, S3 e Redis procurando dados pessoais e segredos expostos nos seus próprios sistemas.
+- [OpenDP](https://github.com/opendp/opendp): Biblioteca de algoritmos de privacidade diferencial para publicar estatísticas sem expor indivíduos.
+- [PIA (CNIL)](https://github.com/LINCnil/pia): Aplicação da autoridade francesa CNIL para conduzir relatórios de impacto à proteção de dados (RIPD/DPIA).
+- [Blacklight Collector](https://github.com/the-markup/blacklight-collector): Coletor que audita um site em busca de rastreadores, cookies de terceiros e fingerprinting.
+
+## Identificar / Inventário de ativos
+
+- [NetBox](https://github.com/netbox-community/netbox): Fonte da verdade da infraestrutura: IPs, racks, dispositivos, cabos e circuitos, com API.
+- [OWASP Amass](https://github.com/owasp-amass/amass): Mapeia a superfície de ataque externa de um domínio: subdomínios, redes e serviços expostos.
+- [Snipe-IT](https://github.com/grokability/snipe-it): Gestão de ativos e licenças de TI: quem usa cada equipamento, histórico, check-in e check-out.
+- [Nmap](https://github.com/nmap/nmap): Descoberta de hosts e serviços na rede, para manter o inventário e achar portas abertas inesperadas.
+- [NetAlertX](https://github.com/netalertx/NetAlertX): Descobre dispositivos na rede local e avisa quando aparece um equipamento novo ou desconhecido.
+- [CloudQuery](https://github.com/cloudquery/cloudquery): Extrai configuração de nuvem para um banco de dados, base para inventário de ativos e análise de postura.
+- [GLPI](https://github.com/glpi-project/glpi): Inventário de ativos de TI, licenças e chamados (ITIL), com agente para descobrir máquinas e softwares.
+- [Cartography](https://github.com/cartography-cncf/cartography): Reúne ativos de nuvem e suas relações em um grafo Neo4j para achar caminhos de exposição.
+- [Ralph](https://github.com/allegro/ralph): CMDB e gestão de ativos para hardware de data center e escritório, com ciclo de vida e responsáveis.
+- [Nautobot](https://github.com/nautobot/nautobot): Fonte da verdade da rede e plataforma de automação: inventário de dispositivos, IPs e configuração.
+- [iTop](https://github.com/Combodo/iTop): CMDB e gestão de serviços de TI (ITSM) para relacionar ativos, serviços, mudanças e incidentes.
+- [Mercator](https://github.com/sourcentis/mercator): Cartografia do sistema de informação: mapeia processos, aplicações, servidores e fluxos para análise de riscos.
+
+## Identificar / Gestão de vulnerabilidades
+
+- [Trivy](https://github.com/aquasecurity/trivy): Varre imagens, repositórios, nuvem e Kubernetes em busca de vulnerabilidades, configurações erradas e segredos.
+- [Nuclei](https://github.com/projectdiscovery/nuclei): Scanner baseado em modelos YAML da comunidade para testar a própria infraestrutura contra falhas conhecidas.
+- [Grype](https://github.com/anchore/grype): Scanner de vulnerabilidades para imagens de contêiner e sistemas de arquivos; lê SBOMs do Syft.
+- [Vuls](https://github.com/future-architect/vuls): Scanner sem agente para Linux, FreeBSD, contêineres e bibliotecas, que cruza pacotes com bases de CVE.
+- [OSV-Scanner](https://github.com/google/osv-scanner): Confere as dependências do projeto contra o banco de vulnerabilidades OSV.dev e sugere correções.
+- [Clair](https://github.com/quay/clair): Análise estática de vulnerabilidades em imagens de contêiner, usada por registries como o Quay.
+- [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck): Análise de composição de software que aponta dependências com vulnerabilidades públicas (CVE).
+- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo): Centraliza achados de vários scanners, remove duplicatas e acompanha a correção de cada vulnerabilidade.
+- [OpenVAS Scanner](https://github.com/greenbone/openvas-scanner): Motor de varredura da Greenbone Community Edition para achar vulnerabilidades em hosts e redes.
+- [Retire.js](https://github.com/RetireJS/retire.js): Detecta bibliotecas JavaScript com vulnerabilidades conhecidas em sites e projetos; gera SBOM.
+- [OpenCVE](https://github.com/opencve/opencve): Acompanha CVEs por fornecedor e produto e envia alertas quando surge falha nos produtos que você usa.
+- [RustSec](https://github.com/rustsec/rustsec): Banco de avisos de segurança e ferramentas (cargo-audit) para dependências Rust.
+- [pip-audit](https://github.com/pypa/pip-audit): Audita ambientes e arquivos de requisitos Python em busca de dependências com vulnerabilidades conhecidas.
+- [secureCodeBox](https://github.com/secureCodeBox/secureCodeBox): Roda scanners de segurança de forma contínua em Kubernetes e reúne os resultados em um só lugar.
+- [Vulnerability-Lookup](https://github.com/vulnerability-lookup/vulnerability-lookup): Plataforma do CIRCL que correlaciona vulnerabilidades de várias fontes e permite buscar e comentar achados.
+
+## Identificar / Cadeia de suprimentos e SBOM
+
+- [Syft](https://github.com/anchore/syft): Gera SBOM a partir de imagens de contêiner e sistemas de arquivos, nos formatos SPDX e CycloneDX.
+- [Cosign](https://github.com/sigstore/cosign): Assina e verifica imagens de contêiner e binários, inclusive sem chaves próprias (keyless).
+- [OpenSSF Scorecard](https://github.com/ossf/scorecard): Pontua a saúde de segurança de projetos open source: revisão de código, dependências, permissões e mais.
+- [Dependency-Track](https://github.com/DependencyTrack/dependency-track): Plataforma de análise de componentes: recebe SBOMs e acompanha riscos das dependências de todos os projetos.
+- [SBOM Tool](https://github.com/microsoft/sbom-tool): Ferramenta da Microsoft para gerar SBOMs SPDX em escala a partir de qualquer tipo de artefato.
+- [python-tuf](https://github.com/theupdateframework/python-tuf): Implementação de referência do TUF, protocolo para distribuir atualizações de software de forma segura.
+- [GUAC](https://github.com/guacsec/guac): Agrega SBOMs, atestações e metadados de segurança num grafo para responder o que depende do quê.
+- [GuardDog](https://github.com/DataDog/guarddog): CLI que identifica pacotes PyPI e npm maliciosos antes de entrarem nas suas dependências.
+- [Rekor](https://github.com/sigstore/rekor): Registro público e imutável de assinaturas e atestações de software, base de transparência do Sigstore.
+- [cdxgen](https://github.com/cdxgen/cdxgen): Cria SBOM CycloneDX para projetos e imagens de contêiner em várias linguagens.
+- [in-toto](https://github.com/in-toto/in-toto): Framework que garante a integridade da cadeia de suprimentos ao verificar cada etapa de build e quem a executou.
+- [cargo-vet](https://github.com/mozilla/cargo-vet): Registra auditorias humanas das dependências Rust e exige que todo crate usado tenha sido revisado.
+- [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator): Gera proveniência SLSA para builds no GitHub Actions, em qualquer linguagem.
+- [Notation](https://github.com/notaryproject/notation): CLI do Notary Project para assinar e verificar artefatos OCI, como imagens de contêiner.
+- [SLSA Verifier](https://github.com/slsa-framework/slsa-verifier): Verifica a proveniência SLSA de um artefato para confirmar que foi construído como declarado.
+
+## Identificar / Modelagem de ameaças
+
+- [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon): Ferramenta da OWASP para desenhar diagramas de fluxo de dados e registrar ameaças e mitigações (STRIDE).
+- [pytm](https://github.com/OWASP/pytm): Descreve a arquitetura em código Python e gera diagrama de fluxo e lista de ameaças automaticamente.
+- [Threat Composer](https://github.com/awslabs/threat-composer): Ferramenta simples da AWS para escrever declarações de ameaça, mitigações e premissas de um modelo.
+- [Threagile](https://github.com/Threagile/threagile): Modelagem de ameaças ágil: descreve a arquitetura em YAML e gera riscos, diagramas e relatório.
+- [threatcl](https://github.com/threatcl/threatcl): Documenta modelos de ameaças em arquivos HCL versionáveis, com validação e exportação de relatórios.
+- [OWASP Cornucopia](https://github.com/OWASP/cornucopia): Baralho de cartas da OWASP para conduzir sessões de levantamento de ameaças em aplicações web.
+- [LINDDUN](https://linddun.org): Metodologia aberta de modelagem de ameaças à privacidade, com catálogo de ameaças e passo a passo.
+- [Microsoft Threat Modeling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool): Ferramenta gratuita da Microsoft (Windows) para desenhar fluxos de dados e gerar ameaças pelo método STRIDE.
+
+## Proteger / Análise estática de código (SAST)
+
+- [Semgrep](https://github.com/semgrep/semgrep): Análise estática leve para muitas linguagens; acha padrões de bugs e falhas com regras que parecem o código.
+- [SonarQube](https://github.com/SonarSource/sonarqube): Plataforma de inspeção contínua de qualidade e segurança de código em dezenas de linguagens.
+- [CodeQL](https://github.com/github/codeql): Bibliotecas e consultas do CodeQL, que trata o código como dados para encontrar vulnerabilidades.
+- [gosec](https://github.com/securego/gosec): Verificador de segurança para código Go, com regras para erros comuns como chaves fixas e SQL inseguro.
+- [Bandit](https://github.com/PyCQA/bandit): Analisador que encontra problemas comuns de segurança em código Python.
+- [Brakeman](https://github.com/presidentbeef/brakeman): Scanner estático de vulnerabilidades para aplicações Ruby on Rails.
+- [Opengrep](https://github.com/opengrep/opengrep): Motor de análise estática aberto, derivado do Semgrep, para achar falhas de segurança em código.
+- [Bearer CLI](https://github.com/Bearer/bearer): Scanner SAST que acha, filtra e prioriza riscos de segurança e privacidade, com foco em fluxo de dados sensíveis.
+- [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs): Plugin do SpotBugs para auditoria de segurança em aplicações web Java e Android.
+
+## Proteger / Segredos vazados no código
+
+- [Gitleaks](https://github.com/gitleaks/gitleaks): Procura segredos como senhas e chaves de API em repositórios git, arquivos e pastas.
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog): Encontra, verifica e analisa credenciais vazadas em repositórios, nuvem e outros alvos.
+- [git-secrets](https://github.com/awslabs/git-secrets): Impede commits que contenham segredos e credenciais, usando ganchos do git.
+- [detect-secrets](https://github.com/Yelp/detect-secrets): Detecta e previne segredos no código, com linha de base para adoção gradual em projetos existentes.
+- [Betterleaks](https://github.com/betterleaks/betterleaks): Scanner de segredos vazados em repositórios e arquivos, com saída para CI.
+- [ggshield](https://github.com/GitGuardian/ggshield): CLI que detecta e valida mais de 500 tipos de segredos fixos no código; serve como gancho de pre-commit.
+- [Kingfisher](https://github.com/mongodb/kingfisher): Detecta segredos com validação ao vivo, mapeia o alcance da credencial e ajuda a revogar rápido.
+- [ripsecrets](https://github.com/sirwart/ripsecrets): Ferramenta de linha de comando, rápida, que evita o commit de chaves secretas no código.
+
+## Proteger / Gestão de segredos
+
+- [HashiCorp Vault](https://github.com/hashicorp/vault): Armazena segredos, oferece criptografia como serviço e gestão de acesso privilegiado.
+- [Infisical](https://github.com/Infisical/infisical): Plataforma para proteger segredos, certificados e acessos, com sincronização para CI/CD e Kubernetes.
+- [SOPS](https://github.com/getsops/sops): Edita arquivos criptografados (YAML, JSON, ENV) com chaves de KMS, age ou PGP, para guardar segredos no git.
+- [Sealed Secrets](https://github.com/bitnami/sealed-secrets): Controlador Kubernetes que criptografa Secrets em uma via, para guardá-los com segurança no git.
+- [OpenBao](https://github.com/openbao/openbao): Gerencia, armazena e distribui dados sensíveis como tokens, senhas e certificados; derivado do Vault sob a Linux Foundation.
+- [External Secrets Operator](https://github.com/external-secrets/external-secrets): Operador Kubernetes que lê segredos de cofres externos como AWS Secrets Manager e Vault e cria Secrets.
+
+## Proteger / Identidade e acesso (IAM)
+
+- [Keycloak](https://github.com/keycloak/keycloak): Gestão de identidade e acesso com login único, OIDC, SAML e autenticação em dois fatores.
+- [Authelia](https://github.com/authelia/authelia): Portal de login único com múltiplos fatores para aplicações web; certificado OpenID.
+- [authentik](https://github.com/goauthentik/authentik): Provedor de identidade com SSO, MFA e fluxos de login configuráveis para aplicações e infraestrutura.
+- [Teleport](https://github.com/gravitational/teleport): Acesso seguro a servidores, bancos, Kubernetes e aplicações com identidade, certificados curtos e auditoria.
+- [ZITADEL](https://github.com/zitadel/zitadel): Infraestrutura de identidade com login, SSO, MFA e multi-inquilino, para auto-hospedar ou usar na nuvem.
+- [Casdoor](https://github.com/casdoor/casdoor): Plataforma de IAM e login único com OAuth 2.0, OIDC, SAML, CAS e LDAP, com interface web.
+- [Ory Kratos](https://github.com/ory/kratos): Autenticação e gestão de identidade sem interface própria, nativa de nuvem e escrita em Go.
+- [Open Policy Agent](https://github.com/open-policy-agent/opa): Motor de políticas de uso geral que decide autorização e conformidade com a linguagem Rego.
+- [OpenFGA](https://github.com/openfga/openfga): Motor de autorização por relações (estilo Zanzibar) para controle de permissões fino em aplicações.
+- [Kanidm](https://github.com/kanidm/kanidm): Plataforma de gestão de identidade simples e segura, com SSH, RADIUS, OIDC e suporte a passkeys.
+
+## Proteger / Hardening de sistemas
+
+- [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): Guia em evolução para proteger um servidor Linux hospedado por conta própria.
+- [macOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide): Guia da comunidade para proteger o macOS e melhorar a privacidade.
+- [Lynis](https://github.com/CISOfy/lynis): Ferramenta de auditoria de segurança para Linux, macOS e Unix, que apoia hardening e conformidade.
+- [privacy.sexy](https://github.com/undergroundwires/privacy.sexy): Aplica boas práticas de privacidade e segurança no Windows, macOS e Linux, por scripts revisáveis.
+- [DevSec Hardening (Ansible)](https://github.com/dev-sec/ansible-collection-hardening): Coleção Ansible com hardening testado para Linux, SSH, nginx e MySQL.
+- [InSpec](https://github.com/inspec/inspec): Framework de auditoria e testes de conformidade de infraestrutura escritos como código.
+- [ComplianceAsCode](https://github.com/ComplianceAsCode/content): Conteúdo de automação de segurança em SCAP, Bash e Ansible para aplicar CIS, STIG e outros perfis.
+- [macOS Security Compliance Project](https://github.com/usnistgov/macos_security): Projeto do NIST com regras e scripts para configurar o macOS conforme linhas de base de segurança.
+- [HardeningKitty](https://github.com/scipag/HardeningKitty): Verifica e aplica configurações de hardening no Windows, com listas baseadas em CIS e Microsoft.
+- [OpenSCAP](https://github.com/OpenSCAP/openscap): Conjunto de ferramentas SCAP certificado pelo NIST para verificar configuração e conformidade de sistemas.
+
+## Proteger / Segurança em nuvem e IaC
+
+- [Prowler](https://github.com/prowler-cloud/prowler): Plataforma de segurança em nuvem que audita AWS, Azure, GCP e Kubernetes contra CIS e outros padrões.
+- [Checkov](https://github.com/bridgecrewio/checkov): Analisa infraestrutura como código (Terraform, CloudFormation, Kubernetes) em busca de configurações inseguras.
+- [Steampipe](https://github.com/turbot/steampipe): Consulta APIs de nuvem e SaaS com SQL, usado para auditar configuração e conformidade.
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Motor de regras para segurança, custo e governança em nuvem, com políticas escritas em YAML.
+- [CloudSploit](https://github.com/aquasecurity/cloudsploit): Gerenciamento de postura de segurança em nuvem (CSPM) que detecta riscos na configuração das contas.
+- [ScubaGear](https://github.com/cisagov/ScubaGear): Avalia o tenant do Microsoft 365 contra as linhas de base de segurança da CISA.
+- [KICS](https://github.com/Checkmarx/kics): Encontra falhas de segurança e má configuração em infraestrutura como código antes da publicação.
+- [Powerpipe](https://github.com/turbot/powerpipe): Painéis e verificações de conformidade sobre configuração de nuvem, alimentados pelo Steampipe.
+
+## Proteger / Containers e Kubernetes
+
+- [Kubescape](https://github.com/kubescape/kubescape): Plataforma de segurança para Kubernetes que verifica clusters, manifestos e imagens no IDE e no CI/CD.
+- [Docker Bench for Security](https://github.com/docker/docker-bench-security): Script que verifica dezenas de boas práticas de segurança ao implantar contêineres Docker.
+- [Kyverno](https://github.com/kyverno/kyverno): Motor de políticas como código para Kubernetes, que valida, altera e gera recursos.
+- [kube-bench](https://github.com/aquasecurity/kube-bench): Verifica se o Kubernetes foi implantado conforme as boas práticas do CIS Kubernetes Benchmark.
+- [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Controlador de políticas para Kubernetes baseado no Open Policy Agent.
+- [KubeArmor](https://github.com/kubearmor/KubeArmor): Aplica políticas de segurança em tempo de execução e isola cargas de trabalho em contêineres e VMs.
+- [Trivy Operator](https://github.com/aquasecurity/trivy-operator): Toolkit de segurança nativo do Kubernetes que roda varreduras de vulnerabilidade e configuração no cluster.
+- [kubesec](https://github.com/controlplaneio/kubesec): Análise de risco de segurança em recursos do Kubernetes, com pontuação por manifesto.
+- [StackRox](https://github.com/stackrox/stackrox): Plataforma de segurança para Kubernetes que analisa risco, conformidade e ameaças em tempo de execução.
+
+## Proteger / Rede, firewall e VPN
+
+- [Pi-hole](https://github.com/pi-hole/pi-hole): Servidor DNS que bloqueia anúncios, rastreadores e domínios maliciosos na rede inteira.
+- [Headscale](https://github.com/juanfont/headscale): Implementação aberta e auto-hospedada do servidor de controle do Tailscale.
+- [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome): Servidor DNS para a rede toda que bloqueia anúncios e rastreadores, com filtros e DNS criptografado.
+- [NetBird](https://github.com/netbirdio/netbird): Conecta pessoas e máquinas em rede WireGuard com identidade e políticas de acesso, no modelo zero trust.
+- [Nebula](https://github.com/slackhq/nebula): Rede sobreposta escalável e criptografada, com firewall embutido, focada em desempenho e simplicidade.
+- [OpenVPN](https://github.com/OpenVPN/openvpn): Servidor e cliente de VPN de código aberto, com TLS e suporte a vários sistemas.
+- [Firezone](https://github.com/firezone/firezone): Acesso remoto seguro baseado em WireGuard, com autenticação por SSO e políticas por recurso.
+- [pfSense](https://github.com/pfsense/pfsense): Repositório principal do pfSense CE, firewall e roteador de código aberto baseado em FreeBSD.
+- [OPNsense](https://github.com/opnsense/core): Firewall e roteador aberto, com interface web, API e sistema base, derivado do pfSense.
+- [WireGuard (Go)](https://github.com/WireGuard/wireguard-go): Implementação em Go do WireGuard, VPN moderna e enxuta; espelho do repositório oficial.
+
+## Proteger / WAF e proteção de aplicações web
+
+- [SafeLine](https://github.com/chaitin/SafeLine): WAF e proxy reverso auto-hospedado que protege aplicações web contra ataques e bots.
+- [Fail2ban](https://github.com/fail2ban/fail2ban): Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec): IDS/IPS aberto com WAF e detecção de bots, que bloqueia IPs com apoio de inteligência colaborativa.
+- [BunkerWeb](https://github.com/bunkerity/bunkerweb): WAF aberto, nativo de nuvem, baseado em Nginx, com segurança ativada por padrão.
+- [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity): Motor de WAF multiplataforma para Apache, IIS e Nginx, com regras e registro de requisições.
+- [OWASP Coraza](https://github.com/corazawaf/coraza): Biblioteca de WAF em Go compatível com o ModSecurity e com as regras do CRS.
+- [OWASP Core Rule Set](https://github.com/coreruleset/coreruleset): Conjunto oficial de regras genéricas de detecção de ataques para ModSecurity, Coraza e compatíveis.
+- [open-appsec](https://github.com/openappsec/openappsec): Motor de segurança com aprendizado de máquina que previne ataques web e a APIs sem regras manuais.
+
+## Proteger / Testes dinâmicos de aplicação (DAST)
+
+- [ZAP (Zed Attack Proxy)](https://github.com/zaproxy/zaproxy): Scanner de segurança para aplicações web mantido pelo projeto ZAP; testa o app em execução.
+- [Nikto](https://github.com/sullo/nikto): Scanner de servidor web que procura arquivos perigosos, versões desatualizadas e má configuração.
+- [Schemathesis](https://github.com/schemathesis/schemathesis): Gera testes a partir do esquema OpenAPI/GraphQL para achar falhas e erros em APIs em execução.
+- [RESTler](https://github.com/microsoft/restler-fuzzer): Fuzzer com estado para APIs REST que testa serviços de nuvem em busca de falhas de segurança e confiabilidade.
+- [Wapiti](https://github.com/wapiti-scanner/wapiti): Scanner de vulnerabilidades web em Python, que testa o app em execução por requisições (caixa-preta).
+- [VulnAPI](https://github.com/cerberauth/vulnapi): Scanner de vulnerabilidades de APIs para ajudar a proteger as suas próprias APIs.
+
+## Proteger / Criptografia e TLS
+
+- [acme.sh](https://github.com/acmesh-official/acme.sh): Cliente ACME em shell puro para emitir e renovar certificados TLS automaticamente.
+- [Certbot](https://github.com/certbot/certbot): Cliente da EFF que obtém certificados do Let's Encrypt e pode ativar o HTTPS automaticamente.
+- [age](https://github.com/FiloSottile/age): Ferramenta simples e moderna de criptografia de arquivos, com chaves pequenas e sem configuração.
+- [Cryptomator](https://github.com/cryptomator/cryptomator): Criptografia do lado do cliente para arquivos em nuvem no Windows, macOS e Linux.
+- [cert-manager](https://github.com/cert-manager/cert-manager): Emite e renova automaticamente certificados TLS em clusters Kubernetes.
+- [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Criptografia de disco e volumes com algoritmos fortes, sucessor do TrueCrypt.
+- [Lego](https://github.com/go-acme/lego): Cliente e biblioteca ACME em Go para emitir certificados do Let's Encrypt e de outras CAs.
+- [testssl.sh](https://github.com/testssl/testssl.sh): Testa serviços TLS/SSL em qualquer porta: protocolos, cifras, certificado e falhas conhecidas.
+- [step-ca](https://github.com/smallstep/certificates): Autoridade certificadora privada (X.509 e SSH) e servidor ACME para certificados automáticos.
+- [SSLyze](https://github.com/nabla-c0d3/sslyze): Biblioteca e CLI rápidos que analisam a configuração TLS de servidores.
+
+## Proteger / Segurança de e-mail
+
+- [Rspamd](https://github.com/rspamd/rspamd): Sistema rápido de filtragem de spam com checagem de SPF, DKIM e DMARC e reputação.
+- [parsedmarc](https://github.com/domainaware/parsedmarc): Pacote e CLI em Python que leem relatórios DMARC agregados e forenses e os enviam para análise.
+- [Apache SpamAssassin](https://github.com/apache/spamassassin): Filtro de spam clássico em Perl que pontua mensagens por regras e testes de rede; espelho de leitura.
+- [checkdmarc](https://github.com/domainaware/checkdmarc): Analisador dos registros DNS de SPF e DMARC de um domínio, que aponta erros de configuração.
+- [Sublime Platform](https://github.com/sublime-security/sublime-platform): Plataforma aberta para detectar e prevenir ataques por e-mail como fraude, malware e phishing.
+- [Internet.nl](https://github.com/internetstandards/Internet.nl): Suíte de testes de conformidade com padrões da internet, incluindo SPF, DKIM, DMARC, STARTTLS e DANE.
+- [trustymail](https://github.com/cisagov/trustymail): Varre domínios e retorna dados sobre boas práticas de e-mail confiável, como SPF, DKIM e DMARC.
+- [parse-dmarc](https://github.com/dmarcguardhq/parse-dmarc): Leitor de relatórios DMARC agregados com painel, métricas Prometheus e binário Go único.
+- [Mailgoose](https://github.com/CERT-Polska/mailgoose): Aplicação web do CERT Polska que checa se SPF, DMARC e DKIM estão configurados corretamente.
+- [postfix-mta-sts-resolver](https://github.com/Snawoot/postfix-mta-sts-resolver): Daemon que entrega ao Postfix a política de TLS do destino, conforme o MTA-STS do domínio.
+
+## Proteger / Segurança de IA e LLM
+
+- [Promptfoo](https://github.com/promptfoo/promptfoo): Testa prompts, agentes e RAG com avaliações e red team automatizado em CI.
+- [garak](https://github.com/NVIDIA/garak): Scanner de vulnerabilidades de LLMs: testa injeção de prompt, vazamento e outros comportamentos indesejados.
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails): Framework que valida entradas e saídas de LLMs com validadores e estrutura os resultados.
+- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Toolkit para adicionar barreiras programáveis a aplicações baseadas em LLM.
+- [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox): Biblioteca Python de segurança de aprendizado de máquina contra evasão, envenenamento, extração e inferência.
+- [Giskard](https://github.com/Giskard-AI/giskard-oss): Biblioteca aberta de avaliação e teste de agentes e aplicações LLM, com detecção de falhas e vieses.
+- [Purple Llama](https://github.com/meta-llama/PurpleLlama): Conjunto de ferramentas e testes para avaliar e melhorar a segurança de LLMs, como Llama Guard e CyberSecEval.
+- [DeepTeam](https://github.com/confident-ai/deepteam): Framework de red team para LLMs e agentes de IA, que testa as suas próprias aplicações.
+- [OWASP Top 10 para LLM](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications): Lista da OWASP com os dez maiores riscos de aplicações com LLM, do projeto GenAI Security.
+- [ModelScan](https://github.com/protectai/modelscan): Detecta ataques de serialização em arquivos de modelos de ML antes de carregá-los.
+
+## Detectar / SIEM e gestão de logs
+
+- [Grafana Loki](https://github.com/grafana/loki): Armazenamento de logs indexado por rótulos, usado para guardar e consultar logs de segurança.
+- [Wazuh](https://github.com/wazuh/wazuh): Plataforma aberta de SIEM e XDR para servidores, estações e cargas de trabalho em nuvem.
+- [Fluent Bit](https://github.com/fluent/fluent-bit): Coletor leve de logs e métricas que envia os eventos para o SIEM ou para o armazenamento de logs.
+- [Graylog](https://github.com/Graylog2/graylog2-server): Plataforma aberta de gestão de logs para coletar, pesquisar e alertar sobre eventos.
+- [OSSEC](https://github.com/ossec/ossec-hids): Detecção de intrusão no host, com análise de logs, integridade de arquivos e resposta ativa.
+- [Security Onion](https://github.com/Security-Onion-Solutions/securityonion): Distribuição aberta para caça a ameaças, monitoramento de segurança e gestão de logs da empresa.
+- [VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs): Banco de dados de logs rápido, capaz de guardar e consultar terabytes de eventos.
+- [SOF-ELK](https://github.com/philhagen/sof-elk): Máquina virtual com Elastic Stack pronta para analisar logs em perícia e resposta a incidentes.
+- [UTMStack](https://github.com/utmstack/UTMStack): SIEM e SOAR com correlação em tempo real, inteligência de ameaças e relatórios de conformidade.
+- [OpenSearch Security Analytics](https://github.com/opensearch-project/security-analytics): Plugin do OpenSearch que detecta ameaças em logs de segurança usando regras Sigma e correlação.
+
+## Detectar / Regras de detecção
+
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team): Testes pequenos e portáteis do MITRE ATT&CK para checar se as suas detecções disparam.
+- [Sigma](https://github.com/SigmaHQ/sigma): Repositório principal de regras Sigma, formato aberto de detecção que vale para vários SIEMs.
+- [YARA](https://github.com/VirusTotal/yara): Ferramenta de correspondência de padrões para identificar e classificar arquivos por regras.
+- [Microsoft Sentinel (Azure-Sentinel)](https://github.com/Azure/Azure-Sentinel): Regras de análise, consultas de caça e conectores de dados da comunidade do Microsoft Sentinel.
+- [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw): Busca rápida em registros do Windows (EVTX) aplicando regras Sigma e regras próprias.
+- [Hayabusa](https://github.com/Yamato-Security/hayabusa): Caça a ameaças e linha do tempo forense em logs de eventos do Windows, com base em regras Sigma.
+- [signature-base](https://github.com/Neo23x0/signature-base): Base de assinaturas YARA e indicadores usada por scanners de arquivos e de memória.
+- [Elastic Detection Rules](https://github.com/elastic/detection-rules): Regras de detecção do Elastic Security e ferramentas para criá-las, testá-las e mantê-las.
+- [Splunk Security Content](https://github.com/splunk/security_content): Detecções, análises e playbooks do Splunk mapeados ao MITRE ATT&CK.
+- [Zircolite](https://github.com/wagga40/Zircolite): Detector autônomo que aplica regras Sigma a logs EVTX, Auditd e Sysmon para Linux.
+- [pySigma](https://github.com/SigmaHQ/pySigma): Biblioteca Python que lê regras Sigma e as converte em consultas para cada SIEM.
+
+## Detectar / Detecção de intrusão em rede (IDS/NSM)
+
+- [Sniffnet](https://github.com/GyulyVGC/sniffnet): Aplicativo de desktop para acompanhar o tráfego de rede e ver quem a máquina está acessando.
+- [Maltrail](https://github.com/stamparm/maltrail): Sistema que detecta tráfego malicioso comparando o que passa na rede com listas públicas de ameaças.
+- [ntopng](https://github.com/ntop/ntopng): Monitor web de tráfego de rede com alertas de segurança e análise de fluxos.
+- [Zeek](https://github.com/zeek/zeek): Framework de análise de rede que transforma o tráfego em logs detalhados de sessões e protocolos.
+- [Arkime](https://github.com/arkime/arkime): Captura completa de pacotes em larga escala, com indexação e interface de busca.
+- [Suricata](https://github.com/OISF/suricata): Motor aberto de detecção e prevenção de intrusão e monitoramento de segurança de rede.
+- [Snort 3](https://github.com/snort3/snort3): Sistema de detecção e prevenção de intrusão em rede, reescrito com arquitetura modular.
+- [Malcolm](https://github.com/cisagov/Malcolm): Conjunto da CISA para análise de tráfego, junta Zeek, Suricata e Arkime numa pilha só.
+- [JA4+](https://github.com/FoxIO-LLC/ja4): Padrões de impressão digital de rede (TLS, HTTP, SSH) para identificar clientes e malware.
+- [Clear NDR (SELKS)](https://github.com/StamusNetworks/Clear-NDR-ISO): Distribuição de detecção de rede baseada no Suricata, com interface de caça e gestão de regras.
+- [RITA](https://github.com/activecm/rita): Analisa logs do Zeek para achar comunicação de comando e controle por beaconing.
+
+## Detectar / Endpoint e telemetria (EDR)
+
+- [osquery](https://github.com/osquery/osquery): Expõe o sistema operacional como um banco SQL para monitorar e investigar máquinas.
+- [Falco](https://github.com/falcosecurity/falco): Segurança em tempo de execução para Linux, containers e Kubernetes, com regras sobre chamadas do sistema.
+- [Fleet](https://github.com/fleetdm/fleet): Gerenciamento aberto de dispositivos e de osquery, com consultas e políticas em toda a frota.
+- [Tetragon](https://github.com/cilium/tetragon): Observabilidade de segurança com eBPF que registra e pode bloquear eventos do kernel.
+- [Tracee](https://github.com/aquasecurity/tracee): Segurança em tempo de execução e forense no Linux com eBPF, com assinaturas de comportamento.
+- [sysmon-modular](https://github.com/olafhartong/sysmon-modular): Configuração modular do Sysmon, mapeada ao MITRE ATT&CK, para telemetria rica no Windows.
+- [OpenEDR](https://github.com/ComodoSecurity/openedr): Agente aberto de EDR para Windows que registra a atividade das máquinas para análise.
+- [Fibratus](https://github.com/rabbitstack/fibratus): Sensor de segurança para Windows que detecta ameaças em tempo real com regras e YARA.
+- [Sysmon for Linux](https://github.com/microsoft/Sysmon-Linux): Monitor de eventos de sistema para Linux, baseado em eBPF, com formato de log igual ao do Sysmon.
+- [Kunai](https://github.com/kunai-project/kunai): Ferramenta de caça a ameaças em Linux que gera eventos detalhados do kernel com eBPF.
+
+## Detectar / Inteligência de ameaças
+
+- [OpenCTI](https://github.com/OpenCTI-Platform/opencti): Plataforma aberta que organiza conhecimento sobre ameaças em grafo, no formato STIX2.
+- [MISP](https://github.com/MISP/MISP): Plataforma aberta para coletar, armazenar e compartilhar indicadores e inteligência de ameaças.
+- [dnstwist](https://github.com/elceef/dnstwist): Gera variações de domínio para achar typosquatting, phishing e imitação da sua marca.
+- [IntelOwl](https://github.com/intelowlproject/IntelOwl): Consulta arquivos, domínios e IPs em dezenas de fontes de inteligência numa única API.
+- [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator): Aplicação web para navegar e anotar as matrizes do MITRE ATT&CK, por exemplo para cobrir detecções.
+- [Yeti](https://github.com/yeti-platform/yeti): Repositório de conhecimento sobre ameaças que une indicadores, técnicas e atores num lugar só.
+- [Decider](https://github.com/cisagov/decider): Aplicação da CISA que ajuda a mapear o comportamento de adversários para o MITRE ATT&CK.
+- [IntelMQ](https://github.com/certtools/intelmq): Coleta e processa feeds de segurança por filas de mensagens, usado por equipes de CERT.
+- [AIL Framework](https://github.com/ail-project/ail-framework): Analisa fontes públicas e da dark web para achar vazamentos de informação.
+- [Lookyloo](https://github.com/Lookyloo/lookyloo): Captura uma página web e mostra a árvore de domínios carregados, útil para analisar phishing.
+
+## Detectar / Enganação e iscas (honeypots)
+
+- [T-Pot](https://github.com/telekom-security/tpotce): Plataforma que reúne vários honeypots e painéis de visualização num único sistema.
+- [Cowrie](https://github.com/cowrie/cowrie): Honeypot SSH e Telnet de interação média que registra ataques de força bruta e comandos.
+- [OpenCanary](https://github.com/thinkst/opencanary): Honeypot modular e descentralizado que imita serviços e avisa quando alguém os toca.
+- [Beelzebub](https://github.com/beelzebub-labs/beelzebub): Framework de enganação de baixo código que usa IA para simular sistemas e capturar atacantes.
+- [Canarytokens](https://github.com/thinkst/canarytokens): Gera iscas (tokens) em arquivos, links e chaves que avisam quando alguém as usa.
+- [Conpot](https://github.com/mushorg/conpot): Honeypot de baixa interação que imita sistemas industriais (ICS/SCADA).
+- [qeeqbox honeypots](https://github.com/qeeqbox/honeypots): Pacote com 30 honeypots (DNS, FTP, HTTP, SSH e outros) que registram o que os atacantes fazem.
+- [Galah](https://github.com/0x4D31/galah): Honeypot web que usa um modelo de linguagem para gerar respostas HTTP dinâmicas.
+- [DejaVu](https://github.com/bhdresh/Dejavu): Framework aberto de enganação para implantar e monitorar honeypots de vários tipos.
+
+## Responder / Resposta a incidentes e SOAR
+
+- [StackStorm](https://github.com/StackStorm/st2): Automação orientada a eventos para correção automática e resposta a incidentes.
+- [GRR Rapid Response](https://github.com/google/grr): Framework do Google para forense remota ao vivo em máquinas durante um incidente.
+- [Velociraptor](https://github.com/Velocidex/velociraptor): Coleta e caça remota em endpoints com consultas VQL, para resposta a incidentes e forense.
+- [Tracecat](https://github.com/TracecatHQ/tracecat): Plataforma aberta de automação de segurança para equipes, com fluxos de trabalho e agentes.
+- [Shuffle](https://github.com/Shuffle/Shuffle): Plataforma aberta de automação de segurança (SOAR) com fluxos de trabalho visuais.
+- [FIR](https://github.com/certsocietegenerale/FIR): Plataforma de gestão de incidentes de segurança do CERT Société Générale.
+- [Cortex](https://github.com/TheHive-Project/Cortex): Motor que analisa observáveis (IPs, arquivos, domínios) e executa ações de resposta ativa.
+- [DFIR-IRIS](https://github.com/dfir-iris/iris-web): Plataforma colaborativa de resposta a incidentes para registrar casos, evidências e linha do tempo.
+- [Untitled Goose Tool](https://github.com/cisagov/untitledgoosetool): Ferramenta da CISA para caça e resposta a incidentes em ambientes Azure, Entra ID e Microsoft 365.
+- [Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite): Módulo PowerShell que coleta dados do Microsoft 365 e do Azure para resposta a incidentes.
+- [DFIR-ORC](https://github.com/DFIR-ORC/dfir-orc): Ferramenta da ANSSI que coleta artefatos forenses em sistemas Windows.
+
+## Responder / Forense digital
+
+- [Volatility 3](https://github.com/volatilityfoundation/volatility3): Framework de forense de memória para extrair processos, conexões e módulos de dumps de RAM.
+- [MemProcFS](https://github.com/ufrisk/MemProcFS): Exibe a memória física como um sistema de arquivos para explorar e analisar com facilidade.
+- [Timesketch](https://github.com/google/timesketch): Análise colaborativa de linhas do tempo forenses, com busca, marcação e análises automáticas.
+- [Autopsy](https://github.com/sleuthkit/autopsy): Plataforma forense com interface gráfica sobre o Sleuth Kit para investigar discos.
+- [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit): Biblioteca e ferramentas de linha de comando para analisar imagens de disco e sistemas de arquivos.
+- [IPED](https://github.com/sepinf-inc/IPED): Ferramenta forense aberta, da Polícia Federal do Brasil, para processar e analisar evidências digitais.
+- [Plaso (log2timeline)](https://github.com/log2timeline/plaso): Cria a super linha do tempo de uma investigação juntando eventos de vários artefatos.
+- [ForensicArtifacts](https://github.com/ForensicArtifacts/artifacts): Repositório de definições de artefatos forenses, em YAML, lidas por várias ferramentas.
+- [Dissect](https://github.com/fox-it/dissect): Framework de forense e resposta a incidentes que acessa dados de discos e imagens sem extrair.
+- [AVML](https://github.com/microsoft/avml): Captura a memória volátil de máquinas Linux sem precisar conhecer a versão do kernel.
+- [mac_apt](https://github.com/ydkhatri/mac_apt): Ferramenta que extrai e interpreta artefatos forenses de macOS e iOS.
+
+## Responder / Análise de malware (defensiva)
+
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra): Framework de engenharia reversa da NSA, com desmontador e decompilador.
+- [CyberChef](https://github.com/gchq/CyberChef): Aplicação web do GCHQ para codificar, decodificar e transformar dados em receitas encadeadas.
+- [radare2](https://github.com/radareorg/radare2): Framework de engenharia reversa em linha de comando, com desmontador, depurador e análise de binários.
+- [Cutter](https://github.com/rizinorg/cutter): Plataforma gráfica de engenharia reversa baseada no Rizin, com decompilador integrado.
+- [Detect It Easy](https://github.com/horsicq/Detect-It-Easy): Identifica o tipo de arquivo, compilador e empacotador de um binário suspeito.
+- [FLARE-VM](https://github.com/mandiant/flare-vm): Scripts que montam um laboratório Windows de engenharia reversa e análise de malware.
+- [capa](https://github.com/mandiant/capa): Identifica as capacidades de um executável (o que ele faz) a partir de regras sobre o código.
+- [FLOSS](https://github.com/mandiant/flare-floss): Extrai automaticamente strings ofuscadas de binários suspeitos.
+- [PE-sieve](https://github.com/hasherezade/pe-sieve): Examina um processo em execução e extrai implantes injetados ou modificados na memória.
+- [CAPE Sandbox](https://github.com/kevoreilly/CAPEv2): Sandbox de análise dinâmica que extrai configuração e payloads de malware.
+- [oletools](https://github.com/decalage2/oletools): Ferramentas em Python para analisar documentos do Office e achar macros maliciosas.
+- [DRAKVUF Sandbox](https://github.com/CERT-Polska/drakvuf-sandbox): Sandbox do CERT Polska que analisa malware pelo hipervisor, sem agente dentro da máquina.
+
+## Recuperar / Backup e recuperação
+
+- [rclone](https://github.com/rclone/rclone): Sincroniza e copia arquivos entre dezenas de serviços de armazenamento em nuvem, com camada de criptografia opcional.
+- [restic](https://github.com/restic/restic): Backup rápido com deduplicação e criptografia por padrão, para disco local, SFTP e nuvem.
+- [Duplicati](https://github.com/duplicati/duplicati): Backup com interface web, criptografia AES-256 e destino em nuvem, FTP, SFTP ou disco.
+- [Kopia](https://github.com/kopia/kopia): Backup multiplataforma incremental com criptografia ponta a ponta no cliente, interface gráfica e linha de comando.
+- [BorgBackup](https://github.com/borgbackup/borg): Arquivador com deduplicação, compressão e criptografia autenticada, bom para backups incrementais diários.
+- [Velero](https://github.com/velero-io/velero): Faz backup e restauração de recursos e volumes persistentes de clusters Kubernetes, inclusive migração entre clusters.
+- [Backrest](https://github.com/garethgeorge/backrest): Interface web e agendador para o restic: configura repositórios, planos e restaurações sem linha de comando.
+- [pgBackRest](https://github.com/pgbackrest/pgbackrest): Backup e restauração confiáveis de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo.
+- [borgmatic](https://github.com/borgmatic-collective/borgmatic): Backup de servidores e estações por arquivo de configuração sobre o Borg, com verificação de consistência e alertas.
+- [Bareos](https://github.com/bareos/bareos): Solução de backup em rede para preservar, arquivar e recuperar dados de vários sistemas operacionais.
+- [Relax-and-Recover](https://github.com/rear/rear): Recuperação de desastre de servidores Linux: gera imagem de resgate para reconstruir o sistema em hardware novo.
+- [UrBackup](https://github.com/uroni/urbackup_backend): Backup em rede cliente-servidor para Windows, macOS e Linux, com imagem completa do sistema e de arquivos.
+
+## Aprender / Laboratórios e CTF (prática legal)
+
+- [OWASP Juice Shop](https://github.com/juice-shop/juice-shop): Loja web vulnerável de propósito, com dezenas de desafios do OWASP Top 10 e placar de CTF.
+- [DVWA](https://github.com/digininja/DVWA): Damn Vulnerable Web Application: aplicação PHP/MySQL vulnerável para treinar falhas web em ambiente local.
+- [WebGoat](https://github.com/WebGoat/WebGoat): Aplicação Java insegura de propósito do OWASP, com lições guiadas sobre falhas comuns em web.
+- [GOAD (Game of Active Directory)](https://github.com/Orange-Cyberdefense/GOAD): Laboratório de Active Directory com várias florestas e domínios vulneráveis, da Orange Cyberdefense.
+- [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat): Cluster Kubernetes vulnerável de propósito, com cenários para aprender a atacar e a endurecer clusters.
+- [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat): Implantação da Rhino Security Labs de ambientes AWS vulneráveis de propósito para treinar auditoria.
+- [OWASP crAPI](https://github.com/OWASP/crAPI): API vulnerável de propósito (completely ridiculous API) para treinar os riscos do OWASP API Top 10.
+- [OWASP WrongSecrets](https://github.com/OWASP/wrongsecrets): Aplicação com exemplos de como NÃO guardar segredos, com desafios em Docker, Kubernetes e nuvem.
+- [OWASP Security Shepherd](https://github.com/OWASP/SecurityShepherd): Plataforma do OWASP para treinar segurança de aplicações web e móveis, com placar e níveis.
+- [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent): Agente de chat vulnerável a injeção de prompt, para treinar a defesa de aplicações com LLM.
+- [Blue Team Labs Online](https://blueteamlabs.online): Laboratórios de investigação defensiva: forense, inteligência de ameaças, análise de logs e SOC.
+- [CryptoHack](https://cryptohack.org): Plataforma de desafios de criptografia que ensina como as primitivas funcionam e como falham.
+- [CyberDefenders](https://cyberdefenders.org): Desafios de defesa (blue team) com forense, análise de tráfego e caça a ameaças em casos reais.
+- [Exploit Education](https://exploit.education): Máquinas virtuais e exercícios sobre corrupção de memória e análise de vulnerabilidades, em ambiente de treino.
+- [flAWS](http://flaws.cloud): Desafios sobre erros comuns de configuração na AWS, feitos para aprender a corrigi-los.
+- [flAWS2](http://flaws2.cloud): Segunda edição do flAWS, com trilhas de atacante e de defensor sobre AWS, Lambda e containers.
+- [Hack The Box](https://www.hackthebox.com): Plataforma de laboratórios e desafios de segurança, com máquinas, trilhas e competições de CTF.
+- [Hacker101](https://www.hacker101.com): Curso em vídeo e CTF gratuito do HackerOne sobre segurança de aplicações web.
+- [LetsDefend](https://letsdefend.io): Simulador de SOC com alertas, logs e casos para treinar triagem e resposta a incidentes.
+- [Microcorruption](https://microcorruption.com): CTF de segurança embarcada: depurar firmware de um cadeado eletrônico em um emulador no navegador.
+- [OverTheWire](https://overthewire.org/wargames/): Jogos de guerra (wargames) em linha de comando para aprender Linux e segurança passo a passo.
+- [picoCTF](https://picoctf.org): Plataforma de CTF da Carnegie Mellon voltada a estudantes, com desafios o ano todo e prática guiada.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security): Trilhas e laboratórios gratuitos de segurança web da PortSwigger, com dezenas de laboratórios práticos.
+- [pwn.college](https://pwn.college): Currículo gratuito da Arizona State University com aulas e desafios de segurança de sistemas.
+- [Root-Me](https://www.root-me.org): Plataforma aberta com centenas de desafios de web, criptografia, forense e programação para treino legal.
+- [TryHackMe](https://tryhackme.com): Salas guiadas no navegador, com trilhas de iniciante a analista de SOC; parte do conteúdo é gratuita.
+- [VulnHub](https://www.vulnhub.com): Repositório de máquinas virtuais vulneráveis para baixar e treinar em ambiente local isolado.
+
+## Aprender / Cursos gratuitos
+
+- [Berkeley CS161 — Segurança de Computadores](https://cs161.org): Disciplina de graduação da UC Berkeley sobre segurança de software, redes e criptografia, com material aberto.
+- [CISA — Treinamentos de cibersegurança](https://www.cisa.gov/resources-tools/training): Catálogo de treinamentos e cursos de cibersegurança da agência CISA, dos EUA, para profissionais e gestores.
+- [Cisco Networking Academy — Introdução à Cibersegurança](https://www.netacad.com/courses/introduction-to-cybersecurity): Curso introdutório e autoguiado da Cisco sobre ameaças, proteção de dados e carreira em segurança.
+- [Criptografia I (Dan Boneh)](https://www.coursera.org/learn/crypto): Curso de criptografia da Stanford Online no Coursera, com acesso gratuito às aulas.
+- [Cyber Security Base](https://cybersecuritybase.mooc.fi/): Série gratuita da Universidade de Helsinque e do MOOC.fi sobre segurança de aplicações e de sistemas.
+- [Harvard CS50 — Cibersegurança](https://cs50.harvard.edu/cybersecurity/): Introdução à cibersegurança da Harvard (CS50), com aulas em vídeo e exercícios para quem está começando.
+- [MIT 6.5660 — Segurança de Sistemas Computacionais](https://css.csail.mit.edu/6.5660/): Edição atual da disciplina de segurança de sistemas do MIT, com aulas, leituras e laboratórios.
+- [MIT 6.858 — Segurança de Sistemas Computacionais](https://ocw.mit.edu/courses/6-858-computer-systems-security-fall-2014/): Disciplina do MIT no OpenCourseWare sobre como construir sistemas seguros, com aulas e leituras.
+- [OpenSecurityTraining2](https://p.ost2.fyi/): Cursos abertos e gratuitos de segurança de baixo nível: arquitetura, engenharia reversa e sistemas.
+- [OpenSSF — Developing Secure Software (LFD121)](https://openssf.org/training/courses/): Curso gratuito da Linux Foundation e da OpenSSF sobre desenvolvimento de software seguro.
+- [Stanford CS155 — Segurança de Computadores e Redes](https://web.stanford.edu/class/cs155/): Disciplina de Stanford que cobre ameaças, defesas, segurança web, de rede e de sistemas.
+- [Stanford CS253 — Segurança Web](https://web.stanford.edu/class/cs253/): Disciplina de Stanford sobre segurança web: XSS, CSRF, cabeçalhos HTTP e modelo de segurança do navegador.
+
+## Aprender / Certificações
+
+- [AWS Certified Security — Specialty](https://aws.amazon.com/certification/certified-security-specialty/): Certificação da AWS sobre proteção de dados, identidade, registro de eventos e resposta a incidentes na nuvem.
+- [BTL1 — Blue Team Level 1](https://www.centri.org/certifications/blue-team-level-1): Certificação prática defensiva de nível júnior: fundamentos de SOC, forense, resposta e inteligência.
+- [CEH — Certified Ethical Hacker](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/): Certificação do EC-Council sobre técnicas de ataque e defesa, com foco em testes autorizados.
+- [CompTIA CySA+](https://www.comptia.org/en-us/certifications/cybersecurity-analyst/): Certificação de analista de segurança: monitoramento, análise de ameaças e resposta a incidentes.
+- [CompTIA PenTest+](https://www.comptia.org/en-us/certifications/pentest/): Certificação de testes de invasão e avaliação de vulnerabilidades, com questões práticas.
+- [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/): Certificação de base mais pedida para funções de segurança: ameaças, arquitetura, operações e governança.
+- [eJPT — eLearnSecurity Junior Penetration Tester](https://ine.com/security/certifications/ejpt-certification): Certificação prática de entrada em testes de invasão autorizados, com exame em laboratório.
+- [GIAC GCIH — Incident Handler](https://www.giac.org/certifications/certified-incident-handler-gcih): Certificação da GIAC focada em detectar, responder e resolver incidentes de segurança.
+- [GIAC GSEC — Security Essentials](https://www.giac.org/certifications/security-essentials-gsec): Certificação da GIAC/SANS sobre fundamentos práticos de segurança: redes, sistemas, criptografia e nuvem.
+- [Google Cybersecurity Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity): Certificado profissional do Google no Coursera para funções de analista júnior de segurança.
+- [ISACA CISM — Certified Information Security Manager](https://www.isaca.org/credentialing/cism): Certificação de gestão de segurança da informação: governança, riscos, programa e resposta a incidentes.
+- [ISC2 CC — Certified in Cybersecurity](https://www.isc2.org/certifications/cc): Certificação de entrada da ISC2 sobre princípios de segurança, redes, controle de acesso e operações.
+- [ISC2 CCSP — Certified Cloud Security Professional](https://www.isc2.org/certifications/ccsp): Certificação de segurança em nuvem: arquitetura, dados, plataforma, operações e conformidade.
+- [ISC2 CISSP](https://www.isc2.org/certifications/cissp): Certificação ampla para profissionais experientes, que cobre oito domínios de segurança da informação.
+- [Microsoft SC-200 — Security Operations Analyst](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/): Certificação Microsoft para analistas de SOC, com Sentinel, Defender e caça a ameaças.
+- [OSCP+ — PEN-200 (OffSec)](https://www.offsec.com/courses/pen-200/): Certificação prática da OffSec de testes de invasão, com exame de 24 horas em laboratório.
+
+## Aprender / Guias e referências
+
+- [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries): Coleção de guias curtos e objetivos do OWASP com boas práticas de segurança de aplicações.
+- [OWASP MASTG](https://github.com/OWASP/mastg): Guia do OWASP de teste de segurança de aplicativos móveis, com técnicas para Android e iOS.
+- [YubiKey Guide (drduh)](https://github.com/drduh/YubiKey-Guide): Guia da comunidade para usar a YubiKey com GnuPG e SSH, protegendo chaves em hardware.
+- [OWASP Web Security Testing Guide](https://github.com/OWASP/wstg): Guia aberto e completo da OWASP para testar a segurança de aplicações web e serviços.
+- [OWASP Top 10:2025](https://github.com/OWASP/Top10): Lista do OWASP com os dez riscos mais críticos de segurança em aplicações web, edição 2025.
+- [OWASP ASVS](https://github.com/OWASP/ASVS): Padrão de verificação de segurança de aplicações, com requisitos para guiar testes e desenvolvimento.
+- [OWASP DevSecOps Guideline](https://github.com/OWASP/DevSecOpsGuideline): Guia do OWASP para incorporar segurança ao pipeline de desenvolvimento e entrega.
+- [OpenSSF Best Practices Guides](https://github.com/ossf/wg-best-practices-os-developers): Guias do grupo de práticas da OpenSSF para quem mantém e desenvolve software de código aberto.
+- [CIS Controls](https://www.cisecurity.org/controls/cis-controls-list): Conjunto priorizado de controles de segurança do CIS, organizado por grupos de implementação.
+- [CISA Cybersecurity Performance Goals](https://www.cisa.gov/cybersecurity-performance-goals-cpgs): Metas mínimas de cibersegurança da CISA, voltadas a infraestrutura crítica e organizações menores.
+- [MITRE ATLAS](https://atlas.mitre.org/): Base de conhecimento do MITRE sobre táticas e técnicas contra sistemas de inteligência artificial.
+- [MITRE ATT&CK](https://attack.mitre.org): Base de conhecimento do MITRE com táticas e técnicas reais de adversários, usada para defesa.
+- [MITRE D3FEND](https://d3fend.mitre.org): Grafo de conhecimento do MITRE com técnicas defensivas, ligadas às técnicas do ATT&CK.
+- [NCSC — 10 Steps to Cyber Security](https://www.ncsc.gov.uk/collection/10-steps): Guia do centro de cibersegurança do Reino Unido com dez passos para gerir o risco cibernético.
+- [NIST Cybersecurity Framework 2.0](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final): Estrutura do NIST com seis funções (governar, identificar, proteger, detectar, responder, recuperar).
+- [NIST SP 800-61 rev. 3 — Resposta a Incidentes](https://csrc.nist.gov/pubs/sp/800/61/r3/final): Recomendações do NIST para incorporar a resposta a incidentes ao gerenciamento de riscos de cibersegurança.
+- [SANS Posters](https://www.sans.org/posters/): Pôsteres de referência rápida do SANS sobre resposta a incidentes, forense, nuvem e detecção.
+- [Security Engineering (Ross Anderson)](https://www.cl.cam.ac.uk/~rja14/book.html): Livro de Ross Anderson sobre como projetar sistemas confiáveis diante de falhas e adversários, com leitura livre.
+
+## Aprender / Listas irmãs
+
+- [awesome-web-security](https://github.com/qazbnm456/awesome-web-security): Lista de materiais e recursos sobre segurança web.
+- [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence): Lista de recursos de inteligência de ameaças: feeds, plataformas, ferramentas e leituras.
+- [awesome-honeypots](https://github.com/paralax/awesome-honeypots): Lista de honeypots (iscas) e ferramentas relacionadas, organizada por serviço.
+- [Awesome Privacy](https://github.com/lissy93/awesome-privacy): Lista de software e serviços focados em privacidade e segurança, por categoria.
+- [android-security-awesome](https://github.com/ashishb/android-security-awesome): Lista de recursos de segurança para Android: ferramentas, artigos e laboratórios.
+- [awesome-incident-response](https://github.com/meirwah/awesome-incident-response): Lista de ferramentas de resposta a incidentes: coleta, triagem, análise de memória e disco.
+- [awesome-appsec](https://github.com/paragonie/awesome-appsec): Lista de recursos para aprender segurança de aplicações, da Paragon Initiative.
+- [awesome-security-hardening](https://github.com/decalage2/awesome-security-hardening): Lista de guias, ferramentas e recursos de endurecimento (hardening) de sistemas.
+- [awesome-forensics](https://github.com/cugu/awesome-forensics): Lista de ferramentas e recursos de análise forense digital.
+- [awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection): Lista de recursos de detecção de ameaças e caça (threat hunting).
+- [awesome-cloud-security](https://github.com/4ndersonLin/awesome-cloud-security): Lista de recursos de segurança em nuvem para AWS, Azure e GCP.
+- [awesome-k8s-security](https://github.com/magnologan/awesome-k8s-security): Lista de recursos de segurança para Kubernetes.
+- [awesome-soc](https://github.com/cyb3rxp/awesome-soc): Base de conhecimento para montar, operar e amadurecer um SOC, incluindo o CSIRT.
+- [awesome-ai-security (ottosulin)](https://github.com/ottosulin/awesome-ai-security): Coleção de recursos sobre segurança de sistemas de inteligência artificial.
+- [awesome-detection-engineering](https://github.com/infosecB/awesome-detection-engineering): Lista de recursos de engenharia de detecção: regras, processos, métricas e ferramentas.
+
+## Aprender / Comunidade lusófona
+
+- [Eventos Infosec Brasil](https://github.com/IncursioHack/Eventos-Infosec-Brasil): Lista colaborativa de eventos, palestras e encontros de segurança da informação no Brasil.
+- [EventosCybersec](https://github.com/zero2flag/EventosCybersec): Tabela colaborativa e atualizada de eventos de cibersegurança no Brasil e no mundo.
+- [C-DAYS (CNCS, Portugal)](https://c-days.cncs.gov.pt/): Conferência anual do Centro Nacional de Cibersegurança de Portugal, com programa e inscrições.
+- [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br): Guia em português do CERT.br com recomendações de segurança para usuários, em livro e fascículos.
+- [CERT.br](https://cert.br): Grupo de resposta a incidentes do NIC.br: notificações, estatísticas, documentos e boas práticas.
+- [CTIR Gov](https://www.gov.br/gsi/pt-br/assuntos/ctir): Centro do governo federal brasileiro para prevenção, tratamento e resposta a incidentes cibernéticos.
+- [Mind The Sec](https://www.mindthesec.com.br): Evento brasileiro de segurança da informação voltado a quem decide no mercado.
+- [SaferNet Brasil](https://new.safernet.org.br/): Associação brasileira sem fins lucrativos que atua na prevenção de crimes e violações online e na educação digital.
+- [Security BSides São Paulo](https://securitybsides.com.br/): Edição paulista da conferência comunitária Security BSides, com palestras, oficinas e vilas temáticas.
+- [SegInfo](https://seginfo.com.br): Portal, podcast e evento em português sobre segurança da informação.
+- [Segurança Legal](https://www.segurancalegal.com): Podcast brasileiro sobre segurança da informação, privacidade e direito da tecnologia, no ar desde 2012.
+
+## Pessoas / Senhas e autenticação em dois fatores
+
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden): Servidor não oficial compatível com Bitwarden, leve e escrito em Rust, para hospedar o próprio gerenciador de senhas.
+- [Ente Auth](https://github.com/ente/ente): Aplicativo de 2FA de código aberto com cópia de segurança criptografada e sincronização entre aparelhos.
+- [KeePassXC](https://github.com/keepassxreboot/keepassxc): Gerenciador de senhas multiplataforma, local e mantido pela comunidade, compatível com KeePass.
+- [Bitwarden Server](https://github.com/bitwarden/server): Infraestrutura do Bitwarden (API, banco, Docker) para gerenciador de senhas hospedado por conta própria.
+- [Bitwarden](https://github.com/bitwarden/clients): Gerenciador de senhas de código aberto, com aplicativos para web, navegador, desktop e linha de comando.
+- [Aegis Authenticator](https://github.com/beemdevelopment/Aegis): Aplicativo de código aberto para Android que gerencia tokens de verificação em duas etapas, com cofre criptografado.
+- [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Gerenciador de senhas compatível com KeePass para Android, leve e de código aberto.
+- [2FA Directory](https://github.com/2factorauth/twofactorauth): Diretório aberto de sites que oferecem autenticação em dois fatores, com os métodos de cada um.
+- [2FAS](https://github.com/twofas/2fas-android): Aplicativo de autenticação em dois fatores de código aberto, com cópia de segurança e extensão de navegador.
+- [Yubico Authenticator](https://github.com/Yubico/yubioath-flutter): Aplicativo da Yubico para gerar códigos de uso único guardados em uma chave de segurança YubiKey.
+- [Proton Pass](https://github.com/protonpass/android-pass): Gerenciador de senhas da Proton, com criptografia de ponta a ponta e código dos aplicativos aberto.
+
+## Pessoas / Privacidade e comunicação segura
+
+- [uBlock Origin](https://github.com/gorhill/uBlock): Bloqueador de conteúdo eficiente e leve para Chromium e Firefox, que reduz rastreadores e anúncios.
+- [Signal](https://github.com/signalapp/Signal-Android): Mensageiro de código aberto com criptografia de ponta a ponta por padrão, em mensagens e chamadas.
+- [Personal Security Checklist](https://github.com/lissy93/personal-security-checklist): Lista de mais de 300 dicas para proteger sua segurança digital e privacidade no dia a dia.
+- [SimpleX Chat](https://github.com/simplex-chat/simplex-chat): Mensageiro de código aberto que funciona sem identificadores de usuário de qualquer tipo.
+- [arkenfox user.js](https://github.com/arkenfox/user.js): Modelo de user.js para endurecer o Firefox em privacidade, segurança e contra rastreamento.
+- [Tuta](https://github.com/tutao/tutanota): Serviço de e-mail e agenda com criptografia de ponta a ponta e aplicativos de código aberto.
+- [Privacy Guides](https://github.com/privacyguides/privacyguides.org): Guia comunitário sem fins lucrativos com ferramentas e serviços de privacidade recomendados e explicados.
+- [Privacy Badger](https://github.com/EFForg/privacybadger): Extensão da EFF que aprende sozinha a bloquear rastreadores invisíveis ao navegar.
+- [Mullvad Browser](https://github.com/mullvad/mullvad-browser): Navegador focado em privacidade, feito com o Tor Project, que reduz o rastreamento por impressão digital.
+- [EFF Surveillance Self-Defense](https://ssd.eff.org): Guia da EFF com instruções passo a passo para se proteger contra vigilância digital.
+- [GrapheneOS](https://grapheneos.org): Sistema operacional móvel de código aberto, focado em privacidade e segurança, para aparelhos Pixel.
+- [Have I Been Pwned](https://haveibeenpwned.com): Serviço do Troy Hunt que mostra se seu e-mail apareceu em vazamentos de dados conhecidos.
+- [Tails](https://tails.net): Sistema operacional que roda a partir de um pendrive e não deixa rastros, com todo o tráfego pela rede Tor.
+- [Tor Project](https://www.torproject.org): Rede e Navegador Tor para navegar com anonimato e contornar rastreamento e censura.

@@ -1,0 +1,56 @@
+name: Sugerir item · Suggest an item
+description: Indique um projeto ou recurso para o Atlas · Suggest a project or resource
+title: "[sugestão] "
+labels: ["sugestão"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado! Antes de enviar, confira [o que entra e o que não entra](https://github.com/visionxma/ciberatlas/blob/main/dados/LEIA-ME.md#o-que-entra).
+        Thanks! Please check [what gets in](https://github.com/visionxma/ciberatlas/blob/main/dados/LEIA-ME.md#o-que-entra) first.
+  - type: input
+    id: nome
+    attributes:
+      label: Nome · Name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (repositório no GitHub ou página oficial · GitHub repo or official page)
+      placeholder: https://github.com/dono/projeto
+    validations:
+      required: true
+  - type: dropdown
+    id: grupo
+    attributes:
+      label: Grupo · Group
+      options:
+        - GV · Governar / Govern
+        - ID · Identificar / Identify
+        - PR · Proteger / Protect
+        - DE · Detectar / Detect
+        - RS · Responder / Respond
+        - RC · Recuperar / Recover
+        - AP · Aprender / Learn
+        - PE · Pessoas / People
+    validations:
+      required: true
+  - type: input
+    id: categoria
+    attributes:
+      label: Categoria (se souber) · Category (if you know)
+      description: Lista em https://github.com/visionxma/ciberatlas/blob/main/catalogo/README.md
+  - type: textarea
+    id: desc
+    attributes:
+      label: O que faz, em uma frase · What it does, in one sentence
+    validations:
+      required: true
+  - type: checkboxes
+    id: escopo
+    attributes:
+      label: Escopo · Scope
+      options:
+        - label: O uso principal é defender, testar o próprio sistema ou aprender · Main use is defending, testing your own systems or learning
+          required: true

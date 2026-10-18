@@ -1,0 +1,30 @@
+# Valida toda proposta: formato, duplicatas e se cada repositório existe.
+name: validar
+
+on:
+  pull_request:
+    paths: ["dados/**", "scripts/**", ".github/workflows/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Formato e duplicatas
+        run: python scripts/ciberatlas.py validar
+      - name: Cada repositório existe e está vivo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/ciberatlas.py metricas
+          python scripts/ciberatlas.py conferir
+      - name: O gerador roda sem erro
+        run: python scripts/ciberatlas.py gerar

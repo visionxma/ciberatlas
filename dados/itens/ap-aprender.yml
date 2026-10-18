@@ -1,0 +1,901 @@
+# Grupo AP · Aprender — laboratórios, cursos, certificações, guias, listas irmãs e comunidade lusófona.
+
+- nome: "PortSwigger Web Security Academy"
+  url: https://portswigger.net/web-security
+  categoria: laboratorios-e-ctf
+  desc: "Trilhas e laboratórios gratuitos de segurança web da PortSwigger, com dezenas de laboratórios práticos."
+  desc_en: "Free web security learning paths and hands-on labs from PortSwigger, with dozens of practical labs."
+  tags: [web, laboratorio, owasp]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "OverTheWire"
+  url: https://overthewire.org/wargames/
+  categoria: laboratorios-e-ctf
+  desc: "Jogos de guerra (wargames) em linha de comando para aprender Linux e segurança passo a passo."
+  desc_en: "Command-line wargames that teach Linux and security fundamentals step by step."
+  tags: [wargame, linux, ctf]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "picoCTF"
+  url: https://picoctf.org
+  categoria: laboratorios-e-ctf
+  desc: "Plataforma de CTF da Carnegie Mellon voltada a estudantes, com desafios o ano todo e prática guiada."
+  desc_en: "Carnegie Mellon's CTF platform for students, with year-round challenges and guided practice."
+  tags: [ctf, iniciante]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "pwn.college"
+  url: https://pwn.college
+  categoria: laboratorios-e-ctf
+  desc: "Currículo gratuito da Arizona State University com aulas e desafios de segurança de sistemas."
+  desc_en: "Free Arizona State University curriculum with lessons and challenges in systems security."
+  tags: [ctf, sistemas, curso]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "TryHackMe"
+  url: https://tryhackme.com
+  categoria: laboratorios-e-ctf
+  desc: "Salas guiadas no navegador, com trilhas de iniciante a analista de SOC; parte do conteúdo é gratuita."
+  desc_en: "Browser-based guided rooms and learning paths from beginner to SOC analyst; part of the content is free."
+  tags: [laboratorio, soc, iniciante]
+  custo: freemium
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "Hack The Box"
+  url: https://www.hackthebox.com
+  categoria: laboratorios-e-ctf
+  desc: "Plataforma de laboratórios e desafios de segurança, com máquinas, trilhas e competições de CTF."
+  desc_en: "Security lab and challenge platform with machines, learning tracks and CTF competitions."
+  tags: [laboratorio, ctf]
+  custo: freemium
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "CyberDefenders"
+  url: https://cyberdefenders.org
+  categoria: laboratorios-e-ctf
+  desc: "Desafios de defesa (blue team) com forense, análise de tráfego e caça a ameaças em casos reais."
+  desc_en: "Blue team challenges with forensics, traffic analysis and threat hunting on realistic cases."
+  tags: [blue-team, forense, dfir]
+  custo: freemium
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "LetsDefend"
+  url: https://letsdefend.io
+  categoria: laboratorios-e-ctf
+  desc: "Simulador de SOC com alertas, logs e casos para treinar triagem e resposta a incidentes."
+  desc_en: "SOC simulator with alerts, logs and cases to practice triage and incident response."
+  tags: [soc, blue-team, resposta]
+  custo: freemium
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "Blue Team Labs Online"
+  url: https://blueteamlabs.online
+  categoria: laboratorios-e-ctf
+  desc: "Laboratórios de investigação defensiva: forense, inteligência de ameaças, análise de logs e SOC."
+  desc_en: "Defensive investigation labs: forensics, threat intelligence, log analysis and SOC work."
+  tags: [blue-team, forense, soc]
+  custo: freemium
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "Root-Me"
+  url: https://www.root-me.org
+  categoria: laboratorios-e-ctf
+  desc: "Plataforma aberta com centenas de desafios de web, criptografia, forense e programação para treino legal."
+  desc_en: "Open platform with hundreds of web, crypto, forensics and programming challenges for legal practice."
+  tags: [ctf, web, cripto]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "Hacker101"
+  url: https://www.hacker101.com
+  categoria: laboratorios-e-ctf
+  desc: "Curso em vídeo e CTF gratuito do HackerOne sobre segurança de aplicações web."
+  desc_en: "Free HackerOne video course and CTF about web application security."
+  tags: [web, curso, ctf]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "flAWS"
+  url: http://flaws.cloud
+  categoria: laboratorios-e-ctf
+  desc: "Desafios sobre erros comuns de configuração na AWS, feitos para aprender a corrigi-los."
+  desc_en: "Challenges about common AWS misconfigurations, built to teach how to fix them."
+  tags: [aws, nuvem, configuracao]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+
+- nome: "flAWS2"
+  url: http://flaws2.cloud
+  categoria: laboratorios-e-ctf
+  desc: "Segunda edição do flAWS, com trilhas de atacante e de defensor sobre AWS, Lambda e containers."
+  desc_en: "Second flAWS edition, with attacker and defender paths covering AWS, Lambda and containers."
+  tags: [aws, nuvem, serverless]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "CloudGoat"
+  repo: RhinoSecurityLabs/cloudgoat
+  url: https://github.com/RhinoSecurityLabs/cloudgoat
+  categoria: laboratorios-e-ctf
+  desc: "Implantação da Rhino Security Labs de ambientes AWS vulneráveis de propósito para treinar auditoria."
+  desc_en: "Rhino Security Labs tool that deploys deliberately vulnerable AWS environments for audit practice."
+  tags: [aws, nuvem, iam]
+
+- nome: "OWASP Juice Shop"
+  repo: juice-shop/juice-shop
+  categoria: laboratorios-e-ctf
+  desc: "Loja web vulnerável de propósito, com dezenas de desafios do OWASP Top 10 e placar de CTF."
+  desc_en: "Deliberately vulnerable web shop with dozens of OWASP Top 10 challenges and a CTF scoreboard."
+  tags: [web, owasp, laboratorio]
+
+- nome: "DVWA"
+  repo: digininja/DVWA
+  categoria: laboratorios-e-ctf
+  desc: "Damn Vulnerable Web Application: aplicação PHP/MySQL vulnerável para treinar falhas web em ambiente local."
+  desc_en: "Damn Vulnerable Web Application: a PHP/MySQL app made vulnerable to practice web flaws locally."
+  tags: [web, laboratorio, php]
+
+- nome: "VulnHub"
+  url: https://www.vulnhub.com
+  categoria: laboratorios-e-ctf
+  desc: "Repositório de máquinas virtuais vulneráveis para baixar e treinar em ambiente local isolado."
+  desc_en: "Repository of deliberately vulnerable virtual machines to download and practice in an isolated local lab."
+  tags: [vm, laboratorio]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "CryptoHack"
+  url: https://cryptohack.org
+  categoria: laboratorios-e-ctf
+  desc: "Plataforma de desafios de criptografia que ensina como as primitivas funcionam e como falham."
+  desc_en: "Cryptography challenge platform that teaches how primitives work and how they fail."
+  tags: [criptografia, ctf]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "Microcorruption"
+  url: https://microcorruption.com
+  categoria: laboratorios-e-ctf
+  desc: "CTF de segurança embarcada: depurar firmware de um cadeado eletrônico em um emulador no navegador."
+  desc_en: "Embedded security CTF: debug an electronic lock's firmware in a browser-based emulator."
+  tags: [embarcado, engenharia-reversa, ctf]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "Exploit Education"
+  url: https://exploit.education
+  categoria: laboratorios-e-ctf
+  desc: "Máquinas virtuais e exercícios sobre corrupção de memória e análise de vulnerabilidades, em ambiente de treino."
+  desc_en: "Virtual machines and exercises on memory corruption and vulnerability analysis in a training setting."
+  tags: [memoria, laboratorio, linux]
+  custo: gratis
+  idiomas: [en]
+  nivel: avancado
+
+- nome: "WebGoat"
+  repo: WebGoat/WebGoat
+  categoria: laboratorios-e-ctf
+  desc: "Aplicação Java insegura de propósito do OWASP, com lições guiadas sobre falhas comuns em web."
+  desc_en: "OWASP's deliberately insecure Java application with guided lessons on common web flaws."
+  tags: [web, owasp, java]
+
+- nome: "GOAD (Game of Active Directory)"
+  repo: Orange-Cyberdefense/GOAD
+  categoria: laboratorios-e-ctf
+  desc: "Laboratório de Active Directory com várias florestas e domínios vulneráveis, da Orange Cyberdefense."
+  desc_en: "Active Directory lab with several vulnerable forests and domains, by Orange Cyberdefense."
+  tags: [active-directory, windows, laboratorio]
+
+- nome: "OWASP crAPI"
+  repo: OWASP/crAPI
+  categoria: laboratorios-e-ctf
+  desc: "API vulnerável de propósito (completely ridiculous API) para treinar os riscos do OWASP API Top 10."
+  desc_en: "Deliberately vulnerable API (completely ridiculous API) to practice the OWASP API Top 10 risks."
+  tags: [api, owasp, laboratorio]
+
+- nome: "Kubernetes Goat"
+  repo: madhuakula/kubernetes-goat
+  categoria: laboratorios-e-ctf
+  desc: "Cluster Kubernetes vulnerável de propósito, com cenários para aprender a atacar e a endurecer clusters."
+  desc_en: "Deliberately vulnerable Kubernetes cluster with scenarios to learn how clusters get attacked and hardened."
+  tags: [kubernetes, containers, laboratorio]
+
+- nome: "Damn Vulnerable LLM Agent"
+  repo: ReversecLabs/damn-vulnerable-llm-agent
+  categoria: laboratorios-e-ctf
+  desc: "Agente de chat vulnerável a injeção de prompt, para treinar a defesa de aplicações com LLM."
+  desc_en: "Chat agent vulnerable to prompt injection, for practicing defense of LLM-based applications."
+  tags: [llm, ia, injecao-de-prompt]
+
+- nome: "OWASP WrongSecrets"
+  repo: OWASP/wrongsecrets
+  categoria: laboratorios-e-ctf
+  desc: "Aplicação com exemplos de como NÃO guardar segredos, com desafios em Docker, Kubernetes e nuvem."
+  desc_en: "App showing how NOT to store secrets, with challenges across Docker, Kubernetes and cloud."
+  tags: [segredos, owasp, laboratorio]
+
+- nome: "OWASP Security Shepherd"
+  repo: OWASP/SecurityShepherd
+  categoria: laboratorios-e-ctf
+  desc: "Plataforma do OWASP para treinar segurança de aplicações web e móveis, com placar e níveis."
+  desc_en: "OWASP platform for training in web and mobile application security, with scoreboard and levels."
+  tags: [web, mobile, owasp]
+
+- nome: "MIT 6.858 — Segurança de Sistemas Computacionais"
+  url: https://ocw.mit.edu/courses/6-858-computer-systems-security-fall-2014/
+  categoria: cursos-gratuitos
+  desc: "Disciplina do MIT no OpenCourseWare sobre como construir sistemas seguros, com aulas e leituras."
+  desc_en: "MIT OpenCourseWare course on building secure computer systems, with lectures and readings."
+  tags: [universidade, sistemas]
+  custo: gratis
+  idiomas: [en]
+  nivel: avancado
+  emissor: "MIT OpenCourseWare"
+
+- nome: "MIT 6.5660 — Segurança de Sistemas Computacionais"
+  url: https://css.csail.mit.edu/6.5660/
+  categoria: cursos-gratuitos
+  desc: "Edição atual da disciplina de segurança de sistemas do MIT, com aulas, leituras e laboratórios."
+  desc_en: "Current edition of MIT's computer systems security course, with lectures, readings and labs."
+  tags: [universidade, sistemas]
+  custo: gratis
+  idiomas: [en]
+  nivel: avancado
+  emissor: "MIT"
+
+- nome: "Stanford CS253 — Segurança Web"
+  url: https://web.stanford.edu/class/cs253/
+  categoria: cursos-gratuitos
+  desc: "Disciplina de Stanford sobre segurança web: XSS, CSRF, cabeçalhos HTTP e modelo de segurança do navegador."
+  desc_en: "Stanford course on web security: XSS, CSRF, HTTP headers and the browser security model."
+  tags: [universidade, web]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "Stanford"
+
+- nome: "Stanford CS155 — Segurança de Computadores e Redes"
+  url: https://web.stanford.edu/class/cs155/
+  categoria: cursos-gratuitos
+  desc: "Disciplina de Stanford que cobre ameaças, defesas, segurança web, de rede e de sistemas."
+  desc_en: "Stanford course covering threats, defenses, and web, network and systems security."
+  tags: [universidade, redes]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "Stanford"
+
+- nome: "Berkeley CS161 — Segurança de Computadores"
+  url: https://cs161.org
+  categoria: cursos-gratuitos
+  desc: "Disciplina de graduação da UC Berkeley sobre segurança de software, redes e criptografia, com material aberto."
+  desc_en: "UC Berkeley undergraduate course on software, network and crypto security, with open material."
+  tags: [universidade, fundamentos]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "UC Berkeley"
+
+- nome: "Harvard CS50 — Cibersegurança"
+  url: https://cs50.harvard.edu/cybersecurity/
+  categoria: cursos-gratuitos
+  desc: "Introdução à cibersegurança da Harvard (CS50), com aulas em vídeo e exercícios para quem está começando."
+  desc_en: "Harvard CS50 introduction to cybersecurity, with video lectures and exercises for beginners."
+  tags: [universidade, iniciante]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+  emissor: "Harvard CS50"
+
+- nome: "Cisco Networking Academy — Introdução à Cibersegurança"
+  url: https://www.netacad.com/courses/introduction-to-cybersecurity
+  categoria: cursos-gratuitos
+  desc: "Curso introdutório e autoguiado da Cisco sobre ameaças, proteção de dados e carreira em segurança."
+  desc_en: "Cisco's self-paced intro course on threats, data protection and security careers."
+  tags: [iniciante, cisco]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+  emissor: "Cisco Networking Academy"
+
+- nome: "Cyber Security Base"
+  url: https://cybersecuritybase.mooc.fi/
+  categoria: cursos-gratuitos
+  desc: "Série gratuita da Universidade de Helsinque e do MOOC.fi sobre segurança de aplicações e de sistemas."
+  desc_en: "Free University of Helsinki and MOOC.fi course series on application and systems security."
+  tags: [universidade, web]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+  emissor: "Universidade de Helsinque"
+
+- nome: "OpenSecurityTraining2"
+  url: https://p.ost2.fyi/
+  categoria: cursos-gratuitos
+  desc: "Cursos abertos e gratuitos de segurança de baixo nível: arquitetura, engenharia reversa e sistemas."
+  desc_en: "Free open courses on low-level security: architecture, reverse engineering and systems."
+  tags: [engenharia-reversa, arquitetura]
+  custo: gratis
+  idiomas: [en]
+  nivel: avancado
+  emissor: "OpenSecurityTraining2"
+
+- nome: "OpenSSF — Developing Secure Software (LFD121)"
+  url: https://openssf.org/training/courses/
+  categoria: cursos-gratuitos
+  desc: "Curso gratuito da Linux Foundation e da OpenSSF sobre desenvolvimento de software seguro."
+  desc_en: "Free Linux Foundation and OpenSSF course on secure software development."
+  tags: [desenvolvimento-seguro, openssf]
+  custo: gratis
+  idiomas: [en]
+  nivel: entrada
+  emissor: "OpenSSF / Linux Foundation"
+
+- nome: "CISA — Treinamentos de cibersegurança"
+  url: https://www.cisa.gov/resources-tools/training
+  categoria: cursos-gratuitos
+  desc: "Catálogo de treinamentos e cursos de cibersegurança da agência CISA, dos EUA, para profissionais e gestores."
+  desc_en: "Catalog of cybersecurity trainings and courses from the US agency CISA for practitioners and managers."
+  tags: [governo, treinamento]
+  custo: gratis
+  idiomas: [en]
+  emissor: "CISA"
+
+- nome: "Criptografia I (Dan Boneh)"
+  url: https://www.coursera.org/learn/crypto
+  categoria: cursos-gratuitos
+  desc: "Curso de criptografia da Stanford Online no Coursera, com acesso gratuito às aulas."
+  desc_en: "Stanford Online cryptography course on Coursera, with free access to the lectures."
+  tags: [criptografia, universidade]
+  custo: freemium
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "Stanford Online"
+
+- nome: "ISC2 CC — Certified in Cybersecurity"
+  url: https://www.isc2.org/certifications/cc
+  categoria: certificacoes
+  desc: "Certificação de entrada da ISC2 sobre princípios de segurança, redes, controle de acesso e operações."
+  desc_en: "ISC2 entry-level certification on security principles, networks, access control and operations."
+  tags: [entrada, fundamentos]
+  custo: pago
+  idiomas: [en]
+  nivel: entrada
+  emissor: "ISC2"
+
+- nome: "CompTIA Security+"
+  url: https://www.comptia.org/en-us/certifications/security/
+  categoria: certificacoes
+  desc: "Certificação de base mais pedida para funções de segurança: ameaças, arquitetura, operações e governança."
+  desc_en: "Widely requested baseline certification: threats, architecture, operations and governance."
+  tags: [fundamentos, comptia]
+  custo: pago
+  idiomas: [en]
+  nivel: entrada
+  emissor: "CompTIA"
+
+- nome: "Google Cybersecurity Certificate"
+  url: https://www.coursera.org/professional-certificates/google-cybersecurity
+  categoria: certificacoes
+  desc: "Certificado profissional do Google no Coursera para funções de analista júnior de segurança."
+  desc_en: "Google professional certificate on Coursera aimed at junior security analyst roles."
+  tags: [entrada, analista]
+  custo: pago
+  idiomas: [en]
+  nivel: entrada
+  emissor: "Google"
+
+- nome: "eJPT — eLearnSecurity Junior Penetration Tester"
+  url: https://ine.com/security/certifications/ejpt-certification
+  categoria: certificacoes
+  desc: "Certificação prática de entrada em testes de invasão autorizados, com exame em laboratório."
+  desc_en: "Hands-on entry-level certification in authorized penetration testing, with a lab-based exam."
+  tags: [pentest, entrada]
+  custo: pago
+  idiomas: [en]
+  nivel: entrada
+  emissor: "INE Security"
+
+- nome: "BTL1 — Blue Team Level 1"
+  url: https://www.centri.org/certifications/blue-team-level-1
+  categoria: certificacoes
+  desc: "Certificação prática defensiva de nível júnior: fundamentos de SOC, forense, resposta e inteligência."
+  desc_en: "Junior-level hands-on defensive certification: SOC fundamentals, forensics, response and intelligence."
+  tags: [blue-team, soc]
+  custo: pago
+  idiomas: [en]
+  nivel: entrada
+  emissor: "Centri (Security Blue Team)"
+
+- nome: "CompTIA CySA+"
+  url: https://www.comptia.org/en-us/certifications/cybersecurity-analyst/
+  categoria: certificacoes
+  desc: "Certificação de analista de segurança: monitoramento, análise de ameaças e resposta a incidentes."
+  desc_en: "Security analyst certification: monitoring, threat analysis and incident response."
+  tags: [analista, blue-team, comptia]
+  custo: pago
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "CompTIA"
+
+- nome: "CompTIA PenTest+"
+  url: https://www.comptia.org/en-us/certifications/pentest/
+  categoria: certificacoes
+  desc: "Certificação de testes de invasão e avaliação de vulnerabilidades, com questões práticas."
+  desc_en: "Certification in penetration testing and vulnerability assessment, with performance-based questions."
+  tags: [pentest, comptia]
+  custo: pago
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "CompTIA"
+
+- nome: "GIAC GSEC — Security Essentials"
+  url: https://www.giac.org/certifications/security-essentials-gsec
+  categoria: certificacoes
+  desc: "Certificação da GIAC/SANS sobre fundamentos práticos de segurança: redes, sistemas, criptografia e nuvem."
+  desc_en: "GIAC/SANS certification on practical security fundamentals: networks, systems, crypto and cloud."
+  tags: [fundamentos, giac]
+  custo: pago
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "GIAC"
+
+- nome: "GIAC GCIH — Incident Handler"
+  url: https://www.giac.org/certifications/certified-incident-handler-gcih
+  categoria: certificacoes
+  desc: "Certificação da GIAC focada em detectar, responder e resolver incidentes de segurança."
+  desc_en: "GIAC certification focused on detecting, responding to and resolving security incidents."
+  tags: [resposta, giac]
+  custo: pago
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "GIAC"
+
+- nome: "CEH — Certified Ethical Hacker"
+  url: https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/
+  categoria: certificacoes
+  desc: "Certificação do EC-Council sobre técnicas de ataque e defesa, com foco em testes autorizados."
+  desc_en: "EC-Council certification on attack and defense techniques, focused on authorized testing."
+  tags: [ethical-hacking, ec-council]
+  custo: pago
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "EC-Council"
+
+- nome: "Microsoft SC-200 — Security Operations Analyst"
+  url: https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/
+  categoria: certificacoes
+  desc: "Certificação Microsoft para analistas de SOC, com Sentinel, Defender e caça a ameaças."
+  desc_en: "Microsoft certification for SOC analysts, covering Sentinel, Defender and threat hunting."
+  tags: [soc, microsoft, nuvem]
+  custo: pago
+  idiomas: [en]
+  nivel: intermediario
+  emissor: "Microsoft"
+
+- nome: "ISACA CISM — Certified Information Security Manager"
+  url: https://www.isaca.org/credentialing/cism
+  categoria: certificacoes
+  desc: "Certificação de gestão de segurança da informação: governança, riscos, programa e resposta a incidentes."
+  desc_en: "Information security management certification: governance, risk, program and incident response."
+  tags: [gestao, governanca]
+  custo: pago
+  idiomas: [en]
+  nivel: avancado
+  emissor: "ISACA"
+
+- nome: "ISC2 CISSP"
+  url: https://www.isc2.org/certifications/cissp
+  categoria: certificacoes
+  desc: "Certificação ampla para profissionais experientes, que cobre oito domínios de segurança da informação."
+  desc_en: "Broad certification for experienced professionals covering eight information security domains."
+  tags: [gestao, arquitetura]
+  custo: pago
+  idiomas: [en]
+  nivel: avancado
+  emissor: "ISC2"
+
+- nome: "ISC2 CCSP — Certified Cloud Security Professional"
+  url: https://www.isc2.org/certifications/ccsp
+  categoria: certificacoes
+  desc: "Certificação de segurança em nuvem: arquitetura, dados, plataforma, operações e conformidade."
+  desc_en: "Cloud security certification: architecture, data, platform, operations and compliance."
+  tags: [nuvem, iso]
+  custo: pago
+  idiomas: [en]
+  nivel: avancado
+  emissor: "ISC2"
+
+- nome: "AWS Certified Security — Specialty"
+  url: https://aws.amazon.com/certification/certified-security-specialty/
+  categoria: certificacoes
+  desc: "Certificação da AWS sobre proteção de dados, identidade, registro de eventos e resposta a incidentes na nuvem."
+  desc_en: "AWS certification on data protection, identity, logging and incident response in the cloud."
+  tags: [aws, nuvem]
+  custo: pago
+  idiomas: [en]
+  nivel: avancado
+  emissor: "Amazon Web Services"
+
+- nome: "OSCP+ — PEN-200 (OffSec)"
+  url: https://www.offsec.com/courses/pen-200/
+  categoria: certificacoes
+  desc: "Certificação prática da OffSec de testes de invasão, com exame de 24 horas em laboratório."
+  desc_en: "OffSec hands-on penetration testing certification, with a 24-hour lab exam."
+  tags: [pentest, offsec]
+  custo: pago
+  idiomas: [en]
+  nivel: avancado
+  emissor: "OffSec"
+
+- nome: "OWASP Cheat Sheet Series"
+  repo: OWASP/CheatSheetSeries
+  url: https://cheatsheetseries.owasp.org/
+  categoria: guias-e-referencias
+  desc: "Coleção de guias curtos e objetivos do OWASP com boas práticas de segurança de aplicações."
+  desc_en: "OWASP collection of concise guides with application security best practices."
+  tags: [owasp, appsec, cheatsheet]
+
+- nome: "OWASP MASTG"
+  repo: OWASP/mastg
+  url: https://mas.owasp.org/
+  categoria: guias-e-referencias
+  desc: "Guia do OWASP de teste de segurança de aplicativos móveis, com técnicas para Android e iOS."
+  desc_en: "OWASP mobile application security testing guide with techniques for Android and iOS."
+  tags: [owasp, mobile, testes]
+
+- nome: "OWASP Top 10:2025"
+  repo: OWASP/Top10
+  url: https://owasp.org/Top10/2025/
+  categoria: guias-e-referencias
+  desc: "Lista do OWASP com os dez riscos mais críticos de segurança em aplicações web, edição 2025."
+  desc_en: "OWASP list of the ten most critical web application security risks, 2025 edition."
+  tags: [owasp, web, riscos]
+
+- nome: "OWASP DevSecOps Guideline"
+  repo: OWASP/DevSecOpsGuideline
+  categoria: guias-e-referencias
+  desc: "Guia do OWASP para incorporar segurança ao pipeline de desenvolvimento e entrega."
+  desc_en: "OWASP guide to embedding security into the development and delivery pipeline."
+  tags: [owasp, devsecops, pipeline]
+
+- nome: "NIST SP 800-61 rev. 3 — Resposta a Incidentes"
+  url: https://csrc.nist.gov/pubs/sp/800/61/r3/final
+  categoria: guias-e-referencias
+  desc: "Recomendações do NIST para incorporar a resposta a incidentes ao gerenciamento de riscos de cibersegurança."
+  desc_en: "NIST recommendations for building incident response into cybersecurity risk management."
+  tags: [nist, resposta, incidentes]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "NIST Cybersecurity Framework 2.0"
+  url: https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final
+  categoria: guias-e-referencias
+  desc: "Estrutura do NIST com seis funções (governar, identificar, proteger, detectar, responder, recuperar)."
+  desc_en: "NIST framework with six functions: govern, identify, protect, detect, respond and recover."
+  tags: [nist, framework, governanca]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "Security Engineering (Ross Anderson)"
+  url: https://www.cl.cam.ac.uk/~rja14/book.html
+  categoria: guias-e-referencias
+  desc: "Livro de Ross Anderson sobre como projetar sistemas confiáveis diante de falhas e adversários, com leitura livre."
+  desc_en: "Ross Anderson's book on building dependable systems against failure and adversaries, free to read."
+  tags: [livro, engenharia]
+  custo: gratis
+  idiomas: [en]
+  nivel: intermediario
+
+- nome: "SANS Posters"
+  url: https://www.sans.org/posters/
+  categoria: guias-e-referencias
+  desc: "Pôsteres de referência rápida do SANS sobre resposta a incidentes, forense, nuvem e detecção."
+  desc_en: "SANS quick-reference posters on incident response, forensics, cloud and detection."
+  tags: [referencia, sans]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "MITRE ATT&CK"
+  url: https://attack.mitre.org
+  categoria: guias-e-referencias
+  desc: "Base de conhecimento do MITRE com táticas e técnicas reais de adversários, usada para defesa."
+  desc_en: "MITRE knowledge base of real-world adversary tactics and techniques, used for defense."
+  tags: [mitre, ameacas, tecnicas]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "MITRE D3FEND"
+  url: https://d3fend.mitre.org
+  categoria: guias-e-referencias
+  desc: "Grafo de conhecimento do MITRE com técnicas defensivas, ligadas às técnicas do ATT&CK."
+  desc_en: "MITRE knowledge graph of defensive techniques, mapped to ATT&CK techniques."
+  tags: [mitre, defesa, tecnicas]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "MITRE ATLAS"
+  url: https://atlas.mitre.org/
+  categoria: guias-e-referencias
+  desc: "Base de conhecimento do MITRE sobre táticas e técnicas contra sistemas de inteligência artificial."
+  desc_en: "MITRE knowledge base of tactics and techniques against artificial intelligence systems."
+  tags: [mitre, ia, ameacas]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "CIS Controls"
+  url: https://www.cisecurity.org/controls/cis-controls-list
+  categoria: guias-e-referencias
+  desc: "Conjunto priorizado de controles de segurança do CIS, organizado por grupos de implementação."
+  desc_en: "CIS prioritized set of security controls, organized by implementation groups."
+  tags: [cis, controles, governanca]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "CISA Cybersecurity Performance Goals"
+  url: https://www.cisa.gov/cybersecurity-performance-goals-cpgs
+  categoria: guias-e-referencias
+  desc: "Metas mínimas de cibersegurança da CISA, voltadas a infraestrutura crítica e organizações menores."
+  desc_en: "CISA baseline cybersecurity goals aimed at critical infrastructure and smaller organizations."
+  tags: [cisa, controles, basico]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "NCSC — 10 Steps to Cyber Security"
+  url: https://www.ncsc.gov.uk/collection/10-steps
+  categoria: guias-e-referencias
+  desc: "Guia do centro de cibersegurança do Reino Unido com dez passos para gerir o risco cibernético."
+  desc_en: "UK national cyber security centre guide with ten steps to manage cyber risk."
+  tags: [ncsc, gestao-de-risco]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "OpenSSF Best Practices Guides"
+  repo: ossf/wg-best-practices-os-developers
+  url: https://best.openssf.org/
+  categoria: guias-e-referencias
+  desc: "Guias do grupo de práticas da OpenSSF para quem mantém e desenvolve software de código aberto."
+  desc_en: "OpenSSF working group guides for people who maintain and develop open source software."
+  tags: [openssf, desenvolvimento-seguro]
+
+- nome: "YubiKey Guide (drduh)"
+  repo: drduh/YubiKey-Guide
+  categoria: guias-e-referencias
+  desc: "Guia da comunidade para usar a YubiKey com GnuPG e SSH, protegendo chaves em hardware."
+  desc_en: "Community guide to using a YubiKey with GnuPG and SSH, keeping keys in hardware."
+  tags: [yubikey, gpg, ssh]
+
+- nome: "awesome-incident-response"
+  repo: meirwah/awesome-incident-response
+  categoria: listas-irmas
+  desc: "Lista de ferramentas de resposta a incidentes: coleta, triagem, análise de memória e disco."
+  desc_en: "List of incident response tools: collection, triage, memory and disk analysis."
+  tags: [resposta, lista]
+
+- nome: "awesome-threat-intelligence"
+  repo: hslatman/awesome-threat-intelligence
+  categoria: listas-irmas
+  desc: "Lista de recursos de inteligência de ameaças: feeds, plataformas, ferramentas e leituras."
+  desc_en: "List of threat intelligence resources: feeds, platforms, tools and reading."
+  tags: [inteligencia, lista]
+
+- nome: "awesome-threat-detection"
+  repo: 0x4D31/awesome-threat-detection
+  categoria: listas-irmas
+  desc: "Lista de recursos de detecção de ameaças e caça (threat hunting)."
+  desc_en: "List of threat detection and threat hunting resources."
+  tags: [deteccao, caca, lista]
+
+- nome: "awesome-detection-engineering"
+  repo: infosecB/awesome-detection-engineering
+  categoria: listas-irmas
+  desc: "Lista de recursos de engenharia de detecção: regras, processos, métricas e ferramentas."
+  desc_en: "List of detection engineering resources: rules, processes, metrics and tools."
+  tags: [deteccao, lista]
+
+- nome: "awesome-soc"
+  repo: cyb3rxp/awesome-soc
+  categoria: listas-irmas
+  desc: "Base de conhecimento para montar, operar e amadurecer um SOC, incluindo o CSIRT."
+  desc_en: "Knowledge base to build, run and mature a SOC, including the CSIRT."
+  tags: [soc, lista]
+
+- nome: "awesome-honeypots"
+  repo: paralax/awesome-honeypots
+  categoria: listas-irmas
+  desc: "Lista de honeypots (iscas) e ferramentas relacionadas, organizada por serviço."
+  desc_en: "List of honeypots (decoys) and related tools, organized by service."
+  tags: [honeypot, engano, lista]
+
+- nome: "awesome-forensics"
+  repo: cugu/awesome-forensics
+  categoria: listas-irmas
+  desc: "Lista de ferramentas e recursos de análise forense digital."
+  desc_en: "List of digital forensics tools and resources."
+  tags: [forense, lista]
+
+- nome: "awesome-web-security"
+  repo: qazbnm456/awesome-web-security
+  categoria: listas-irmas
+  desc: "Lista de materiais e recursos sobre segurança web."
+  desc_en: "List of web security materials and resources."
+  tags: [web, lista]
+
+- nome: "awesome-appsec"
+  repo: paragonie/awesome-appsec
+  categoria: listas-irmas
+  desc: "Lista de recursos para aprender segurança de aplicações, da Paragon Initiative."
+  desc_en: "List of resources for learning application security, by Paragon Initiative."
+  tags: [appsec, lista]
+
+- nome: "awesome-cloud-security"
+  repo: 4ndersonLin/awesome-cloud-security
+  categoria: listas-irmas
+  desc: "Lista de recursos de segurança em nuvem para AWS, Azure e GCP."
+  desc_en: "List of cloud security resources for AWS, Azure and GCP."
+  tags: [nuvem, lista]
+
+- nome: "awesome-k8s-security"
+  repo: magnologan/awesome-k8s-security
+  categoria: listas-irmas
+  desc: "Lista de recursos de segurança para Kubernetes."
+  desc_en: "List of Kubernetes security resources."
+  tags: [kubernetes, lista]
+
+- nome: "android-security-awesome"
+  repo: ashishb/android-security-awesome
+  categoria: listas-irmas
+  desc: "Lista de recursos de segurança para Android: ferramentas, artigos e laboratórios."
+  desc_en: "List of Android security resources: tools, articles and labs."
+  tags: [android, mobile, lista]
+
+- nome: "awesome-security-hardening"
+  repo: decalage2/awesome-security-hardening
+  categoria: listas-irmas
+  desc: "Lista de guias, ferramentas e recursos de endurecimento (hardening) de sistemas."
+  desc_en: "List of system hardening guides, tools and resources."
+  tags: [hardening, lista]
+
+- nome: "awesome-ai-security (ottosulin)"
+  repo: ottosulin/awesome-ai-security
+  categoria: listas-irmas
+  desc: "Coleção de recursos sobre segurança de sistemas de inteligência artificial."
+  desc_en: "Collection of resources about the security of artificial intelligence systems."
+  tags: [ia, lista]
+
+- nome: "Awesome Privacy"
+  repo: lissy93/awesome-privacy
+  categoria: listas-irmas
+  desc: "Lista de software e serviços focados em privacidade e segurança, por categoria."
+  desc_en: "List of privacy and security focused software and services, by category."
+  tags: [privacidade, lista]
+
+- nome: "Cartilha de Segurança para Internet (CERT.br)"
+  url: https://cartilha.cert.br
+  categoria: comunidade-lusofona
+  desc: "Guia em português do CERT.br com recomendações de segurança para usuários, em livro e fascículos."
+  desc_en: "Portuguese-language CERT.br guide with security recommendations for users, as a book and booklets."
+  tags: [cert-br, usuarios, guia]
+  custo: gratis
+  idiomas: [pt]
+  nivel: entrada
+
+- nome: "CERT.br"
+  url: https://cert.br
+  categoria: comunidade-lusofona
+  desc: "Grupo de resposta a incidentes do NIC.br: notificações, estatísticas, documentos e boas práticas."
+  desc_en: "NIC.br's incident response group: notifications, statistics, documents and best practices."
+  tags: [cert-br, incidentes, brasil]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: "CTIR Gov"
+  url: https://www.gov.br/gsi/pt-br/assuntos/ctir
+  categoria: comunidade-lusofona
+  desc: "Centro do governo federal brasileiro para prevenção, tratamento e resposta a incidentes cibernéticos."
+  desc_en: "Brazilian federal government center for preventing, handling and responding to cyber incidents."
+  tags: [governo, brasil, incidentes]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: "Eventos Infosec Brasil"
+  repo: IncursioHack/Eventos-Infosec-Brasil
+  categoria: comunidade-lusofona
+  desc: "Lista colaborativa de eventos, palestras e encontros de segurança da informação no Brasil."
+  desc_en: "Collaborative list of information security events, talks and meetups in Brazil."
+  tags: [eventos, brasil]
+
+- nome: "EventosCybersec"
+  repo: zero2flag/EventosCybersec
+  categoria: comunidade-lusofona
+  desc: "Tabela colaborativa e atualizada de eventos de cibersegurança no Brasil e no mundo."
+  desc_en: "Collaborative, updated table of cybersecurity events in Brazil and worldwide."
+  tags: [eventos, brasil]
+
+- nome: "Security BSides São Paulo"
+  url: https://securitybsides.com.br/
+  categoria: comunidade-lusofona
+  desc: "Edição paulista da conferência comunitária Security BSides, com palestras, oficinas e vilas temáticas."
+  desc_en: "São Paulo edition of the community Security BSides conference, with talks, workshops and villages."
+  tags: [evento, brasil, comunidade]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: "Mind The Sec"
+  url: https://www.mindthesec.com.br
+  categoria: comunidade-lusofona
+  desc: "Evento brasileiro de segurança da informação voltado a quem decide no mercado."
+  desc_en: "Brazilian information security event aimed at market decision makers."
+  tags: [evento, brasil]
+  custo: pago
+  idiomas: [pt]
+
+- nome: "SegInfo"
+  url: https://seginfo.com.br
+  categoria: comunidade-lusofona
+  desc: "Portal, podcast e evento em português sobre segurança da informação."
+  desc_en: "Portuguese-language portal, podcast and event on information security."
+  tags: [portal, podcast, brasil]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: "Segurança Legal"
+  url: https://www.segurancalegal.com
+  categoria: comunidade-lusofona
+  desc: "Podcast brasileiro sobre segurança da informação, privacidade e direito da tecnologia, no ar desde 2012."
+  desc_en: "Brazilian podcast on information security, privacy and technology law, running since 2012."
+  tags: [podcast, privacidade, brasil]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: "SaferNet Brasil"
+  url: https://new.safernet.org.br/
+  categoria: comunidade-lusofona
+  desc: "Associação brasileira sem fins lucrativos que atua na prevenção de crimes e violações online e na educação digital."
+  desc_en: "Brazilian nonprofit working on preventing online crimes and abuse, and on digital education."
+  tags: [seguranca-online, brasil, educacao]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: "C-DAYS (CNCS, Portugal)"
+  url: https://c-days.cncs.gov.pt/
+  categoria: comunidade-lusofona
+  desc: "Conferência anual do Centro Nacional de Cibersegurança de Portugal, com programa e inscrições."
+  desc_en: "Annual conference of Portugal's National Cybersecurity Centre, with program and registration."
+  tags: [evento, portugal, cncs]
+  custo: gratis
+  idiomas: [pt]
+
+- nome: 'OWASP Web Security Testing Guide'
+  repo: OWASP/wstg
+  categoria: guias-e-referencias
+  desc: 'Guia aberto e completo da OWASP para testar a segurança de aplicações web e serviços.'
+  desc_en: 'Comprehensive open OWASP guide to testing the security of web applications and services.'
+  tags: [guia, owasp]
+
+- nome: 'OWASP ASVS'
+  repo: OWASP/ASVS
+  categoria: guias-e-referencias
+  desc: 'Padrão de verificação de segurança de aplicações, com requisitos para guiar testes e desenvolvimento.'
+  desc_en: 'Application Security Verification Standard, with requirements to guide testing and development.'
+  tags: [padrao, owasp]

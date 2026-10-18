@@ -1,0 +1,196 @@
+# Grupo PE · Pessoas — senhas, autenticação em dois fatores e privacidade pessoal.
+
+- nome: "Bitwarden"
+  repo: bitwarden/clients
+  url: https://bitwarden.com
+  categoria: senhas-e-autenticacao
+  desc: "Gerenciador de senhas de código aberto, com aplicativos para web, navegador, desktop e linha de comando."
+  desc_en: "Open source password manager with web, browser, desktop and command-line clients."
+  tags: [gerenciador-de-senhas, bitwarden]
+
+- nome: "KeePassDX"
+  repo: Kunzisoft/KeePassDX
+  categoria: senhas-e-autenticacao
+  desc: "Gerenciador de senhas compatível com KeePass para Android, leve e de código aberto."
+  desc_en: "Lightweight, open source KeePass-compatible password manager for Android."
+  tags: [gerenciador-de-senhas, android]
+
+- nome: "Proton Pass"
+  repo: protonpass/android-pass
+  url: https://proton.me/pass
+  categoria: senhas-e-autenticacao
+  desc: "Gerenciador de senhas da Proton, com criptografia de ponta a ponta e código dos aplicativos aberto."
+  desc_en: "Proton's password manager with end-to-end encryption and open source apps."
+  tags: [gerenciador-de-senhas, proton]
+
+- nome: "Aegis Authenticator"
+  repo: beemdevelopment/Aegis
+  url: https://getaegis.app
+  categoria: senhas-e-autenticacao
+  desc: "Aplicativo de código aberto para Android que gerencia tokens de verificação em duas etapas, com cofre criptografado."
+  desc_en: "Open source Android app for managing 2-step verification tokens, with an encrypted vault."
+  tags: [2fa, totp, android]
+
+- nome: "2FAS"
+  repo: twofas/2fas-android
+  url: https://2fas.com
+  categoria: senhas-e-autenticacao
+  desc: "Aplicativo de autenticação em dois fatores de código aberto, com cópia de segurança e extensão de navegador."
+  desc_en: "Open source two-factor authentication app with backup and browser extension."
+  tags: [2fa, totp, android]
+
+- nome: "Ente Auth"
+  repo: ente/ente
+  url: https://ente.com/auth
+  categoria: senhas-e-autenticacao
+  desc: "Aplicativo de 2FA de código aberto com cópia de segurança criptografada e sincronização entre aparelhos."
+  desc_en: "Open source 2FA app with encrypted backup and sync across devices."
+  tags: [2fa, totp, sincronizacao]
+
+- nome: "Yubico Authenticator"
+  repo: Yubico/yubioath-flutter
+  categoria: senhas-e-autenticacao
+  desc: "Aplicativo da Yubico para gerar códigos de uso único guardados em uma chave de segurança YubiKey."
+  desc_en: "Yubico app to generate one-time codes stored on a YubiKey security key."
+  tags: [2fa, yubikey, hardware]
+
+- nome: "2FA Directory"
+  repo: 2factorauth/twofactorauth
+  url: https://2fa.directory
+  categoria: senhas-e-autenticacao
+  desc: "Diretório aberto de sites que oferecem autenticação em dois fatores, com os métodos de cada um."
+  desc_en: "Open directory of websites that support two-factor authentication, with each one's methods."
+  tags: [2fa, diretorio]
+
+- nome: "Signal"
+  repo: signalapp/Signal-Android
+  url: https://signal.org
+  categoria: privacidade-pessoal
+  desc: "Mensageiro de código aberto com criptografia de ponta a ponta por padrão, em mensagens e chamadas."
+  desc_en: "Open source messenger with end-to-end encryption by default for messages and calls."
+  tags: [mensageiro, criptografia]
+
+- nome: "SimpleX Chat"
+  repo: simplex-chat/simplex-chat
+  categoria: privacidade-pessoal
+  desc: "Mensageiro de código aberto que funciona sem identificadores de usuário de qualquer tipo."
+  desc_en: "Open source messenger that works without user identifiers of any kind."
+  tags: [mensageiro, anonimato]
+
+- nome: "uBlock Origin"
+  repo: gorhill/uBlock
+  categoria: privacidade-pessoal
+  desc: "Bloqueador de conteúdo eficiente e leve para Chromium e Firefox, que reduz rastreadores e anúncios."
+  desc_en: "Efficient, lightweight content blocker for Chromium and Firefox that cuts trackers and ads."
+  tags: [bloqueador, navegador, rastreadores]
+
+- nome: "Privacy Badger"
+  repo: EFForg/privacybadger
+  categoria: privacidade-pessoal
+  desc: "Extensão da EFF que aprende sozinha a bloquear rastreadores invisíveis ao navegar."
+  desc_en: "EFF extension that learns on its own to block hidden trackers while you browse."
+  tags: [rastreadores, navegador, eff]
+
+- nome: "arkenfox user.js"
+  repo: arkenfox/user.js
+  categoria: privacidade-pessoal
+  desc: "Modelo de user.js para endurecer o Firefox em privacidade, segurança e contra rastreamento."
+  desc_en: "user.js template to harden Firefox for privacy, security and anti-tracking."
+  tags: [firefox, navegador, configuracao]
+
+- nome: "Mullvad Browser"
+  repo: mullvad/mullvad-browser
+  url: https://mullvad.net/en/browser
+  categoria: privacidade-pessoal
+  desc: "Navegador focado em privacidade, feito com o Tor Project, que reduz o rastreamento por impressão digital."
+  desc_en: "Privacy-focused browser built with the Tor Project that reduces fingerprint-based tracking."
+  tags: [navegador, impressao-digital]
+
+- nome: "Tor Project"
+  url: https://www.torproject.org
+  categoria: privacidade-pessoal
+  desc: "Rede e Navegador Tor para navegar com anonimato e contornar rastreamento e censura."
+  desc_en: "Tor network and Tor Browser for browsing anonymously and avoiding tracking and censorship."
+  tags: [anonimato, navegador, rede]
+  custo: gratis
+  idiomas: [en, pt, es]
+
+- nome: "Tails"
+  url: https://tails.net
+  categoria: privacidade-pessoal
+  desc: "Sistema operacional que roda a partir de um pendrive e não deixa rastros, com todo o tráfego pela rede Tor."
+  desc_en: "Live operating system that runs from a USB stick and leaves no trace, routing all traffic through Tor."
+  tags: [sistema-operacional, anonimato]
+  custo: gratis
+  idiomas: [en, es]
+
+- nome: "GrapheneOS"
+  url: https://grapheneos.org
+  categoria: privacidade-pessoal
+  desc: "Sistema operacional móvel de código aberto, focado em privacidade e segurança, para aparelhos Pixel."
+  desc_en: "Open source mobile operating system focused on privacy and security, for Pixel devices."
+  tags: [android, sistema-operacional]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "Privacy Guides"
+  repo: privacyguides/privacyguides.org
+  url: https://www.privacyguides.org
+  categoria: privacidade-pessoal
+  desc: "Guia comunitário sem fins lucrativos com ferramentas e serviços de privacidade recomendados e explicados."
+  desc_en: "Nonprofit community guide with recommended and explained privacy tools and services."
+  tags: [guia, ferramentas]
+
+- nome: "Personal Security Checklist"
+  repo: lissy93/personal-security-checklist
+  categoria: privacidade-pessoal
+  desc: "Lista de mais de 300 dicas para proteger sua segurança digital e privacidade no dia a dia."
+  desc_en: "Checklist of 300+ tips to protect your digital security and privacy day to day."
+  tags: [checklist, guia]
+
+- nome: "EFF Surveillance Self-Defense"
+  url: https://ssd.eff.org
+  categoria: privacidade-pessoal
+  desc: "Guia da EFF com instruções passo a passo para se proteger contra vigilância digital."
+  desc_en: "EFF guide with step-by-step instructions to protect yourself against digital surveillance."
+  tags: [guia, eff, vigilancia]
+  custo: gratis
+  idiomas: [en, es, pt]
+
+- nome: "Have I Been Pwned"
+  url: https://haveibeenpwned.com
+  categoria: privacidade-pessoal
+  desc: "Serviço do Troy Hunt que mostra se seu e-mail apareceu em vazamentos de dados conhecidos."
+  desc_en: "Troy Hunt's service that shows whether your email appeared in known data breaches."
+  tags: [vazamentos, verificacao]
+  custo: gratis
+  idiomas: [en]
+
+- nome: "Tuta"
+  repo: tutao/tutanota
+  url: https://tuta.com
+  categoria: privacidade-pessoal
+  desc: "Serviço de e-mail e agenda com criptografia de ponta a ponta e aplicativos de código aberto."
+  desc_en: "Email and calendar service with end-to-end encryption and open source apps."
+  tags: [email, criptografia]
+
+- nome: 'Bitwarden Server'
+  repo: bitwarden/server
+  categoria: senhas-e-autenticacao
+  desc: 'Infraestrutura do Bitwarden (API, banco, Docker) para gerenciador de senhas hospedado por conta própria.'
+  desc_en: 'Bitwarden backend (API, database, Docker) for a self-hosted password manager.'
+  tags: [senhas, auto-hospedado]
+
+- nome: 'Vaultwarden'
+  repo: dani-garcia/vaultwarden
+  categoria: senhas-e-autenticacao
+  desc: 'Servidor não oficial compatível com Bitwarden, leve e escrito em Rust, para hospedar o próprio gerenciador de senhas.'
+  desc_en: 'Unofficial Bitwarden-compatible server written in Rust, for hosting your own password manager.'
+  tags: [senhas, rust]
+
+- nome: 'KeePassXC'
+  repo: keepassxreboot/keepassxc
+  categoria: senhas-e-autenticacao
+  desc: 'Gerenciador de senhas multiplataforma, local e mantido pela comunidade, compatível com KeePass.'
+  desc_en: 'Cross-platform, local, community-driven password manager compatible with KeePass.'
+  tags: [senhas, local]

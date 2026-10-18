@@ -1,0 +1,30 @@
+name: Reportar problema · Report a problem
+description: Link quebrado, projeto abandonado, descrição errada · Broken link, dead project, wrong description
+title: "[problema] "
+labels: ["problema"]
+body:
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo · Type
+      options:
+        - Link quebrado · Broken link
+        - Projeto abandonado ou arquivado · Abandoned or archived project
+        - Descrição ou categoria errada · Wrong description or category
+        - Item fora do escopo · Out of scope item
+        - Erro em guia (lei, prazo, fato) · Error in a guide (law, deadline, fact)
+        - Outro · Other
+    validations:
+      required: true
+  - type: input
+    id: onde
+    attributes:
+      label: Onde · Where (item, arquivo ou link · item, file or link)
+    validations:
+      required: true
+  - type: textarea
+    id: detalhe
+    attributes:
+      label: O que está errado e, se souber, o certo (com fonte) · What is wrong and, if you know, the fix (with source)
+    validations:
+      required: true

@@ -1,0 +1,309 @@
+# Grupo ID (Identificar): inventário de ativos, vulnerabilidades, cadeia de suprimentos e modelagem de ameaças.
+
+# --- inventario-de-ativos
+- nome: GLPI
+  repo: glpi-project/glpi
+  categoria: inventario-de-ativos
+  desc: "Inventário de ativos de TI, licenças e chamados (ITIL), com agente para descobrir máquinas e softwares."
+  desc_en: "IT asset inventory, licenses and service desk (ITIL), with an agent to discover machines and software."
+  tags: [inventario, cmdb, helpdesk]
+- nome: Snipe-IT
+  repo: grokability/snipe-it
+  categoria: inventario-de-ativos
+  desc: "Gestão de ativos e licenças de TI: quem usa cada equipamento, histórico, check-in e check-out."
+  desc_en: "IT asset and license management: who holds each device, history, check-in and check-out."
+  tags: [inventario, licencas]
+- nome: NetBox
+  repo: netbox-community/netbox
+  categoria: inventario-de-ativos
+  desc: "Fonte da verdade da infraestrutura: IPs, racks, dispositivos, cabos e circuitos, com API."
+  desc_en: "Infrastructure source of truth: IPs, racks, devices, cables and circuits, with an API."
+  tags: [ipam, dcim, rede]
+- nome: Ralph
+  repo: allegro/ralph
+  categoria: inventario-de-ativos
+  desc: "CMDB e gestão de ativos para hardware de data center e escritório, com ciclo de vida e responsáveis."
+  desc_en: "CMDB and asset management for data center and office hardware, with lifecycle and owners."
+  tags: [cmdb, datacenter]
+- nome: Mercator
+  repo: sourcentis/mercator
+  categoria: inventario-de-ativos
+  desc: "Cartografia do sistema de informação: mapeia processos, aplicações, servidores e fluxos para análise de riscos."
+  desc_en: "Information system mapping: processes, applications, servers and data flows for risk analysis."
+  tags: [cartografia, cmdb]
+- nome: NetAlertX
+  repo: netalertx/NetAlertX
+  categoria: inventario-de-ativos
+  desc: "Descobre dispositivos na rede local e avisa quando aparece um equipamento novo ou desconhecido."
+  desc_en: "Discovers devices on the local network and alerts when a new or unknown device appears."
+  tags: [descoberta, rede-local]
+- nome: Cartography
+  repo: cartography-cncf/cartography
+  categoria: inventario-de-ativos
+  desc: "Reúne ativos de nuvem e suas relações em um grafo Neo4j para achar caminhos de exposição."
+  desc_en: "Gathers cloud assets and their relationships in a Neo4j graph to find exposure paths."
+  tags: [nuvem, grafo]
+- nome: CloudQuery
+  repo: cloudquery/cloudquery
+  categoria: inventario-de-ativos
+  desc: "Extrai configuração de nuvem para um banco de dados, base para inventário de ativos e análise de postura."
+  desc_en: "Extracts cloud configuration into a database as a base for asset inventory and posture analysis."
+  tags: [nuvem, inventario]
+- nome: OWASP Amass
+  repo: owasp-amass/amass
+  categoria: inventario-de-ativos
+  desc: "Mapeia a superfície de ataque externa de um domínio: subdomínios, redes e serviços expostos."
+  desc_en: "Maps the external attack surface of a domain: subdomains, networks and exposed services."
+  tags: [superficie-de-ataque, dns]
+- nome: Nmap
+  repo: nmap/nmap
+  categoria: inventario-de-ativos
+  desc: "Descoberta de hosts e serviços na rede, para manter o inventário e achar portas abertas inesperadas."
+  desc_en: "Host and service discovery on the network, to keep inventory and find unexpected open ports."
+  tags: [rede, portas]
+- nome: Nautobot
+  repo: nautobot/nautobot
+  categoria: inventario-de-ativos
+  desc: "Fonte da verdade da rede e plataforma de automação: inventário de dispositivos, IPs e configuração."
+  desc_en: "Network source of truth and automation platform: device, IP and configuration inventory."
+  tags: [rede, cmdb]
+
+- nome: iTop
+  repo: Combodo/iTop
+  categoria: inventario-de-ativos
+  desc: "CMDB e gestão de serviços de TI (ITSM) para relacionar ativos, serviços, mudanças e incidentes."
+  desc_en: "CMDB and IT service management (ITSM) linking assets, services, changes and incidents."
+  tags: [cmdb, itsm]
+# --- gestao-de-vulnerabilidades
+- nome: Trivy
+  repo: aquasecurity/trivy
+  categoria: gestao-de-vulnerabilidades
+  desc: "Varre imagens, repositórios, nuvem e Kubernetes em busca de vulnerabilidades, configurações erradas e segredos."
+  desc_en: "Scans images, repositories, cloud and Kubernetes for vulnerabilities, misconfigurations and secrets."
+  tags: [scanner, containers, sbom]
+- nome: Grype
+  repo: anchore/grype
+  categoria: gestao-de-vulnerabilidades
+  desc: "Scanner de vulnerabilidades para imagens de contêiner e sistemas de arquivos; lê SBOMs do Syft."
+  desc_en: "Vulnerability scanner for container images and filesystems; reads SBOMs from Syft."
+  tags: [scanner, containers]
+- nome: OSV-Scanner
+  repo: google/osv-scanner
+  categoria: gestao-de-vulnerabilidades
+  desc: "Confere as dependências do projeto contra o banco de vulnerabilidades OSV.dev e sugere correções."
+  desc_en: "Checks project dependencies against the OSV.dev vulnerability database and suggests fixes."
+  tags: [dependencias, osv]
+- nome: OpenVAS Scanner
+  repo: greenbone/openvas-scanner
+  categoria: gestao-de-vulnerabilidades
+  desc: "Motor de varredura da Greenbone Community Edition para achar vulnerabilidades em hosts e redes."
+  desc_en: "Scanner engine of Greenbone Community Edition to find vulnerabilities on hosts and networks."
+  tags: [scanner, rede, greenbone]
+- nome: Nuclei
+  repo: projectdiscovery/nuclei
+  categoria: gestao-de-vulnerabilidades
+  desc: "Scanner baseado em modelos YAML da comunidade para testar a própria infraestrutura contra falhas conhecidas."
+  desc_en: "Template-based scanner using community YAML templates to test your own infrastructure for known flaws."
+  tags: [scanner, templates]
+- nome: DefectDojo
+  repo: DefectDojo/django-DefectDojo
+  categoria: gestao-de-vulnerabilidades
+  desc: "Centraliza achados de vários scanners, remove duplicatas e acompanha a correção de cada vulnerabilidade."
+  desc_en: "Centralizes findings from many scanners, removes duplicates and tracks remediation of each vulnerability."
+  tags: [aspm, gestao-de-achados]
+- nome: OWASP Dependency-Check
+  repo: dependency-check/DependencyCheck
+  categoria: gestao-de-vulnerabilidades
+  desc: "Análise de composição de software que aponta dependências com vulnerabilidades públicas (CVE)."
+  desc_en: "Software composition analysis that flags dependencies with publicly disclosed vulnerabilities (CVE)."
+  tags: [sca, dependencias]
+- nome: Clair
+  repo: quay/clair
+  categoria: gestao-de-vulnerabilidades
+  desc: "Análise estática de vulnerabilidades em imagens de contêiner, usada por registries como o Quay."
+  desc_en: "Static vulnerability analysis of container images, used by registries such as Quay."
+  tags: [containers, registry]
+- nome: Vuls
+  repo: future-architect/vuls
+  categoria: gestao-de-vulnerabilidades
+  desc: "Scanner sem agente para Linux, FreeBSD, contêineres e bibliotecas, que cruza pacotes com bases de CVE."
+  desc_en: "Agentless scanner for Linux, FreeBSD, containers and libraries that matches packages against CVE data."
+  tags: [scanner, linux]
+- nome: OpenCVE
+  repo: opencve/opencve
+  categoria: gestao-de-vulnerabilidades
+  desc: "Acompanha CVEs por fornecedor e produto e envia alertas quando surge falha nos produtos que você usa."
+  desc_en: "Tracks CVEs by vendor and product and alerts when a flaw appears in the products you use."
+  tags: [cve, alertas]
+- nome: Vulnerability-Lookup
+  repo: vulnerability-lookup/vulnerability-lookup
+  categoria: gestao-de-vulnerabilidades
+  desc: "Plataforma do CIRCL que correlaciona vulnerabilidades de várias fontes e permite buscar e comentar achados."
+  desc_en: "CIRCL platform that correlates vulnerabilities from many sources and lets you search and comment findings."
+  tags: [cve, circl]
+- nome: secureCodeBox
+  repo: secureCodeBox/secureCodeBox
+  categoria: gestao-de-vulnerabilidades
+  desc: "Roda scanners de segurança de forma contínua em Kubernetes e reúne os resultados em um só lugar."
+  desc_en: "Runs security scanners continuously on Kubernetes and collects the results in one place."
+  tags: [kubernetes, orquestracao]
+- nome: Retire.js
+  repo: RetireJS/retire.js
+  categoria: gestao-de-vulnerabilidades
+  desc: "Detecta bibliotecas JavaScript com vulnerabilidades conhecidas em sites e projetos; gera SBOM."
+  desc_en: "Detects JavaScript libraries with known vulnerabilities in sites and projects; can output an SBOM."
+  tags: [javascript, dependencias]
+- nome: pip-audit
+  repo: pypa/pip-audit
+  categoria: gestao-de-vulnerabilidades
+  desc: "Audita ambientes e arquivos de requisitos Python em busca de dependências com vulnerabilidades conhecidas."
+  desc_en: "Audits Python environments and requirements files for dependencies with known vulnerabilities."
+  tags: [python, dependencias]
+- nome: RustSec
+  repo: rustsec/rustsec
+  categoria: gestao-de-vulnerabilidades
+  desc: "Banco de avisos de segurança e ferramentas (cargo-audit) para dependências Rust."
+  desc_en: "Security advisory database and tooling (cargo-audit) for Rust dependencies."
+  tags: [rust, dependencias]
+# --- cadeia-de-suprimentos-e-sbom
+- nome: Syft
+  repo: anchore/syft
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Gera SBOM a partir de imagens de contêiner e sistemas de arquivos, nos formatos SPDX e CycloneDX."
+  desc_en: "Generates SBOMs from container images and filesystems in SPDX and CycloneDX formats."
+  tags: [sbom, containers]
+- nome: Dependency-Track
+  repo: DependencyTrack/dependency-track
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Plataforma de análise de componentes: recebe SBOMs e acompanha riscos das dependências de todos os projetos."
+  desc_en: "Component analysis platform: ingests SBOMs and tracks the risk of dependencies across all projects."
+  tags: [sbom, cyclonedx]
+- nome: Cosign
+  repo: sigstore/cosign
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Assina e verifica imagens de contêiner e binários, inclusive sem chaves próprias (keyless)."
+  desc_en: "Signs and verifies container images and binaries, including keyless signing."
+  tags: [assinatura, sigstore]
+- nome: OpenSSF Scorecard
+  repo: ossf/scorecard
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Pontua a saúde de segurança de projetos open source: revisão de código, dependências, permissões e mais."
+  desc_en: "Scores the security health of open source projects: code review, dependencies, permissions and more."
+  tags: [openssf, dependencias]
+- nome: GUAC
+  repo: guacsec/guac
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Agrega SBOMs, atestações e metadados de segurança num grafo para responder o que depende do quê."
+  desc_en: "Aggregates SBOMs, attestations and security metadata in a graph to answer what depends on what."
+  tags: [grafo, sbom]
+- nome: in-toto
+  repo: in-toto/in-toto
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Framework que garante a integridade da cadeia de suprimentos ao verificar cada etapa de build e quem a executou."
+  desc_en: "Framework that protects supply chain integrity by verifying each build step and who performed it."
+  tags: [integridade, atestacao]
+- nome: cdxgen
+  repo: cdxgen/cdxgen
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Cria SBOM CycloneDX para projetos e imagens de contêiner em várias linguagens."
+  desc_en: "Creates CycloneDX SBOMs for projects and container images across many languages."
+  tags: [sbom, cyclonedx]
+- nome: SBOM Tool
+  repo: microsoft/sbom-tool
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Ferramenta da Microsoft para gerar SBOMs SPDX em escala a partir de qualquer tipo de artefato."
+  desc_en: "Microsoft tool to generate SPDX SBOMs at scale from any kind of artifact."
+  tags: [sbom, spdx]
+- nome: Rekor
+  repo: sigstore/rekor
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Registro público e imutável de assinaturas e atestações de software, base de transparência do Sigstore."
+  desc_en: "Public, tamper-evident log of software signatures and attestations, the transparency base of Sigstore."
+  tags: [sigstore, transparencia]
+- nome: SLSA Verifier
+  repo: slsa-framework/slsa-verifier
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Verifica a proveniência SLSA de um artefato para confirmar que foi construído como declarado."
+  desc_en: "Verifies the SLSA provenance of an artifact to confirm it was built as claimed."
+  tags: [slsa, proveniencia]
+- nome: SLSA GitHub Generator
+  repo: slsa-framework/slsa-github-generator
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Gera proveniência SLSA para builds no GitHub Actions, em qualquer linguagem."
+  desc_en: "Generates SLSA provenance for GitHub Actions builds in any language."
+  tags: [slsa, github-actions]
+- nome: python-tuf
+  repo: theupdateframework/python-tuf
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Implementação de referência do TUF, protocolo para distribuir atualizações de software de forma segura."
+  desc_en: "Reference implementation of TUF, a protocol to distribute software updates securely."
+  tags: [tuf, atualizacao]
+- nome: Notation
+  repo: notaryproject/notation
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "CLI do Notary Project para assinar e verificar artefatos OCI, como imagens de contêiner."
+  desc_en: "Notary Project CLI to sign and verify OCI artifacts such as container images."
+  tags: [assinatura, oci]
+- nome: GuardDog
+  repo: DataDog/guarddog
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "CLI que identifica pacotes PyPI e npm maliciosos antes de entrarem nas suas dependências."
+  desc_en: "CLI that identifies malicious PyPI and npm packages before they enter your dependencies."
+  tags: [pacotes-maliciosos, npm, pypi]
+- nome: cargo-vet
+  repo: mozilla/cargo-vet
+  categoria: cadeia-de-suprimentos-e-sbom
+  desc: "Registra auditorias humanas das dependências Rust e exige que todo crate usado tenha sido revisado."
+  desc_en: "Records human audits of Rust dependencies and requires every crate in use to have been reviewed."
+  tags: [rust, auditoria]
+# --- modelagem-de-ameacas
+- nome: OWASP Threat Dragon
+  repo: OWASP/threat-dragon
+  categoria: modelagem-de-ameacas
+  desc: "Ferramenta da OWASP para desenhar diagramas de fluxo de dados e registrar ameaças e mitigações (STRIDE)."
+  desc_en: "OWASP tool to draw data flow diagrams and record threats and mitigations (STRIDE)."
+  tags: [stride, dfd, owasp]
+- nome: pytm
+  repo: OWASP/pytm
+  categoria: modelagem-de-ameacas
+  desc: "Descreve a arquitetura em código Python e gera diagrama de fluxo e lista de ameaças automaticamente."
+  desc_en: "Describe the architecture in Python code and generate the data flow diagram and threat list automatically."
+  tags: [threat-model-as-code, python]
+- nome: Threagile
+  repo: Threagile/threagile
+  categoria: modelagem-de-ameacas
+  desc: "Modelagem de ameaças ágil: descreve a arquitetura em YAML e gera riscos, diagramas e relatório."
+  desc_en: "Agile threat modeling: describe the architecture in YAML and get risks, diagrams and a report."
+  tags: [threat-model-as-code, yaml]
+- nome: Threat Composer
+  repo: awslabs/threat-composer
+  categoria: modelagem-de-ameacas
+  desc: "Ferramenta simples da AWS para escrever declarações de ameaça, mitigações e premissas de um modelo."
+  desc_en: "Simple AWS tool to write threat statements, mitigations and assumptions of a threat model."
+  tags: [aws, declaracao-de-ameaca]
+- nome: threatcl
+  repo: threatcl/threatcl
+  categoria: modelagem-de-ameacas
+  desc: "Documenta modelos de ameaças em arquivos HCL versionáveis, com validação e exportação de relatórios."
+  desc_en: "Documents threat models in versionable HCL files, with validation and report export."
+  tags: [threat-model-as-code, hcl]
+- nome: OWASP Cornucopia
+  repo: OWASP/cornucopia
+  categoria: modelagem-de-ameacas
+  desc: "Baralho de cartas da OWASP para conduzir sessões de levantamento de ameaças em aplicações web."
+  desc_en: "OWASP card deck to run threat-elicitation sessions for web applications."
+  tags: [cartas, workshop, owasp]
+- nome: Microsoft Threat Modeling Tool
+  url: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
+  categoria: modelagem-de-ameacas
+  desc: "Ferramenta gratuita da Microsoft (Windows) para desenhar fluxos de dados e gerar ameaças pelo método STRIDE."
+  desc_en: "Free Microsoft tool (Windows) to draw data flows and generate threats using STRIDE."
+  tags: [stride, microsoft]
+  custo: gratis
+- nome: LINDDUN
+  url: https://linddun.org
+  categoria: modelagem-de-ameacas
+  desc: "Metodologia aberta de modelagem de ameaças à privacidade, com catálogo de ameaças e passo a passo."
+  desc_en: "Open privacy threat modeling methodology, with a threat catalog and step-by-step guidance."
+  tags: [privacidade, metodologia]
+  custo: gratis

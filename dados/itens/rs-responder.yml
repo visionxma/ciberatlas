@@ -1,0 +1,212 @@
+# Grupo RS (Responder): resposta a incidentes, forense digital e análise de malware — verificado na API do GitHub em 2026-10-18.
+
+# --- resposta-a-incidentes
+- nome: DFIR-IRIS
+  repo: dfir-iris/iris-web
+  categoria: resposta-a-incidentes
+  desc: Plataforma colaborativa de resposta a incidentes para registrar casos, evidências e linha do tempo.
+  desc_en: Collaborative incident response platform to track cases, evidence and timelines.
+  tags: [casos, dfir]
+- nome: Velociraptor
+  repo: Velocidex/velociraptor
+  categoria: resposta-a-incidentes
+  desc: Coleta e caça remota em endpoints com consultas VQL, para resposta a incidentes e forense.
+  desc_en: Remote endpoint collection and hunting with VQL queries for incident response and forensics.
+  tags: [coleta, vql, dfir]
+- nome: GRR Rapid Response
+  repo: google/grr
+  categoria: resposta-a-incidentes
+  desc: Framework do Google para forense remota ao vivo em máquinas durante um incidente.
+  desc_en: Google framework for remote live forensics on machines during an incident.
+  tags: [coleta, dfir]
+- nome: DFIR-ORC
+  repo: DFIR-ORC/dfir-orc
+  categoria: resposta-a-incidentes
+  desc: Ferramenta da ANSSI que coleta artefatos forenses em sistemas Windows.
+  desc_en: ANSSI tool that collects forensic artifacts on Windows systems.
+  tags: [coleta, windows]
+- nome: Cortex
+  repo: TheHive-Project/Cortex
+  categoria: resposta-a-incidentes
+  desc: Motor que analisa observáveis (IPs, arquivos, domínios) e executa ações de resposta ativa.
+  desc_en: Engine that analyzes observables (IPs, files, domains) and runs active response actions.
+  tags: [soar, analise]
+- nome: Shuffle
+  repo: Shuffle/Shuffle
+  categoria: resposta-a-incidentes
+  desc: Plataforma aberta de automação de segurança (SOAR) com fluxos de trabalho visuais.
+  desc_en: Open security automation (SOAR) platform with visual workflows.
+  tags: [soar, automacao]
+- nome: Tracecat
+  repo: TracecatHQ/tracecat
+  categoria: resposta-a-incidentes
+  desc: Plataforma aberta de automação de segurança para equipes, com fluxos de trabalho e agentes.
+  desc_en: Open security automation platform for teams, with workflows and agents.
+  tags: [soar, automacao]
+- nome: StackStorm
+  repo: StackStorm/st2
+  categoria: resposta-a-incidentes
+  desc: Automação orientada a eventos para correção automática e resposta a incidentes.
+  desc_en: Event-driven automation for auto-remediation and incident response.
+  tags: [automacao, soar]
+- nome: FIR
+  repo: certsocietegenerale/FIR
+  categoria: resposta-a-incidentes
+  desc: Plataforma de gestão de incidentes de segurança do CERT Société Générale.
+  desc_en: Security incident management platform from CERT Société Générale.
+  tags: [casos, cert]
+- nome: Microsoft-Extractor-Suite
+  repo: invictus-ir/Microsoft-Extractor-Suite
+  categoria: resposta-a-incidentes
+  desc: Módulo PowerShell que coleta dados do Microsoft 365 e do Azure para resposta a incidentes.
+  desc_en: PowerShell module that acquires Microsoft 365 and Azure data for incident response.
+  tags: [microsoft-365, azure, coleta]
+- nome: Untitled Goose Tool
+  repo: cisagov/untitledgoosetool
+  categoria: resposta-a-incidentes
+  desc: Ferramenta da CISA para caça e resposta a incidentes em ambientes Azure, Entra ID e Microsoft 365.
+  desc_en: CISA hunt and incident response tool for Azure, Entra ID and Microsoft 365 environments.
+  tags: [microsoft-365, azure, cisa]
+
+# --- forense-digital
+- nome: Volatility 3
+  repo: volatilityfoundation/volatility3
+  categoria: forense-digital
+  desc: Framework de forense de memória para extrair processos, conexões e módulos de dumps de RAM.
+  desc_en: Memory forensics framework to extract processes, connections and modules from RAM dumps.
+  tags: [memoria, ram]
+- nome: MemProcFS
+  repo: ufrisk/MemProcFS
+  categoria: forense-digital
+  desc: Exibe a memória física como um sistema de arquivos para explorar e analisar com facilidade.
+  desc_en: Presents physical memory as a file system to explore and analyze it easily.
+  tags: [memoria, ram]
+- nome: AVML
+  repo: microsoft/avml
+  categoria: forense-digital
+  desc: Captura a memória volátil de máquinas Linux sem precisar conhecer a versão do kernel.
+  desc_en: Acquires volatile memory from Linux machines without needing to know the kernel version.
+  tags: [memoria, linux]
+- nome: The Sleuth Kit
+  repo: sleuthkit/sleuthkit
+  categoria: forense-digital
+  desc: Biblioteca e ferramentas de linha de comando para analisar imagens de disco e sistemas de arquivos.
+  desc_en: Library and command-line tools to analyze disk images and file systems.
+  tags: [disco, sistema-de-arquivos]
+- nome: Autopsy
+  repo: sleuthkit/autopsy
+  categoria: forense-digital
+  desc: Plataforma forense com interface gráfica sobre o Sleuth Kit para investigar discos.
+  desc_en: Digital forensics platform with a graphical interface on top of The Sleuth Kit.
+  tags: [disco, gui]
+- nome: IPED
+  repo: sepinf-inc/IPED
+  categoria: forense-digital
+  desc: Ferramenta forense aberta, da Polícia Federal do Brasil, para processar e analisar evidências digitais.
+  desc_en: Open forensic tool from the Brazilian Federal Police to process and analyze digital evidence.
+  tags: [disco, brasil]
+  idiomas: [pt, en]
+- nome: Plaso (log2timeline)
+  repo: log2timeline/plaso
+  categoria: forense-digital
+  desc: Cria a super linha do tempo de uma investigação juntando eventos de vários artefatos.
+  desc_en: Builds a super timeline for an investigation by merging events from many artifacts.
+  tags: [timeline]
+- nome: Timesketch
+  repo: google/timesketch
+  categoria: forense-digital
+  desc: Análise colaborativa de linhas do tempo forenses, com busca, marcação e análises automáticas.
+  desc_en: Collaborative forensic timeline analysis with search, tagging and automated analyzers.
+  tags: [timeline, colaboracao]
+- nome: Dissect
+  repo: fox-it/dissect
+  categoria: forense-digital
+  desc: Framework de forense e resposta a incidentes que acessa dados de discos e imagens sem extrair.
+  desc_en: Forensics and incident response framework that accesses data in disks and images without extracting.
+  tags: [disco, python]
+- nome: ForensicArtifacts
+  repo: ForensicArtifacts/artifacts
+  categoria: forense-digital
+  desc: Repositório de definições de artefatos forenses, em YAML, lidas por várias ferramentas.
+  desc_en: Repository of forensic artifact definitions, in YAML, consumed by many tools.
+  tags: [artefatos, yaml]
+- nome: mac_apt
+  repo: ydkhatri/mac_apt
+  categoria: forense-digital
+  desc: Ferramenta que extrai e interpreta artefatos forenses de macOS e iOS.
+  desc_en: Tool that extracts and parses forensic artifacts from macOS and iOS.
+  tags: [macos, ios]
+
+# --- analise-de-malware
+- nome: capa
+  repo: mandiant/capa
+  categoria: analise-de-malware
+  desc: Identifica as capacidades de um executável (o que ele faz) a partir de regras sobre o código.
+  desc_en: Identifies the capabilities of an executable (what it does) using rules over its code.
+  tags: [triagem, mitre-attack]
+- nome: FLOSS
+  repo: mandiant/flare-floss
+  categoria: analise-de-malware
+  desc: Extrai automaticamente strings ofuscadas de binários suspeitos.
+  desc_en: Automatically extracts obfuscated strings from suspicious binaries.
+  tags: [strings, triagem]
+- nome: Detect It Easy
+  repo: horsicq/Detect-It-Easy
+  categoria: analise-de-malware
+  desc: Identifica o tipo de arquivo, compilador e empacotador de um binário suspeito.
+  desc_en: Identifies the file type, compiler and packer of a suspicious binary.
+  tags: [triagem, empacotadores]
+- nome: CAPE Sandbox
+  repo: kevoreilly/CAPEv2
+  categoria: analise-de-malware
+  desc: Sandbox de análise dinâmica que extrai configuração e payloads de malware.
+  desc_en: Dynamic analysis sandbox that extracts malware configuration and payloads.
+  tags: [sandbox, dinamica]
+- nome: DRAKVUF Sandbox
+  repo: CERT-Polska/drakvuf-sandbox
+  categoria: analise-de-malware
+  desc: Sandbox do CERT Polska que analisa malware pelo hipervisor, sem agente dentro da máquina.
+  desc_en: CERT Polska sandbox that analyzes malware at the hypervisor level, with no agent inside the guest.
+  tags: [sandbox, dinamica]
+- nome: FLARE-VM
+  repo: mandiant/flare-vm
+  categoria: analise-de-malware
+  desc: Scripts que montam um laboratório Windows de engenharia reversa e análise de malware.
+  desc_en: Scripts that build a Windows reverse engineering and malware analysis lab.
+  tags: [laboratorio, windows]
+- nome: Ghidra
+  repo: NationalSecurityAgency/ghidra
+  categoria: analise-de-malware
+  desc: Framework de engenharia reversa da NSA, com desmontador e decompilador.
+  desc_en: NSA software reverse engineering framework with a disassembler and decompiler.
+  tags: [engenharia-reversa, decompilador]
+- nome: CyberChef
+  repo: gchq/CyberChef
+  categoria: analise-de-malware
+  desc: Aplicação web do GCHQ para codificar, decodificar e transformar dados em receitas encadeadas.
+  desc_en: GCHQ web app to encode, decode and transform data using chained recipes.
+  tags: [decodificacao, web]
+- nome: radare2
+  repo: radareorg/radare2
+  categoria: analise-de-malware
+  desc: Framework de engenharia reversa em linha de comando, com desmontador, depurador e análise de binários.
+  desc_en: Command-line reverse engineering framework with disassembler, debugger and binary analysis.
+  tags: [engenharia-reversa]
+- nome: Cutter
+  repo: rizinorg/cutter
+  categoria: analise-de-malware
+  desc: Plataforma gráfica de engenharia reversa baseada no Rizin, com decompilador integrado.
+  desc_en: Graphical reverse engineering platform powered by Rizin, with an integrated decompiler.
+  tags: [engenharia-reversa, gui]
+- nome: oletools
+  repo: decalage2/oletools
+  categoria: analise-de-malware
+  desc: Ferramentas em Python para analisar documentos do Office e achar macros maliciosas.
+  desc_en: Python tools to analyze Microsoft Office files and find malicious macros.
+  tags: [office, macros]
+- nome: PE-sieve
+  repo: hasherezade/pe-sieve
+  categoria: analise-de-malware
+  desc: Examina um processo em execução e extrai implantes injetados ou modificados na memória.
+  desc_en: Scans a running process and dumps injected or modified implants from memory.
+  tags: [memoria, processos]

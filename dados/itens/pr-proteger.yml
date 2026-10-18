@@ -1,0 +1,692 @@
+# Itens do grupo PR (Proteger): SAST, segredos, IAM, hardening, nuvem, containers, rede, WAF, DAST, TLS, e-mail e IA.
+
+- nome: 'Semgrep'
+  repo: semgrep/semgrep
+  categoria: analise-estatica-de-codigo
+  desc: 'Análise estática leve para muitas linguagens; acha padrões de bugs e falhas com regras que parecem o código.'
+  desc_en: 'Lightweight static analysis for many languages; finds bug and vulnerability patterns with rules that look like code.'
+  tags: [sast, regras]
+- nome: 'Opengrep'
+  repo: opengrep/opengrep
+  categoria: analise-estatica-de-codigo
+  desc: 'Motor de análise estática aberto, derivado do Semgrep, para achar falhas de segurança em código.'
+  desc_en: 'Open static analysis engine, forked from Semgrep, to find security issues in source code.'
+  tags: [sast, fork-semgrep]
+- nome: 'CodeQL'
+  repo: github/codeql
+  categoria: analise-estatica-de-codigo
+  desc: 'Bibliotecas e consultas do CodeQL, que trata o código como dados para encontrar vulnerabilidades.'
+  desc_en: 'CodeQL libraries and queries that treat code as data to find vulnerabilities.'
+  tags: [sast, consultas]
+- nome: 'SonarQube'
+  repo: SonarSource/sonarqube
+  categoria: analise-estatica-de-codigo
+  desc: 'Plataforma de inspeção contínua de qualidade e segurança de código em dezenas de linguagens.'
+  desc_en: 'Continuous code quality and security inspection platform covering dozens of languages.'
+  tags: [sast, qualidade]
+- nome: 'Bandit'
+  repo: PyCQA/bandit
+  categoria: analise-estatica-de-codigo
+  desc: 'Analisador que encontra problemas comuns de segurança em código Python.'
+  desc_en: 'Analyzer that finds common security issues in Python code.'
+  tags: [python, sast]
+- nome: 'gosec'
+  repo: securego/gosec
+  categoria: analise-estatica-de-codigo
+  desc: 'Verificador de segurança para código Go, com regras para erros comuns como chaves fixas e SQL inseguro.'
+  desc_en: 'Security checker for Go code, with rules for common mistakes such as hardcoded keys and unsafe SQL.'
+  tags: [go, sast]
+- nome: 'Brakeman'
+  repo: presidentbeef/brakeman
+  categoria: analise-estatica-de-codigo
+  desc: 'Scanner estático de vulnerabilidades para aplicações Ruby on Rails.'
+  desc_en: 'Static vulnerability scanner for Ruby on Rails applications.'
+  tags: [ruby, rails, sast]
+- nome: 'Find Security Bugs'
+  repo: find-sec-bugs/find-sec-bugs
+  categoria: analise-estatica-de-codigo
+  desc: 'Plugin do SpotBugs para auditoria de segurança em aplicações web Java e Android.'
+  desc_en: 'SpotBugs plugin for security audits of Java web and Android applications.'
+  tags: [java, sast]
+- nome: 'Bearer CLI'
+  repo: Bearer/bearer
+  categoria: analise-estatica-de-codigo
+  desc: 'Scanner SAST que acha, filtra e prioriza riscos de segurança e privacidade, com foco em fluxo de dados sensíveis.'
+  desc_en: 'SAST scanner that finds, filters and prioritizes security and privacy risks, focused on sensitive data flows.'
+  tags: [sast, privacidade]
+- nome: 'Gitleaks'
+  repo: gitleaks/gitleaks
+  categoria: segredos-no-codigo
+  desc: 'Procura segredos como senhas e chaves de API em repositórios git, arquivos e pastas.'
+  desc_en: 'Finds secrets such as passwords and API keys in git repositories, files and directories.'
+  tags: [git, pre-commit]
+- nome: 'TruffleHog'
+  repo: trufflesecurity/trufflehog
+  categoria: segredos-no-codigo
+  desc: 'Encontra, verifica e analisa credenciais vazadas em repositórios, nuvem e outros alvos.'
+  desc_en: 'Finds, verifies and analyzes leaked credentials in repositories, cloud storage and other sources.'
+  tags: [verificacao, git]
+- nome: 'detect-secrets'
+  repo: Yelp/detect-secrets
+  categoria: segredos-no-codigo
+  desc: 'Detecta e previne segredos no código, com linha de base para adoção gradual em projetos existentes.'
+  desc_en: 'Detects and prevents secrets in code, with a baseline for gradual adoption in existing projects.'
+  tags: [pre-commit, python]
+- nome: 'git-secrets'
+  repo: awslabs/git-secrets
+  categoria: segredos-no-codigo
+  desc: 'Impede commits que contenham segredos e credenciais, usando ganchos do git.'
+  desc_en: 'Prevents commits that contain secrets and credentials, using git hooks.'
+  tags: [pre-commit, aws]
+- nome: 'ggshield'
+  repo: GitGuardian/ggshield
+  categoria: segredos-no-codigo
+  desc: 'CLI que detecta e valida mais de 500 tipos de segredos fixos no código; serve como gancho de pre-commit.'
+  desc_en: 'CLI that detects and validates 500+ types of hardcoded secrets; works as a pre-commit hook.'
+  tags: [pre-commit, cli]
+- nome: 'Kingfisher'
+  repo: mongodb/kingfisher
+  categoria: segredos-no-codigo
+  desc: 'Detecta segredos com validação ao vivo, mapeia o alcance da credencial e ajuda a revogar rápido.'
+  desc_en: 'Detects secrets with live validation, maps the credential blast radius and helps revoke quickly.'
+  tags: [rust, validacao]
+- nome: 'Betterleaks'
+  repo: betterleaks/betterleaks
+  categoria: segredos-no-codigo
+  desc: 'Scanner de segredos vazados em repositórios e arquivos, com saída para CI.'
+  desc_en: 'Scanner for leaked secrets in repositories and files, with CI-friendly output.'
+  tags: [git, ci]
+- nome: 'ripsecrets'
+  repo: sirwart/ripsecrets
+  categoria: segredos-no-codigo
+  desc: 'Ferramenta de linha de comando, rápida, que evita o commit de chaves secretas no código.'
+  desc_en: 'Fast command-line tool that prevents committing secret keys into source code.'
+  tags: [pre-commit, rust]
+- nome: 'OpenBao'
+  repo: openbao/openbao
+  categoria: gestao-de-segredos
+  desc: 'Gerencia, armazena e distribui dados sensíveis como tokens, senhas e certificados; derivado do Vault sob a Linux Foundation.'
+  desc_en: 'Manages, stores and distributes sensitive data such as tokens, passwords and certificates; Vault fork under the Linux Foundation.'
+  tags: [cofre, vault]
+- nome: 'HashiCorp Vault'
+  repo: hashicorp/vault
+  categoria: gestao-de-segredos
+  desc: 'Armazena segredos, oferece criptografia como serviço e gestão de acesso privilegiado.'
+  desc_en: 'Stores secrets, offers encryption as a service and privileged access management.'
+  tags: [cofre, pki]
+- nome: 'Infisical'
+  repo: Infisical/infisical
+  categoria: gestao-de-segredos
+  desc: 'Plataforma para proteger segredos, certificados e acessos, com sincronização para CI/CD e Kubernetes.'
+  desc_en: 'Platform to secure secrets, certificates and access, with sync to CI/CD and Kubernetes.'
+  tags: [cofre, devops]
+- nome: 'SOPS'
+  repo: getsops/sops
+  categoria: gestao-de-segredos
+  desc: 'Edita arquivos criptografados (YAML, JSON, ENV) com chaves de KMS, age ou PGP, para guardar segredos no git.'
+  desc_en: 'Edits encrypted files (YAML, JSON, ENV) using KMS, age or PGP keys, so secrets can live in git.'
+  tags: [gitops, criptografia]
+- nome: 'External Secrets Operator'
+  repo: external-secrets/external-secrets
+  categoria: gestao-de-segredos
+  desc: 'Operador Kubernetes que lê segredos de cofres externos como AWS Secrets Manager e Vault e cria Secrets.'
+  desc_en: 'Kubernetes operator that reads secrets from external stores such as AWS Secrets Manager and Vault and creates Secrets.'
+  tags: [kubernetes, operador]
+- nome: 'Sealed Secrets'
+  repo: bitnami/sealed-secrets
+  categoria: gestao-de-segredos
+  desc: 'Controlador Kubernetes que criptografa Secrets em uma via, para guardá-los com segurança no git.'
+  desc_en: 'Kubernetes controller that one-way encrypts Secrets so they can be stored safely in git.'
+  tags: [kubernetes, gitops]
+- nome: 'Keycloak'
+  repo: keycloak/keycloak
+  categoria: identidade-e-acesso
+  desc: 'Gestão de identidade e acesso com login único, OIDC, SAML e autenticação em dois fatores.'
+  desc_en: 'Identity and access management with single sign-on, OIDC, SAML and two-factor authentication.'
+  tags: [sso, oidc]
+- nome: 'authentik'
+  repo: goauthentik/authentik
+  categoria: identidade-e-acesso
+  desc: 'Provedor de identidade com SSO, MFA e fluxos de login configuráveis para aplicações e infraestrutura.'
+  desc_en: 'Identity provider with SSO, MFA and configurable login flows for applications and infrastructure.'
+  tags: [sso, mfa]
+- nome: 'Authelia'
+  repo: authelia/authelia
+  categoria: identidade-e-acesso
+  desc: 'Portal de login único com múltiplos fatores para aplicações web; certificado OpenID.'
+  desc_en: 'Single sign-on portal with multi-factor authentication for web apps; OpenID Certified.'
+  tags: [sso, mfa, proxy]
+- nome: 'ZITADEL'
+  repo: zitadel/zitadel
+  categoria: identidade-e-acesso
+  desc: 'Infraestrutura de identidade com login, SSO, MFA e multi-inquilino, para auto-hospedar ou usar na nuvem.'
+  desc_en: 'Identity infrastructure with login, SSO, MFA and multi-tenancy, self-hosted or in the cloud.'
+  tags: [sso, oidc]
+- nome: 'Kanidm'
+  repo: kanidm/kanidm
+  categoria: identidade-e-acesso
+  desc: 'Plataforma de gestão de identidade simples e segura, com SSH, RADIUS, OIDC e suporte a passkeys.'
+  desc_en: 'Simple and secure identity management platform with SSH, RADIUS, OIDC and passkey support.'
+  tags: [ldap, passkeys]
+- nome: 'Ory Kratos'
+  repo: ory/kratos
+  categoria: identidade-e-acesso
+  desc: 'Autenticação e gestão de identidade sem interface própria, nativa de nuvem e escrita em Go.'
+  desc_en: 'Headless, cloud-native authentication and identity management written in Go.'
+  tags: [autenticacao, go]
+- nome: 'Casdoor'
+  repo: casdoor/casdoor
+  categoria: identidade-e-acesso
+  desc: 'Plataforma de IAM e login único com OAuth 2.0, OIDC, SAML, CAS e LDAP, com interface web.'
+  desc_en: 'IAM and single sign-on platform with OAuth 2.0, OIDC, SAML, CAS and LDAP, with a web UI.'
+  tags: [sso, iam]
+- nome: 'Teleport'
+  repo: gravitational/teleport
+  categoria: identidade-e-acesso
+  desc: 'Acesso seguro a servidores, bancos, Kubernetes e aplicações com identidade, certificados curtos e auditoria.'
+  desc_en: 'Secure access to servers, databases, Kubernetes and apps using identity, short-lived certificates and audit.'
+  tags: [ssh, acesso-privilegiado]
+- nome: 'OpenFGA'
+  repo: openfga/openfga
+  categoria: identidade-e-acesso
+  desc: 'Motor de autorização por relações (estilo Zanzibar) para controle de permissões fino em aplicações.'
+  desc_en: 'Relationship-based authorization engine (Zanzibar-style) for fine-grained permissions in applications.'
+  tags: [autorizacao, rebac]
+- nome: 'Open Policy Agent'
+  repo: open-policy-agent/opa
+  categoria: identidade-e-acesso
+  desc: 'Motor de políticas de uso geral que decide autorização e conformidade com a linguagem Rego.'
+  desc_en: 'General-purpose policy engine that decides authorization and compliance using the Rego language.'
+  tags: [politicas, rego]
+- nome: 'Lynis'
+  repo: CISOfy/lynis
+  categoria: hardening-de-sistemas
+  desc: 'Ferramenta de auditoria de segurança para Linux, macOS e Unix, que apoia hardening e conformidade.'
+  desc_en: 'Security auditing tool for Linux, macOS and Unix systems that supports hardening and compliance.'
+  tags: [auditoria, linux]
+- nome: 'OpenSCAP'
+  repo: OpenSCAP/openscap
+  categoria: hardening-de-sistemas
+  desc: 'Conjunto de ferramentas SCAP certificado pelo NIST para verificar configuração e conformidade de sistemas.'
+  desc_en: 'NIST-certified SCAP toolkit to check system configuration and compliance.'
+  tags: [scap, conformidade]
+- nome: 'ComplianceAsCode'
+  repo: ComplianceAsCode/content
+  categoria: hardening-de-sistemas
+  desc: 'Conteúdo de automação de segurança em SCAP, Bash e Ansible para aplicar CIS, STIG e outros perfis.'
+  desc_en: 'Security automation content in SCAP, Bash and Ansible to apply CIS, STIG and other profiles.'
+  tags: [cis, stig]
+- nome: 'DevSec Hardening (Ansible)'
+  repo: dev-sec/ansible-collection-hardening
+  categoria: hardening-de-sistemas
+  desc: 'Coleção Ansible com hardening testado para Linux, SSH, nginx e MySQL.'
+  desc_en: 'Ansible collection with battle-tested hardening for Linux, SSH, nginx and MySQL.'
+  tags: [ansible, linux]
+- nome: 'HardeningKitty'
+  repo: scipag/HardeningKitty
+  categoria: hardening-de-sistemas
+  desc: 'Verifica e aplica configurações de hardening no Windows, com listas baseadas em CIS e Microsoft.'
+  desc_en: 'Checks and applies hardening settings on Windows, with lists based on CIS and Microsoft baselines.'
+  tags: [windows, powershell]
+- nome: 'macOS Security and Privacy Guide'
+  repo: drduh/macOS-Security-and-Privacy-Guide
+  categoria: hardening-de-sistemas
+  desc: 'Guia da comunidade para proteger o macOS e melhorar a privacidade.'
+  desc_en: 'Community guide to securing macOS and improving privacy.'
+  tags: [macos, guia]
+- nome: 'macOS Security Compliance Project'
+  repo: usnistgov/macos_security
+  categoria: hardening-de-sistemas
+  desc: 'Projeto do NIST com regras e scripts para configurar o macOS conforme linhas de base de segurança.'
+  desc_en: 'NIST project with rules and scripts to configure macOS against security baselines.'
+  tags: [macos, nist]
+- nome: 'privacy.sexy'
+  repo: undergroundwires/privacy.sexy
+  categoria: hardening-de-sistemas
+  desc: 'Aplica boas práticas de privacidade e segurança no Windows, macOS e Linux, por scripts revisáveis.'
+  desc_en: 'Applies privacy and security best practices on Windows, macOS and Linux through reviewable scripts.'
+  tags: [privacidade, scripts]
+- nome: 'InSpec'
+  repo: inspec/inspec
+  categoria: hardening-de-sistemas
+  desc: 'Framework de auditoria e testes de conformidade de infraestrutura escritos como código.'
+  desc_en: 'Auditing and testing framework for infrastructure compliance written as code.'
+  tags: [conformidade, teste]
+- nome: 'How To Secure A Linux Server'
+  repo: imthenachoman/How-To-Secure-A-Linux-Server
+  categoria: hardening-de-sistemas
+  desc: 'Guia em evolução para proteger um servidor Linux hospedado por conta própria.'
+  desc_en: 'Evolving how-to guide for securing a self-hosted Linux server.'
+  tags: [linux, guia]
+- nome: 'Prowler'
+  repo: prowler-cloud/prowler
+  categoria: seguranca-em-nuvem
+  desc: 'Plataforma de segurança em nuvem que audita AWS, Azure, GCP e Kubernetes contra CIS e outros padrões.'
+  desc_en: 'Cloud security platform that audits AWS, Azure, GCP and Kubernetes against CIS and other standards.'
+  tags: [cspm, aws]
+- nome: 'Checkov'
+  repo: bridgecrewio/checkov
+  categoria: seguranca-em-nuvem
+  desc: 'Analisa infraestrutura como código (Terraform, CloudFormation, Kubernetes) em busca de configurações inseguras.'
+  desc_en: 'Scans infrastructure as code (Terraform, CloudFormation, Kubernetes) for insecure configurations.'
+  tags: [iac, terraform]
+- nome: 'KICS'
+  repo: Checkmarx/kics
+  categoria: seguranca-em-nuvem
+  desc: 'Encontra falhas de segurança e má configuração em infraestrutura como código antes da publicação.'
+  desc_en: 'Finds security vulnerabilities and misconfigurations in infrastructure as code before deployment.'
+  tags: [iac, terraform]
+- nome: 'ScoutSuite'
+  repo: nccgroup/ScoutSuite
+  categoria: seguranca-em-nuvem
+  desc: 'Ferramenta de auditoria de segurança multinuvem que lê a configuração da conta e aponta riscos.'
+  desc_en: 'Multi-cloud security auditing tool that reads account configuration and reports risks.'
+  tags: [cspm, auditoria]
+- nome: 'Cloud Custodian'
+  repo: cloud-custodian/cloud-custodian
+  categoria: seguranca-em-nuvem
+  desc: 'Motor de regras para segurança, custo e governança em nuvem, com políticas escritas em YAML.'
+  desc_en: 'Rules engine for cloud security, cost and governance, with policies written in YAML.'
+  tags: [governanca, politicas]
+- nome: 'Steampipe'
+  repo: turbot/steampipe
+  categoria: seguranca-em-nuvem
+  desc: 'Consulta APIs de nuvem e SaaS com SQL, usado para auditar configuração e conformidade.'
+  desc_en: 'Queries cloud and SaaS APIs with SQL, used to audit configuration and compliance.'
+  tags: [sql, cspm]
+- nome: 'Powerpipe'
+  repo: turbot/powerpipe
+  categoria: seguranca-em-nuvem
+  desc: 'Painéis e verificações de conformidade sobre configuração de nuvem, alimentados pelo Steampipe.'
+  desc_en: 'Dashboards and compliance checks over cloud configuration, powered by Steampipe.'
+  tags: [conformidade, paineis]
+- nome: 'ScubaGear'
+  repo: cisagov/ScubaGear
+  categoria: seguranca-em-nuvem
+  desc: 'Avalia o tenant do Microsoft 365 contra as linhas de base de segurança da CISA.'
+  desc_en: 'Assesses a Microsoft 365 tenant against CISA security baselines.'
+  tags: [microsoft-365, cisa]
+- nome: 'CloudSploit'
+  repo: aquasecurity/cloudsploit
+  categoria: seguranca-em-nuvem
+  desc: 'Gerenciamento de postura de segurança em nuvem (CSPM) que detecta riscos na configuração das contas.'
+  desc_en: 'Cloud security posture management (CSPM) that detects risks in account configuration.'
+  tags: [cspm, aws]
+- nome: 'kube-bench'
+  repo: aquasecurity/kube-bench
+  categoria: containers-e-kubernetes
+  desc: 'Verifica se o Kubernetes foi implantado conforme as boas práticas do CIS Kubernetes Benchmark.'
+  desc_en: 'Checks whether Kubernetes is deployed according to the CIS Kubernetes Benchmark best practices.'
+  tags: [cis, kubernetes]
+- nome: 'Kubescape'
+  repo: kubescape/kubescape
+  categoria: containers-e-kubernetes
+  desc: 'Plataforma de segurança para Kubernetes que verifica clusters, manifestos e imagens no IDE e no CI/CD.'
+  desc_en: 'Kubernetes security platform that scans clusters, manifests and images in the IDE and CI/CD.'
+  tags: [kubernetes, postura]
+- nome: 'Kyverno'
+  repo: kyverno/kyverno
+  categoria: containers-e-kubernetes
+  desc: 'Motor de políticas como código para Kubernetes, que valida, altera e gera recursos.'
+  desc_en: 'Policy-as-code engine for Kubernetes that validates, mutates and generates resources.'
+  tags: [politicas, admissao]
+- nome: 'OPA Gatekeeper'
+  repo: open-policy-agent/gatekeeper
+  categoria: containers-e-kubernetes
+  desc: 'Controlador de políticas para Kubernetes baseado no Open Policy Agent.'
+  desc_en: 'Policy controller for Kubernetes based on Open Policy Agent.'
+  tags: [politicas, admissao]
+- nome: 'Docker Bench for Security'
+  repo: docker/docker-bench-security
+  categoria: containers-e-kubernetes
+  desc: 'Script que verifica dezenas de boas práticas de segurança ao implantar contêineres Docker.'
+  desc_en: 'Script that checks dozens of common security best practices when deploying Docker containers.'
+  tags: [docker, cis]
+- nome: 'Trivy Operator'
+  repo: aquasecurity/trivy-operator
+  categoria: containers-e-kubernetes
+  desc: 'Toolkit de segurança nativo do Kubernetes que roda varreduras de vulnerabilidade e configuração no cluster.'
+  desc_en: 'Kubernetes-native security toolkit that runs vulnerability and misconfiguration scans in the cluster.'
+  tags: [kubernetes, operador]
+- nome: 'StackRox'
+  repo: stackrox/stackrox
+  categoria: containers-e-kubernetes
+  desc: 'Plataforma de segurança para Kubernetes que analisa risco, conformidade e ameaças em tempo de execução.'
+  desc_en: 'Kubernetes security platform that analyzes risk, compliance and runtime threats.'
+  tags: [kubernetes, runtime]
+- nome: 'kubesec'
+  repo: controlplaneio/kubesec
+  categoria: containers-e-kubernetes
+  desc: 'Análise de risco de segurança em recursos do Kubernetes, com pontuação por manifesto.'
+  desc_en: 'Security risk analysis for Kubernetes resources, with a score per manifest.'
+  tags: [kubernetes, manifestos]
+- nome: 'KubeArmor'
+  repo: kubearmor/KubeArmor
+  categoria: containers-e-kubernetes
+  desc: 'Aplica políticas de segurança em tempo de execução e isola cargas de trabalho em contêineres e VMs.'
+  desc_en: 'Enforces runtime security policies and sandboxes workloads in containers and VMs.'
+  tags: [runtime, ebpf]
+- nome: 'OPNsense'
+  repo: opnsense/core
+  categoria: rede-firewall-e-vpn
+  desc: 'Firewall e roteador aberto, com interface web, API e sistema base, derivado do pfSense.'
+  desc_en: 'Open-source firewall and router with web UI, API and system backend, forked from pfSense.'
+  tags: [firewall, bsd]
+- nome: 'pfSense'
+  repo: pfsense/pfsense
+  categoria: rede-firewall-e-vpn
+  desc: 'Repositório principal do pfSense CE, firewall e roteador de código aberto baseado em FreeBSD.'
+  desc_en: 'Main repository of pfSense CE, an open-source firewall and router based on FreeBSD.'
+  tags: [firewall, bsd]
+- nome: 'WireGuard (Go)'
+  repo: WireGuard/wireguard-go
+  categoria: rede-firewall-e-vpn
+  desc: 'Implementação em Go do WireGuard, VPN moderna e enxuta; espelho do repositório oficial.'
+  desc_en: 'Go implementation of WireGuard, a modern and lean VPN; mirror of the official repository.'
+  tags: [vpn, wireguard]
+- nome: 'OpenVPN'
+  repo: OpenVPN/openvpn
+  categoria: rede-firewall-e-vpn
+  desc: 'Servidor e cliente de VPN de código aberto, com TLS e suporte a vários sistemas.'
+  desc_en: 'Open-source VPN daemon and client using TLS, available on many platforms.'
+  tags: [vpn, tls]
+- nome: 'Headscale'
+  repo: juanfont/headscale
+  categoria: rede-firewall-e-vpn
+  desc: 'Implementação aberta e auto-hospedada do servidor de controle do Tailscale.'
+  desc_en: 'Open-source, self-hosted implementation of the Tailscale control server.'
+  tags: [vpn, wireguard]
+- nome: 'NetBird'
+  repo: netbirdio/netbird
+  categoria: rede-firewall-e-vpn
+  desc: 'Conecta pessoas e máquinas em rede WireGuard com identidade e políticas de acesso, no modelo zero trust.'
+  desc_en: 'Connects people and machines over a WireGuard network with identity and access policies, zero-trust style.'
+  tags: [vpn, zero-trust]
+- nome: 'Firezone'
+  repo: firezone/firezone
+  categoria: rede-firewall-e-vpn
+  desc: 'Acesso remoto seguro baseado em WireGuard, com autenticação por SSO e políticas por recurso.'
+  desc_en: 'Secure remote access built on WireGuard, with SSO authentication and per-resource policies.'
+  tags: [vpn, zero-trust]
+- nome: 'Nebula'
+  repo: slackhq/nebula
+  categoria: rede-firewall-e-vpn
+  desc: 'Rede sobreposta escalável e criptografada, com firewall embutido, focada em desempenho e simplicidade.'
+  desc_en: 'Scalable encrypted overlay network with a built-in firewall, focused on performance and simplicity.'
+  tags: [overlay, firewall]
+- nome: 'Pi-hole'
+  repo: pi-hole/pi-hole
+  categoria: rede-firewall-e-vpn
+  desc: 'Servidor DNS que bloqueia anúncios, rastreadores e domínios maliciosos na rede inteira.'
+  desc_en: 'DNS sinkhole that blocks ads, trackers and malicious domains for the whole network.'
+  tags: [dns, bloqueio]
+- nome: 'AdGuard Home'
+  repo: AdguardTeam/AdGuardHome
+  categoria: rede-firewall-e-vpn
+  desc: 'Servidor DNS para a rede toda que bloqueia anúncios e rastreadores, com filtros e DNS criptografado.'
+  desc_en: 'Network-wide DNS server that blocks ads and trackers, with filters and encrypted DNS.'
+  tags: [dns, bloqueio]
+- nome: 'SafeLine'
+  repo: chaitin/SafeLine
+  categoria: waf-e-protecao-web
+  desc: 'WAF e proxy reverso auto-hospedado que protege aplicações web contra ataques e bots.'
+  desc_en: 'Self-hosted WAF and reverse proxy that protects web applications from attacks and bots.'
+  tags: [waf, proxy-reverso]
+- nome: 'ModSecurity'
+  repo: owasp-modsecurity/ModSecurity
+  categoria: waf-e-protecao-web
+  desc: 'Motor de WAF multiplataforma para Apache, IIS e Nginx, com regras e registro de requisições.'
+  desc_en: 'Cross-platform WAF engine for Apache, IIS and Nginx, with rules and request logging.'
+  tags: [waf, owasp]
+- nome: 'OWASP Coraza'
+  repo: corazawaf/coraza
+  categoria: waf-e-protecao-web
+  desc: 'Biblioteca de WAF em Go compatível com o ModSecurity e com as regras do CRS.'
+  desc_en: 'WAF library in Go compatible with ModSecurity and the CRS rules.'
+  tags: [waf, go]
+- nome: 'OWASP Core Rule Set'
+  repo: coreruleset/coreruleset
+  categoria: waf-e-protecao-web
+  desc: 'Conjunto oficial de regras genéricas de detecção de ataques para ModSecurity, Coraza e compatíveis.'
+  desc_en: 'Official set of generic attack detection rules for ModSecurity, Coraza and compatible WAFs.'
+  tags: [regras, owasp]
+- nome: 'CrowdSec'
+  repo: crowdsecurity/crowdsec
+  categoria: waf-e-protecao-web
+  desc: 'IDS/IPS aberto com WAF e detecção de bots, que bloqueia IPs com apoio de inteligência colaborativa.'
+  desc_en: 'Open-source IDS/IPS with WAF and bot detection that blocks IPs using collaborative intelligence.'
+  tags: [ids, ips, waf]
+- nome: 'Fail2ban'
+  repo: fail2ban/fail2ban
+  categoria: waf-e-protecao-web
+  desc: 'Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.'
+  desc_en: 'Daemon that bans IPs after repeated authentication failures by reading server logs.'
+  tags: [bloqueio, logs]
+- nome: 'BunkerWeb'
+  repo: bunkerity/bunkerweb
+  categoria: waf-e-protecao-web
+  desc: 'WAF aberto, nativo de nuvem, baseado em Nginx, com segurança ativada por padrão.'
+  desc_en: 'Open-source, cloud-native WAF built on Nginx, with security enabled by default.'
+  tags: [waf, nginx]
+- nome: 'open-appsec'
+  repo: openappsec/openappsec
+  categoria: waf-e-protecao-web
+  desc: 'Motor de segurança com aprendizado de máquina que previne ataques web e a APIs sem regras manuais.'
+  desc_en: 'Machine-learning security engine that prevents web and API attacks without manual rules.'
+  tags: [waf, ml]
+- nome: 'ZAP (Zed Attack Proxy)'
+  repo: zaproxy/zaproxy
+  categoria: testes-dinamicos-de-aplicacao
+  desc: 'Scanner de segurança para aplicações web mantido pelo projeto ZAP; testa o app em execução.'
+  desc_en: 'Web application security scanner maintained by the ZAP project; tests the running app.'
+  tags: [dast, proxy]
+- nome: 'Wapiti'
+  repo: wapiti-scanner/wapiti
+  categoria: testes-dinamicos-de-aplicacao
+  desc: 'Scanner de vulnerabilidades web em Python, que testa o app em execução por requisições (caixa-preta).'
+  desc_en: 'Web vulnerability scanner in Python that tests the running app through requests (black-box).'
+  tags: [dast, python]
+- nome: 'Nikto'
+  repo: sullo/nikto
+  categoria: testes-dinamicos-de-aplicacao
+  desc: 'Scanner de servidor web que procura arquivos perigosos, versões desatualizadas e má configuração.'
+  desc_en: 'Web server scanner that looks for dangerous files, outdated versions and misconfigurations.'
+  tags: [servidor-web, dast]
+- nome: 'Schemathesis'
+  repo: schemathesis/schemathesis
+  categoria: testes-dinamicos-de-aplicacao
+  desc: 'Gera testes a partir do esquema OpenAPI/GraphQL para achar falhas e erros em APIs em execução.'
+  desc_en: 'Generates tests from OpenAPI/GraphQL schemas to find bugs and failures in running APIs.'
+  tags: [api, fuzzing]
+- nome: 'RESTler'
+  repo: microsoft/restler-fuzzer
+  categoria: testes-dinamicos-de-aplicacao
+  desc: 'Fuzzer com estado para APIs REST que testa serviços de nuvem em busca de falhas de segurança e confiabilidade.'
+  desc_en: 'Stateful REST API fuzzer that tests cloud services for security and reliability bugs.'
+  tags: [api, fuzzing]
+- nome: 'VulnAPI'
+  repo: cerberauth/vulnapi
+  categoria: testes-dinamicos-de-aplicacao
+  desc: 'Scanner de vulnerabilidades de APIs para ajudar a proteger as suas próprias APIs.'
+  desc_en: 'API vulnerability scanner designed to help secure your own APIs.'
+  tags: [api, dast]
+- nome: 'testssl.sh'
+  repo: testssl/testssl.sh
+  categoria: criptografia-e-tls
+  desc: 'Testa serviços TLS/SSL em qualquer porta: protocolos, cifras, certificado e falhas conhecidas.'
+  desc_en: 'Tests TLS/SSL services on any port: protocols, ciphers, certificate and known flaws.'
+  tags: [tls, auditoria]
+- nome: 'SSLyze'
+  repo: nabla-c0d3/sslyze
+  categoria: criptografia-e-tls
+  desc: 'Biblioteca e CLI rápidos que analisam a configuração TLS de servidores.'
+  desc_en: 'Fast library and CLI that analyze the TLS configuration of servers.'
+  tags: [tls, python]
+- nome: 'Certbot'
+  repo: certbot/certbot
+  categoria: criptografia-e-tls
+  desc: 'Cliente da EFF que obtém certificados do Let''s Encrypt e pode ativar o HTTPS automaticamente.'
+  desc_en: 'EFF client that obtains Let''s Encrypt certificates and can enable HTTPS automatically.'
+  tags: [acme, lets-encrypt]
+- nome: 'acme.sh'
+  repo: acmesh-official/acme.sh
+  categoria: criptografia-e-tls
+  desc: 'Cliente ACME em shell puro para emitir e renovar certificados TLS automaticamente.'
+  desc_en: 'Pure Unix shell ACME client to issue and renew TLS certificates automatically.'
+  tags: [acme, shell]
+- nome: 'Lego'
+  repo: go-acme/lego
+  categoria: criptografia-e-tls
+  desc: 'Cliente e biblioteca ACME em Go para emitir certificados do Let''s Encrypt e de outras CAs.'
+  desc_en: 'ACME client and library in Go to issue certificates from Let''s Encrypt and other CAs.'
+  tags: [acme, go]
+- nome: 'step-ca'
+  repo: smallstep/certificates
+  categoria: criptografia-e-tls
+  desc: 'Autoridade certificadora privada (X.509 e SSH) e servidor ACME para certificados automáticos.'
+  desc_en: 'Private certificate authority (X.509 and SSH) and ACME server for automated certificates.'
+  tags: [pki, ca]
+- nome: 'cert-manager'
+  repo: cert-manager/cert-manager
+  categoria: criptografia-e-tls
+  desc: 'Emite e renova automaticamente certificados TLS em clusters Kubernetes.'
+  desc_en: 'Automatically provisions and renews TLS certificates in Kubernetes.'
+  tags: [kubernetes, certificados]
+- nome: 'VeraCrypt'
+  repo: veracrypt/VeraCrypt
+  categoria: criptografia-e-tls
+  desc: 'Criptografia de disco e volumes com algoritmos fortes, sucessor do TrueCrypt.'
+  desc_en: 'Disk and volume encryption with strong algorithms, successor to TrueCrypt.'
+  tags: [disco, criptografia]
+- nome: 'Cryptomator'
+  repo: cryptomator/cryptomator
+  categoria: criptografia-e-tls
+  desc: 'Criptografia do lado do cliente para arquivos em nuvem no Windows, macOS e Linux.'
+  desc_en: 'Client-side encryption for cloud files on Windows, macOS and Linux.'
+  tags: [nuvem, arquivos]
+- nome: 'age'
+  repo: FiloSottile/age
+  categoria: criptografia-e-tls
+  desc: 'Ferramenta simples e moderna de criptografia de arquivos, com chaves pequenas e sem configuração.'
+  desc_en: 'Simple, modern file encryption tool with small keys and no configuration.'
+  tags: [arquivos, go]
+- nome: 'parsedmarc'
+  repo: domainaware/parsedmarc
+  categoria: seguranca-de-email
+  desc: 'Pacote e CLI em Python que leem relatórios DMARC agregados e forenses e os enviam para análise.'
+  desc_en: 'Python package and CLI that parse aggregate and forensic DMARC reports and ship them for analysis.'
+  tags: [dmarc, relatorios]
+- nome: 'checkdmarc'
+  repo: domainaware/checkdmarc
+  categoria: seguranca-de-email
+  desc: 'Analisador dos registros DNS de SPF e DMARC de um domínio, que aponta erros de configuração.'
+  desc_en: 'Parser for a domain''s SPF and DMARC DNS records that points out configuration errors.'
+  tags: [dmarc, spf]
+- nome: 'trustymail'
+  repo: cisagov/trustymail
+  categoria: seguranca-de-email
+  desc: 'Varre domínios e retorna dados sobre boas práticas de e-mail confiável, como SPF, DKIM e DMARC.'
+  desc_en: 'Scans domains and returns data on trustworthy email practices such as SPF, DKIM and DMARC.'
+  tags: [dmarc, cisa]
+- nome: 'Mailgoose'
+  repo: CERT-Polska/mailgoose
+  categoria: seguranca-de-email
+  desc: 'Aplicação web do CERT Polska que checa se SPF, DMARC e DKIM estão configurados corretamente.'
+  desc_en: 'CERT Polska web app that checks whether SPF, DMARC and DKIM are set up correctly.'
+  tags: [spf, dkim]
+- nome: 'Internet.nl'
+  repo: internetstandards/Internet.nl
+  categoria: seguranca-de-email
+  desc: 'Suíte de testes de conformidade com padrões da internet, incluindo SPF, DKIM, DMARC, STARTTLS e DANE.'
+  desc_en: 'Internet standards compliance test suite, including SPF, DKIM, DMARC, STARTTLS and DANE.'
+  tags: [padroes, tls]
+- nome: 'parse-dmarc'
+  repo: dmarcguardhq/parse-dmarc
+  categoria: seguranca-de-email
+  desc: 'Leitor de relatórios DMARC agregados com painel, métricas Prometheus e binário Go único.'
+  desc_en: 'DMARC aggregate report parser with dashboard, Prometheus metrics and a single Go binary.'
+  tags: [dmarc, painel]
+- nome: 'Rspamd'
+  repo: rspamd/rspamd
+  categoria: seguranca-de-email
+  desc: 'Sistema rápido de filtragem de spam com checagem de SPF, DKIM e DMARC e reputação.'
+  desc_en: 'Fast spam filtering system with SPF, DKIM and DMARC checks and reputation scoring.'
+  tags: [antispam, dkim]
+- nome: 'Apache SpamAssassin'
+  repo: apache/spamassassin
+  categoria: seguranca-de-email
+  desc: 'Filtro de spam clássico em Perl que pontua mensagens por regras e testes de rede; espelho de leitura.'
+  desc_en: 'Classic Perl spam filter that scores messages using rules and network tests; read-only mirror.'
+  tags: [antispam, perl]
+- nome: 'Sublime Platform'
+  repo: sublime-security/sublime-platform
+  categoria: seguranca-de-email
+  desc: 'Plataforma aberta para detectar e prevenir ataques por e-mail como fraude, malware e phishing.'
+  desc_en: 'Open platform to detect and prevent email attacks such as BEC, malware and credential phishing.'
+  tags: [phishing, deteccao]
+- nome: 'postfix-mta-sts-resolver'
+  repo: Snawoot/postfix-mta-sts-resolver
+  categoria: seguranca-de-email
+  desc: 'Daemon que entrega ao Postfix a política de TLS do destino, conforme o MTA-STS do domínio.'
+  desc_en: 'Daemon that gives Postfix the destination TLS policy according to the domain''s MTA-STS.'
+  tags: [mta-sts, postfix]
+- nome: 'garak'
+  repo: NVIDIA/garak
+  categoria: seguranca-de-ia
+  desc: 'Scanner de vulnerabilidades de LLMs: testa injeção de prompt, vazamento e outros comportamentos indesejados.'
+  desc_en: 'LLM vulnerability scanner: probes for prompt injection, leakage and other unwanted behavior.'
+  tags: [red-team, llm]
+- nome: 'Purple Llama'
+  repo: meta-llama/PurpleLlama
+  categoria: seguranca-de-ia
+  desc: 'Conjunto de ferramentas e testes para avaliar e melhorar a segurança de LLMs, como Llama Guard e CyberSecEval.'
+  desc_en: 'Set of tools and benchmarks to assess and improve LLM security, such as Llama Guard and CyberSecEval.'
+  tags: [llm, avaliacao]
+- nome: 'Promptfoo'
+  repo: promptfoo/promptfoo
+  categoria: seguranca-de-ia
+  desc: 'Testa prompts, agentes e RAG com avaliações e red team automatizado em CI.'
+  desc_en: 'Tests prompts, agents and RAG with evals and automated red teaming in CI.'
+  tags: [red-team, avaliacao]
+- nome: 'NeMo Guardrails'
+  repo: NVIDIA-NeMo/Guardrails
+  categoria: seguranca-de-ia
+  desc: 'Toolkit para adicionar barreiras programáveis a aplicações baseadas em LLM.'
+  desc_en: 'Toolkit to add programmable guardrails to LLM-based applications.'
+  tags: [guardrails, llm]
+- nome: 'Guardrails AI'
+  repo: guardrails-ai/guardrails
+  categoria: seguranca-de-ia
+  desc: 'Framework que valida entradas e saídas de LLMs com validadores e estrutura os resultados.'
+  desc_en: 'Framework that validates LLM inputs and outputs with validators and structures results.'
+  tags: [guardrails, validacao]
+- nome: 'Adversarial Robustness Toolbox'
+  repo: Trusted-AI/adversarial-robustness-toolbox
+  categoria: seguranca-de-ia
+  desc: 'Biblioteca Python de segurança de aprendizado de máquina contra evasão, envenenamento, extração e inferência.'
+  desc_en: 'Python ML security library covering evasion, poisoning, extraction and inference.'
+  tags: [ml, robustez]
+- nome: 'ModelScan'
+  repo: protectai/modelscan
+  categoria: seguranca-de-ia
+  desc: 'Detecta ataques de serialização em arquivos de modelos de ML antes de carregá-los.'
+  desc_en: 'Detects serialization attacks in ML model files before you load them.'
+  tags: [ml, modelos]
+- nome: 'Giskard'
+  repo: Giskard-AI/giskard-oss
+  categoria: seguranca-de-ia
+  desc: 'Biblioteca aberta de avaliação e teste de agentes e aplicações LLM, com detecção de falhas e vieses.'
+  desc_en: 'Open-source evaluation and testing library for LLM agents and apps, detecting failures and bias.'
+  tags: [avaliacao, llm]
+- nome: 'DeepTeam'
+  repo: confident-ai/deepteam
+  categoria: seguranca-de-ia
+  desc: 'Framework de red team para LLMs e agentes de IA, que testa as suas próprias aplicações.'
+  desc_en: 'Red teaming framework for LLMs and AI agents, used to test your own applications.'
+  tags: [red-team, llm]
+- nome: 'OWASP Top 10 para LLM'
+  repo: OWASP/www-project-top-10-for-large-language-model-applications
+  categoria: seguranca-de-ia
+  desc: 'Lista da OWASP com os dez maiores riscos de aplicações com LLM, do projeto GenAI Security.'
+  desc_en: 'OWASP list of the ten biggest risks for LLM applications, from the GenAI Security Project.'
+  tags: [owasp, riscos]

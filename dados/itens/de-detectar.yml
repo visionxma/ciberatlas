@@ -1,0 +1,387 @@
+# Grupo DE (Detectar): SIEM e logs, regras, rede, endpoint, inteligência e iscas — verificado na API do GitHub em 2026-10-18.
+
+# --- siem-e-logs
+- nome: Wazuh
+  repo: wazuh/wazuh
+  categoria: siem-e-logs
+  desc: Plataforma aberta de SIEM e XDR para servidores, estações e cargas de trabalho em nuvem.
+  desc_en: Open-source SIEM and XDR platform for servers, workstations and cloud workloads.
+  tags: [siem, xdr, hids]
+- nome: Security Onion
+  repo: Security-Onion-Solutions/securityonion
+  categoria: siem-e-logs
+  desc: Distribuição aberta para caça a ameaças, monitoramento de segurança e gestão de logs da empresa.
+  desc_en: Free platform for threat hunting, enterprise security monitoring and log management.
+  tags: [siem, nsm, threat-hunting]
+- nome: Graylog
+  repo: Graylog2/graylog2-server
+  categoria: siem-e-logs
+  desc: Plataforma aberta de gestão de logs para coletar, pesquisar e alertar sobre eventos.
+  desc_en: Open log management platform to collect, search and alert on events.
+  tags: [logs, siem]
+- nome: OpenSearch Security Analytics
+  repo: opensearch-project/security-analytics
+  categoria: siem-e-logs
+  desc: Plugin do OpenSearch que detecta ameaças em logs de segurança usando regras Sigma e correlação.
+  desc_en: OpenSearch plugin that detects threats in security logs using Sigma rules and correlation.
+  tags: [siem, sigma, opensearch]
+- nome: OSSEC
+  repo: ossec/ossec-hids
+  categoria: siem-e-logs
+  desc: Detecção de intrusão no host, com análise de logs, integridade de arquivos e resposta ativa.
+  desc_en: Host-based intrusion detection with log analysis, file integrity checks and active response.
+  tags: [hids, logs, integridade]
+- nome: Grafana Loki
+  repo: grafana/loki
+  categoria: siem-e-logs
+  desc: Armazenamento de logs indexado por rótulos, usado para guardar e consultar logs de segurança.
+  desc_en: Label-indexed log storage system used to keep and query logs, including security logs.
+  tags: [logs, observabilidade]
+- nome: VictoriaLogs
+  repo: VictoriaMetrics/VictoriaLogs
+  categoria: siem-e-logs
+  desc: Banco de dados de logs rápido, capaz de guardar e consultar terabytes de eventos.
+  desc_en: Fast log database that can store and query terabytes of events efficiently.
+  tags: [logs, banco-de-dados]
+- nome: SOF-ELK
+  repo: philhagen/sof-elk
+  categoria: siem-e-logs
+  desc: Máquina virtual com Elastic Stack pronta para analisar logs em perícia e resposta a incidentes.
+  desc_en: Elastic Stack virtual machine preconfigured for log analysis in forensics and incident response.
+  tags: [elk, logs, dfir]
+- nome: UTMStack
+  repo: utmstack/UTMStack
+  categoria: siem-e-logs
+  desc: SIEM e SOAR com correlação em tempo real, inteligência de ameaças e relatórios de conformidade.
+  desc_en: SIEM and SOAR with real-time correlation, threat intelligence and compliance reporting.
+  tags: [siem, soar, conformidade]
+- nome: Fluent Bit
+  repo: fluent/fluent-bit
+  categoria: siem-e-logs
+  desc: Coletor leve de logs e métricas que envia os eventos para o SIEM ou para o armazenamento de logs.
+  desc_en: Lightweight log and metrics processor that forwards events to your SIEM or log store.
+  tags: [logs, coletor]
+# --- regras-de-deteccao
+- nome: Sigma
+  repo: SigmaHQ/sigma
+  categoria: regras-de-deteccao
+  desc: Repositório principal de regras Sigma, formato aberto de detecção que vale para vários SIEMs.
+  desc_en: Main Sigma rule repository, an open detection format that works across many SIEMs.
+  tags: [sigma, regras]
+- nome: pySigma
+  repo: SigmaHQ/pySigma
+  categoria: regras-de-deteccao
+  desc: Biblioteca Python que lê regras Sigma e as converte em consultas para cada SIEM.
+  desc_en: Python library that parses Sigma rules and converts them into queries for each SIEM.
+  tags: [sigma, python]
+- nome: Elastic Detection Rules
+  repo: elastic/detection-rules
+  categoria: regras-de-deteccao
+  desc: Regras de detecção do Elastic Security e ferramentas para criá-las, testá-las e mantê-las.
+  desc_en: Elastic Security detection rules plus tooling to create, test and maintain them.
+  tags: [elastic, regras]
+- nome: Splunk Security Content
+  repo: splunk/security_content
+  categoria: regras-de-deteccao
+  desc: Detecções, análises e playbooks do Splunk mapeados ao MITRE ATT&CK.
+  desc_en: Splunk detections, analytic stories and playbooks mapped to MITRE ATT&CK.
+  tags: [splunk, regras, mitre-attack]
+- nome: Microsoft Sentinel (Azure-Sentinel)
+  repo: Azure/Azure-Sentinel
+  categoria: regras-de-deteccao
+  desc: Regras de análise, consultas de caça e conectores de dados da comunidade do Microsoft Sentinel.
+  desc_en: Community analytics rules, hunting queries and data connectors for Microsoft Sentinel.
+  tags: [sentinel, kql, regras]
+- nome: signature-base
+  repo: Neo23x0/signature-base
+  categoria: regras-de-deteccao
+  desc: Base de assinaturas YARA e indicadores usada por scanners de arquivos e de memória.
+  desc_en: YARA signature and IOC database used by file and memory scanners.
+  tags: [yara, ioc]
+- nome: YARA
+  repo: VirusTotal/yara
+  categoria: regras-de-deteccao
+  desc: Ferramenta de correspondência de padrões para identificar e classificar arquivos por regras.
+  desc_en: Pattern matching tool to identify and classify files using rules.
+  tags: [yara]
+- nome: Chainsaw
+  repo: WithSecureOpenSource/chainsaw
+  categoria: regras-de-deteccao
+  desc: Busca rápida em registros do Windows (EVTX) aplicando regras Sigma e regras próprias.
+  desc_en: Fast search through Windows event logs (EVTX) applying Sigma and custom rules.
+  tags: [sigma, evtx, windows]
+- nome: Hayabusa
+  repo: Yamato-Security/hayabusa
+  categoria: regras-de-deteccao
+  desc: Caça a ameaças e linha do tempo forense em logs de eventos do Windows, com base em regras Sigma.
+  desc_en: Sigma-based threat hunting and fast forensic timeline generator for Windows event logs.
+  tags: [sigma, windows, timeline]
+- nome: Zircolite
+  repo: wagga40/Zircolite
+  categoria: regras-de-deteccao
+  desc: Detector autônomo que aplica regras Sigma a logs EVTX, Auditd e Sysmon para Linux.
+  desc_en: Standalone detection tool that applies Sigma rules to EVTX, Auditd and Sysmon for Linux logs.
+  tags: [sigma, evtx, linux]
+- nome: Atomic Red Team
+  repo: redcanaryco/atomic-red-team
+  categoria: regras-de-deteccao
+  desc: Testes pequenos e portáteis do MITRE ATT&CK para checar se as suas detecções disparam.
+  desc_en: Small, portable MITRE ATT&CK tests to check whether your detections actually fire.
+  tags: [mitre-attack, validacao]
+
+# --- deteccao-de-rede
+- nome: Suricata
+  repo: OISF/suricata
+  categoria: deteccao-de-rede
+  desc: Motor aberto de detecção e prevenção de intrusão e monitoramento de segurança de rede.
+  desc_en: Open network intrusion detection, prevention and security monitoring engine.
+  tags: [ids, ips, nsm]
+- nome: Zeek
+  repo: zeek/zeek
+  categoria: deteccao-de-rede
+  desc: Framework de análise de rede que transforma o tráfego em logs detalhados de sessões e protocolos.
+  desc_en: Network analysis framework that turns traffic into detailed protocol and session logs.
+  tags: [nsm, logs]
+- nome: Snort 3
+  repo: snort3/snort3
+  categoria: deteccao-de-rede
+  desc: Sistema de detecção e prevenção de intrusão em rede, reescrito com arquitetura modular.
+  desc_en: Network intrusion detection and prevention system rewritten with a modular architecture.
+  tags: [ids, ips]
+- nome: Arkime
+  repo: arkime/arkime
+  categoria: deteccao-de-rede
+  desc: Captura completa de pacotes em larga escala, com indexação e interface de busca.
+  desc_en: Large-scale full packet capture with indexing and a search interface.
+  tags: [pcap, nsm]
+- nome: RITA
+  repo: activecm/rita
+  categoria: deteccao-de-rede
+  desc: Analisa logs do Zeek para achar comunicação de comando e controle por beaconing.
+  desc_en: Analyzes Zeek logs to detect command-and-control communication through beaconing.
+  tags: [beaconing, zeek]
+- nome: ntopng
+  repo: ntop/ntopng
+  categoria: deteccao-de-rede
+  desc: Monitor web de tráfego de rede com alertas de segurança e análise de fluxos.
+  desc_en: Web-based network traffic monitor with security alerts and flow analysis.
+  tags: [trafego, fluxos]
+- nome: Sniffnet
+  repo: GyulyVGC/sniffnet
+  categoria: deteccao-de-rede
+  desc: Aplicativo de desktop para acompanhar o tráfego de rede e ver quem a máquina está acessando.
+  desc_en: Desktop app to watch network traffic and see which hosts your machine is talking to.
+  tags: [trafego, desktop]
+- nome: Malcolm
+  repo: cisagov/Malcolm
+  categoria: deteccao-de-rede
+  desc: Conjunto da CISA para análise de tráfego, junta Zeek, Suricata e Arkime numa pilha só.
+  desc_en: CISA network traffic analysis suite that bundles Zeek, Suricata and Arkime in one stack.
+  tags: [nsm, pcap, cisa]
+- nome: Clear NDR (SELKS)
+  repo: StamusNetworks/Clear-NDR-ISO
+  categoria: deteccao-de-rede
+  desc: Distribuição de detecção de rede baseada no Suricata, com interface de caça e gestão de regras.
+  desc_en: Suricata-based network detection distribution with a hunting interface and ruleset management.
+  tags: [ndr, suricata]
+- nome: Maltrail
+  repo: stamparm/maltrail
+  categoria: deteccao-de-rede
+  desc: Sistema que detecta tráfego malicioso comparando o que passa na rede com listas públicas de ameaças.
+  desc_en: Malicious traffic detection system that matches network traffic against public threat lists.
+  tags: [ids, listas-de-ameacas]
+- nome: JA4+
+  repo: FoxIO-LLC/ja4
+  categoria: deteccao-de-rede
+  desc: Padrões de impressão digital de rede (TLS, HTTP, SSH) para identificar clientes e malware.
+  desc_en: Network fingerprinting standards (TLS, HTTP, SSH) to identify clients and malware.
+  tags: [fingerprint, tls]
+# --- endpoint-e-telemetria
+- nome: osquery
+  repo: osquery/osquery
+  categoria: endpoint-e-telemetria
+  desc: Expõe o sistema operacional como um banco SQL para monitorar e investigar máquinas.
+  desc_en: Exposes the operating system as a SQL database to monitor and investigate machines.
+  tags: [osquery, sql]
+- nome: Fleet
+  repo: fleetdm/fleet
+  categoria: endpoint-e-telemetria
+  desc: Gerenciamento aberto de dispositivos e de osquery, com consultas e políticas em toda a frota.
+  desc_en: Open device management and osquery fleet manager with queries and policies across devices.
+  tags: [osquery, mdm]
+- nome: Falco
+  repo: falcosecurity/falco
+  categoria: endpoint-e-telemetria
+  desc: Segurança em tempo de execução para Linux, containers e Kubernetes, com regras sobre chamadas do sistema.
+  desc_en: Runtime security for Linux, containers and Kubernetes using rules over system calls.
+  tags: [runtime, ebpf, kubernetes]
+- nome: Tetragon
+  repo: cilium/tetragon
+  categoria: endpoint-e-telemetria
+  desc: Observabilidade de segurança com eBPF que registra e pode bloquear eventos do kernel.
+  desc_en: eBPF-based security observability that records and can enforce on kernel events.
+  tags: [ebpf, runtime]
+- nome: Tracee
+  repo: aquasecurity/tracee
+  categoria: endpoint-e-telemetria
+  desc: Segurança em tempo de execução e forense no Linux com eBPF, com assinaturas de comportamento.
+  desc_en: Linux runtime security and forensics using eBPF, with behavioral signatures.
+  tags: [ebpf, runtime]
+- nome: sysmon-modular
+  repo: olafhartong/sysmon-modular
+  categoria: endpoint-e-telemetria
+  desc: Configuração modular do Sysmon, mapeada ao MITRE ATT&CK, para telemetria rica no Windows.
+  desc_en: Modular Sysmon configuration mapped to MITRE ATT&CK for rich Windows telemetry.
+  tags: [sysmon, windows]
+- nome: Sysmon for Linux
+  repo: microsoft/Sysmon-Linux
+  categoria: endpoint-e-telemetria
+  desc: Monitor de eventos de sistema para Linux, baseado em eBPF, com formato de log igual ao do Sysmon.
+  desc_en: eBPF-based Linux system event monitor that emits Sysmon-style logs.
+  tags: [sysmon, linux, ebpf]
+- nome: Kunai
+  repo: kunai-project/kunai
+  categoria: endpoint-e-telemetria
+  desc: Ferramenta de caça a ameaças em Linux que gera eventos detalhados do kernel com eBPF.
+  desc_en: Linux threat-hunting tool that produces detailed kernel events using eBPF.
+  tags: [linux, ebpf]
+- nome: Fibratus
+  repo: rabbitstack/fibratus
+  categoria: endpoint-e-telemetria
+  desc: Sensor de segurança para Windows que detecta ameaças em tempo real com regras e YARA.
+  desc_en: Windows security sensor for real-time threat detection using rules and YARA.
+  tags: [windows, etw]
+- nome: OpenEDR
+  repo: ComodoSecurity/openedr
+  categoria: endpoint-e-telemetria
+  desc: Agente aberto de EDR para Windows que registra a atividade das máquinas para análise.
+  desc_en: Open EDR agent for Windows that records endpoint activity for analysis.
+  tags: [edr, windows]
+# --- inteligencia-de-ameacas
+- nome: MISP
+  repo: MISP/MISP
+  categoria: inteligencia-de-ameacas
+  desc: Plataforma aberta para coletar, armazenar e compartilhar indicadores e inteligência de ameaças.
+  desc_en: Open platform to collect, store and share threat indicators and intelligence.
+  tags: [misp, ioc, compartilhamento]
+- nome: OpenCTI
+  repo: OpenCTI-Platform/opencti
+  categoria: inteligencia-de-ameacas
+  desc: Plataforma aberta que organiza conhecimento sobre ameaças em grafo, no formato STIX2.
+  desc_en: Open platform that organizes threat knowledge as a graph using the STIX2 standard.
+  tags: [stix, cti]
+- nome: IntelOwl
+  repo: intelowlproject/IntelOwl
+  categoria: inteligencia-de-ameacas
+  desc: Consulta arquivos, domínios e IPs em dezenas de fontes de inteligência numa única API.
+  desc_en: Queries files, domains and IPs against dozens of intelligence sources through one API.
+  tags: [enriquecimento, api]
+- nome: Yeti
+  repo: yeti-platform/yeti
+  categoria: inteligencia-de-ameacas
+  desc: Repositório de conhecimento sobre ameaças que une indicadores, técnicas e atores num lugar só.
+  desc_en: Threat knowledge repository that unifies indicators, techniques and actors in one place.
+  tags: [cti, ioc]
+- nome: IntelMQ
+  repo: certtools/intelmq
+  categoria: inteligencia-de-ameacas
+  desc: Coleta e processa feeds de segurança por filas de mensagens, usado por equipes de CERT.
+  desc_en: Collects and processes security feeds through message queues, used by CERT teams.
+  tags: [feeds, cert]
+- nome: Lookyloo
+  repo: Lookyloo/lookyloo
+  categoria: inteligencia-de-ameacas
+  desc: Captura uma página web e mostra a árvore de domínios carregados, útil para analisar phishing.
+  desc_en: Captures a web page and shows the tree of domains it loads, useful for phishing analysis.
+  tags: [phishing, web]
+- nome: AIL Framework
+  repo: ail-project/ail-framework
+  categoria: inteligencia-de-ameacas
+  desc: Analisa fontes públicas e da dark web para achar vazamentos de informação.
+  desc_en: Analyzes public and dark web sources to find information leaks.
+  tags: [vazamentos, osint]
+- nome: dnstwist
+  repo: elceef/dnstwist
+  categoria: inteligencia-de-ameacas
+  desc: Gera variações de domínio para achar typosquatting, phishing e imitação da sua marca.
+  desc_en: Generates domain permutations to find typosquatting, phishing and brand impersonation.
+  tags: [phishing, dominios]
+- nome: Decider
+  repo: cisagov/decider
+  categoria: inteligencia-de-ameacas
+  desc: Aplicação da CISA que ajuda a mapear o comportamento de adversários para o MITRE ATT&CK.
+  desc_en: CISA web app that helps map adversary behavior to the MITRE ATT&CK framework.
+  tags: [mitre-attack, cisa]
+- nome: ATT&CK Navigator
+  repo: mitre-attack/attack-navigator
+  categoria: inteligencia-de-ameacas
+  desc: Aplicação web para navegar e anotar as matrizes do MITRE ATT&CK, por exemplo para cobrir detecções.
+  desc_en: Web app to browse and annotate MITRE ATT&CK matrices, for example to map detection coverage.
+  tags: [mitre-attack]
+# --- enganacao-e-iscas
+- nome: T-Pot
+  repo: telekom-security/tpotce
+  categoria: enganacao-e-iscas
+  desc: Plataforma que reúne vários honeypots e painéis de visualização num único sistema.
+  desc_en: All-in-one platform bundling multiple honeypots and dashboards in a single system.
+  tags: [honeypot, telekom]
+- nome: OpenCanary
+  repo: thinkst/opencanary
+  categoria: enganacao-e-iscas
+  desc: Honeypot modular e descentralizado que imita serviços e avisa quando alguém os toca.
+  desc_en: Modular, decentralized honeypot that imitates services and alerts when someone touches them.
+  tags: [honeypot, alerta]
+- nome: Cowrie
+  repo: cowrie/cowrie
+  categoria: enganacao-e-iscas
+  desc: Honeypot SSH e Telnet de interação média que registra ataques de força bruta e comandos.
+  desc_en: Medium-interaction SSH and Telnet honeypot that logs brute-force attacks and commands.
+  tags: [honeypot, ssh]
+- nome: Canarytokens
+  repo: thinkst/canarytokens
+  categoria: enganacao-e-iscas
+  desc: Gera iscas (tokens) em arquivos, links e chaves que avisam quando alguém as usa.
+  desc_en: Generates decoy tokens in files, links and keys that alert you when someone uses them.
+  tags: [canary, honeytoken]
+- nome: Conpot
+  repo: mushorg/conpot
+  categoria: enganacao-e-iscas
+  desc: Honeypot de baixa interação que imita sistemas industriais (ICS/SCADA).
+  desc_en: Low-interaction honeypot that imitates industrial control systems (ICS/SCADA).
+  tags: [honeypot, ics]
+- nome: Beelzebub
+  repo: beelzebub-labs/beelzebub
+  categoria: enganacao-e-iscas
+  desc: Framework de enganação de baixo código que usa IA para simular sistemas e capturar atacantes.
+  desc_en: Low-code deception framework that uses AI to simulate systems and trap attackers.
+  tags: [honeypot, ia]
+- nome: qeeqbox honeypots
+  repo: qeeqbox/honeypots
+  categoria: enganacao-e-iscas
+  desc: Pacote com 30 honeypots (DNS, FTP, HTTP, SSH e outros) que registram o que os atacantes fazem.
+  desc_en: Package of 30 honeypots (DNS, FTP, HTTP, SSH and more) that log what attackers do.
+  tags: [honeypot]
+- nome: Galah
+  repo: 0x4D31/galah
+  categoria: enganacao-e-iscas
+  desc: Honeypot web que usa um modelo de linguagem para gerar respostas HTTP dinâmicas.
+  desc_en: Web honeypot that uses an LLM to generate dynamic HTTP responses.
+  tags: [honeypot, web, llm]
+- nome: sshesame
+  repo: jaksi/sshesame
+  categoria: enganacao-e-iscas
+  desc: Honeypot SSH falso, simples de configurar, que aceita qualquer login e registra a atividade.
+  desc_en: Easy-to-set-up fake SSH honeypot that accepts any login and logs the activity.
+  tags: [honeypot, ssh]
+- nome: honeyλ (honeyLambda)
+  repo: 0x4D31/honeyLambda
+  categoria: enganacao-e-iscas
+  desc: Aplicação sem servidor que cria e monitora endpoints HTTP falsos, como URLs de isca.
+  desc_en: Serverless application that creates and monitors fake HTTP endpoints, such as canary URLs.
+  tags: [honeypot, serverless]
+- nome: DejaVu
+  repo: bhdresh/Dejavu
+  categoria: enganacao-e-iscas
+  desc: Framework aberto de enganação para implantar e monitorar honeypots de vários tipos.
+  desc_en: Open-source deception framework to deploy and monitor honeypots of several kinds.
+  tags: [honeypot, enganacao]

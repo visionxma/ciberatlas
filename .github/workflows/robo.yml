@@ -1,0 +1,40 @@
+# O robô do Atlas: mede tudo de novo, regenera catálogo, API e llms.txt e faz commit.
+name: robo
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # toda segunda, 06:17 UTC
+  push:
+    branches: [main]
+    paths: ["dados/categorias.yml", "dados/itens/**", "scripts/**", "README.md", "README.en.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robo
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Validar, medir e gerar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/ciberatlas.py validar
+          python scripts/ciberatlas.py metricas
+          python scripts/ciberatlas.py conferir || echo "::warning::há repositórios não encontrados"
+          python scripts/ciberatlas.py gerar
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "robô: métricas e catálogo atualizados [skip ci]"
+          commit_user_name: ciberatlas-robo
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com

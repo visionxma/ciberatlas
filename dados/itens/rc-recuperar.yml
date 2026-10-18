@@ -1,0 +1,75 @@
+# Grupo RC (Recuperar): backup e recuperação.
+
+# --- backup-e-recuperacao
+- nome: restic
+  repo: restic/restic
+  categoria: backup-e-recuperacao
+  desc: "Backup rápido com deduplicação e criptografia por padrão, para disco local, SFTP e nuvem."
+  desc_en: "Fast backup with deduplication and encryption by default, to local disk, SFTP and cloud."
+  tags: [backup, criptografia, deduplicacao]
+- nome: BorgBackup
+  repo: borgbackup/borg
+  categoria: backup-e-recuperacao
+  desc: "Arquivador com deduplicação, compressão e criptografia autenticada, bom para backups incrementais diários."
+  desc_en: "Deduplicating archiver with compression and authenticated encryption, suited to daily incremental backups."
+  tags: [backup, criptografia, deduplicacao]
+- nome: Kopia
+  repo: kopia/kopia
+  categoria: backup-e-recuperacao
+  desc: "Backup multiplataforma incremental com criptografia ponta a ponta no cliente, interface gráfica e linha de comando."
+  desc_en: "Cross-platform incremental backup with client-side end-to-end encryption, GUI and command line."
+  tags: [backup, criptografia]
+- nome: Velero
+  repo: velero-io/velero
+  categoria: backup-e-recuperacao
+  desc: "Faz backup e restauração de recursos e volumes persistentes de clusters Kubernetes, inclusive migração entre clusters."
+  desc_en: "Backs up and restores Kubernetes cluster resources and persistent volumes, including cluster migration."
+  tags: [kubernetes, backup]
+- nome: Duplicati
+  repo: duplicati/duplicati
+  categoria: backup-e-recuperacao
+  desc: "Backup com interface web, criptografia AES-256 e destino em nuvem, FTP, SFTP ou disco."
+  desc_en: "Backup with a web UI, AES-256 encryption and targets in cloud, FTP, SFTP or disk."
+  tags: [backup, nuvem, criptografia]
+- nome: rclone
+  repo: rclone/rclone
+  categoria: backup-e-recuperacao
+  desc: "Sincroniza e copia arquivos entre dezenas de serviços de armazenamento em nuvem, com camada de criptografia opcional."
+  desc_en: "Syncs and copies files across dozens of cloud storage services, with an optional encryption layer."
+  tags: [sincronizacao, nuvem, criptografia]
+- nome: borgmatic
+  repo: borgmatic-collective/borgmatic
+  categoria: backup-e-recuperacao
+  desc: "Backup de servidores e estações por arquivo de configuração sobre o Borg, com verificação de consistência e alertas."
+  desc_en: "Configuration-driven backup for servers and workstations on top of Borg, with consistency checks and alerts."
+  tags: [backup, borg, automacao]
+- nome: pgBackRest
+  repo: pgbackrest/pgbackrest
+  categoria: backup-e-recuperacao
+  desc: "Backup e restauração confiáveis de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo."
+  desc_en: "Reliable PostgreSQL backup and restore with parallel, incremental backups and point-in-time recovery."
+  tags: [postgresql, banco-de-dados, pitr]
+- nome: Relax-and-Recover
+  repo: rear/rear
+  categoria: backup-e-recuperacao
+  desc: "Recuperação de desastre de servidores Linux: gera imagem de resgate para reconstruir o sistema em hardware novo."
+  desc_en: "Linux bare-metal disaster recovery: builds a rescue image to rebuild the system on new hardware."
+  tags: [recuperacao-de-desastre, linux]
+- nome: UrBackup
+  repo: uroni/urbackup_backend
+  categoria: backup-e-recuperacao
+  desc: "Backup em rede cliente-servidor para Windows, macOS e Linux, com imagem completa do sistema e de arquivos."
+  desc_en: "Client-server network backup for Windows, macOS and Linux, with full system image and file backups."
+  tags: [backup, imagem-de-sistema]
+- nome: Bareos
+  repo: bareos/bareos
+  categoria: backup-e-recuperacao
+  desc: "Solução de backup em rede para preservar, arquivar e recuperar dados de vários sistemas operacionais."
+  desc_en: "Network backup solution to preserve, archive and recover data across many operating systems."
+  tags: [backup, rede]
+- nome: Backrest
+  repo: garethgeorge/backrest
+  categoria: backup-e-recuperacao
+  desc: "Interface web e agendador para o restic: configura repositórios, planos e restaurações sem linha de comando."
+  desc_en: "Web UI and scheduler for restic: manage repositories, plans and restores without the command line."
+  tags: [restic, interface-web]
