@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pt-BR" data-tema="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CiberAtlas: catálogo aberto de cibersegurança defensiva (PT-BR e EN)</title>
+<meta name="description" content="Busque 400+ ferramentas e recursos abertos de cibersegurança defensiva, em português e inglês, com saúde, estrelas, licença e última atividade medidas toda semana por um robô. Dados em domínio público (CC0).">
+<link rel="canonical" href="https://visionxma.github.io/ciberatlas/">
+<link rel="alternate" hreflang="pt-BR" href="https://visionxma.github.io/ciberatlas/?lang=pt">
+<link rel="alternate" hreflang="en" href="https://visionxma.github.io/ciberatlas/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://visionxma.github.io/ciberatlas/">
+<meta name="theme-color" content="#f4f6f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a1013" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CiberAtlas">
+<meta property="og:title" content="CiberAtlas: catálogo aberto de cibersegurança defensiva">
+<meta property="og:description" content="400+ ferramentas defensivas, em português e inglês, com a saúde de cada projeto medida toda semana. Dados em CC0.">
+<meta property="og:url" content="https://visionxma.github.io/ciberatlas/">
+<meta property="og:image" content="https://visionxma.github.io/ciberatlas/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CiberAtlas: busca de ferramentas de cibersegurança defensiva">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CiberAtlas: catálogo aberto de cibersegurança defensiva">
+<meta name="twitter:description" content="400+ ferramentas defensivas, em português e inglês, re-medidas toda semana. Dados em CC0.">
+<meta name="twitter:image" content="https://visionxma.github.io/ciberatlas/og.jpg">
+
+<link rel="icon" href="./vx-simbolo.svg" type="image/svg+xml">
+<link rel="preload" href="./fontes/mona-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fontes/hubot-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./api/catalogo.json" as="fetch" type="application/json" crossorigin>
+<link rel="stylesheet" href="./estilo.css?v=1">
+
+<script>
+  /* Tema e idioma antes da primeira pintura: sem piscar. */
+  (function () {
+    try {
+      var d = document.documentElement, p = new URLSearchParams(location.search);
+      var t = localStorage.getItem('ciberatlas-tema');
+      if (t === 'claro' || t === 'escuro') d.dataset.tema = t;
+      var l = p.get('lang') || localStorage.getItem('ciberatlas-idioma') ||
+        ((navigator.language || 'pt').toLowerCase().indexOf('pt') === 0 ? 'pt' : 'en');
+      if (l === 'en') d.lang = 'en';
+      d.classList.add('js');
+    } catch (e) {}
+  })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "CiberAtlas",
+  "alternateName": "CiberAtlas: catálogo aberto de cibersegurança defensiva",
+  "description": "Catálogo aberto de ferramentas e recursos de cibersegurança defensiva, em português e inglês, organizado pelo NIST CSF 2.0, pelo MITRE D3FEND e pelos CIS Controls v8.1. Cada projeto tem estrelas, última atividade, licença e saúde re-medidas toda semana por um robô.",
+  "url": "https://visionxma.github.io/ciberatlas/",
+  "sameAs": "https://github.com/visionxma/ciberatlas",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "inLanguage": ["pt-BR", "en"],
+  "keywords": ["cibersegurança", "cybersecurity", "segurança defensiva", "blue team", "NIST CSF 2.0", "MITRE D3FEND", "CIS Controls", "LGPD", "código aberto", "open source"],
+  "creator": {
+    "@type": "Organization",
+    "name": "VisionX",
+    "url": "https://visionxma.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "VisionX",
+    "url": "https://visionxma.com/"
+  },
+  "dateModified": "2026-10-18",
+  "measurementTechnique": "Re-medição semanal automatizada pela API do GitHub (estrelas, último commit, licença, arquivamento).",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://visionxma.github.io/ciberatlas/api/catalogo.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://visionxma.github.io/ciberatlas/api/categorias.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/plain",
+      "contentUrl": "https://visionxma.github.io/ciberatlas/llms.txt"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="pular" href="#resultados" data-i18n="pular">Pular para os resultados</a>
+
+<header class="topo">
+  <div class="shell topo__linha">
+    <a class="marca" href="./" aria-label="CiberAtlas, início">
+      <span class="marca__nome">Ciber<b>Atlas</b></span>
+    </a>
+    <nav class="topo__acoes" aria-label="Preferências e links">
+      <a class="topo__link so-largo" href="https://github.com/visionxma/ciberatlas/tree/main/docs" data-i18n="guias">Guias</a>
+      <div class="idioma" role="group" aria-label="Idioma / Language">
+        <button type="button" class="idioma__op" data-lang="pt" aria-pressed="true">PT</button>
+        <button type="button" class="idioma__op" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="icone-botao" id="tema" aria-label="Tema: do aparelho" data-i18n-aria="temaAuto">
+        <svg class="i-auto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" class="cheio"/></svg>
+        <svg class="i-claro" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+        <svg class="i-escuro" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.5 8.5 0 1 1 9.4 4a6.8 6.8 0 0 0 10.6 10.6z" class="cheio"/></svg>
+      </button>
+      <a class="icone-botao topo__github" href="https://github.com/visionxma/ciberatlas" aria-label="Repositório no GitHub" data-i18n-aria="repo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="cheio" d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.3-.3-4.7-1.1-4.7-5 0-1.1.4-2 1.1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.8 1a9.6 9.6 0 0 1 5.1 0c1.9-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7.7.7 1.1 1.6 1.1 2.7 0 3.9-2.4 4.7-4.7 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8z"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="abertura" aria-labelledby="titulo">
+    <div class="abertura__fundo" aria-hidden="true"><div class="meridianos"></div></div>
+    <div class="shell abertura__grade">
+      <div class="abertura__texto">
+        <p class="selo-topo"><span class="pulso" aria-hidden="true"></span><span data-i18n="selo">Catálogo aberto · re-medido toda semana</span></p>
+        <h1 id="titulo" data-i18n="titulo">O atlas aberto da cibersegurança defensiva</h1>
+        <p class="abertura__sub"><span data-i18n="sub">Ferramentas e recursos para proteger, detectar, responder e recuperar, em português e inglês.</span><span class="so-tablet" data-i18n="sub2"> Cada projeto traz a saúde, as estrelas e a última atividade, conferidas por um robô.</span></p>
+      </div>
+
+      <dl class="numeros" aria-label="O catálogo em números">
+        <div class="numero"><dt data-i18n="nItens">itens</dt><dd><span class="numero__valor" data-n="itens">412</span></dd></div>
+        <div class="numero"><dt data-i18n="nCategorias">categorias</dt><dd><span class="numero__valor" data-n="categorias">37</span></dd></div>
+        <div class="numero"><dt data-i18n="nVerificados">verificados</dt><dd><span class="numero__valor" data-n="verificados">—</span></dd></div>
+        <div class="numero"><dt data-i18n="nEstrelas">estrelas</dt><dd><span class="numero__valor" data-n="estrelas">—</span></dd></div>
+      </dl>
+
+      <form class="busca" role="search" id="form-busca">
+        <label class="sr" for="q" data-i18n="buscaRotulo">Buscar no catálogo</label>
+        <svg class="busca__lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+        <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search"
+          placeholder="Busque: firewall, LGPD, SIEM…" data-i18n-ph="buscaPh">
+        <kbd class="busca__atalho so-largo" aria-hidden="true">/</kbd>
+        <button type="button" class="busca__limpar" id="limpar-q" aria-label="Limpar busca" data-i18n-aria="limparBusca" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </form>
+      <p class="medido" id="medido"><span data-i18n="medidoEm">Métricas de</span> <time id="medido-data" datetime="2026-10-18">18/10/2026</time></p>
+    </div>
+  </section>
+
+  <div class="shell catalogo">
+    <aside class="filtros" aria-label="Filtros" data-i18n-aria="filtros">
+      <fieldset class="filtro filtro--grupos">
+        <legend data-i18n="fGrupo">Função</legend>
+        <div class="grupos" id="grupos"></div>
+      </fieldset>
+      <div class="filtro filtro--selects">
+        <label class="campo campo--largo">
+          <span data-i18n="fCategoria">Categoria</span>
+          <select id="f-categoria"><option value="">Todas</option></select>
+        </label>
+        <label class="campo">
+          <span data-i18n="fSaude">Saúde</span>
+          <select id="f-saude"><option value="">Todas</option></select>
+        </label>
+        <label class="campo" id="campo-custo" hidden>
+          <span data-i18n="fCusto">Custo</span>
+          <select id="f-custo"><option value="">Todos</option></select>
+        </label>
+        <label class="campo" id="campo-nivel" hidden>
+          <span data-i18n="fNivel">Nível</span>
+          <select id="f-nivel"><option value="">Todos</option></select>
+        </label>
+        <label class="campo">
+          <span data-i18n="fOrdem">Ordenar</span>
+          <select id="f-ordem"></select>
+        </label>
+      </div>
+      <div class="legenda-saude so-largo" aria-hidden="true">
+        <p class="legenda-saude__titulo" data-i18n="legenda">O que é a saúde</p>
+        <ul id="legenda"></ul>
+      </div>
+    </aside>
+
+    <section class="resultados" id="resultados" aria-labelledby="contagem" tabindex="-1">
+      <div class="resultados__cabeca">
+        <h2 class="contagem" id="contagem" aria-live="polite">&nbsp;</h2>
+        <button type="button" class="botao-texto" id="limpar-tudo" hidden data-i18n="limparTudo">Limpar filtros</button>
+      </div>
+      <ol class="lista" id="lista"></ol>
+      <noscript>
+        <p class="vazio">O catálogo completo também está em <a href="./api/catalogo.json">catalogo.json</a> e em <a href="https://github.com/visionxma/ciberatlas/tree/main/catalogo">páginas no GitHub</a>.</p>
+      </noscript>
+      <div class="vazio" id="vazio" hidden>
+        <p class="vazio__titulo" data-i18n="vazioTitulo">Nada encontrado com esses filtros.</p>
+        <p data-i18n="vazioTexto">Tente outra palavra, tire um filtro ou sugira a ferramenta que está faltando.</p>
+        <div class="par-botoes">
+          <button type="button" class="botao botao--leve" id="vazio-limpar" data-i18n="limparTudo">Limpar filtros</button>
+          <a class="botao" href="https://github.com/visionxma/ciberatlas/issues/new?template=sugerir-item.yml" data-i18n="sugerir">Sugerir item</a>
+        </div>
+      </div>
+      <div class="mais" id="mais-box" hidden>
+        <button type="button" class="botao botao--leve" id="mais">Mostrar mais</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="faixa-cta" aria-labelledby="cta-titulo">
+    <div class="shell faixa-cta__grade">
+      <div>
+        <h2 id="cta-titulo" data-i18n="ctaTitulo">Falta uma ferramenta defensiva?</h2>
+        <p data-i18n="ctaTexto">O catálogo cresce por sugestão. Um formulário curto no GitHub, e o robô passa a medir o projeto toda semana.</p>
+      </div>
+      <div class="par-botoes">
+        <a class="botao" href="https://github.com/visionxma/ciberatlas/issues/new?template=sugerir-item.yml" data-i18n="sugerir">Sugerir item</a>
+        <a class="botao botao--leve" href="https://github.com/visionxma/ciberatlas/tree/main/docs" data-i18n="guiasCurto">Ler os guias</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="shell">
+    <div class="rodape__colunas">
+      <div class="rodape__col">
+        <p class="rodape__titulo" data-i18n="rProjeto">Projeto</p>
+        <ul>
+          <li><a href="https://github.com/visionxma/ciberatlas" data-i18n="rRepo">Repositório</a></li>
+          <li><a href="https://github.com/visionxma/ciberatlas/issues/new?template=sugerir-item.yml" data-i18n="sugerir">Sugerir item</a></li>
+          <li><a href="https://github.com/visionxma/ciberatlas/blob/main/CONTRIBUTING.md" data-i18n="rContribuir">Como contribuir</a></li>
+        </ul>
+      </div>
+      <div class="rodape__col">
+        <p class="rodape__titulo" data-i18n="rGuias">Guias</p>
+        <ul>
+          <li><a href="https://github.com/visionxma/ciberatlas/tree/main/docs" data-i18n="rTodosGuias">Todos os guias</a></li>
+          <li><a href="https://github.com/visionxma/ciberatlas/blob/main/docs/comece-aqui/README.md" data-i18n="rComece">Comece aqui</a></li>
+          <li><a href="https://github.com/visionxma/ciberatlas/blob/main/docs/brasil/README.md" data-i18n="rBrasil">Brasil e LGPD</a></li>
+        </ul>
+      </div>
+      <div class="rodape__col">
+        <p class="rodape__titulo" data-i18n="rDados">Dados abertos</p>
+        <ul>
+          <li><a href="./api/catalogo.json">catalogo.json</a></li>
+          <li><a href="./api/categorias.json">categorias.json</a></li>
+          <li><a href="./llms.txt">llms.txt</a></li>
+        </ul>
+      </div>
+      <div class="rodape__col">
+        <p class="rodape__titulo" data-i18n="rPrivacidade">Privacidade</p>
+        <p class="rodape__nota" data-i18n="rPrivTexto">Sem rastreador, sem analytics e sem cookie. Idioma e tema ficam só no seu navegador.</p>
+      </div>
+    </div>
+    <div class="rodape__base">
+      <p class="rodape__produto">CiberAtlas · <span data-i18n="rLicenca">dados em domínio público</span> (<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.pt-br" id="link-cc0">CC0 1.0</a>)</p>
+      <a class="assinatura" href="https://visionxma.com/" aria-label="VisionX">
+        <span class="assinatura__x" aria-hidden="true"></span>
+        <span>© <span id="ano">2026</span> VisionX</span>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js?v=1" defer></script>
+</body>
+</html>

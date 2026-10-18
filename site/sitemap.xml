@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://visionxma.github.io/ciberatlas/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://visionxma.github.io/ciberatlas/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionxma.github.io/ciberatlas/?lang=en"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url><loc>https://visionxma.github.io/ciberatlas/api/catalogo.json</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://visionxma.github.io/ciberatlas/llms.txt</loc><changefreq>weekly</changefreq></url>
+</urlset>
