@@ -1,7 +1,7 @@
 <!-- Gerado por scripts/ciberatlas.py — não edite à mão; edite dados/itens/*.yml -->
 # Certifications
 
-> The most requested certifications by level and focus (no prices — they change).
+> Recognized certifications by level and focus; penetration-testing ones are listed as training (no prices — they change).
 
 **Group:** AP · Learn · **CIS Controls v8.1:** 14
 
@@ -14,7 +14,7 @@
 | [CEH — Certified Ethical Hacker](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) | EC-Council certification on attack and defense techniques, focused on authorized testing. | — | — | paid · intermediate · EC-Council · en | 🌐 website |
 | [CompTIA CySA+](https://www.comptia.org/en-us/certifications/cybersecurity-analyst/) | Security analyst certification: monitoring, threat analysis and incident response. | — | — | paid · intermediate · CompTIA · en | 🌐 website |
 | [CompTIA PenTest+](https://www.comptia.org/en-us/certifications/pentest/) | Certification in penetration testing and vulnerability assessment, with performance-based questions. | — | — | paid · intermediate · CompTIA · en | 🌐 website |
-| [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/) | Widely requested baseline certification: threats, architecture, operations and governance. | — | — | paid · entry · CompTIA · en | 🌐 website |
+| [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/) | CompTIA baseline certification for security roles: threats, architecture, operations and governance. | — | — | paid · entry · CompTIA · en | 🌐 website |
 | [eJPT — eLearnSecurity Junior Penetration Tester](https://ine.com/security/certifications/ejpt-certification) | Hands-on entry-level certification in authorized penetration testing, with a lab-based exam. | — | — | paid · entry · INE Security · en | 🌐 website |
 | [GIAC GCIH — Incident Handler](https://www.giac.org/certifications/certified-incident-handler-gcih) | GIAC certification focused on detecting, responding to and resolving security incidents. | — | — | paid · intermediate · GIAC · en | 🌐 website |
 | [GIAC GSEC — Security Essentials](https://www.giac.org/certifications/security-essentials-gsec) | GIAC/SANS certification on practical security fundamentals: networks, systems, crypto and cloud. | — | — | paid · intermediate · GIAC · en | 🌐 website |

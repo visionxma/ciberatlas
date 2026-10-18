@@ -57,7 +57,7 @@ O CERT.br tem chave PGP (padrão de criptografia de mensagens), com validade anu
 
 ## Delegacias
 
-- [Lista da SaferNet de delegacias especializadas em crimes cibernéticos](https://new.safernet.org.br/content/delegacias-cibercrimes). Segundo a página, existem delegacias especializadas em alguns estados. Na lista aparecem Bahia, Espírito Santo, Maranhão, Mato Grosso, Minas Gerais, Pará, Paraná, Pernambuco, Piauí, Rio Grande do Sul, São Paulo, Sergipe, Rio de Janeiro, Tocantins, Distrito Federal, Goiás e Santa Catarina. Onde não há uma, a orientação é procurar a delegacia mais próxima de casa.
+- [Lista da SaferNet de delegacias especializadas em crimes cibernéticos](https://new.safernet.org.br/content/delegacias-cibercrimes). Segundo a página, existem delegacias especializadas em alguns estados. Na lista aparecem Bahia, Espírito Santo, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraná, Pernambuco, Piauí, Rio Grande do Sul, São Paulo, Sergipe, Rio de Janeiro, Tocantins, Distrito Federal, Goiás e Santa Catarina. Onde não há uma, a orientação é procurar a delegacia mais próxima de casa.
 - A 4ª Delegacia de Delitos Cometidos por Meios Eletrônicos de São Paulo atende apenas fraudes financeiras por meios eletrônicos, segundo a lista. Outros crimes digitais vão para uma delegacia comum.
 - [Delegacias virtuais por estado, reunidas pelo Ministério da Justiça e Segurança Pública](https://www.gov.br/mj/pt-br/acesso-a-informacao/acoes-e-programas/celular-seguro/delegacias-virtuais-1). A página tem um link por unidade da federação.
 

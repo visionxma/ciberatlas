@@ -49,7 +49,7 @@ SSH (Secure Shell) é a forma padrão de entrar no servidor. Documentação de t
 
 ## 6. Auditoria com Lynis
 
-[Lynis](https://cisofy.com/lynis/) é um auditor de hardening que lê o sistema e dá recomendações. Não altera nada.
+[Lynis](https://cisofy.com/lynis/) é um auditor de hardening que lê o sistema e dá recomendações. Não altera a configuração; só grava o próprio relatório em `/var/log`.
 
 - [ ] Rodar e guardar o relatório: `sudo lynis audit system`
 - [ ] Tratar primeiro os avisos (warnings), depois as sugestões. Rode de novo depois dos ajustes e compare.

@@ -5,8 +5,9 @@ Uso:
     python scripts/ciberatlas.py validar            # formato, duplicatas, categorias
     python scripts/ciberatlas.py metricas           # estrelas, atividade, licença, arquivado
     python scripts/ciberatlas.py conferir           # falha se algum repositório não existe
-    python scripts/ciberatlas.py gerar              # README, catalogo/, api/, llms.txt
-    python scripts/ciberatlas.py tudo               # os três, em ordem
+    python scripts/ciberatlas.py conferir --novos dono/nome ...  # e se um repo novo está morto
+    python scripts/ciberatlas.py gerar              # README, catalogo/, api/, site/, llms.txt
+    python scripts/ciberatlas.py tudo               # validar, metricas e gerar, em ordem
 
 Token do GitHub: GITHUB_TOKEN, GH_TOKEN ou `gh auth token`.
 """
@@ -44,8 +45,10 @@ CAMPOS = {"nome", "repo", "url", "categoria", "desc", "desc_en", "tags", "custo"
 RE_REPO = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$")
 RE_TAG = re.compile(r"^[a-z0-9][a-z0-9+.-]*$")
 PALAVRAS_PROIBIDAS = re.compile(
-    r"\b(poderos[oa]|incr[ií]vel|melhor do mundo|revolucion[aá]ri[oa]|"
-    r"powerful|amazing|awesome|best-in-class|blazing)\b", re.I)
+    r"\b(poderos[oa]|incr[ií]vel|melhor do mundo|revolucion[aá]ri[oa]|robust[oa]|eficiente|"
+    r"simples e segur[oa]|modern[oa] e enxut[oa]|f[aá]cil de usar|de ponta(?! a ponta)|"
+    r"powerful|amazing|awesome|best-in-class|blazing|battle-tested|robust|efficient|seamless|"
+    r"cutting-edge|state-of-the-art|easy-to-[a-z-]+|easy to use|simple and secure)\b", re.I)
 
 MESES_PT = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 MESES_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -200,7 +203,12 @@ def metricas(_args=None) -> int:
                 " licenseInfo { spdxId }"
                 " defaultBranchRef { target { ... on Commit { committedDate } } } }")
         resposta = graphql(token, "query { " + " ".join(campos) + " rateLimit { remaining } }")
-        dados = resposta.get("data") or {}
+        dados = resposta.get("data")
+        # O GraphQL devolve HTTP 200 mesmo em falha (cota, token sem escopo). Só NOT_FOUND é
+        # resposta legítima por repositório; qualquer outro erro aborta antes de gravar.
+        graves = [e for e in resposta.get("errors") or [] if e.get("type") != "NOT_FOUND"]
+        if not dados or graves:
+            sys.exit(f"GraphQL falhou no lote {ini // lote + 1}: {(graves or resposta.get('errors') or ['sem dados'])[0]}")
         for n, repo in enumerate(parte):
             r = dados.get(f"r{n}")
             if not r:
@@ -218,6 +226,9 @@ def metricas(_args=None) -> int:
         restante = (dados.get("rateLimit") or {}).get("remaining")
         print(f"lote {ini // lote + 1}: {len(parte)} repos, cota restante {restante}")
 
+    # Muitos sumiços de uma vez é falha da API, não do catálogo: não sobrescreve as métricas.
+    if len(faltando) > max(5, len(repos) // 10):
+        sys.exit(f"{len(faltando)} de {len(repos)} repositórios sem resposta; métricas antigas mantidas.")
     saida = {
         "_atualizado": dt.date.today().isoformat(),
         "_fonte": "GitHub GraphQL API",
@@ -292,7 +303,7 @@ def link_item(it: dict) -> str:
     return f"https://github.com/{it['repo']}" if it.get("repo") else it["url"]
 
 
-def montar(lingua: str = "pt"):
+def montar():
     grupos, categorias = carregar_mapa()
     met = carregar_metricas()
     hoje = dt.date.fromisoformat(met["_atualizado"]) if met.get("_atualizado") else dt.date.today()
@@ -319,7 +330,7 @@ def linha_tabela(it: dict, lingua: str) -> str:
     desc = it["desc"] if lingua == "pt" else it["desc_en"]
     nome = f"[{it['nome']}]({link_item(it)})"
     if it.get("repo") and it.get("url"):
-        nome += f" · [{'site' if lingua == 'pt' else 'site'}]({it['url']})"
+        nome += f" · [site]({it['url']})"
     m = it.get("_m")
     if m:
         info = m["licenca"] or "—"
@@ -356,7 +367,6 @@ def pagina_categoria(cat: dict, grupo: dict, lista: list[dict], lingua: str, hoj
     nome = cat["nome"] if pt else cat["name"]
     desc = cat["descricao"] if pt else cat["description"]
     g_nome = grupo["nome"] if pt else grupo["name"]
-    volta = "README.md" if pt else "README.md"
     outra = f"en/{cat['id']}.md" if pt else f"../{cat['id']}.md"
     linhas = [
         "<!-- Gerado por scripts/ciberatlas.py — não edite à mão; edite dados/itens/*.yml -->",
@@ -371,7 +381,7 @@ def pagina_categoria(cat: dict, grupo: dict, lista: list[dict], lingua: str, hoj
     if cat.get("cis"):
         meta.append(f"**CIS Controls v8.1:** {', '.join(str(c) for c in cat['cis'])}")
     linhas += [" · ".join(meta), "",
-               f"[← {'Catálogo' if pt else 'Catalog'}]({volta}) · "
+               f"[← {'Catálogo' if pt else 'Catalog'}](README.md) · "
                f"[{'English' if pt else 'Português'}]({outra})", ""]
     vivos = [it for it in lista if it["_saude"] not in ("parado", "arquivado")]
     if not vivos:
@@ -473,6 +483,28 @@ def cemiterio(itens, hoje) -> str:
             linhas.append(f"| [{it['nome']}]({link_item(it)}) | [{it['categoria']}]({it['categoria']}.md) | "
                           f"{mes(it['_m']['ultima_atividade'], 'pt')} | {motivo} |")
     return "\n".join(linhas) + "\n"
+
+
+def atualizar_site(n: dict) -> None:
+    """Números e datas fixos no HTML do site (aparecem antes do JavaScript e nas prévias de link)."""
+    trocas = (
+        (RAIZ / "site" / "index.html", (
+            (r'(data-n="itens">)[^<]*', rf'\g<1>{n["itens"]}'),
+            (r'(data-n="categorias">)[^<]*', rf'\g<1>{n["categorias"]}'),
+            (r'\d+\+ ferramentas', f'{n["itens"] // 100 * 100}+ ferramentas'),
+            (r'("dateModified": ")[^"]*', rf'\g<1>{n["data"]}'),
+            (r'(id="medido-data" datetime=")[^"]*(">)[^<]*',
+             rf'\g<1>{n["data"]}\g<2>{dt.date.fromisoformat(n["data"]).strftime("%d/%m/%Y")}'),
+        )),
+        (RAIZ / "site" / "sitemap.xml", ((r'(<lastmod>)[^<]*', rf'\g<1>{n["data"]}'),)),
+    )
+    for caminho, regras in trocas:
+        if not caminho.exists():
+            continue
+        texto = caminho.read_text(encoding="utf-8")
+        for padrao, troca in regras:
+            texto = re.sub(padrao, troca, texto)
+        caminho.write_text(texto, encoding="utf-8")
 
 
 def gerar(_args=None) -> int:
@@ -586,13 +618,21 @@ def gerar(_args=None) -> int:
             l.append("")
     (RAIZ / "llms.txt").write_text("\n".join(l), encoding="utf-8")
 
+    atualizar_site(n_pt)
+
     print(f"gerado: {len(categorias)} categorias x 2 idiomas, api/catalogo.json ({len(saida)} itens), "
           f"llms.txt, cemitério ({n_pt['cemiterio']}).")
     return 0
 
 
-def conferir(_args=None) -> int:
-    """Depois de `metricas`: falha se algum repositório não existe; avisa os parados."""
+def conferir(args=None) -> int:
+    """Depois de `metricas`: falha se algum repositório não existe; avisa os parados.
+
+    Com `--novos dono/nome ...` (os repos que um pull request acrescenta), falha também se
+    algum deles já está arquivado ou parado há mais de 24 meses.
+    """
+    args = list(args or [])
+    novos = {r.lower() for r in args[args.index("--novos") + 1:]} if "--novos" in args else set()
     met = carregar_metricas()
     hoje = dt.date.fromisoformat(met["_atualizado"])
     faltando = met.get("nao_encontrados") or []
@@ -602,8 +642,11 @@ def conferir(_args=None) -> int:
         print(f"aviso: {repo} está {s} — vai para o cemitério")
     for repo in faltando:
         print(f"erro: repositório não encontrado no GitHub: {repo}")
+    recusados = [(repo, s) for repo, s in mortos if repo.lower() in novos]
+    for repo, s in recusados:
+        print(f"erro: {repo} é novo neste pedido e já está {s}; o Atlas só aceita projeto vivo")
     print(f"conferência: {len(met['repos'])} medidos, {len(faltando)} não encontrados, {len(mortos)} no cemitério.")
-    return 1 if faltando else 0
+    return 1 if (faltando or recusados) else 0
 
 
 def tudo(args=None) -> int:

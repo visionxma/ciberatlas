@@ -11,7 +11,7 @@
 |---|---|--:|---|---|---|
 | [acme.sh](https://github.com/acmesh-official/acme.sh) | Cliente ACME em shell puro para emitir e renovar certificados TLS automaticamente. | ⭐ 47,8 mil | out 2026 | GPL-3.0 | 🟢 ativo |
 | [Certbot](https://github.com/certbot/certbot) | Cliente da EFF que obtém certificados do Let's Encrypt e pode ativar o HTTPS automaticamente. | ⭐ 33,3 mil | out 2026 | outra | 🟢 ativo |
-| [age](https://github.com/FiloSottile/age) | Ferramenta simples e moderna de criptografia de arquivos, com chaves pequenas e sem configuração. | ⭐ 24 mil | ago 2026 | BSD-3-Clause | 🟢 ativo |
+| [age](https://github.com/FiloSottile/age) | Criptografia de arquivos com chaves pequenas e sem arquivo de configuração. | ⭐ 24 mil | ago 2026 | BSD-3-Clause | 🟢 ativo |
 | [Cryptomator](https://github.com/cryptomator/cryptomator) | Criptografia do lado do cliente para arquivos em nuvem no Windows, macOS e Linux. | ⭐ 16,3 mil | out 2026 | GPL-3.0 | 🟢 ativo |
 | [cert-manager](https://github.com/cert-manager/cert-manager) | Emite e renova automaticamente certificados TLS em clusters Kubernetes. | ⭐ 14,1 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [VeraCrypt](https://github.com/veracrypt/VeraCrypt) | Criptografia de disco e volumes com algoritmos fortes, sucessor do TrueCrypt. | ⭐ 11,9 mil | out 2026 | outra | 🟢 ativo |

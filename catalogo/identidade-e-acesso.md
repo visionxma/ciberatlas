@@ -18,6 +18,6 @@
 | [Ory Kratos](https://github.com/ory/kratos) | Autenticação e gestão de identidade sem interface própria, nativa de nuvem e escrita em Go. | ⭐ 13,9 mil | jul 2026 | Apache-2.0 | 🟢 ativo |
 | [Open Policy Agent](https://github.com/open-policy-agent/opa) | Motor de políticas de uso geral que decide autorização e conformidade com a linguagem Rego. | ⭐ 12,4 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [OpenFGA](https://github.com/openfga/openfga) | Motor de autorização por relações (estilo Zanzibar) para controle de permissões fino em aplicações. | ⭐ 6 mil | out 2026 | Apache-2.0 | 🟢 ativo |
-| [Kanidm](https://github.com/kanidm/kanidm) | Plataforma de gestão de identidade simples e segura, com SSH, RADIUS, OIDC e suporte a passkeys. | ⭐ 5,5 mil | out 2026 | MPL-2.0 | 🟢 ativo |
+| [Kanidm](https://github.com/kanidm/kanidm) | Plataforma de gestão de identidade com SSH, RADIUS, OIDC e suporte a passkeys. | ⭐ 5,5 mil | out 2026 | MPL-2.0 | 🟢 ativo |
 
 _10 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

@@ -113,13 +113,15 @@ Duas normas gêmeas do Banco Central sobre política de segurança cibernética 
 
 | | Res. CMN 4.893, de 26/02/2021 | Res. BCB 85, de 08/04/2021 |
 |---|---|---|
-| Quem | Instituições autorizadas a funcionar pelo Banco Central. O parágrafo único do art. 1º, na redação em vigor desde 01/03/2024, exclui administradoras de consórcio, instituições de pagamento, corretoras e distribuidoras de títulos e valores mobiliários e corretoras de câmbio, que seguem a regulamentação do Banco Central | Instituições de pagamento autorizadas a funcionar pelo Banco Central |
+| Quem | Instituições autorizadas a funcionar pelo Banco Central. O parágrafo único do art. 1º exclui administradoras de consórcio, instituições de pagamento, corretoras e distribuidoras de títulos e valores mobiliários e corretoras de câmbio, que seguem a regulamentação do Banco Central | Instituições de pagamento autorizadas a funcionar pelo Banco Central |
 | Política | Política de segurança cibernética compatível com porte, perfil de risco, modelo de negócio e sensibilidade dos dados (art. 2º) | Idem (art. 2º) |
 | Conteúdo mínimo da política | Objetivos, controles, registro e análise de incidentes relevantes, diretrizes para terceiros, cultura de segurança e compartilhamento de informações sobre incidentes (art. 3º) | Idem (art. 3º) |
 | Controles que a política cobre | O §2º do art. 3º foi reescrito pela Res. CMN 5.274, de 18/12/2025. Leia a versão vigente | No mínimo: autenticação, criptografia, prevenção e detecção de intrusão, prevenção de vazamento, testes e varreduras periódicos de vulnerabilidade, proteção contra software malicioso, rastreabilidade, controle de acesso, segmentação de rede e cópias de segurança (art. 3º, §2º, texto original) |
 | Aviso ao Banco Central | Comunicação tempestiva de incidentes relevantes e de interrupções de serviços relevantes que configurem situação de crise (art. 20, III) | Idem (art. 20, III) |
 
-Fontes: [Res. CMN 4.893 (versão vigente, no site do Banco Central)](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%c3%a7%c3%a3o%20CMN&numero=4893) · [Res. BCB 85 (Diário Oficial da União)](https://www.in.gov.br/en/web/dou/-/resolucao-bcb-n-85-de-8-de-abril-de-2021-313194098)
+A Res. CMN 5.274, de 18/12/2025 (Diário Oficial de 22/12/2025), alterou a 4.893 e entrou em vigor na publicação; as instituições em funcionamento têm até 01/03/2026 para se adequar (art. 2º).
+
+Fontes: [Res. CMN 5.274 (site do Banco Central)](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%c3%a7%c3%a3o%20CMN&numero=5274) · [Res. CMN 4.893 (versão vigente, no site do Banco Central)](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%c3%a7%c3%a3o%20CMN&numero=4893) · [Res. BCB 85 (Diário Oficial da União)](https://www.in.gov.br/en/web/dou/-/resolucao-bcb-n-85-de-8-de-abril-de-2021-313194098)
 
 Estas normas valem só para o setor financeiro e de pagamentos. A seção de contratação de nuvem não foi detalhada aqui; leia os capítulos correspondentes nos textos acima.
 

@@ -80,8 +80,8 @@
 - nome: "uBlock Origin"
   repo: gorhill/uBlock
   categoria: privacidade-pessoal
-  desc: "Bloqueador de conteúdo eficiente e leve para Chromium e Firefox, que reduz rastreadores e anúncios."
-  desc_en: "Efficient, lightweight content blocker for Chromium and Firefox that cuts trackers and ads."
+  desc: "Bloqueador de conteúdo para Chromium e Firefox que corta rastreadores e anúncios com listas de filtros."
+  desc_en: "Content blocker for Chromium and Firefox that cuts trackers and ads with filter lists."
   tags: [bloqueador, navegador, rastreadores]
 
 - nome: "Privacy Badger"
@@ -122,7 +122,7 @@
   desc_en: "Live operating system that runs from a USB stick and leaves no trace, routing all traffic through Tor."
   tags: [sistema-operacional, anonimato]
   custo: gratis
-  idiomas: [en, es]
+  idiomas: [pt, en, es]
 
 - nome: "GrapheneOS"
   url: https://grapheneos.org

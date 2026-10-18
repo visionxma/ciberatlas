@@ -7,7 +7,7 @@
 Em português e inglês. Conferido toda semana por um robô. Organizado pelo NIST CSF 2.0,
 pelo MITRE D3FEND e pelos CIS Controls.
 
-[English](README.en.md) · [Catálogo](catalogo/README.md) · [Comece aqui](docs/comece-aqui/README.md) · [Brasil](docs/brasil/README.md) · [Contribuir](CONTRIBUTING.md) · [Dados abertos](#use-os-dados)
+**[🔎 Buscar no site](https://visionxma.github.io/ciberatlas/)** · [English](README.en.md) · [Catálogo](catalogo/README.md) · [Comece aqui](docs/comece-aqui/README.md) · [Brasil](docs/brasil/README.md) · [Contribuir](CONTRIBUTING.md) · [Dados abertos](#use-os-dados)
 
 <!-- atlas:selos -->
 ![itens](https://img.shields.io/badge/itens-412-0b7285) ![projetos](https://img.shields.io/badge/projetos%20verificados-341-2b8a3e) ![atualizado](https://img.shields.io/badge/atualizado-2026--10--18-495057) ![licença](https://img.shields.io/badge/dados-CC0--1.0-495057)
@@ -24,9 +24,10 @@ pelo MITRE D3FEND e pelos CIS Controls.
 ## Por que existe
 
 Lista de segurança feita à mão envelhece. O link continua lá, mas o projeto morreu, foi
-arquivado ou trocou de dono. Em 18/10/2026, a lista de segurança mais estrelada do GitHub
-estava sem commit desde novembro de 2024 e tinha 170 pedidos de alteração esperando
-resposta. Quem chega não tem como saber o que ainda presta sem abrir item por item.
+arquivado ou trocou de dono. Em 18/10/2026, a lista "awesome security" mais estrelada do
+GitHub estava sem commit desde 11/01/2026 e tinha 326 pedidos de alteração abertos. Das 15
+mais estreladas com esse nome, 5 estavam arquivadas ou sem commit havia mais de um ano.
+Quem chega não tem como saber o que ainda presta sem abrir item por item.
 
 O CiberAtlas resolve isso com três escolhas:
 
@@ -88,8 +89,8 @@ _Código, identidades, sistemas, nuvem e rede endurecidos antes do ataque._
 - [Hardening de sistemas](catalogo/hardening-de-sistemas.md) · 10 — Auditar e endurecer Linux, Windows e macOS contra benchmarks conhecidos.
 - [Segurança em nuvem e IaC](catalogo/seguranca-em-nuvem.md) · 8 — Auditar contas AWS, Azure e GCP e a infraestrutura como código antes do deploy.
 - [Containers e Kubernetes](catalogo/containers-e-kubernetes.md) · 9 — Políticas, benchmarks e varredura para imagens e clusters.
-- [Rede, firewall e VPN](catalogo/rede-firewall-e-vpn.md) · 10 — Segmentar, filtrar e conectar com segurança.
-- [WAF e proteção de aplicações web](catalogo/waf-e-protecao-web.md) · 8 — Filtrar tráfego malicioso antes que ele chegue à aplicação.
+- [Rede, firewall e VPN](catalogo/rede-firewall-e-vpn.md) · 11 — Segmentar, filtrar e conectar com segurança.
+- [WAF e proteção de aplicações web](catalogo/waf-e-protecao-web.md) · 7 — Filtrar tráfego malicioso antes que ele chegue à aplicação.
 - [Testes dinâmicos de aplicação (DAST)](catalogo/testes-dinamicos-de-aplicacao.md) · 6 — Testar a própria aplicação rodando, no pipeline, antes do atacante.
 - [Criptografia e TLS](catalogo/criptografia-e-tls.md) · 10 — Certificados, criptografia de arquivos e auditoria de configuração TLS.
 - [Segurança de e-mail](catalogo/seguranca-de-email.md) · 10 — SPF, DKIM, DMARC, antispam e relatórios de abuso do seu domínio.
@@ -126,7 +127,7 @@ _Laboratórios legais, cursos, certificações, guias e comunidades._
 
 - [Laboratórios e CTF (prática legal)](catalogo/laboratorios-e-ctf.md) · 27 — Ambientes feitos para treinar sem tocar em sistema de ninguém.
 - [Cursos gratuitos](catalogo/cursos-gratuitos.md) · 12 — Cursos abertos de universidades e organizações reconhecidas.
-- [Certificações](catalogo/certificacoes.md) · 16 — As certificações mais pedidas, por nível e foco (sem preço — ele muda).
+- [Certificações](catalogo/certificacoes.md) · 16 — Certificações reconhecidas, por nível e foco; as de teste de invasão entram como formação (sem preço — ele muda).
 - [Guias e referências](catalogo/guias-e-referencias.md) · 18 — Cheat sheets, guias de teste, normas e livros abertos.
 - [Listas irmãs](catalogo/listas-irmas.md) · 15 — Outras listas abertas, mantidas, que aprofundam um tema específico.
 - [Comunidade lusófona](catalogo/comunidade-lusofona.md) · 11 — Eventos, grupos e materiais em português.
@@ -166,7 +167,7 @@ Nenhuma lista grande trata do que muda quando o incidente acontece aqui.
 ## Como o Atlas se mantém vivo
 
 1. **Toda proposta é validada na hora.** Um robô confere o formato, procura duplicata,
-   confirma que o repositório existe e que não está arquivado.
+   confirma que o repositório existe, não está arquivado e teve atividade nos últimos 24 meses.
 2. **Toda semana o robô mede tudo de novo** pela API do GitHub: estrelas, data do último
    commit, licença e arquivamento. As tabelas, o JSON e o `llms.txt` são regenerados.
 3. **Projeto parado há mais de 24 meses ou arquivado sai das tabelas** e vai para o

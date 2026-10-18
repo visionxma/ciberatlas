@@ -16,7 +16,7 @@
 | [BorgBackup](https://github.com/borgbackup/borg) | Arquivador com deduplicação, compressão e criptografia autenticada, bom para backups incrementais diários. | ⭐ 13,9 mil | out 2026 | outra | 🟢 ativo |
 | [Velero](https://github.com/velero-io/velero) | Faz backup e restauração de recursos e volumes persistentes de clusters Kubernetes, inclusive migração entre clusters. | ⭐ 10,3 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [Backrest](https://github.com/garethgeorge/backrest) | Interface web e agendador para o restic: configura repositórios, planos e restaurações sem linha de comando. | ⭐ 7,7 mil | jul 2026 | GPL-3.0 | 🟢 ativo |
-| [pgBackRest](https://github.com/pgbackrest/pgbackrest) | Backup e restauração confiáveis de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo. | ⭐ 4,4 mil | out 2026 | outra | 🟢 ativo |
+| [pgBackRest](https://github.com/pgbackrest/pgbackrest) | Backup e restauração de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo. | ⭐ 4,4 mil | out 2026 | outra | 🟢 ativo |
 | [borgmatic](https://github.com/borgmatic-collective/borgmatic) | Backup de servidores e estações por arquivo de configuração sobre o Borg, com verificação de consistência e alertas. | ⭐ 2,4 mil | out 2026 | GPL-3.0 | 🟢 ativo |
 | [Bareos](https://github.com/bareos/bareos) | Solução de backup em rede para preservar, arquivar e recuperar dados de vários sistemas operacionais. | ⭐ 1,3 mil | out 2026 | outra | 🟢 ativo |
 | [Relax-and-Recover](https://github.com/rear/rear) | Recuperação de desastre de servidores Linux: gera imagem de resgate para reconstruir o sistema em hardware novo. | ⭐ 1,1 mil | out 2026 | GPL-3.0 | 🟢 ativo |

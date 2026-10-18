@@ -9,8 +9,8 @@
 
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
-| [Promptfoo](https://github.com/promptfoo/promptfoo) | Testa prompts, agentes e RAG com avaliações e red team automatizado em CI. | ⭐ 26,1 mil | out 2026 | MIT | 🟢 ativo |
-| [garak](https://github.com/NVIDIA/garak) | Scanner de vulnerabilidades de LLMs: testa injeção de prompt, vazamento e outros comportamentos indesejados. | ⭐ 9,6 mil | out 2026 | Apache-2.0 | 🟢 ativo |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | Testa os seus próprios prompts, agentes e RAG com avaliações e red team automatizado em CI. | ⭐ 26,1 mil | out 2026 | MIT | 🟢 ativo |
+| [garak](https://github.com/NVIDIA/garak) | Scanner de vulnerabilidades para os seus próprios LLMs: testa injeção de prompt, vazamento e respostas indesejadas. | ⭐ 9,6 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | Framework que valida entradas e saídas de LLMs com validadores e estrutura os resultados. | ⭐ 7,5 mil | ago 2026 | Apache-2.0 | 🟢 ativo |
 | [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Toolkit para adicionar barreiras programáveis a aplicações baseadas em LLM. | ⭐ 7,3 mil | out 2026 | outra | 🟢 ativo |
 | [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | Biblioteca Python de segurança de aprendizado de máquina contra evasão, envenenamento, extração e inferência. | ⭐ 6,3 mil | out 2026 | MIT | 🟢 ativo |

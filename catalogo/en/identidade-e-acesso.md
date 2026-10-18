@@ -18,6 +18,6 @@
 | [Ory Kratos](https://github.com/ory/kratos) | Headless, cloud-native authentication and identity management written in Go. | ⭐ 13.9k | Jul 2026 | Apache-2.0 | 🟢 active |
 | [Open Policy Agent](https://github.com/open-policy-agent/opa) | General-purpose policy engine that decides authorization and compliance using the Rego language. | ⭐ 12.4k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [OpenFGA](https://github.com/openfga/openfga) | Relationship-based authorization engine (Zanzibar-style) for fine-grained permissions in applications. | ⭐ 6k | Oct 2026 | Apache-2.0 | 🟢 active |
-| [Kanidm](https://github.com/kanidm/kanidm) | Simple and secure identity management platform with SSH, RADIUS, OIDC and passkey support. | ⭐ 5.5k | Oct 2026 | MPL-2.0 | 🟢 active |
+| [Kanidm](https://github.com/kanidm/kanidm) | Identity management platform with SSH, RADIUS, OIDC and passkey support. | ⭐ 5.5k | Oct 2026 | MPL-2.0 | 🟢 active |
 
 _10 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

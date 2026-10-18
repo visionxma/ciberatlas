@@ -23,7 +23,7 @@ jobs:
             --no-progress --max-concurrency 8 --timeout 30 --max-retries 2
             --accept 200,206,403,429
             --exclude-path catalogo --exclude-path api --exclude-path llms.txt
-            --exclude cncs\.gov\.pt
+            --exclude cncs\.gov\.pt --exclude whatsapp\.com
             README.md README.en.md CONTRIBUTING.md CONTRIBUTING.en.md docs dados
           fail: false
           output: ./lychee/relatorio.md

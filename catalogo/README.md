@@ -32,8 +32,8 @@ _Código, identidades, sistemas, nuvem e rede endurecidos antes do ataque._
 - [Hardening de sistemas](hardening-de-sistemas.md) · 10 — Auditar e endurecer Linux, Windows e macOS contra benchmarks conhecidos.
 - [Segurança em nuvem e IaC](seguranca-em-nuvem.md) · 8 — Auditar contas AWS, Azure e GCP e a infraestrutura como código antes do deploy.
 - [Containers e Kubernetes](containers-e-kubernetes.md) · 9 — Políticas, benchmarks e varredura para imagens e clusters.
-- [Rede, firewall e VPN](rede-firewall-e-vpn.md) · 10 — Segmentar, filtrar e conectar com segurança.
-- [WAF e proteção de aplicações web](waf-e-protecao-web.md) · 8 — Filtrar tráfego malicioso antes que ele chegue à aplicação.
+- [Rede, firewall e VPN](rede-firewall-e-vpn.md) · 11 — Segmentar, filtrar e conectar com segurança.
+- [WAF e proteção de aplicações web](waf-e-protecao-web.md) · 7 — Filtrar tráfego malicioso antes que ele chegue à aplicação.
 - [Testes dinâmicos de aplicação (DAST)](testes-dinamicos-de-aplicacao.md) · 6 — Testar a própria aplicação rodando, no pipeline, antes do atacante.
 - [Criptografia e TLS](criptografia-e-tls.md) · 10 — Certificados, criptografia de arquivos e auditoria de configuração TLS.
 - [Segurança de e-mail](seguranca-de-email.md) · 10 — SPF, DKIM, DMARC, antispam e relatórios de abuso do seu domínio.
@@ -70,7 +70,7 @@ _Laboratórios legais, cursos, certificações, guias e comunidades._
 
 - [Laboratórios e CTF (prática legal)](laboratorios-e-ctf.md) · 27 — Ambientes feitos para treinar sem tocar em sistema de ninguém.
 - [Cursos gratuitos](cursos-gratuitos.md) · 12 — Cursos abertos de universidades e organizações reconhecidas.
-- [Certificações](certificacoes.md) · 16 — As certificações mais pedidas, por nível e foco (sem preço — ele muda).
+- [Certificações](certificacoes.md) · 16 — Certificações reconhecidas, por nível e foco; as de teste de invasão entram como formação (sem preço — ele muda).
 - [Guias e referências](guias-e-referencias.md) · 18 — Cheat sheets, guias de teste, normas e livros abertos.
 - [Listas irmãs](listas-irmas.md) · 15 — Outras listas abertas, mantidas, que aprofundam um tema específico.
 - [Comunidade lusófona](comunidade-lusofona.md) · 11 — Eventos, grupos e materiais em português.

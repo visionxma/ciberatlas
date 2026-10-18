@@ -9,8 +9,8 @@
 
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
-| [Promptfoo](https://github.com/promptfoo/promptfoo) | Tests prompts, agents and RAG with evals and automated red teaming in CI. | ⭐ 26.1k | Oct 2026 | MIT | 🟢 active |
-| [garak](https://github.com/NVIDIA/garak) | LLM vulnerability scanner: probes for prompt injection, leakage and other unwanted behavior. | ⭐ 9.6k | Oct 2026 | Apache-2.0 | 🟢 active |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | Tests your own prompts, agents and RAG with evals and automated red teaming in CI. | ⭐ 26.1k | Oct 2026 | MIT | 🟢 active |
+| [garak](https://github.com/NVIDIA/garak) | Vulnerability scanner for your own LLMs: probes for prompt injection, leakage and unwanted behavior. | ⭐ 9.6k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | Framework that validates LLM inputs and outputs with validators and structures results. | ⭐ 7.5k | Aug 2026 | Apache-2.0 | 🟢 active |
 | [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Toolkit to add programmable guardrails to LLM-based applications. | ⭐ 7.3k | Oct 2026 | other | 🟢 active |
 | [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | Python ML security library covering evasion, poisoning, extraction and inference. | ⭐ 6.3k | Oct 2026 | MIT | 🟢 active |

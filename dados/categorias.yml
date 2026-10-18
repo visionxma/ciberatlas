@@ -312,8 +312,8 @@ categorias:
     grupo: AP
     nome: Certificações
     name: Certifications
-    descricao: As certificações mais pedidas, por nível e foco (sem preço — ele muda).
-    description: The most requested certifications by level and focus (no prices — they change).
+    descricao: Certificações reconhecidas, por nível e foco; as de teste de invasão entram como formação (sem preço — ele muda).
+    description: Recognized certifications by level and focus; penetration-testing ones are listed as training (no prices — they change).
     cis: [14]
   - id: guias-e-referencias
     grupo: AP

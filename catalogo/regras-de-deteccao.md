@@ -9,7 +9,7 @@
 
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
-| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Testes pequenos e portáteis do MITRE ATT&CK para checar se as suas detecções disparam. | ⭐ 12,7 mil | set 2026 | MIT | 🟢 ativo |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Testes pequenos do MITRE ATT&CK, rodados em máquinas de teste suas, para checar se as suas detecções disparam. | ⭐ 12,7 mil | set 2026 | MIT | 🟢 ativo |
 | [Sigma](https://github.com/SigmaHQ/sigma) | Repositório principal de regras Sigma, formato aberto de detecção que vale para vários SIEMs. | ⭐ 11,3 mil | out 2026 | outra | 🟢 ativo |
 | [YARA](https://github.com/VirusTotal/yara) | Ferramenta de correspondência de padrões para identificar e classificar arquivos por regras. | ⭐ 10 mil | out 2026 | BSD-3-Clause | 🟢 ativo |
 | [Microsoft Sentinel (Azure-Sentinel)](https://github.com/Azure/Azure-Sentinel) | Regras de análise, consultas de caça e conectores de dados da comunidade do Microsoft Sentinel. | ⭐ 6,2 mil | out 2026 | MIT | 🟢 ativo |

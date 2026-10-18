@@ -1,6 +1,6 @@
 # Checklist: nuvem
 
-> **English:** Cloud account checklist: protected root account, MFA, least privilege, audit logs on, private buckets and scanning with Prowler or ScoutSuite. Applies to AWS, Azure and Google Cloud.
+> **English:** Cloud account checklist: protected root account, MFA, least privilege, audit logs on, private buckets and scanning with Prowler. Applies to AWS, Azure and Google Cloud.
 
 Os termos mudam de provedor, mas os controles são os mesmos. Os exemplos de comando usam a AWS CLI e só leem o estado. Rode apenas na **sua** conta.
 
@@ -55,7 +55,7 @@ Bucket (pasta de arquivos na nuvem) aberto por engano é uma das causas mais com
 
 Estas ferramentas leem a configuração da conta e listam os desvios. Não alteram nada.
 
-- [ ] Rodar [Prowler](https://github.com/prowler-cloud/prowler) (AWS, Azure, GCP e Kubernetes) ou [ScoutSuite](https://github.com/nccgroup/ScoutSuite) e guardar o relatório.
+- [ ] Rodar [Prowler](https://github.com/prowler-cloud/prowler) (AWS, Azure, GCP e Kubernetes) e guardar o relatório.
 - [ ] Tratar primeiro o que está crítico e aberto para a internet; depois o resto. Repetir em agenda fixa e a cada mudança grande.
 - [ ] Verificar o código de infraestrutura (Terraform, CloudFormation) **antes** do deploy (publicação) com ferramentas como o [Checkov](https://github.com/bridgecrewio/checkov). Catálogo: [segurança em nuvem e IaC](../../catalogo/seguranca-em-nuvem.md).
 

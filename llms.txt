@@ -142,7 +142,7 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [Ory Kratos](https://github.com/ory/kratos): Autenticação e gestão de identidade sem interface própria, nativa de nuvem e escrita em Go.
 - [Open Policy Agent](https://github.com/open-policy-agent/opa): Motor de políticas de uso geral que decide autorização e conformidade com a linguagem Rego.
 - [OpenFGA](https://github.com/openfga/openfga): Motor de autorização por relações (estilo Zanzibar) para controle de permissões fino em aplicações.
-- [Kanidm](https://github.com/kanidm/kanidm): Plataforma de gestão de identidade simples e segura, com SSH, RADIUS, OIDC e suporte a passkeys.
+- [Kanidm](https://github.com/kanidm/kanidm): Plataforma de gestão de identidade com SSH, RADIUS, OIDC e suporte a passkeys.
 
 ## Proteger / Hardening de sistemas
 
@@ -186,17 +186,17 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [Headscale](https://github.com/juanfont/headscale): Implementação aberta e auto-hospedada do servidor de controle do Tailscale.
 - [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome): Servidor DNS para a rede toda que bloqueia anúncios e rastreadores, com filtros e DNS criptografado.
 - [NetBird](https://github.com/netbirdio/netbird): Conecta pessoas e máquinas em rede WireGuard com identidade e políticas de acesso, no modelo zero trust.
+- [Fail2ban](https://github.com/fail2ban/fail2ban): Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.
 - [Nebula](https://github.com/slackhq/nebula): Rede sobreposta escalável e criptografada, com firewall embutido, focada em desempenho e simplicidade.
 - [OpenVPN](https://github.com/OpenVPN/openvpn): Servidor e cliente de VPN de código aberto, com TLS e suporte a vários sistemas.
 - [Firezone](https://github.com/firezone/firezone): Acesso remoto seguro baseado em WireGuard, com autenticação por SSO e políticas por recurso.
 - [pfSense](https://github.com/pfsense/pfsense): Repositório principal do pfSense CE, firewall e roteador de código aberto baseado em FreeBSD.
 - [OPNsense](https://github.com/opnsense/core): Firewall e roteador aberto, com interface web, API e sistema base, derivado do pfSense.
-- [WireGuard (Go)](https://github.com/WireGuard/wireguard-go): Implementação em Go do WireGuard, VPN moderna e enxuta; espelho do repositório oficial.
+- [WireGuard (Go)](https://github.com/WireGuard/wireguard-go): Implementação em Go do WireGuard, VPN de código pequeno e chaves curtas; espelho do repositório oficial.
 
 ## Proteger / WAF e proteção de aplicações web
 
 - [SafeLine](https://github.com/chaitin/SafeLine): WAF e proxy reverso auto-hospedado que protege aplicações web contra ataques e bots.
-- [Fail2ban](https://github.com/fail2ban/fail2ban): Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec): IDS/IPS aberto com WAF e detecção de bots, que bloqueia IPs com apoio de inteligência colaborativa.
 - [BunkerWeb](https://github.com/bunkerity/bunkerweb): WAF aberto, nativo de nuvem, baseado em Nginx, com segurança ativada por padrão.
 - [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity): Motor de WAF multiplataforma para Apache, IIS e Nginx, com regras e registro de requisições.
@@ -217,7 +217,7 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 
 - [acme.sh](https://github.com/acmesh-official/acme.sh): Cliente ACME em shell puro para emitir e renovar certificados TLS automaticamente.
 - [Certbot](https://github.com/certbot/certbot): Cliente da EFF que obtém certificados do Let's Encrypt e pode ativar o HTTPS automaticamente.
-- [age](https://github.com/FiloSottile/age): Ferramenta simples e moderna de criptografia de arquivos, com chaves pequenas e sem configuração.
+- [age](https://github.com/FiloSottile/age): Criptografia de arquivos com chaves pequenas e sem arquivo de configuração.
 - [Cryptomator](https://github.com/cryptomator/cryptomator): Criptografia do lado do cliente para arquivos em nuvem no Windows, macOS e Linux.
 - [cert-manager](https://github.com/cert-manager/cert-manager): Emite e renova automaticamente certificados TLS em clusters Kubernetes.
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Criptografia de disco e volumes com algoritmos fortes, sucessor do TrueCrypt.
@@ -241,8 +241,8 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 
 ## Proteger / Segurança de IA e LLM
 
-- [Promptfoo](https://github.com/promptfoo/promptfoo): Testa prompts, agentes e RAG com avaliações e red team automatizado em CI.
-- [garak](https://github.com/NVIDIA/garak): Scanner de vulnerabilidades de LLMs: testa injeção de prompt, vazamento e outros comportamentos indesejados.
+- [Promptfoo](https://github.com/promptfoo/promptfoo): Testa os seus próprios prompts, agentes e RAG com avaliações e red team automatizado em CI.
+- [garak](https://github.com/NVIDIA/garak): Scanner de vulnerabilidades para os seus próprios LLMs: testa injeção de prompt, vazamento e respostas indesejadas.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails): Framework que valida entradas e saídas de LLMs com validadores e estrutura os resultados.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Toolkit para adicionar barreiras programáveis a aplicações baseadas em LLM.
 - [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox): Biblioteca Python de segurança de aprendizado de máquina contra evasão, envenenamento, extração e inferência.
@@ -267,7 +267,7 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 
 ## Detectar / Regras de detecção
 
-- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team): Testes pequenos e portáteis do MITRE ATT&CK para checar se as suas detecções disparam.
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team): Testes pequenos do MITRE ATT&CK, rodados em máquinas de teste suas, para checar se as suas detecções disparam.
 - [Sigma](https://github.com/SigmaHQ/sigma): Repositório principal de regras Sigma, formato aberto de detecção que vale para vários SIEMs.
 - [YARA](https://github.com/VirusTotal/yara): Ferramenta de correspondência de padrões para identificar e classificar arquivos por regras.
 - [Microsoft Sentinel (Azure-Sentinel)](https://github.com/Azure/Azure-Sentinel): Regras de análise, consultas de caça e conectores de dados da comunidade do Microsoft Sentinel.
@@ -383,7 +383,7 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [BorgBackup](https://github.com/borgbackup/borg): Arquivador com deduplicação, compressão e criptografia autenticada, bom para backups incrementais diários.
 - [Velero](https://github.com/velero-io/velero): Faz backup e restauração de recursos e volumes persistentes de clusters Kubernetes, inclusive migração entre clusters.
 - [Backrest](https://github.com/garethgeorge/backrest): Interface web e agendador para o restic: configura repositórios, planos e restaurações sem linha de comando.
-- [pgBackRest](https://github.com/pgbackrest/pgbackrest): Backup e restauração confiáveis de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo.
+- [pgBackRest](https://github.com/pgbackrest/pgbackrest): Backup e restauração de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo.
 - [borgmatic](https://github.com/borgmatic-collective/borgmatic): Backup de servidores e estações por arquivo de configuração sobre o Borg, com verificação de consistência e alertas.
 - [Bareos](https://github.com/bareos/bareos): Solução de backup em rede para preservar, arquivar e recuperar dados de vários sistemas operacionais.
 - [Relax-and-Recover](https://github.com/rear/rear): Recuperação de desastre de servidores Linux: gera imagem de resgate para reconstruir o sistema em hardware novo.
@@ -441,7 +441,7 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [CEH — Certified Ethical Hacker](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/): Certificação do EC-Council sobre técnicas de ataque e defesa, com foco em testes autorizados.
 - [CompTIA CySA+](https://www.comptia.org/en-us/certifications/cybersecurity-analyst/): Certificação de analista de segurança: monitoramento, análise de ameaças e resposta a incidentes.
 - [CompTIA PenTest+](https://www.comptia.org/en-us/certifications/pentest/): Certificação de testes de invasão e avaliação de vulnerabilidades, com questões práticas.
-- [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/): Certificação de base mais pedida para funções de segurança: ameaças, arquitetura, operações e governança.
+- [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/): Certificação de base da CompTIA para funções de segurança: ameaças, arquitetura, operações e governança.
 - [eJPT — eLearnSecurity Junior Penetration Tester](https://ine.com/security/certifications/ejpt-certification): Certificação prática de entrada em testes de invasão autorizados, com exame em laboratório.
 - [GIAC GCIH — Incident Handler](https://www.giac.org/certifications/certified-incident-handler-gcih): Certificação da GIAC focada em detectar, responder e resolver incidentes de segurança.
 - [GIAC GSEC — Security Essentials](https://www.giac.org/certifications/security-essentials-gsec): Certificação da GIAC/SANS sobre fundamentos práticos de segurança: redes, sistemas, criptografia e nuvem.
@@ -522,7 +522,7 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 
 ## Pessoas / Privacidade e comunicação segura
 
-- [uBlock Origin](https://github.com/gorhill/uBlock): Bloqueador de conteúdo eficiente e leve para Chromium e Firefox, que reduz rastreadores e anúncios.
+- [uBlock Origin](https://github.com/gorhill/uBlock): Bloqueador de conteúdo para Chromium e Firefox que corta rastreadores e anúncios com listas de filtros.
 - [Signal](https://github.com/signalapp/Signal-Android): Mensageiro de código aberto com criptografia de ponta a ponta por padrão, em mensagens e chamadas.
 - [Personal Security Checklist](https://github.com/lissy93/personal-security-checklist): Lista de mais de 300 dicas para proteger sua segurança digital e privacidade no dia a dia.
 - [SimpleX Chat](https://github.com/simplex-chat/simplex-chat): Mensageiro de código aberto que funciona sem identificadores de usuário de qualquer tipo.

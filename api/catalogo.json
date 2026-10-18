@@ -164,8 +164,8 @@
    "cis_controls": [
     14
    ],
-   "desc": "Certificação de base mais pedida para funções de segurança: ameaças, arquitetura, operações e governança.",
-   "desc_en": "Widely requested baseline certification: threats, architecture, operations and governance.",
+   "desc": "Certificação de base da CompTIA para funções de segurança: ameaças, arquitetura, operações e governança.",
+   "desc_en": "CompTIA baseline certification for security roles: threats, architecture, operations and governance.",
    "tags": [
     "fundamentos",
     "comptia"
@@ -1947,7 +1947,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8499,
+   "estrelas": 8500,
    "ultima_atividade": "2026-03-12",
    "licenca": "GPL-3.0",
    "saude": "morno"
@@ -2034,7 +2034,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5914,
+   "estrelas": 5913,
    "ultima_atividade": "2026-04-16",
    "licenca": "MIT",
    "saude": "morno"
@@ -3067,7 +3067,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 41611,
+   "estrelas": 41613,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -3178,7 +3178,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9488,
+   "estrelas": 9489,
    "ultima_atividade": "2026-10-14",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -3234,7 +3234,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7004,
+   "estrelas": 7006,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -3692,7 +3692,7 @@
     13
    ],
    "desc": "Honeypot SSH falso, simples de configurar, que aceita qualquer login e registra a atividade.",
-   "desc_en": "Easy-to-set-up fake SSH honeypot that accepts any login and logs the activity.",
+   "desc_en": "Fake SSH honeypot that accepts any login and logs the activity.",
    "tags": [
     "honeypot",
     "ssh"
@@ -3944,7 +3944,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6603,
+   "estrelas": 6604,
    "ultima_atividade": "2026-10-10",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -4016,8 +4016,8 @@
     8,
     13
    ],
-   "desc": "Testes pequenos e portáteis do MITRE ATT&CK para checar se as suas detecções disparam.",
-   "desc_en": "Small, portable MITRE ATT&CK tests to check whether your detections actually fire.",
+   "desc": "Testes pequenos do MITRE ATT&CK, rodados em máquinas de teste suas, para checar se as suas detecções disparam.",
+   "desc_en": "Small MITRE ATT&CK tests, run on your own test machines, to check whether your detections fire.",
    "tags": [
     "mitre-attack",
     "validacao"
@@ -4255,7 +4255,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1715,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -4558,7 +4558,7 @@
     13
    ],
    "desc": "Banco de dados de logs rápido, capaz de guardar e consultar terabytes de eventos.",
-   "desc_en": "Fast log database that can store and query terabytes of events efficiently.",
+   "desc_en": "Log database that stores and queries terabytes of events.",
    "tags": [
     "logs",
     "banco-de-dados"
@@ -5184,7 +5184,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 4312,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -5492,7 +5492,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9694,
+   "estrelas": 9695,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5519,7 +5519,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11077,
+   "estrelas": 11078,
    "ultima_atividade": "2026-09-29",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5573,7 +5573,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13042,
+   "estrelas": 13043,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5600,7 +5600,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 32105,
+   "estrelas": 32106,
    "ultima_atividade": "2026-10-18",
    "licenca": "MIT",
    "saude": "ativo"
@@ -6125,7 +6125,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 21718,
+   "estrelas": 21719,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -6709,7 +6709,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29487,
+   "estrelas": 29488,
    "ultima_atividade": "2026-10-16",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -6763,6 +6763,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [
+    "pt",
     "en",
     "es"
    ],
@@ -6842,8 +6843,8 @@
    "cis_controls": [
     9
    ],
-   "desc": "Bloqueador de conteúdo eficiente e leve para Chromium e Firefox, que reduz rastreadores e anúncios.",
-   "desc_en": "Efficient, lightweight content blocker for Chromium and Firefox that cuts trackers and ads.",
+   "desc": "Bloqueador de conteúdo para Chromium e Firefox que corta rastreadores e anúncios com listas de filtros.",
+   "desc_en": "Content blocker for Chromium and Firefox that cuts trackers and ads with filter lists.",
    "tags": [
     "bloqueador",
     "navegador",
@@ -6995,7 +6996,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 20407,
+   "estrelas": 20408,
    "ultima_atividade": "2026-10-16",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -7136,7 +7137,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 69247,
+   "estrelas": 69249,
    "ultima_atividade": "2026-10-16",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -7382,7 +7383,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 17117,
+   "estrelas": 17118,
    "ultima_atividade": "2026-10-14",
    "licenca": "LGPL-2.1",
    "saude": "ativo"
@@ -7705,8 +7706,8 @@
    "cis_controls": [
     3
    ],
-   "desc": "Ferramenta simples e moderna de criptografia de arquivos, com chaves pequenas e sem configuração.",
-   "desc_en": "Simple, modern file encryption tool with small keys and no configuration.",
+   "desc": "Criptografia de arquivos com chaves pequenas e sem arquivo de configuração.",
+   "desc_en": "File encryption with small keys and no configuration file.",
    "tags": [
     "arquivos",
     "go"
@@ -7931,7 +7932,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11866,
+   "estrelas": 11867,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -8015,7 +8016,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29845,
+   "estrelas": 29846,
    "ultima_atividade": "2026-10-17",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -8099,7 +8100,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 23431,
+   "estrelas": 23432,
    "ultima_atividade": "2026-10-13",
    "licenca": "MPL-2.0",
    "saude": "ativo"
@@ -8144,7 +8145,7 @@
     4
    ],
    "desc": "Coleção Ansible com hardening testado para Linux, SSH, nginx e MySQL.",
-   "desc_en": "Ansible collection with battle-tested hardening for Linux, SSH, nginx and MySQL.",
+   "desc_en": "Ansible collection with hardening roles for Linux, SSH, nginx and MySQL.",
    "tags": [
     "ansible",
     "linux"
@@ -8288,7 +8289,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 22557,
+   "estrelas": 22558,
    "ultima_atividade": "2026-10-01",
    "licenca": "MIT",
    "saude": "ativo"
@@ -8369,7 +8370,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6126,
+   "estrelas": 6127,
    "ultima_atividade": "2025-04-18",
    "licenca": "AGPL-3.0",
    "saude": "morno"
@@ -8398,7 +8399,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29300,
+   "estrelas": 29302,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8472,8 +8473,8 @@
     5,
     6
    ],
-   "desc": "Plataforma de gestão de identidade simples e segura, com SSH, RADIUS, OIDC e suporte a passkeys.",
-   "desc_en": "Simple and secure identity management platform with SSH, RADIUS, OIDC and passkey support.",
+   "desc": "Plataforma de gestão de identidade com SSH, RADIUS, OIDC e suporte a passkeys.",
+   "desc_en": "Identity management platform with SSH, RADIUS, OIDC and passkey support.",
    "tags": [
     "ldap",
     "passkeys"
@@ -8678,9 +8679,37 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 37520,
+   "estrelas": 37521,
    "ultima_atividade": "2026-10-16",
    "licenca": "GPL-3.0",
+   "saude": "ativo"
+  },
+  {
+   "nome": "Fail2ban",
+   "link": "https://github.com/fail2ban/fail2ban",
+   "repo": "fail2ban/fail2ban",
+   "site": null,
+   "categoria": "rede-firewall-e-vpn",
+   "grupo": "PR",
+   "nist_csf": "PR",
+   "d3fend": "Isolate",
+   "cis_controls": [
+    12,
+    13
+   ],
+   "desc": "Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.",
+   "desc_en": "Daemon that bans IPs after repeated authentication failures by reading server logs.",
+   "tags": [
+    "bloqueio",
+    "logs"
+   ],
+   "custo": null,
+   "nivel": null,
+   "emissor": null,
+   "idiomas": [],
+   "estrelas": 18822,
+   "ultima_atividade": "2026-10-10",
+   "licenca": "NOASSERTION",
    "saude": "ativo"
   },
   {
@@ -8920,8 +8949,8 @@
     12,
     13
    ],
-   "desc": "Implementação em Go do WireGuard, VPN moderna e enxuta; espelho do repositório oficial.",
-   "desc_en": "Go implementation of WireGuard, a modern and lean VPN; mirror of the official repository.",
+   "desc": "Implementação em Go do WireGuard, VPN de código pequeno e chaves curtas; espelho do repositório oficial.",
+   "desc_en": "Go implementation of WireGuard, a VPN with a small codebase and short keys; mirror of the official repository.",
    "tags": [
     "vpn",
     "wireguard"
@@ -9495,8 +9524,8 @@
    "cis_controls": [
     16
    ],
-   "desc": "Scanner de vulnerabilidades de LLMs: testa injeção de prompt, vazamento e outros comportamentos indesejados.",
-   "desc_en": "LLM vulnerability scanner: probes for prompt injection, leakage and other unwanted behavior.",
+   "desc": "Scanner de vulnerabilidades para os seus próprios LLMs: testa injeção de prompt, vazamento e respostas indesejadas.",
+   "desc_en": "Vulnerability scanner for your own LLMs: probes for prompt injection, leakage and unwanted behavior.",
    "tags": [
     "red-team",
     "llm"
@@ -9657,8 +9686,8 @@
    "cis_controls": [
     16
    ],
-   "desc": "Testa prompts, agentes e RAG com avaliações e red team automatizado em CI.",
-   "desc_en": "Tests prompts, agents and RAG with evals and automated red teaming in CI.",
+   "desc": "Testa os seus próprios prompts, agentes e RAG com avaliações e red team automatizado em CI.",
+   "desc_en": "Tests your own prompts, agents and RAG with evals and automated red teaming in CI.",
    "tags": [
     "red-team",
     "avaliacao"
@@ -9778,7 +9807,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3779,
+   "estrelas": 3780,
    "ultima_atividade": "2026-09-22",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -9862,7 +9891,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15057,
+   "estrelas": 15058,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10171,37 +10200,9 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15210,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 15211,
+   "ultima_atividade": "2026-10-18",
    "licenca": "MIT",
-   "saude": "ativo"
-  },
-  {
-   "nome": "Fail2ban",
-   "link": "https://github.com/fail2ban/fail2ban",
-   "repo": "fail2ban/fail2ban",
-   "site": null,
-   "categoria": "waf-e-protecao-web",
-   "grupo": "PR",
-   "nist_csf": "PR",
-   "d3fend": "Isolate",
-   "cis_controls": [
-    13,
-    16
-   ],
-   "desc": "Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.",
-   "desc_en": "Daemon that bans IPs after repeated authentication failures by reading server logs.",
-   "tags": [
-    "bloqueio",
-    "logs"
-   ],
-   "custo": null,
-   "nivel": null,
-   "emissor": null,
-   "idiomas": [],
-   "estrelas": 18822,
-   "ultima_atividade": "2026-10-10",
-   "licenca": "NOASSERTION",
    "saude": "ativo"
   },
   {
@@ -10311,7 +10312,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3306,
+   "estrelas": 3307,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10521,8 +10522,8 @@
    "cis_controls": [
     11
    ],
-   "desc": "Backup e restauração confiáveis de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo.",
-   "desc_en": "Reliable PostgreSQL backup and restore with parallel, incremental backups and point-in-time recovery.",
+   "desc": "Backup e restauração de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo.",
+   "desc_en": "PostgreSQL backup and restore with parallel, incremental backups and point-in-time recovery.",
    "tags": [
     "postgresql",
     "banco-de-dados",
@@ -10615,7 +10616,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 36644,
+   "estrelas": 36645,
    "ultima_atividade": "2026-10-18",
    "licenca": "BSD-2-Clause",
    "saude": "ativo"
@@ -10809,7 +10810,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11751,
+   "estrelas": 11753,
    "ultima_atividade": "2026-10-18",
    "licenca": "MIT",
    "saude": "ativo"
@@ -10865,7 +10866,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9157,
+   "estrelas": 9158,
    "ultima_atividade": "2026-10-07",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10921,7 +10922,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 90713,
+   "estrelas": 90724,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -11004,7 +11005,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 25082,
+   "estrelas": 25083,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"

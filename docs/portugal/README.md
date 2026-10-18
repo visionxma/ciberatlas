@@ -61,7 +61,7 @@ Pontos do texto:
 | **CERT.PT** | Equipa nacional de resposta a incidentes de cibersegurança, integrada no CNCS, com autonomia técnica e operacional | Art. 22.º |
 | **CERT.PT**, divulgação de vulnerabilidades | Entidade coordenadora nacional da divulgação coordenada de vulnerabilidades. Faz de intermediário de confiança entre quem comunica e o fabricante ou fornecedor, e preserva o anonimato de quem comunica, se este pedir | Art. 38.º |
 
-Para notificar: [CNCS, notificação de incidentes](https://cncs.gov.pt/en/notificacao-incidentes/). O site do CNCS usa proteção contra robôs e não respondeu a leitura automática em 18/10/2026. Abra o endereço num navegador comum.
+Para notificar: [CNCS, notificação de incidentes](https://www.cncs.gov.pt/pt/notificacao-incidentes/). O site do CNCS usa proteção contra robôs e não respondeu a leitura automática em 18/10/2026. Abra o endereço num navegador comum.
 
 ## Brasil e Portugal, lado a lado
 

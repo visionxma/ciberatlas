@@ -46,8 +46,8 @@
 - nome: pgBackRest
   repo: pgbackrest/pgbackrest
   categoria: backup-e-recuperacao
-  desc: "Backup e restauração confiáveis de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo."
-  desc_en: "Reliable PostgreSQL backup and restore with parallel, incremental backups and point-in-time recovery."
+  desc: "Backup e restauração de PostgreSQL, com backups paralelos, incrementais e recuperação a um ponto no tempo."
+  desc_en: "PostgreSQL backup and restore with parallel, incremental backups and point-in-time recovery."
   tags: [postgresql, banco-de-dados, pitr]
 - nome: Relax-and-Recover
   repo: rear/rear

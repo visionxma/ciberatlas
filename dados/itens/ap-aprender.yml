@@ -386,8 +386,8 @@
 - nome: "CompTIA Security+"
   url: https://www.comptia.org/en-us/certifications/security/
   categoria: certificacoes
-  desc: "Certificação de base mais pedida para funções de segurança: ameaças, arquitetura, operações e governança."
-  desc_en: "Widely requested baseline certification: threats, architecture, operations and governance."
+  desc: "Certificação de base da CompTIA para funções de segurança: ameaças, arquitetura, operações e governança."
+  desc_en: "CompTIA baseline certification for security roles: threats, architecture, operations and governance."
   tags: [fundamentos, comptia]
   custo: pago
   idiomas: [en]

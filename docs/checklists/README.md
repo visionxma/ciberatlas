@@ -10,7 +10,7 @@ Cada checklist traz itens para marcar e, quando existe, um comando de conferênc
 | [Windows](windows.md) | Atualizações, BitLocker, Defender, conta sem administrador no dia a dia, LAPS, Sysmon e registro do PowerShell. |
 | [macOS](macos.md) | FileVault, firewall, Gatekeeper, atualizações e o guia drduh. |
 | [Aplicação web](aplicacao-web.md) | As 10 categorias do OWASP Top 10:2025, de A01 a A10, com testes. |
-| [Nuvem](nuvem.md) | Conta raiz, MFA, menor privilégio, logs de auditoria, buckets privados e varredura com Prowler ou ScoutSuite. |
+| [Nuvem](nuvem.md) | Conta raiz, MFA, menor privilégio, logs de auditoria, buckets privados e varredura com Prowler. |
 | [Primeira hora de um incidente](resposta-a-incidente-primeira-hora.md) | O que fazer e o que não fazer: isolar, preservar evidência, registrar, acionar e comunicar. |
 
 Por onde começar: veja as páginas por perfil em [Comece aqui](../comece-aqui/README.md).

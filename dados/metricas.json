@@ -60,7 +60,7 @@
   },
   "adguardteam/adguardhome": {
    "repo": "AdguardTeam/AdGuardHome",
-   "estrelas": 37520,
+   "estrelas": 37521,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "GPL-3.0",
@@ -84,7 +84,7 @@
   },
   "anchore/grype": {
    "repo": "anchore/grype",
-   "estrelas": 13042,
+   "estrelas": 13043,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -92,7 +92,7 @@
   },
   "anchore/syft": {
    "repo": "anchore/syft",
-   "estrelas": 9694,
+   "estrelas": 9695,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -108,7 +108,7 @@
   },
   "aquasecurity/cloudsploit": {
    "repo": "aquasecurity/cloudsploit",
-   "estrelas": 3779,
+   "estrelas": 3780,
    "ultima_atividade": "2026-09-22",
    "arquivado": false,
    "licenca": "GPL-3.0",
@@ -180,7 +180,7 @@
   },
   "authelia/authelia": {
    "repo": "authelia/authelia",
-   "estrelas": 29300,
+   "estrelas": 29302,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -276,7 +276,7 @@
   },
   "bitwarden/server": {
    "repo": "bitwarden/server",
-   "estrelas": 20407,
+   "estrelas": 20408,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "NOASSERTION",
@@ -548,7 +548,7 @@
   },
   "coreruleset/coreruleset": {
    "repo": "coreruleset/coreruleset",
-   "estrelas": 3306,
+   "estrelas": 3307,
    "ultima_atividade": "2026-10-17",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -564,8 +564,8 @@
   },
   "crowdsecurity/crowdsec": {
    "repo": "crowdsecurity/crowdsec",
-   "estrelas": 15210,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 15211,
+   "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "MIT",
    "criado": "2020-05-15"
@@ -596,7 +596,7 @@
   },
   "dani-garcia/vaultwarden": {
    "repo": "dani-garcia/vaultwarden",
-   "estrelas": 69247,
+   "estrelas": 69249,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "AGPL-3.0",
@@ -653,7 +653,7 @@
   "dependencytrack/dependency-track": {
    "repo": "DependencyTrack/dependency-track",
    "estrelas": 4312,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "Apache-2.0",
    "criado": "2013-07-16"
@@ -724,7 +724,7 @@
   },
   "drduh/macos-security-and-privacy-guide": {
    "repo": "drduh/macOS-Security-and-Privacy-Guide",
-   "estrelas": 22557,
+   "estrelas": 22558,
    "ultima_atividade": "2026-10-01",
    "arquivado": false,
    "licenca": "MIT",
@@ -796,7 +796,7 @@
   },
   "falcosecurity/falco": {
    "repo": "falcosecurity/falco",
-   "estrelas": 9488,
+   "estrelas": 9489,
    "ultima_atividade": "2026-10-14",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -828,7 +828,7 @@
   },
   "fleetdm/fleet": {
    "repo": "fleetdm/fleet",
-   "estrelas": 7004,
+   "estrelas": 7006,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "NOASSERTION",
@@ -900,7 +900,7 @@
   },
   "getsops/sops": {
    "repo": "getsops/sops",
-   "estrelas": 23431,
+   "estrelas": 23432,
    "ultima_atividade": "2026-10-13",
    "arquivado": false,
    "licenca": "MPL-2.0",
@@ -1052,7 +1052,7 @@
   },
   "gyulyvgc/sniffnet": {
    "repo": "GyulyVGC/sniffnet",
-   "estrelas": 41611,
+   "estrelas": 41613,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -1076,7 +1076,7 @@
   },
   "horsicq/detect-it-easy": {
    "repo": "horsicq/Detect-It-Easy",
-   "estrelas": 11751,
+   "estrelas": 11753,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "MIT",
@@ -1116,7 +1116,7 @@
   },
   "infisical/infisical": {
    "repo": "Infisical/infisical",
-   "estrelas": 29845,
+   "estrelas": 29846,
    "ultima_atividade": "2026-10-17",
    "arquivado": false,
    "licenca": "NOASSERTION",
@@ -1324,7 +1324,7 @@
   },
   "madhuakula/kubernetes-goat": {
    "repo": "madhuakula/kubernetes-goat",
-   "estrelas": 5914,
+   "estrelas": 5913,
    "ultima_atividade": "2026-04-16",
    "arquivado": false,
    "licenca": "MIT",
@@ -1356,7 +1356,7 @@
   },
   "mandiant/flare-vm": {
    "repo": "mandiant/flare-vm",
-   "estrelas": 9157,
+   "estrelas": 9158,
    "ultima_atividade": "2026-10-07",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -1412,7 +1412,7 @@
   },
   "misp/misp": {
    "repo": "MISP/MISP",
-   "estrelas": 6603,
+   "estrelas": 6604,
    "ultima_atividade": "2026-10-10",
    "arquivado": false,
    "licenca": "AGPL-3.0",
@@ -1468,7 +1468,7 @@
   },
   "nationalsecurityagency/ghidra": {
    "repo": "NationalSecurityAgency/ghidra",
-   "estrelas": 90713,
+   "estrelas": 90724,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -1516,7 +1516,7 @@
   },
   "netbox-community/netbox": {
    "repo": "netbox-community/netbox",
-   "estrelas": 21718,
+   "estrelas": 21719,
    "ultima_atividade": "2026-10-17",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -1684,7 +1684,7 @@
   },
   "orange-cyberdefense/goad": {
    "repo": "Orange-Cyberdefense/GOAD",
-   "estrelas": 8499,
+   "estrelas": 8500,
    "ultima_atividade": "2026-03-12",
    "arquivado": false,
    "licenca": "GPL-3.0",
@@ -1948,7 +1948,7 @@
   },
   "projectdiscovery/nuclei": {
    "repo": "projectdiscovery/nuclei",
-   "estrelas": 32105,
+   "estrelas": 32106,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "MIT",
@@ -1980,7 +1980,7 @@
   },
   "prowler-cloud/prowler": {
    "repo": "prowler-cloud/prowler",
-   "estrelas": 15057,
+   "estrelas": 15058,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -2020,7 +2020,7 @@
   },
   "quay/clair": {
    "repo": "quay/clair",
-   "estrelas": 11077,
+   "estrelas": 11078,
    "ultima_atividade": "2026-09-29",
    "arquivado": false,
    "licenca": "Apache-2.0",
@@ -2036,7 +2036,7 @@
   },
   "radareorg/radare2": {
    "repo": "radareorg/radare2",
-   "estrelas": 25082,
+   "estrelas": 25083,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "NOASSERTION",
@@ -2068,7 +2068,7 @@
   },
   "restic/restic": {
    "repo": "restic/restic",
-   "estrelas": 36644,
+   "estrelas": 36645,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "BSD-2-Clause",
@@ -2180,7 +2180,7 @@
   },
   "semgrep/semgrep": {
    "repo": "semgrep/semgrep",
-   "estrelas": 17117,
+   "estrelas": 17118,
    "ultima_atividade": "2026-10-14",
    "arquivado": false,
    "licenca": "LGPL-2.1",
@@ -2220,7 +2220,7 @@
   },
   "signalapp/signal-android": {
    "repo": "signalapp/Signal-Android",
-   "estrelas": 29487,
+   "estrelas": 29488,
    "ultima_atividade": "2026-10-16",
    "arquivado": false,
    "licenca": "AGPL-3.0",
@@ -2349,7 +2349,7 @@
   "splunk/security_content": {
    "repo": "splunk/security_content",
    "estrelas": 1715,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "Apache-2.0",
    "criado": "2018-12-18"
@@ -2540,7 +2540,7 @@
   },
   "undergroundwires/privacy.sexy": {
    "repo": "undergroundwires/privacy.sexy",
-   "estrelas": 6126,
+   "estrelas": 6127,
    "ultima_atividade": "2025-04-18",
    "arquivado": false,
    "licenca": "AGPL-3.0",
@@ -2596,7 +2596,7 @@
   },
   "veracrypt/veracrypt": {
    "repo": "veracrypt/VeraCrypt",
-   "estrelas": 11866,
+   "estrelas": 11867,
    "ultima_atividade": "2026-10-18",
    "arquivado": false,
    "licenca": "NOASSERTION",

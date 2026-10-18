@@ -41,7 +41,7 @@
   repo: VictoriaMetrics/VictoriaLogs
   categoria: siem-e-logs
   desc: Banco de dados de logs rápido, capaz de guardar e consultar terabytes de eventos.
-  desc_en: Fast log database that can store and query terabytes of events efficiently.
+  desc_en: Log database that stores and queries terabytes of events.
   tags: [logs, banco-de-dados]
 - nome: SOF-ELK
   repo: philhagen/sof-elk
@@ -125,8 +125,8 @@
 - nome: Atomic Red Team
   repo: redcanaryco/atomic-red-team
   categoria: regras-de-deteccao
-  desc: Testes pequenos e portáteis do MITRE ATT&CK para checar se as suas detecções disparam.
-  desc_en: Small, portable MITRE ATT&CK tests to check whether your detections actually fire.
+  desc: Testes pequenos do MITRE ATT&CK, rodados em máquinas de teste suas, para checar se as suas detecções disparam.
+  desc_en: Small MITRE ATT&CK tests, run on your own test machines, to check whether your detections fire.
   tags: [mitre-attack, validacao]
 
 # --- deteccao-de-rede
@@ -371,7 +371,7 @@
   repo: jaksi/sshesame
   categoria: enganacao-e-iscas
   desc: Honeypot SSH falso, simples de configurar, que aceita qualquer login e registra a atividade.
-  desc_en: Easy-to-set-up fake SSH honeypot that accepts any login and logs the activity.
+  desc_en: Fake SSH honeypot that accepts any login and logs the activity.
   tags: [honeypot, ssh]
 - nome: honeyλ (honeyLambda)
   repo: 0x4D31/honeyLambda

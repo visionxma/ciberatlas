@@ -165,8 +165,8 @@
 - nome: 'Kanidm'
   repo: kanidm/kanidm
   categoria: identidade-e-acesso
-  desc: 'Plataforma de gestão de identidade simples e segura, com SSH, RADIUS, OIDC e suporte a passkeys.'
-  desc_en: 'Simple and secure identity management platform with SSH, RADIUS, OIDC and passkey support.'
+  desc: 'Plataforma de gestão de identidade com SSH, RADIUS, OIDC e suporte a passkeys.'
+  desc_en: 'Identity management platform with SSH, RADIUS, OIDC and passkey support.'
   tags: [ldap, passkeys]
 - nome: 'Ory Kratos'
   repo: ory/kratos
@@ -220,7 +220,7 @@
   repo: dev-sec/ansible-collection-hardening
   categoria: hardening-de-sistemas
   desc: 'Coleção Ansible com hardening testado para Linux, SSH, nginx e MySQL.'
-  desc_en: 'Ansible collection with battle-tested hardening for Linux, SSH, nginx and MySQL.'
+  desc_en: 'Ansible collection with hardening roles for Linux, SSH, nginx and MySQL.'
   tags: [ansible, linux]
 - nome: 'HardeningKitty'
   repo: scipag/HardeningKitty
@@ -381,8 +381,8 @@
 - nome: 'WireGuard (Go)'
   repo: WireGuard/wireguard-go
   categoria: rede-firewall-e-vpn
-  desc: 'Implementação em Go do WireGuard, VPN moderna e enxuta; espelho do repositório oficial.'
-  desc_en: 'Go implementation of WireGuard, a modern and lean VPN; mirror of the official repository.'
+  desc: 'Implementação em Go do WireGuard, VPN de código pequeno e chaves curtas; espelho do repositório oficial.'
+  desc_en: 'Go implementation of WireGuard, a VPN with a small codebase and short keys; mirror of the official repository.'
   tags: [vpn, wireguard]
 - nome: 'OpenVPN'
   repo: OpenVPN/openvpn
@@ -458,7 +458,7 @@
   tags: [ids, ips, waf]
 - nome: 'Fail2ban'
   repo: fail2ban/fail2ban
-  categoria: waf-e-protecao-web
+  categoria: rede-firewall-e-vpn
   desc: 'Daemon que bane IPs após várias falhas de autenticação, lendo os logs do servidor.'
   desc_en: 'Daemon that bans IPs after repeated authentication failures by reading server logs.'
   tags: [bloqueio, logs]
@@ -567,8 +567,8 @@
 - nome: 'age'
   repo: FiloSottile/age
   categoria: criptografia-e-tls
-  desc: 'Ferramenta simples e moderna de criptografia de arquivos, com chaves pequenas e sem configuração.'
-  desc_en: 'Simple, modern file encryption tool with small keys and no configuration.'
+  desc: 'Criptografia de arquivos com chaves pequenas e sem arquivo de configuração.'
+  desc_en: 'File encryption with small keys and no configuration file.'
   tags: [arquivos, go]
 - nome: 'parsedmarc'
   repo: domainaware/parsedmarc
@@ -633,8 +633,8 @@
 - nome: 'garak'
   repo: NVIDIA/garak
   categoria: seguranca-de-ia
-  desc: 'Scanner de vulnerabilidades de LLMs: testa injeção de prompt, vazamento e outros comportamentos indesejados.'
-  desc_en: 'LLM vulnerability scanner: probes for prompt injection, leakage and other unwanted behavior.'
+  desc: 'Scanner de vulnerabilidades para os seus próprios LLMs: testa injeção de prompt, vazamento e respostas indesejadas.'
+  desc_en: 'Vulnerability scanner for your own LLMs: probes for prompt injection, leakage and unwanted behavior.'
   tags: [red-team, llm]
 - nome: 'Purple Llama'
   repo: meta-llama/PurpleLlama
@@ -645,8 +645,8 @@
 - nome: 'Promptfoo'
   repo: promptfoo/promptfoo
   categoria: seguranca-de-ia
-  desc: 'Testa prompts, agentes e RAG com avaliações e red team automatizado em CI.'
-  desc_en: 'Tests prompts, agents and RAG with evals and automated red teaming in CI.'
+  desc: 'Testa os seus próprios prompts, agentes e RAG com avaliações e red team automatizado em CI.'
+  desc_en: 'Tests your own prompts, agents and RAG with evals and automated red teaming in CI.'
   tags: [red-team, avaliacao]
 - nome: 'NeMo Guardrails'
   repo: NVIDIA-NeMo/Guardrails

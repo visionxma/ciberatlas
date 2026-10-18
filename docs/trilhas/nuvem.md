@@ -44,7 +44,7 @@ Antes de qualquer etapa:
 ## Etapa 5: auditoria de postura
 
 - **O que aprender:** comparar a configuração da conta com benchmarks (listas de configuração recomendada) e priorizar correções.
-- **Recurso gratuito:** [Prowler](https://github.com/prowler-cloud/prowler), [ScoutSuite](https://github.com/nccgroup/ScoutSuite) e os [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks).
+- **Recurso gratuito:** [Prowler](https://github.com/prowler-cloud/prowler) e os [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks).
 - **Laboratório:** rode uma das ferramentas contra a sua conta de estudo.
 - **Como saber que terminou:** você tem um relatório com os dez achados mais graves, cada um com o responsável e a correção. Mapeamento com o CIS Controls em [frameworks](../frameworks.md).
 

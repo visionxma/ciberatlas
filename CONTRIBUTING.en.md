@@ -47,6 +47,10 @@ Malware, covert remote access, phishing kits, payload and exploit collections, d
 service, people tracking, credential theft, AI jailbreaks, leaks, and anything whose main
 use is attacking others.
 
+## Response time
+
+The automatic validation answers within minutes.
+
 ## Conduct
 
 Everyone follows the [Code of Conduct](CODE_OF_CONDUCT.md).

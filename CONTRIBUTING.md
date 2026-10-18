@@ -62,7 +62,7 @@ lei, prazo ou número precisa de link para a fonte oficial.
 
 ## Prazo
 
-A validação automática responde em minutos. A meta é revisar todo pedido em até 7 dias.
+A validação automática responde em minutos.
 
 ## Conduta
 

@@ -7,7 +7,7 @@
 In Portuguese and English. Re-checked every week by a bot. Organized by NIST CSF 2.0,
 MITRE D3FEND and the CIS Controls.
 
-[Português](README.md) · [Catalog](catalogo/en/README.md) · [Start here](docs/comece-aqui/README.md) · [Contribute](CONTRIBUTING.en.md) · [Open data](#use-the-data)
+**[🔎 Search the site](https://visionxma.github.io/ciberatlas/?lang=en)** · [Português](README.md) · [Catalog](catalogo/en/README.md) · [Start here (in Portuguese)](docs/comece-aqui/README.md) · [Contribute](CONTRIBUTING.en.md) · [Open data](#use-the-data)
 
 <!-- atlas:selos -->
 ![itens](https://img.shields.io/badge/items-412-0b7285) ![projetos](https://img.shields.io/badge/verified%20projects-341-2b8a3e) ![atualizado](https://img.shields.io/badge/updated-2026--10--18-495057) ![licença](https://img.shields.io/badge/data-CC0--1.0-495057)
@@ -24,8 +24,9 @@ MITRE D3FEND and the CIS Controls.
 ## Why it exists
 
 Hand-maintained security lists rot. The link stays, the project dies, gets archived or
-changes hands. On 2026-10-18, the most-starred security list on GitHub had no commit since
-November 2024 and 170 pull requests waiting for an answer. Newcomers cannot tell what still
+changes hands. On 2026-10-18, the most-starred "awesome security" list on GitHub had no
+commit since 2026-01-11 and 326 open pull requests. Of the 15 most-starred lists with that
+name, 5 were archived or had no commit for over a year. Newcomers cannot tell what still
 works without opening every entry.
 
 CiberAtlas fixes that with three choices:
@@ -36,7 +37,7 @@ CiberAtlas fixes that with three choices:
 | Abandoned project | stays listed | moves itself to the [graveyard](catalogo/cemiterio.md) |
 | Structure | maintainer's taste | NIST CSF 2.0, MITRE D3FEND and CIS Controls v8.1 |
 | Language | English | Portuguese and English, side by side |
-| Legal context | none | Brazil's LGPD, ANPD, Criminal Code and Portugal's NIS2 law |
+| Legal context | none | Brazil's LGPD, ANPD, Criminal Code and Portugal's NIS2 law (guides in Portuguese, English summary at the top) |
 | Machine use | copy-paste markdown | [open JSON](api/catalogo.json) and [`llms.txt`](llms.txt) for AI |
 | Where to start | one huge page | one entry point per profile |
 
@@ -77,8 +78,8 @@ _Code, identities, systems, cloud and network hardened before the attack._
 - [System hardening](catalogo/en/hardening-de-sistemas.md) · 10 — Audit and harden Linux, Windows and macOS against known benchmarks.
 - [Cloud & IaC security](catalogo/en/seguranca-em-nuvem.md) · 8 — Audit AWS, Azure and GCP accounts and infrastructure-as-code before deploy.
 - [Containers & Kubernetes](catalogo/en/containers-e-kubernetes.md) · 9 — Policies, benchmarks and scanning for images and clusters.
-- [Network, firewall & VPN](catalogo/en/rede-firewall-e-vpn.md) · 10 — Segment, filter and connect securely.
-- [WAF & web application protection](catalogo/en/waf-e-protecao-web.md) · 8 — Filter malicious traffic before it reaches the application.
+- [Network, firewall & VPN](catalogo/en/rede-firewall-e-vpn.md) · 11 — Segment, filter and connect securely.
+- [WAF & web application protection](catalogo/en/waf-e-protecao-web.md) · 7 — Filter malicious traffic before it reaches the application.
 - [Dynamic application testing (DAST)](catalogo/en/testes-dinamicos-de-aplicacao.md) · 6 — Test your own running application in the pipeline, before attackers do.
 - [Cryptography & TLS](catalogo/en/criptografia-e-tls.md) · 10 — Certificates, file encryption and TLS configuration audit.
 - [Email security](catalogo/en/seguranca-de-email.md) · 10 — SPF, DKIM, DMARC, anti-spam and abuse reports for your domain.
@@ -115,7 +116,7 @@ _Legal labs, courses, certifications, guides and communities._
 
 - [Labs & CTF (legal practice)](catalogo/en/laboratorios-e-ctf.md) · 27 — Environments built for training without touching anyone's systems.
 - [Free courses](catalogo/en/cursos-gratuitos.md) · 12 — Open courses from recognized universities and organizations.
-- [Certifications](catalogo/en/certificacoes.md) · 16 — The most requested certifications by level and focus (no prices — they change).
+- [Certifications](catalogo/en/certificacoes.md) · 16 — Recognized certifications by level and focus; penetration-testing ones are listed as training (no prices — they change).
 - [Guides & references](catalogo/en/guias-e-referencias.md) · 18 — Cheat sheets, testing guides, standards and open books.
 - [Sister lists](catalogo/en/listas-irmas.md) · 15 — Other open, maintained lists that go deep on one topic.
 - [Portuguese-speaking community](catalogo/en/comunidade-lusofona.md) · 11 — Events, groups and material in Portuguese.
@@ -131,7 +132,8 @@ _Protection for anyone — passwords, 2FA, privacy and communication._
 ## How the Atlas stays alive
 
 1. **Every proposal is validated on the spot.** A bot checks the format, looks for
-   duplicates and confirms the repository exists and is not archived.
+   duplicates and confirms the repository exists, is not archived and had activity in the last
+   24 months.
 2. **Every week the bot measures everything again** through the GitHub API: stars, last
    commit date, license and archived flag. Tables, JSON and `llms.txt` are regenerated.
 3. **Projects archived or idle for 24+ months leave the tables** for the

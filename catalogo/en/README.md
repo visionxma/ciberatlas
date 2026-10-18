@@ -32,8 +32,8 @@ _Code, identities, systems, cloud and network hardened before the attack._
 - [System hardening](hardening-de-sistemas.md) · 10 — Audit and harden Linux, Windows and macOS against known benchmarks.
 - [Cloud & IaC security](seguranca-em-nuvem.md) · 8 — Audit AWS, Azure and GCP accounts and infrastructure-as-code before deploy.
 - [Containers & Kubernetes](containers-e-kubernetes.md) · 9 — Policies, benchmarks and scanning for images and clusters.
-- [Network, firewall & VPN](rede-firewall-e-vpn.md) · 10 — Segment, filter and connect securely.
-- [WAF & web application protection](waf-e-protecao-web.md) · 8 — Filter malicious traffic before it reaches the application.
+- [Network, firewall & VPN](rede-firewall-e-vpn.md) · 11 — Segment, filter and connect securely.
+- [WAF & web application protection](waf-e-protecao-web.md) · 7 — Filter malicious traffic before it reaches the application.
 - [Dynamic application testing (DAST)](testes-dinamicos-de-aplicacao.md) · 6 — Test your own running application in the pipeline, before attackers do.
 - [Cryptography & TLS](criptografia-e-tls.md) · 10 — Certificates, file encryption and TLS configuration audit.
 - [Email security](seguranca-de-email.md) · 10 — SPF, DKIM, DMARC, anti-spam and abuse reports for your domain.
@@ -70,7 +70,7 @@ _Legal labs, courses, certifications, guides and communities._
 
 - [Labs & CTF (legal practice)](laboratorios-e-ctf.md) · 27 — Environments built for training without touching anyone's systems.
 - [Free courses](cursos-gratuitos.md) · 12 — Open courses from recognized universities and organizations.
-- [Certifications](certificacoes.md) · 16 — The most requested certifications by level and focus (no prices — they change).
+- [Certifications](certificacoes.md) · 16 — Recognized certifications by level and focus; penetration-testing ones are listed as training (no prices — they change).
 - [Guides & references](guias-e-referencias.md) · 18 — Cheat sheets, testing guides, standards and open books.
 - [Sister lists](listas-irmas.md) · 15 — Other open, maintained lists that go deep on one topic.
 - [Portuguese-speaking community](comunidade-lusofona.md) · 11 — Events, groups and material in Portuguese.
