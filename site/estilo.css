@@ -467,6 +467,8 @@ button { cursor: pointer; }
 .vazio { text-align: center; padding: var(--sp-xl) var(--sp-md); border: 1px dashed var(--linha-forte); border-radius: var(--raio); background: var(--superficie); }
 .vazio__titulo { font-family: var(--fonte-titulo); font-weight: 700; font-size: var(--fs-xl); margin-bottom: var(--sp-xs); }
 .vazio p { color: var(--tinta-2); margin-inline: auto; max-width: 46ch; }
+.vazio .vazio__cemiterio { margin-top: var(--sp-sm); color: var(--tinta); }
+.vazio__cemiterio[hidden] { display: none; }
 .vazio .par-botoes { justify-content: center; margin-top: var(--sp-md); }
 
 /* ---------- 6. Botões ---------- */

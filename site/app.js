@@ -30,6 +30,7 @@
       limparTudo: 'Limpar filtros',
       vazioTitulo: 'Nada encontrado com esses filtros.',
       vazioTexto: 'Tente outra palavra, tire um filtro ou sugira a ferramenta que está faltando.',
+      vazioCemiterio: function (nomes, href) { return 'No cemitério (arquivado ou parado há mais de 24 meses): ' + nomes + '. <a href="' + href + '">Ver no cemitério</a>'; },
       sugerir: 'Sugerir item',
       ctaTitulo: 'Falta uma ferramenta defensiva?',
       ctaTexto: 'O catálogo cresce por sugestão. Um formulário curto no GitHub, e o robô passa a medir o projeto toda semana.',
@@ -40,7 +41,7 @@
       rLicenca: 'dados em domínio público',
       mais: function (n) { return 'Mostrar mais · faltam ' + n; },
       contagem: function (n, total) {
-        var p = n === 1 ? 'item' : 'itens';
+        var p = (n === total ? n : total) === 1 ? 'item' : 'itens';
         return n === total ? fmtInt(n) + ' ' + p : fmtInt(n) + ' <small>de ' + fmtInt(total) + '</small> ' + p;
       },
       mEstrelas: 'Estrelas no GitHub', mAtividade: 'Última atividade', mLicenca: 'Licença',
@@ -80,6 +81,7 @@
       limparTudo: 'Clear filters',
       vazioTitulo: 'Nothing matches these filters.',
       vazioTexto: 'Try another word, remove a filter or suggest the tool that is missing.',
+      vazioCemiterio: function (nomes, href) { return 'In the graveyard (archived or idle for 24+ months): ' + nomes + '. <a href="' + href + '">See in the graveyard</a>'; },
       sugerir: 'Suggest an item',
       ctaTitulo: 'Missing a defensive tool?',
       ctaTexto: 'The catalog grows by suggestion. One short form on GitHub, and the bot starts measuring the project every week.',
@@ -90,7 +92,7 @@
       rLicenca: 'public domain data',
       mais: function (n) { return 'Show more · ' + n + ' left'; },
       contagem: function (n, total) {
-        var p = n === 1 ? 'item' : 'items';
+        var p = (n === total ? n : total) === 1 ? 'item' : 'items';
         return n === total ? fmtInt(n) + ' ' + p : fmtInt(n) + ' <small>of ' + fmtInt(total) + '</small> ' + p;
       },
       mEstrelas: 'GitHub stars', mAtividade: 'Last activity', mLicenca: 'License',
@@ -223,7 +225,10 @@
   }
 
   /* ---------- Filtro ---------- */
+  /* Cemitério (parado ou arquivado) fica fora da lista, como no README; só o filtro de saúde o mostra. */
+  function morto(item) { return item.saude === 'parado' || item.saude === 'arquivado'; }
   function passa(item, ignorar) {
+    if (!est.s && ignorar !== 's' && morto(item)) return false;
     if (est.g && ignorar !== 'g' && item.grupo !== est.g) return false;
     if (est.c && ignorar !== 'c' && ignorar !== 'g' && item.categoria !== est.c) return false;
     if (est.s && ignorar !== 's' && item.saude !== est.s) return false;
@@ -252,7 +257,7 @@
     grupos: $('#grupos'), cat: $('#f-categoria'), saude: $('#f-saude'), custo: $('#f-custo'), nivel: $('#f-nivel'), ordem: $('#f-ordem'),
     campoCusto: $('#campo-custo'), campoNivel: $('#campo-nivel'),
     lista: $('#lista'), contagem: $('#contagem'), vazio: $('#vazio'), maisBox: $('#mais-box'), mais: $('#mais'),
-    limparTudo: $('#limpar-tudo'), vazioLimpar: $('#vazio-limpar'), legenda: $('#legenda'), tema: $('#tema')
+    limparTudo: $('#limpar-tudo'), vazioLimpar: $('#vazio-limpar'), cemiterio: $('#vazio-cemiterio'), legenda: $('#legenda'), tema: $('#tema')
   };
   var ICONE = {
     estrela: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1 6L12 17l-5.35 2.85 1-6L3.3 9.6l6-.9z"/></svg>',
@@ -394,8 +399,15 @@
     if (manterQuantidade) el.lista.insertAdjacentHTML('beforeend', novos);
     else el.lista.innerHTML = novos;
 
-    el.contagem.innerHTML = L.contagem(res.length, dados.itens.length);
+    el.contagem.innerHTML = L.contagem(res.length, est.s ? dados.itens.length : numeros.itens);
     el.vazio.hidden = res.length > 0;
+    /* Busca sem resultado que só achou projeto no cemitério: diz isso, em vez de "nada". */
+    var mortos = (!res.length && !est.s) ? dados.itens.filter(function (it) { return it._p > 0 && morto(it) && passa(it, 's'); }) : [];
+    el.cemiterio.hidden = !mortos.length;
+    if (mortos.length) {
+      var pc = new URLSearchParams(location.search); pc.set('s', mortos[0].saude);
+      el.cemiterio.innerHTML = L.vazioCemiterio(mortos.map(function (it) { return esc(it.nome); }).join(', '), '?' + esc(pc.toString()));
+    }
     var falta = res.length - vis.length;
     el.maisBox.hidden = falta <= 0;
     el.mais.textContent = L.mais(fmtInt(falta));
@@ -561,10 +573,12 @@
     if (est.s && ORDEM_SAUDE.indexOf(est.s) < 0) est.s = '';
     if (['relevancia', 'estrelas', 'atividade', 'nome'].indexOf(est.o) < 0) est.o = '';
 
-    numeros.itens = dados.itens.length;
+    /* Mesma conta do README: só o que está vivo (fora do cemitério). */
+    var vivos = dados.itens.filter(function (it) { return !morto(it); });
+    numeros.itens = vivos.length;
     numeros.categorias = dados.categorias.length;
-    numeros.verificados = dados.itens.filter(function (it) { return ['ativo', 'morno', 'parado', 'arquivado'].indexOf(it.saude) > -1; }).length;
-    numeros.estrelas = dados.itens.reduce(function (s, it) { return s + (it.estrelas || 0); }, 0);
+    numeros.verificados = vivos.filter(function (it) { return it.saude === 'ativo' || it.saude === 'morno'; }).length;
+    numeros.estrelas = vivos.reduce(function (s, it) { return s + (it.estrelas || 0); }, 0);
     var md = $('#medido-data');
     if (dados.meta.metricas_de) { md.setAttribute('datetime', dados.meta.metricas_de); md.textContent = fmtData(dados.meta.metricas_de); }
     escreveNumeros(true);
