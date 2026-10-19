@@ -21,4 +21,4 @@
 | [SegInfo](https://seginfo.com.br) | Portal, podcast e evento em português sobre segurança da informação. | — | — | grátis · pt | 🌐 site |
 | [Segurança Legal](https://www.segurancalegal.com) | Podcast brasileiro sobre segurança da informação, privacidade e direito da tecnologia, no ar desde 2012. | — | — | grátis · pt | 🌐 site |
 
-_11 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_11 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

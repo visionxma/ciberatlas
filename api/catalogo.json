@@ -2,7 +2,7 @@
  "meta": {
   "fonte": "https://github.com/visionxma/ciberatlas",
   "licenca": "CC0-1.0",
-  "metricas_de": "2026-10-18",
+  "metricas_de": "2026-10-19",
   "total": 415
  },
  "itens": [
@@ -1431,7 +1431,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3689,
+   "estrelas": 3694,
    "ultima_atividade": "2026-10-15",
    "licenca": "CC-BY-SA-4.0",
    "saude": "ativo"
@@ -1459,8 +1459,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 33663,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 33671,
+   "ultima_atividade": "2026-10-19",
    "licenca": "CC-BY-SA-4.0",
    "saude": "ativo"
   },
@@ -1515,7 +1515,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13261,
+   "estrelas": 13265,
    "ultima_atividade": "2026-09-30",
    "licenca": "CC-BY-SA-4.0",
    "saude": "ativo"
@@ -1543,7 +1543,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6326,
+   "estrelas": 6332,
    "ultima_atividade": "2026-09-24",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -1570,7 +1570,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 10055,
+   "estrelas": 10063,
    "ultima_atividade": "2026-10-15",
    "licenca": "CC-BY-SA-4.0",
    "saude": "ativo"
@@ -1656,7 +1656,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 12497,
+   "estrelas": 12500,
    "ultima_atividade": "2026-10-05",
    "licenca": "MIT",
    "saude": "ativo"
@@ -1714,7 +1714,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3760,
+   "estrelas": 3761,
    "ultima_atividade": "2026-10-14",
    "licenca": "BSD-3-Clause",
    "saude": "ativo"
@@ -1829,7 +1829,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13859,
+   "estrelas": 13865,
    "ultima_atividade": "2026-10-18",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -1947,7 +1947,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8500,
+   "estrelas": 8507,
    "ultima_atividade": "2026-03-12",
    "licenca": "GPL-3.0",
    "saude": "morno"
@@ -2034,7 +2034,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5913,
+   "estrelas": 5914,
    "ultima_atividade": "2026-04-16",
    "licenca": "MIT",
    "saude": "morno"
@@ -2180,7 +2180,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 14141,
+   "estrelas": 14165,
    "ultima_atividade": "2026-10-15",
    "licenca": "MIT",
    "saude": "ativo"
@@ -2208,7 +2208,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1463,
+   "estrelas": 1464,
    "ultima_atividade": "2026-10-09",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -2237,7 +2237,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1472,
-   "ultima_atividade": "2026-10-18",
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -2442,7 +2442,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9416,
+   "estrelas": 9418,
    "ultima_atividade": "2026-10-12",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -2497,8 +2497,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9986,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 9988,
+   "ultima_atividade": "2026-10-18",
    "licenca": "CC0-1.0",
    "saude": "ativo"
   },
@@ -2551,7 +2551,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7111,
+   "estrelas": 7114,
    "ultima_atividade": "2025-02-22",
    "licenca": "MIT",
    "saude": "morno"
@@ -2578,7 +2578,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2506,
+   "estrelas": 2508,
    "ultima_atividade": "2026-03-17",
    "licenca": null,
    "saude": "morno"
@@ -2605,7 +2605,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1366,
+   "estrelas": 1367,
    "ultima_atividade": "2026-10-12",
    "licenca": "CC0-1.0",
    "saude": "ativo"
@@ -2632,7 +2632,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5217,
+   "estrelas": 5221,
    "ultima_atividade": "2026-09-26",
    "licenca": "CC0-1.0",
    "saude": "ativo"
@@ -2660,7 +2660,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 10608,
+   "estrelas": 10609,
    "ultima_atividade": "2026-06-01",
    "licenca": "Artistic-2.0",
    "saude": "ativo"
@@ -2687,7 +2687,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9460,
+   "estrelas": 9463,
    "ultima_atividade": "2026-10-13",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -2741,7 +2741,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6583,
+   "estrelas": 6584,
    "ultima_atividade": "2026-09-22",
    "licenca": null,
    "saude": "ativo"
@@ -2768,8 +2768,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1903,
-   "ultima_atividade": "2026-10-12",
+   "estrelas": 1904,
+   "ultima_atividade": "2026-10-19",
    "licenca": "CC0-1.0",
    "saude": "ativo"
   },
@@ -2823,7 +2823,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 10745,
+   "estrelas": 10747,
    "ultima_atividade": "2026-05-31",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -2850,7 +2850,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13914,
+   "estrelas": 13919,
    "ultima_atividade": "2026-09-14",
    "licenca": null,
    "saude": "ativo"
@@ -2878,7 +2878,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 7536,
-   "ultima_atividade": "2026-10-18",
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -2931,7 +2931,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2134,
+   "estrelas": 2136,
    "ultima_atividade": "2026-10-06",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -2959,7 +2959,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2549,
+   "estrelas": 2550,
    "ultima_atividade": "2026-10-12",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -2986,8 +2986,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8629,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 8630,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -3013,8 +3013,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8263,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 8268,
+   "ultima_atividade": "2026-10-19",
    "licenca": "GPL-3.0",
    "saude": "ativo"
   },
@@ -3040,7 +3040,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 661,
+   "estrelas": 662,
    "ultima_atividade": "2026-06-17",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -3067,7 +3067,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 41613,
+   "estrelas": 41635,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -3122,7 +3122,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6745,
+   "estrelas": 6748,
    "ultima_atividade": "2026-10-17",
    "licenca": "GPL-2.0",
    "saude": "ativo"
@@ -3149,7 +3149,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8115,
+   "estrelas": 8117,
    "ultima_atividade": "2026-10-16",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -3178,8 +3178,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9489,
-   "ultima_atividade": "2026-10-14",
+   "estrelas": 9496,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -3234,8 +3234,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7006,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 7012,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -3263,7 +3263,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1092,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-19",
    "licenca": "GPL-3.0",
    "saude": "ativo"
   },
@@ -3290,7 +3290,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2734,
+   "estrelas": 2735,
    "ultima_atividade": "2026-05-23",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -3318,7 +3318,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 23653,
+   "estrelas": 23654,
    "ultima_atividade": "2026-10-15",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -3375,7 +3375,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3158,
+   "estrelas": 3159,
    "ultima_atividade": "2026-10-14",
    "licenca": "MIT",
    "saude": "ativo"
@@ -3403,8 +3403,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5081,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 5086,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -3431,7 +3431,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4643,
+   "estrelas": 4646,
    "ultima_atividade": "2026-09-29",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -3458,8 +3458,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2198,
-   "ultima_atividade": "2026-10-14",
+   "estrelas": 2200,
+   "ultima_atividade": "2026-10-19",
    "licenca": "GPL-3.0",
    "saude": "ativo"
   },
@@ -3485,7 +3485,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2183,
+   "estrelas": 2184,
    "ultima_atividade": "2026-10-09",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -3512,7 +3512,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1534,
+   "estrelas": 1535,
    "ultima_atividade": "2026-10-12",
    "licenca": "GPL-2.0",
    "saude": "ativo"
@@ -3648,7 +3648,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3058,
+   "estrelas": 3061,
    "ultima_atividade": "2026-09-21",
    "licenca": "BSD-3-Clause",
    "saude": "ativo"
@@ -3701,7 +3701,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1742,
+   "estrelas": 1743,
    "ultima_atividade": "2024-08-03",
    "licenca": "Apache-2.0",
    "saude": "parado"
@@ -3728,7 +3728,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9583,
+   "estrelas": 9588,
    "ultima_atividade": "2026-10-17",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -3756,7 +3756,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1031,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -3781,7 +3781,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2481,
+   "estrelas": 2482,
    "ultima_atividade": "2026-09-10",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -3808,7 +3808,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1233,
+   "estrelas": 1234,
    "ultima_atividade": "2025-04-01",
    "licenca": "NOASSERTION",
    "saude": "morno"
@@ -3835,7 +3835,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5762,
+   "estrelas": 5761,
    "ultima_atividade": "2025-04-15",
    "licenca": "Apache-2.0",
    "saude": "morno"
@@ -3862,7 +3862,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1140,
+   "estrelas": 1142,
    "ultima_atividade": "2026-04-24",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -3889,7 +3889,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4763,
+   "estrelas": 4765,
    "ultima_atividade": "2026-09-02",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -3944,7 +3944,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6604,
+   "estrelas": 6606,
    "ultima_atividade": "2026-10-10",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -3971,8 +3971,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 10157,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 10162,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -3998,7 +3998,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2037,
+   "estrelas": 2038,
    "ultima_atividade": "2026-10-09",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -4026,7 +4026,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 12696,
+   "estrelas": 12702,
    "ultima_atividade": "2026-09-05",
    "licenca": "MIT",
    "saude": "ativo"
@@ -4112,7 +4112,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3404,
+   "estrelas": 3405,
    "ultima_atividade": "2026-10-13",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -4141,8 +4141,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6192,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 6193,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -4197,8 +4197,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11265,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 11274,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -4225,7 +4225,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3049,
+   "estrelas": 3050,
    "ultima_atividade": "2026-10-17",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -4255,7 +4255,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1715,
-   "ultima_atividade": "2026-10-18",
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -4281,7 +4281,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9955,
+   "estrelas": 9958,
    "ultima_atividade": "2026-10-15",
    "licenca": "BSD-3-Clause",
    "saude": "ativo"
@@ -4338,7 +4338,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8161,
+   "estrelas": 8162,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -4366,8 +4366,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29037,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 29038,
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -4394,8 +4394,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8157,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 8159,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -4540,7 +4540,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 590,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -4567,8 +4567,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2385,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 2386,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -4596,8 +4596,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 17319,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 17335,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -4626,8 +4626,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4524,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 4527,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -4655,7 +4655,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 284,
-   "ultima_atividade": "2026-10-15",
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -4798,8 +4798,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1462,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 1465,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -4879,7 +4879,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5712,
+   "estrelas": 5713,
    "ultima_atividade": "2026-05-01",
    "licenca": "MIT",
    "saude": "ativo"
@@ -5043,8 +5043,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11388,
-   "ultima_atividade": "2026-10-08",
+   "estrelas": 11407,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -5128,7 +5128,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1089,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -5155,7 +5155,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6370,
+   "estrelas": 6371,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5183,8 +5183,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4312,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 4317,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -5211,7 +5211,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1557,
+   "estrelas": 1558,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5324,7 +5324,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5764,
+   "estrelas": 5766,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5408,7 +5408,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2085,
+   "estrelas": 2087,
    "ultima_atividade": "2026-09-21",
    "licenca": "MIT",
    "saude": "ativo"
@@ -5492,7 +5492,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9695,
+   "estrelas": 9698,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5546,7 +5546,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5011,
+   "estrelas": 5012,
    "ultima_atividade": "2026-10-14",
    "licenca": "BSD-3-Clause",
    "saude": "ativo"
@@ -5573,8 +5573,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13043,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 13046,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -5600,8 +5600,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 32106,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 32123,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -5627,7 +5627,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2866,
+   "estrelas": 2867,
    "ultima_atividade": "2026-10-14",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -5655,8 +5655,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4873,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 4874,
+   "ultima_atividade": "2026-10-19",
    "licenca": "GPL-2.0",
    "saude": "ativo"
   },
@@ -5682,7 +5682,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11202,
+   "estrelas": 11210,
    "ultima_atividade": "2026-10-12",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5709,7 +5709,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7737,
+   "estrelas": 7736,
    "ultima_atividade": "2026-10-12",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5763,7 +5763,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4185,
+   "estrelas": 4187,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5845,8 +5845,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 38493,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 38508,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -5873,7 +5873,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 591,
-   "ultima_atividade": "2026-10-16",
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -5899,7 +5899,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 12287,
+   "estrelas": 12288,
    "ultima_atividade": "2026-10-15",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -5927,7 +5927,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4145,
+   "estrelas": 4146,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -5955,8 +5955,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6542,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 6544,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MPL-2.0",
    "saude": "ativo"
   },
@@ -5984,8 +5984,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6470,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 6472,
+   "ultima_atividade": "2026-10-19",
    "licenca": "GPL-3.0",
    "saude": "ativo"
   },
@@ -6012,7 +6012,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1201,
+   "estrelas": 1202,
    "ultima_atividade": "2026-10-16",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -6069,7 +6069,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1627,
-   "ultima_atividade": "2026-10-15",
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -6096,8 +6096,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7298,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 7299,
+   "ultima_atividade": "2026-10-18",
    "licenca": "GPL-3.0",
    "saude": "ativo"
   },
@@ -6125,8 +6125,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 21719,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 21727,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -6153,7 +6153,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13811,
+   "estrelas": 13818,
    "ultima_atividade": "2026-10-15",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -6181,7 +6181,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15372,
+   "estrelas": 15375,
    "ultima_atividade": "2026-04-07",
    "licenca": "NOASSERTION",
    "saude": "morno"
@@ -6209,7 +6209,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2528,
+   "estrelas": 2529,
    "ultima_atividade": "2026-10-09",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -6237,8 +6237,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15045,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 15050,
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -6347,7 +6347,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1653,
+   "estrelas": 1656,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -6483,7 +6483,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 12904,
+   "estrelas": 12907,
    "ultima_atividade": "2026-09-09",
    "licenca": "MIT",
    "saude": "ativo"
@@ -6600,7 +6600,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2603,
+   "estrelas": 2606,
    "ultima_atividade": "2026-10-13",
    "licenca": null,
    "saude": "ativo"
@@ -6627,7 +6627,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 22561,
+   "estrelas": 22567,
    "ultima_atividade": "2026-10-15",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -6682,7 +6682,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4318,
+   "estrelas": 4320,
    "ultima_atividade": "2026-10-18",
    "licenca": "CC-BY-SA-4.0",
    "saude": "ativo"
@@ -6709,7 +6709,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29488,
+   "estrelas": 29496,
    "ultima_atividade": "2026-10-16",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -6736,8 +6736,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 19578,
-   "ultima_atividade": "2026-10-03",
+   "estrelas": 19585,
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -6826,8 +6826,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8019,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 8023,
+   "ultima_atividade": "2026-10-19",
    "licenca": "GPL-3.0",
    "saude": "ativo"
   },
@@ -6854,7 +6854,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 68656,
+   "estrelas": 68668,
    "ultima_atividade": "2026-10-18",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -6911,7 +6911,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1537,
+   "estrelas": 1541,
    "ultima_atividade": "2026-10-18",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -6940,7 +6940,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13330,
+   "estrelas": 13339,
    "ultima_atividade": "2026-09-06",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -6968,8 +6968,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 14006,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 14016,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -6996,8 +6996,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 20408,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 20414,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -7025,8 +7025,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29449,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 29469,
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -7053,7 +7053,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7495,
+   "estrelas": 7505,
    "ultima_atividade": "2026-10-17",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -7081,7 +7081,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29290,
+   "estrelas": 29313,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -7109,7 +7109,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 799,
+   "estrelas": 798,
    "ultima_atividade": "2026-10-15",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -7137,7 +7137,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 69249,
+   "estrelas": 69298,
    "ultima_atividade": "2026-10-16",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -7193,7 +7193,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8325,
+   "estrelas": 8326,
    "ultima_atividade": "2026-09-21",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -7220,7 +7220,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2760,
+   "estrelas": 2763,
    "ultima_atividade": "2026-10-12",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -7275,8 +7275,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 10208,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 10211,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -7303,9 +7303,9 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 2450,
-   "ultima_atividade": "2026-03-26",
+   "ultima_atividade": "2026-10-19",
    "licenca": "LGPL-3.0",
-   "saude": "morno"
+   "saude": "ativo"
   },
   {
    "nome": "gosec",
@@ -7329,8 +7329,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8975,
-   "ultima_atividade": "2026-10-15",
+   "estrelas": 8974,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -7356,7 +7356,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3199,
+   "estrelas": 3200,
    "ultima_atividade": "2026-10-16",
    "licenca": "LGPL-2.1",
    "saude": "ativo"
@@ -7383,7 +7383,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 17118,
+   "estrelas": 17131,
    "ultima_atividade": "2026-10-14",
    "licenca": "LGPL-2.1",
    "saude": "ativo"
@@ -7410,7 +7410,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11085,
+   "estrelas": 11087,
    "ultima_atividade": "2026-10-17",
    "licenca": "LGPL-3.0",
    "saude": "ativo"
@@ -7522,7 +7522,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11811,
+   "estrelas": 11813,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -7578,8 +7578,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8260,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 8263,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -7635,7 +7635,7 @@
    "emissor": null,
    "idiomas": [],
    "estrelas": 1315,
-   "ultima_atividade": "2026-10-17",
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -7662,7 +7662,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1968,
+   "estrelas": 1969,
    "ultima_atividade": "2026-10-05",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -7689,7 +7689,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 47830,
+   "estrelas": 47838,
    "ultima_atividade": "2026-10-16",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -7716,7 +7716,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 23964,
+   "estrelas": 23971,
    "ultima_atividade": "2026-08-29",
    "licenca": "BSD-3-Clause",
    "saude": "ativo"
@@ -7743,7 +7743,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 14119,
+   "estrelas": 14120,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -7770,7 +7770,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 33275,
+   "estrelas": 33278,
    "ultima_atividade": "2026-10-15",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -7797,7 +7797,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 16327,
+   "estrelas": 16331,
    "ultima_atividade": "2026-10-16",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -7824,7 +7824,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9949,
+   "estrelas": 9952,
    "ultima_atividade": "2026-10-17",
    "licenca": "MIT",
    "saude": "ativo"
@@ -7851,7 +7851,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3791,
+   "estrelas": 3792,
    "ultima_atividade": "2026-03-29",
    "licenca": "AGPL-3.0",
    "saude": "morno"
@@ -7878,7 +7878,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8964,
+   "estrelas": 8966,
    "ultima_atividade": "2026-10-14",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -7905,7 +7905,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9237,
+   "estrelas": 9240,
    "ultima_atividade": "2026-10-17",
    "licenca": "GPL-2.0",
    "saude": "ativo"
@@ -7932,8 +7932,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11867,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 11874,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -7960,7 +7960,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6906,
+   "estrelas": 6908,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -7988,8 +7988,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 36397,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 36401,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -8016,7 +8016,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29846,
+   "estrelas": 29861,
    "ultima_atividade": "2026-10-17",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -8044,8 +8044,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 8511,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 8535,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MPL-2.0",
    "saude": "ativo"
   },
@@ -8072,7 +8072,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9306,
+   "estrelas": 9307,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8100,7 +8100,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 23432,
+   "estrelas": 23437,
    "ultima_atividade": "2026-10-13",
    "licenca": "MPL-2.0",
    "saude": "ativo"
@@ -8127,8 +8127,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2823,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 2825,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -8154,7 +8154,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5505,
+   "estrelas": 5506,
    "ultima_atividade": "2026-10-11",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8181,7 +8181,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1863,
+   "estrelas": 1864,
    "ultima_atividade": "2026-07-21",
    "licenca": "MIT",
    "saude": "ativo"
@@ -8208,7 +8208,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 31820,
+   "estrelas": 31823,
    "ultima_atividade": "2026-09-07",
    "licenca": "CC-BY-SA-4.0",
    "saude": "ativo"
@@ -8262,7 +8262,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 16505,
+   "estrelas": 16508,
    "ultima_atividade": "2026-09-16",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -8289,7 +8289,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 22558,
+   "estrelas": 22560,
    "ultima_atividade": "2026-10-01",
    "licenca": "MIT",
    "saude": "ativo"
@@ -8343,7 +8343,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1833,
+   "estrelas": 1834,
    "ultima_atividade": "2026-10-12",
    "licenca": "LGPL-2.1",
    "saude": "ativo"
@@ -8370,7 +8370,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6127,
+   "estrelas": 6128,
    "ultima_atividade": "2025-04-18",
    "licenca": "AGPL-3.0",
    "saude": "morno"
@@ -8399,8 +8399,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 29302,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 29314,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -8427,8 +8427,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 25996,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 26006,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -8455,7 +8455,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 14598,
+   "estrelas": 14599,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8483,8 +8483,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5481,
-   "ultima_atividade": "2026-10-12",
+   "estrelas": 5482,
+   "ultima_atividade": "2026-10-18",
    "licenca": "MPL-2.0",
    "saude": "ativo"
   },
@@ -8511,8 +8511,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 37421,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 37434,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -8539,7 +8539,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 12379,
+   "estrelas": 12386,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8567,7 +8567,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5996,
+   "estrelas": 6002,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8595,7 +8595,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13922,
+   "estrelas": 13921,
    "ultima_atividade": "2026-07-29",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -8623,7 +8623,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 21005,
+   "estrelas": 21004,
    "ultima_atividade": "2026-08-25",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -8651,8 +8651,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15341,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 15345,
+   "ultima_atividade": "2026-10-19",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -8679,7 +8679,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 37521,
+   "estrelas": 37538,
    "ultima_atividade": "2026-10-16",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -8707,7 +8707,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 18822,
+   "estrelas": 18829,
    "ultima_atividade": "2026-10-10",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -8735,8 +8735,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9121,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 9122,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -8763,7 +8763,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 44757,
+   "estrelas": 44789,
    "ultima_atividade": "2026-10-18",
    "licenca": "BSD-3-Clause",
    "saude": "ativo"
@@ -8791,7 +8791,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 18449,
+   "estrelas": 18452,
    "ultima_atividade": "2026-10-17",
    "licenca": "MIT",
    "saude": "ativo"
@@ -8819,8 +8819,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 30045,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 30070,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -8847,8 +8847,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 14696,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 14703,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -8875,8 +8875,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4740,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 4741,
+   "ultima_atividade": "2026-10-19",
    "licenca": "BSD-2-Clause",
    "saude": "ativo"
   },
@@ -8931,7 +8931,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 61323,
+   "estrelas": 61340,
    "ultima_atividade": "2026-10-17",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -8959,7 +8959,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4460,
+   "estrelas": 4461,
    "ultima_atividade": "2026-10-06",
    "licenca": "MIT",
    "saude": "ativo"
@@ -8987,7 +8987,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2260,
+   "estrelas": 2270,
    "ultima_atividade": "2026-10-13",
    "licenca": "MIT",
    "saude": "ativo"
@@ -9043,7 +9043,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2007,
+   "estrelas": 2008,
    "ultima_atividade": "2026-10-15",
    "licenca": "MIT",
    "saude": "ativo"
@@ -9071,7 +9071,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13415,
+   "estrelas": 13416,
    "ultima_atividade": "2025-09-17",
    "licenca": "Apache-2.0",
    "saude": "morno"
@@ -9099,7 +9099,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 30094,
+   "estrelas": 30116,
    "ultima_atividade": "2026-07-22",
    "licenca": "MIT",
    "saude": "ativo"
@@ -9127,7 +9127,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1267,
+   "estrelas": 1266,
    "ultima_atividade": "2026-10-13",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9183,7 +9183,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 28569,
+   "estrelas": 28586,
    "ultima_atividade": "2026-10-17",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -9210,8 +9210,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 344,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 345,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -9237,7 +9237,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 321,
+   "estrelas": 322,
    "ultima_atividade": "2026-10-13",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9318,7 +9318,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 215,
+   "estrelas": 216,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9345,7 +9345,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1307,
+   "estrelas": 1308,
    "ultima_atividade": "2026-10-18",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9399,7 +9399,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2552,
+   "estrelas": 2554,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -9426,7 +9426,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 275,
+   "estrelas": 276,
    "ultima_atividade": "2026-10-06",
    "licenca": "MIT",
    "saude": "ativo"
@@ -9480,7 +9480,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6278,
+   "estrelas": 6281,
    "ultima_atividade": "2026-10-08",
    "licenca": "MIT",
    "saude": "ativo"
@@ -9507,7 +9507,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3027,
+   "estrelas": 3028,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9534,7 +9534,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9609,
+   "estrelas": 9615,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9561,8 +9561,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5908,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 5910,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -9588,7 +9588,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7534,
+   "estrelas": 7537,
    "ultima_atividade": "2026-08-26",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9642,7 +9642,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7323,
+   "estrelas": 7328,
    "ultima_atividade": "2026-10-15",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -9669,7 +9669,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1456,
+   "estrelas": 1457,
    "ultima_atividade": "2026-08-05",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -9696,8 +9696,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 26111,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 26142,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -9723,7 +9723,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4438,
+   "estrelas": 4440,
    "ultima_atividade": "2026-10-12",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -9751,7 +9751,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9075,
+   "estrelas": 9078,
    "ultima_atividade": "2026-10-13",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9779,7 +9779,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6086,
+   "estrelas": 6088,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -9807,7 +9807,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3780,
+   "estrelas": 3781,
    "ultima_atividade": "2026-09-22",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -9835,8 +9835,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2719,
-   "ultima_atividade": "2026-10-15",
+   "estrelas": 2721,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -9891,8 +9891,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15058,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 15062,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -9919,7 +9919,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7854,
+   "estrelas": 7855,
    "ultima_atividade": "2024-05-10",
    "licenca": "GPL-2.0",
    "saude": "parado"
@@ -9947,8 +9947,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2729,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 2731,
+   "ultima_atividade": "2026-10-19",
    "licenca": "CC0-1.0",
    "saude": "ativo"
   },
@@ -9975,7 +9975,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7986,
+   "estrelas": 7988,
    "ultima_atividade": "2026-10-07",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -10059,8 +10059,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3674,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 3677,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -10115,7 +10115,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1888,
+   "estrelas": 1889,
    "ultima_atividade": "2026-10-05",
    "licenca": "GPL-2.0",
    "saude": "ativo"
@@ -10143,7 +10143,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15959,
+   "estrelas": 15968,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10171,7 +10171,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11080,
+   "estrelas": 11084,
    "ultima_atividade": "2026-10-14",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -10200,8 +10200,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15211,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 15219,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -10228,7 +10228,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9809,
+   "estrelas": 9811,
    "ultima_atividade": "2026-10-15",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10256,7 +10256,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1726,
+   "estrelas": 1728,
    "ultima_atividade": "2026-09-01",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10284,7 +10284,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3910,
+   "estrelas": 3911,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10340,7 +10340,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 22772,
+   "estrelas": 22780,
    "ultima_atividade": "2026-09-22",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -10367,7 +10367,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 7665,
+   "estrelas": 7673,
    "ultima_atividade": "2026-07-28",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -10394,7 +10394,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1267,
+   "estrelas": 1268,
    "ultima_atividade": "2026-10-16",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -10422,7 +10422,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 13858,
+   "estrelas": 13861,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -10478,8 +10478,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 15131,
-   "ultima_atividade": "2026-10-14",
+   "estrelas": 15133,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -10505,7 +10505,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 14376,
+   "estrelas": 14383,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10533,7 +10533,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4448,
+   "estrelas": 4451,
    "ultima_atividade": "2026-10-18",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -10561,7 +10561,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 60386,
+   "estrelas": 60398,
    "ultima_atividade": "2026-10-18",
    "licenca": "MIT",
    "saude": "ativo"
@@ -10616,7 +10616,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 36645,
+   "estrelas": 36658,
    "ultima_atividade": "2026-10-18",
    "licenca": "BSD-2-Clause",
    "saude": "ativo"
@@ -10670,7 +10670,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 10347,
+   "estrelas": 10348,
    "ultima_atividade": "2026-10-17",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10698,7 +10698,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6253,
+   "estrelas": 6255,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10754,7 +10754,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 20052,
+   "estrelas": 20056,
    "ultima_atividade": "2026-09-11",
    "licenca": "GPL-3.0",
    "saude": "ativo"
@@ -10782,7 +10782,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 36149,
+   "estrelas": 36156,
    "ultima_atividade": "2026-10-16",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10810,8 +10810,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 11753,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 11756,
+   "ultima_atividade": "2026-10-19",
    "licenca": "MIT",
    "saude": "ativo"
   },
@@ -10866,7 +10866,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 9158,
+   "estrelas": 9159,
    "ultima_atividade": "2026-10-07",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -10894,8 +10894,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4192,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 4194,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -10922,8 +10922,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 90726,
-   "ultima_atividade": "2026-10-16",
+   "estrelas": 91296,
+   "ultima_atividade": "2026-10-19",
    "licenca": "Apache-2.0",
    "saude": "ativo"
   },
@@ -10950,7 +10950,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3433,
+   "estrelas": 3434,
    "ultima_atividade": "2026-01-26",
    "licenca": "NOASSERTION",
    "saude": "morno"
@@ -11005,8 +11005,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 25083,
-   "ultima_atividade": "2026-10-18",
+   "estrelas": 25097,
+   "ultima_atividade": "2026-10-19",
    "licenca": "NOASSERTION",
    "saude": "ativo"
   },
@@ -11032,7 +11032,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3390,
+   "estrelas": 3396,
    "ultima_atividade": "2026-05-04",
    "licenca": null,
    "saude": "ativo"
@@ -11086,7 +11086,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1171,
+   "estrelas": 1172,
    "ultima_atividade": "2026-10-07",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -11113,7 +11113,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1282,
+   "estrelas": 1283,
    "ultima_atividade": "2026-09-27",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -11143,7 +11143,7 @@
     "pt",
     "en"
    ],
-   "estrelas": 3051,
+   "estrelas": 3052,
    "ultima_atividade": "2026-10-15",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -11197,7 +11197,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4375,
+   "estrelas": 4380,
    "ultima_atividade": "2026-10-05",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -11250,7 +11250,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3165,
+   "estrelas": 3166,
    "ultima_atividade": "2026-10-14",
    "licenca": null,
    "saude": "ativo"
@@ -11277,7 +11277,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3436,
+   "estrelas": 3435,
    "ultima_atividade": "2026-10-14",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -11304,7 +11304,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4511,
+   "estrelas": 4515,
    "ultima_atividade": "2026-10-12",
    "licenca": "NOASSERTION",
    "saude": "ativo"
@@ -11331,7 +11331,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1633,
+   "estrelas": 1632,
    "ultima_atividade": "2026-10-13",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -11358,7 +11358,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 1595,
+   "estrelas": 1596,
    "ultima_atividade": "2026-09-23",
    "licenca": "LGPL-3.0",
    "saude": "ativo"
@@ -11439,7 +11439,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 5091,
+   "estrelas": 5092,
    "ultima_atividade": "2026-10-01",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -11467,7 +11467,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 860,
+   "estrelas": 861,
    "ultima_atividade": "2026-06-29",
    "licenca": "GPL-2.0",
    "saude": "ativo"
@@ -11494,7 +11494,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 2458,
+   "estrelas": 2459,
    "ultima_atividade": "2026-09-28",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
@@ -11521,7 +11521,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 6549,
+   "estrelas": 6550,
    "ultima_atividade": "2026-10-13",
    "licenca": "Apache-2.0",
    "saude": "ativo"
@@ -11548,8 +11548,8 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 3841,
-   "ultima_atividade": "2026-10-17",
+   "estrelas": 3845,
+   "ultima_atividade": "2026-10-18",
    "licenca": "AGPL-3.0",
    "saude": "ativo"
   },
@@ -11604,7 +11604,7 @@
    "nivel": null,
    "emissor": null,
    "idiomas": [],
-   "estrelas": 4352,
+   "estrelas": 4353,
    "ultima_atividade": "2026-10-17",
    "licenca": "NOASSERTION",
    "saude": "ativo"

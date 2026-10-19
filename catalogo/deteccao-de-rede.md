@@ -19,6 +19,6 @@
 | [Malcolm](https://github.com/cisagov/Malcolm) | Conjunto da CISA para análise de tráfego, junta Zeek, Suricata e Arkime numa pilha só. | ⭐ 2,5 mil | out 2026 | outra | 🟢 ativo |
 | [JA4+](https://github.com/FoxIO-LLC/ja4) | Padrões de impressão digital de rede (TLS, HTTP, SSH) para identificar clientes e malware. | ⭐ 2,1 mil | out 2026 | outra | 🟢 ativo |
 | [Clear NDR (SELKS)](https://github.com/StamusNetworks/Clear-NDR-ISO) | Distribuição de detecção de rede baseada no Suricata, com interface de caça e gestão de regras. | ⭐ 1,6 mil | set 2025 | GPL-3.0 | 🟡 morno |
-| [RITA](https://github.com/activecm/rita) | Analisa logs do Zeek para achar comunicação de comando e controle por beaconing. | ⭐ 661 | jun 2026 | GPL-3.0 | 🟢 ativo |
+| [RITA](https://github.com/activecm/rita) | Analisa logs do Zeek para achar comunicação de comando e controle por beaconing. | ⭐ 662 | jun 2026 | GPL-3.0 | 🟢 ativo |
 
-_11 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_11 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

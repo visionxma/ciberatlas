@@ -20,4 +20,4 @@
 | [PIA (CNIL)](https://github.com/LINCnil/pia) | Aplicação da autoridade francesa CNIL para conduzir relatórios de impacto à proteção de dados (RIPD/DPIA). | ⭐ 297 | out 2026 | GPL-3.0 | 🟢 ativo |
 | [Blacklight Collector](https://github.com/the-markup/blacklight-collector) | Coletor que audita um site em busca de rastreadores, cookies de terceiros e fingerprinting. | ⭐ 243 | jun 2026 | GPL-3.0 | 🟢 ativo |
 
-_10 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

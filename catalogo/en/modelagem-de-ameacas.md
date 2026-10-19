@@ -18,4 +18,4 @@
 | [LINDDUN](https://linddun.org) | Open privacy threat modeling methodology, with a threat catalog and step-by-step guidance. | — | — | free | 🌐 website |
 | [Microsoft Threat Modeling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) | Free Microsoft tool (Windows) to draw data flows and generate threats using STRIDE. | — | — | free | 🌐 website |
 
-_8 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_8 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

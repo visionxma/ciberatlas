@@ -17,6 +17,6 @@
 | [Brakeman](https://github.com/presidentbeef/brakeman) | Static vulnerability scanner for Ruby on Rails applications. | ⭐ 7.3k | Sep 2026 | other | 🟢 active |
 | [Opengrep](https://github.com/opengrep/opengrep) | Open static analysis engine, forked from Semgrep, to find security issues in source code. | ⭐ 3.2k | Oct 2026 | LGPL-2.1 | 🟢 active |
 | [Bearer CLI](https://github.com/Bearer/bearer) | SAST scanner that finds, filters and prioritizes security and privacy risks, focused on sensitive data flows. | ⭐ 2.8k | Oct 2026 | other | 🟢 active |
-| [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) | SpotBugs plugin for security audits of Java web and Android applications. | ⭐ 2.5k | Mar 2026 | LGPL-3.0 | 🟡 slow |
+| [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) | SpotBugs plugin for security audits of Java web and Android applications. | ⭐ 2.5k | Oct 2026 | LGPL-3.0 | 🟢 active |
 
-_9 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_9 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

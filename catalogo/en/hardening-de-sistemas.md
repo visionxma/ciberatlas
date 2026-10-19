@@ -20,4 +20,4 @@
 | [HardeningKitty](https://github.com/scipag/HardeningKitty) | Checks and applies hardening settings on Windows, with lists based on CIS and Microsoft baselines. | ⭐ 1.9k | Jul 2026 | MIT | 🟢 active |
 | [OpenSCAP](https://github.com/OpenSCAP/openscap) | NIST-certified SCAP toolkit to check system configuration and compliance. | ⭐ 1.8k | Oct 2026 | LGPL-2.1 | 🟢 active |
 
-_10 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_10 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

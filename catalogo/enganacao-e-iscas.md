@@ -19,4 +19,4 @@
 | [Galah](https://github.com/0x4D31/galah) | Honeypot web que usa um modelo de linguagem para gerar respostas HTTP dinâmicas. | ⭐ 671 | jul 2025 | Apache-2.0 | 🟡 morno |
 | [DejaVu](https://github.com/bhdresh/Dejavu) | Framework aberto de enganação para implantar e monitorar honeypots de vários tipos. | ⭐ 435 | ago 2025 | outra | 🟡 morno |
 
-_9 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_9 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

@@ -11,7 +11,7 @@
 |---|---|--:|---|---|---|
 | [NetBox](https://github.com/netbox-community/netbox) | Fonte da verdade da infraestrutura: IPs, racks, dispositivos, cabos e circuitos, com API. | ⭐ 21,7 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [OWASP Amass](https://github.com/owasp-amass/amass) | Mapeia a superfície de ataque externa de um domínio: subdomínios, redes e serviços expostos. | ⭐ 15,4 mil | abr 2026 | outra | 🟡 morno |
-| [Snipe-IT](https://github.com/grokability/snipe-it) | Gestão de ativos e licenças de TI: quem usa cada equipamento, histórico, check-in e check-out. | ⭐ 15 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
+| [Snipe-IT](https://github.com/grokability/snipe-it) | Gestão de ativos e licenças de TI: quem usa cada equipamento, histórico, check-in e check-out. | ⭐ 15,1 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
 | [Nmap](https://github.com/nmap/nmap) | Descoberta de hosts e serviços na rede, para manter o inventário e achar portas abertas inesperadas. | ⭐ 13,8 mil | out 2026 | outra | 🟢 ativo |
 | [NetAlertX](https://github.com/netalertx/NetAlertX) | Descobre dispositivos na rede local e avisa quando aparece um equipamento novo ou desconhecido. | ⭐ 7,3 mil | out 2026 | GPL-3.0 | 🟢 ativo |
 | [CloudQuery](https://github.com/cloudquery/cloudquery) | Extrai configuração de nuvem para um banco de dados, base para inventário de ativos e análise de postura. | ⭐ 6,5 mil | out 2026 | MPL-2.0 | 🟢 ativo |
@@ -22,4 +22,4 @@
 | [iTop](https://github.com/Combodo/iTop) | CMDB e gestão de serviços de TI (ITSM) para relacionar ativos, serviços, mudanças e incidentes. | ⭐ 1,2 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
 | [Mercator](https://github.com/sourcentis/mercator) | Cartografia do sistema de informação: mapeia processos, aplicações, servidores e fluxos para análise de riscos. | ⭐ 563 | out 2026 | GPL-3.0 | 🟢 ativo |
 
-_12 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_12 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

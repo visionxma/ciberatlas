@@ -26,4 +26,4 @@
 | [Microsoft SC-200 — Security Operations Analyst](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/) | Microsoft certification for SOC analysts, covering Sentinel, Defender and threat hunting. | — | — | paid · intermediate · Microsoft · en | 🌐 website |
 | [OSCP+ — PEN-200 (OffSec)](https://www.offsec.com/courses/pen-200/) | OffSec hands-on penetration testing certification, with a 24-hour lab exam. | — | — | paid · advanced · OffSec · en | 🌐 website |
 
-_16 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_16 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

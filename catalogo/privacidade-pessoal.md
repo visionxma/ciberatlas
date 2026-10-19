@@ -24,4 +24,4 @@
 | [Tails](https://tails.net) | Sistema operacional que roda a partir de um pendrive e não deixa rastros, com todo o tráfego pela rede Tor. | — | — | grátis · pt/en/es | 🌐 site |
 | [Tor Project](https://www.torproject.org) | Rede e Navegador Tor para navegar com anonimato e contornar rastreamento e censura. | — | — | grátis · en/pt/es | 🌐 site |
 
-_14 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_14 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

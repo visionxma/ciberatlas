@@ -28,4 +28,4 @@
 | [SANS Posters](https://www.sans.org/posters/) | SANS quick-reference posters on incident response, forensics, cloud and detection. | — | — | free · en | 🌐 website |
 | [Security Engineering (Ross Anderson)](https://www.cl.cam.ac.uk/~rja14/book.html) | Ross Anderson's book on building dependable systems against failure and adversaries, free to read. | — | — | free · intermediate · en | 🌐 website |
 
-_18 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_18 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

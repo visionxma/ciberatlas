@@ -17,4 +17,4 @@
 | [Deming](https://github.com/sourcentis/deming) | ISMS management (ISO 27001): controls, periodic measurements, action plans and audit follow-up. | ⭐ 392 | Oct 2026 | GPL-3.0 | 🟢 active |
 | [Compliance Trestle](https://github.com/oscal-compass/compliance-trestle) | Python tooling to manage compliance as code with NIST OSCAL, ready for CI pipelines. | ⭐ 284 | Oct 2026 | Apache-2.0 | 🟢 active |
 
-_7 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_7 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

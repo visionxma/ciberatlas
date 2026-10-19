@@ -18,4 +18,4 @@
 | [Kingfisher](https://github.com/mongodb/kingfisher) | Detects secrets with live validation, maps the credential blast radius and helps revoke quickly. | ⭐ 1.3k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [ripsecrets](https://github.com/sirwart/ripsecrets) | Fast command-line tool that prevents committing secret keys into source code. | ⭐ 911 | Nov 2025 | MIT | 🟡 slow |
 
-_8 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_8 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

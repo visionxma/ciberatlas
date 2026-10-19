@@ -20,4 +20,4 @@
 | [OpenFGA](https://github.com/openfga/openfga) | Motor de autorização por relações (estilo Zanzibar) para controle de permissões fino em aplicações. | ⭐ 6 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [Kanidm](https://github.com/kanidm/kanidm) | Plataforma de gestão de identidade com SSH, RADIUS, OIDC e suporte a passkeys. | ⭐ 5,5 mil | out 2026 | MPL-2.0 | 🟢 ativo |
 
-_10 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

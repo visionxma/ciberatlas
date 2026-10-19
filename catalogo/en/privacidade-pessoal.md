@@ -24,4 +24,4 @@
 | [Tails](https://tails.net) | Live operating system that runs from a USB stick and leaves no trace, routing all traffic through Tor. | — | — | free · pt/en/es | 🌐 website |
 | [Tor Project](https://www.torproject.org) | Tor network and Tor Browser for browsing anonymously and avoiding tracking and censorship. | — | — | free · en/pt/es | 🌐 website |
 
-_14 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_14 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

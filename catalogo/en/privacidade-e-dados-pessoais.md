@@ -20,4 +20,4 @@
 | [PIA (CNIL)](https://github.com/LINCnil/pia) | French CNIL application to carry out data protection impact assessments (DPIA). | ⭐ 297 | Oct 2026 | GPL-3.0 | 🟢 active |
 | [Blacklight Collector](https://github.com/the-markup/blacklight-collector) | Collector that audits a website for trackers, third-party cookies and fingerprinting. | ⭐ 243 | Jun 2026 | GPL-3.0 | 🟢 active |
 
-_10 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_10 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

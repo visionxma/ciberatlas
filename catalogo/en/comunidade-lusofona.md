@@ -21,4 +21,4 @@
 | [SegInfo](https://seginfo.com.br) | Portuguese-language portal, podcast and event on information security. | — | — | free · pt | 🌐 website |
 | [Segurança Legal](https://www.segurancalegal.com) | Brazilian podcast on information security, privacy and technology law, running since 2012. | — | — | free · pt | 🌐 website |
 
-_11 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

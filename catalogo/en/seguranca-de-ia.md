@@ -20,4 +20,4 @@
 | [OWASP Top 10 para LLM](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) | OWASP list of the ten biggest risks for LLM applications, from the GenAI Security Project. | ⭐ 1.5k | Aug 2026 | other | 🟢 active |
 | [ModelScan](https://github.com/protectai/modelscan) | Detects serialization attacks in ML model files before you load them. | ⭐ 785 | Feb 2026 | Apache-2.0 | 🟡 slow |
 
-_10 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_10 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

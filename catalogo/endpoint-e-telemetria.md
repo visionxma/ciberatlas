@@ -20,4 +20,4 @@
 | [Sysmon for Linux](https://github.com/microsoft/Sysmon-Linux) | Monitor de eventos de sistema para Linux, baseado em eBPF, com formato de log igual ao do Sysmon. | ⭐ 2,2 mil | set 2026 | MIT | 🟢 ativo |
 | [Kunai](https://github.com/kunai-project/kunai) | Ferramenta de caça a ameaças em Linux que gera eventos detalhados do kernel com eBPF. | ⭐ 1,1 mil | out 2026 | GPL-3.0 | 🟢 ativo |
 
-_10 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

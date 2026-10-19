@@ -25,4 +25,4 @@
 | [awesome-ai-security (ottosulin)](https://github.com/ottosulin/awesome-ai-security) | Collection of resources about the security of artificial intelligence systems. | ⭐ 1.6k | Oct 2026 | MIT | 🟢 active |
 | [awesome-detection-engineering](https://github.com/infosecB/awesome-detection-engineering) | List of detection engineering resources: rules, processes, metrics and tools. | ⭐ 1.4k | Oct 2026 | CC0-1.0 | 🟢 active |
 
-_15 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_15 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

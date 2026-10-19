@@ -11,7 +11,7 @@
 |---|---|--:|---|---|---|
 | [NetBox](https://github.com/netbox-community/netbox) | Infrastructure source of truth: IPs, racks, devices, cables and circuits, with an API. | ⭐ 21.7k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [OWASP Amass](https://github.com/owasp-amass/amass) | Maps the external attack surface of a domain: subdomains, networks and exposed services. | ⭐ 15.4k | Apr 2026 | other | 🟡 slow |
-| [Snipe-IT](https://github.com/grokability/snipe-it) | IT asset and license management: who holds each device, history, check-in and check-out. | ⭐ 15k | Oct 2026 | AGPL-3.0 | 🟢 active |
+| [Snipe-IT](https://github.com/grokability/snipe-it) | IT asset and license management: who holds each device, history, check-in and check-out. | ⭐ 15.1k | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [Nmap](https://github.com/nmap/nmap) | Host and service discovery on the network, to keep inventory and find unexpected open ports. | ⭐ 13.8k | Oct 2026 | other | 🟢 active |
 | [NetAlertX](https://github.com/netalertx/NetAlertX) | Discovers devices on the local network and alerts when a new or unknown device appears. | ⭐ 7.3k | Oct 2026 | GPL-3.0 | 🟢 active |
 | [CloudQuery](https://github.com/cloudquery/cloudquery) | Extracts cloud configuration into a database as a base for asset inventory and posture analysis. | ⭐ 6.5k | Oct 2026 | MPL-2.0 | 🟢 active |
@@ -22,4 +22,4 @@
 | [iTop](https://github.com/Combodo/iTop) | CMDB and IT service management (ITSM) linking assets, services, changes and incidents. | ⭐ 1.2k | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [Mercator](https://github.com/sourcentis/mercator) | Information system mapping: processes, applications, servers and data flows for risk analysis. | ⭐ 563 | Oct 2026 | GPL-3.0 | 🟢 active |
 
-_12 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_12 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

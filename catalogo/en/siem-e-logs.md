@@ -20,4 +20,4 @@
 | [UTMStack](https://github.com/utmstack/UTMStack) | SIEM and SOAR with real-time correlation, threat intelligence and compliance reporting. | ⭐ 590 | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [OpenSearch Security Analytics](https://github.com/opensearch-project/security-analytics) | OpenSearch plugin that detects threats in security logs using Sigma rules and correlation. | ⭐ 114 | Oct 2026 | Apache-2.0 | 🟢 active |
 
-_10 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_10 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

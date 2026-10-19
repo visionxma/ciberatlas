@@ -18,7 +18,7 @@
 | [Cortex](https://github.com/TheHive-Project/Cortex) | Engine that analyzes observables (IPs, files, domains) and runs active response actions. | ⭐ 1.6k | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [DFIR-IRIS](https://github.com/dfir-iris/iris-web) | Collaborative incident response platform to track cases, evidence and timelines. | ⭐ 1.6k | Sep 2026 | LGPL-3.0 | 🟢 active |
 | [Untitled Goose Tool](https://github.com/cisagov/untitledgoosetool) | CISA hunt and incident response tool for Azure, Entra ID and Microsoft 365 environments. | ⭐ 966 | Oct 2026 | CC0-1.0 | 🟢 active |
-| [Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | PowerShell module that acquires Microsoft 365 and Azure data for incident response. | ⭐ 860 | Jun 2026 | GPL-2.0 | 🟢 active |
+| [Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | PowerShell module that acquires Microsoft 365 and Azure data for incident response. | ⭐ 861 | Jun 2026 | GPL-2.0 | 🟢 active |
 | [DFIR-ORC](https://github.com/DFIR-ORC/dfir-orc) | ANSSI tool that collects forensic artifacts on Windows systems. | ⭐ 452 | Oct 2026 | LGPL-2.1 | 🟢 active |
 
-_11 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

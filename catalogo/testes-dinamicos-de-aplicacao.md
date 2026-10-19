@@ -16,4 +16,4 @@
 | [Wapiti](https://github.com/wapiti-scanner/wapiti) | Scanner de vulnerabilidades web em Python, que testa o app em execução por requisições (caixa-preta). | ⭐ 1,9 mil | out 2026 | GPL-2.0 | 🟢 ativo |
 | [VulnAPI](https://github.com/cerberauth/vulnapi) | Scanner de vulnerabilidades de APIs para ajudar a proteger as suas próprias APIs. | ⭐ 288 | set 2026 | MIT | 🟢 ativo |
 
-_6 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_6 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

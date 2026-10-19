@@ -19,4 +19,4 @@
 | [Galah](https://github.com/0x4D31/galah) | Web honeypot that uses an LLM to generate dynamic HTTP responses. | ⭐ 671 | Jul 2025 | Apache-2.0 | 🟡 slow |
 | [DejaVu](https://github.com/bhdresh/Dejavu) | Open-source deception framework to deploy and monitor honeypots of several kinds. | ⭐ 435 | Aug 2025 | other | 🟡 slow |
 
-_9 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_9 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

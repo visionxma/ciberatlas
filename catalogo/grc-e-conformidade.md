@@ -17,4 +17,4 @@
 | [Deming](https://github.com/sourcentis/deming) | Gestão do SGSI (ISO 27001): controles, medições periódicas, plano de ação e acompanhamento de auditorias. | ⭐ 392 | out 2026 | GPL-3.0 | 🟢 ativo |
 | [Compliance Trestle](https://github.com/oscal-compass/compliance-trestle) | Ferramenta Python para gerir conformidade como código com OSCAL do NIST, integrável a pipelines de CI. | ⭐ 284 | out 2026 | Apache-2.0 | 🟢 ativo |
 
-_7 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_7 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

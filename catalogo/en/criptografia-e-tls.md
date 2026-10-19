@@ -15,9 +15,9 @@
 | [Cryptomator](https://github.com/cryptomator/cryptomator) | Client-side encryption for cloud files on Windows, macOS and Linux. | ⭐ 16.3k | Oct 2026 | GPL-3.0 | 🟢 active |
 | [cert-manager](https://github.com/cert-manager/cert-manager) | Automatically provisions and renews TLS certificates in Kubernetes. | ⭐ 14.1k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [VeraCrypt](https://github.com/veracrypt/VeraCrypt) | Disk and volume encryption with strong algorithms, successor to TrueCrypt. | ⭐ 11.9k | Oct 2026 | other | 🟢 active |
-| [Lego](https://github.com/go-acme/lego) | ACME client and library in Go to issue certificates from Let's Encrypt and other CAs. | ⭐ 9.9k | Oct 2026 | MIT | 🟢 active |
+| [Lego](https://github.com/go-acme/lego) | ACME client and library in Go to issue certificates from Let's Encrypt and other CAs. | ⭐ 10k | Oct 2026 | MIT | 🟢 active |
 | [testssl.sh](https://github.com/testssl/testssl.sh) | Tests TLS/SSL services on any port: protocols, ciphers, certificate and known flaws. | ⭐ 9.2k | Oct 2026 | GPL-2.0 | 🟢 active |
 | [step-ca](https://github.com/smallstep/certificates) | Private certificate authority (X.509 and SSH) and ACME server for automated certificates. | ⭐ 9k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [SSLyze](https://github.com/nabla-c0d3/sslyze) | Fast library and CLI that analyze the TLS configuration of servers. | ⭐ 3.8k | Mar 2026 | AGPL-3.0 | 🟡 slow |
 
-_10 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_10 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

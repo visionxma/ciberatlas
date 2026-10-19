@@ -9,7 +9,7 @@
 
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
-| [OWASP Juice Shop](https://github.com/juice-shop/juice-shop) | Deliberately vulnerable web shop with dozens of OWASP Top 10 challenges and a CTF scoreboard. | ⭐ 14.1k | Oct 2026 | MIT | 🟢 active |
+| [OWASP Juice Shop](https://github.com/juice-shop/juice-shop) | Deliberately vulnerable web shop with dozens of OWASP Top 10 challenges and a CTF scoreboard. | ⭐ 14.2k | Oct 2026 | MIT | 🟢 active |
 | [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web Application: a PHP/MySQL app made vulnerable to practice web flaws locally. | ⭐ 13.9k | Oct 2026 | GPL-3.0 | 🟢 active |
 | [WebGoat](https://github.com/WebGoat/WebGoat) | OWASP's deliberately insecure Java application with guided lessons on common web flaws. | ⭐ 9.4k | Oct 2026 | other | 🟢 active |
 | [GOAD (Game of Active Directory)](https://github.com/Orange-Cyberdefense/GOAD) | Active Directory lab with several vulnerable forests and domains, by Orange Cyberdefense. | ⭐ 8.5k | Mar 2026 | GPL-3.0 | 🟡 slow |
@@ -37,4 +37,4 @@
 | [TryHackMe](https://tryhackme.com) | Browser-based guided rooms and learning paths from beginner to SOC analyst; part of the content is free. | — | — | freemium · entry · en | 🌐 website |
 | [VulnHub](https://www.vulnhub.com) | Repository of deliberately vulnerable virtual machines to download and practice in an isolated local lab. | — | — | free · intermediate · en | 🌐 website |
 
-_27 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_27 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

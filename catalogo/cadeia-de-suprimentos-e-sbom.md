@@ -25,4 +25,4 @@
 | [Notation](https://github.com/notaryproject/notation) | CLI do Notary Project para assinar e verificar artefatos OCI, como imagens de contêiner. | ⭐ 502 | ago 2026 | Apache-2.0 | 🟢 ativo |
 | [SLSA Verifier](https://github.com/slsa-framework/slsa-verifier) | Verifica a proveniência SLSA de um artefato para confirmar que foi construído como declarado. | ⭐ 347 | ago 2026 | Apache-2.0 | 🟢 ativo |
 
-_15 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_15 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

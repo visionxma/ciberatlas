@@ -17,6 +17,6 @@
 | [Brakeman](https://github.com/presidentbeef/brakeman) | Scanner estático de vulnerabilidades para aplicações Ruby on Rails. | ⭐ 7,3 mil | set 2026 | outra | 🟢 ativo |
 | [Opengrep](https://github.com/opengrep/opengrep) | Motor de análise estática aberto, derivado do Semgrep, para achar falhas de segurança em código. | ⭐ 3,2 mil | out 2026 | LGPL-2.1 | 🟢 ativo |
 | [Bearer CLI](https://github.com/Bearer/bearer) | Scanner SAST que acha, filtra e prioriza riscos de segurança e privacidade, com foco em fluxo de dados sensíveis. | ⭐ 2,8 mil | out 2026 | outra | 🟢 ativo |
-| [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) | Plugin do SpotBugs para auditoria de segurança em aplicações web Java e Android. | ⭐ 2,5 mil | mar 2026 | LGPL-3.0 | 🟡 morno |
+| [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) | Plugin do SpotBugs para auditoria de segurança em aplicações web Java e Android. | ⭐ 2,5 mil | out 2026 | LGPL-3.0 | 🟢 ativo |
 
-_9 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_9 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

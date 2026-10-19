@@ -21,4 +21,4 @@
 | [AVML](https://github.com/microsoft/avml) | Acquires volatile memory from Linux machines without needing to know the kernel version. | ⭐ 1.1k | Oct 2026 | MIT | 🟢 active |
 | [mac_apt](https://github.com/ydkhatri/mac_apt) | Tool that extracts and parses forensic artifacts from macOS and iOS. | ⭐ 1.1k | Oct 2026 | MIT | 🟢 active |
 
-_11 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

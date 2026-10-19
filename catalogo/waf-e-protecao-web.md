@@ -17,4 +17,4 @@
 | [OWASP Core Rule Set](https://github.com/coreruleset/coreruleset) | Conjunto oficial de regras genéricas de detecção de ataques para ModSecurity, Coraza e compatíveis. | ⭐ 3,3 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [open-appsec](https://github.com/openappsec/openappsec) | Motor de segurança com aprendizado de máquina que previne ataques web e a APIs sem regras manuais. | ⭐ 1,7 mil | set 2026 | Apache-2.0 | 🟢 ativo |
 
-_7 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_7 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

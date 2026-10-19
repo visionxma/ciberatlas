@@ -22,4 +22,4 @@
 | [Stanford CS155 — Segurança de Computadores e Redes](https://web.stanford.edu/class/cs155/) | Disciplina de Stanford que cobre ameaças, defesas, segurança web, de rede e de sistemas. | — | — | grátis · intermediário · Stanford · en | 🌐 site |
 | [Stanford CS253 — Segurança Web](https://web.stanford.edu/class/cs253/) | Disciplina de Stanford sobre segurança web: XSS, CSRF, cabeçalhos HTTP e modelo de segurança do navegador. | — | — | grátis · intermediário · Stanford · en | 🌐 site |
 
-_12 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_12 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

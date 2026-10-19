@@ -22,4 +22,4 @@
 | [Stanford CS155 — Segurança de Computadores e Redes](https://web.stanford.edu/class/cs155/) | Stanford course covering threats, defenses, and web, network and systems security. | — | — | free · intermediate · Stanford · en | 🌐 website |
 | [Stanford CS253 — Segurança Web](https://web.stanford.edu/class/cs253/) | Stanford course on web security: XSS, CSRF, HTTP headers and the browser security model. | — | — | free · intermediate · Stanford · en | 🌐 website |
 
-_12 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_12 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

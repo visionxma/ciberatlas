@@ -21,4 +21,4 @@
 | [AVML](https://github.com/microsoft/avml) | Captura a memória volátil de máquinas Linux sem precisar conhecer a versão do kernel. | ⭐ 1,1 mil | out 2026 | MIT | 🟢 ativo |
 | [mac_apt](https://github.com/ydkhatri/mac_apt) | Ferramenta que extrai e interpreta artefatos forenses de macOS e iOS. | ⭐ 1,1 mil | out 2026 | MIT | 🟢 ativo |
 
-_11 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_11 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

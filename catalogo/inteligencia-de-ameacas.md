@@ -20,4 +20,4 @@
 | [AIL Framework](https://github.com/ail-project/ail-framework) | Analisa fontes públicas e da dark web para achar vazamentos de informação. | ⭐ 1 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
 | [Lookyloo](https://github.com/Lookyloo/lookyloo) | Captura uma página web e mostra a árvore de domínios carregados, útil para analisar phishing. | ⭐ 784 | out 2026 | outra | 🟢 ativo |
 
-_10 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

@@ -18,4 +18,4 @@
 | [Kingfisher](https://github.com/mongodb/kingfisher) | Detecta segredos com validação ao vivo, mapeia o alcance da credencial e ajuda a revogar rápido. | ⭐ 1,3 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [ripsecrets](https://github.com/sirwart/ripsecrets) | Ferramenta de linha de comando, rápida, que evita o commit de chaves secretas no código. | ⭐ 911 | nov 2025 | MIT | 🟡 morno |
 
-_8 itens · métricas do GitHub de 18/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_8 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

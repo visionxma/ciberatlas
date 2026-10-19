@@ -25,4 +25,4 @@
 | [secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) | Runs security scanners continuously on Kubernetes and collects the results in one place. | ⭐ 991 | Oct 2026 | other | 🟢 active |
 | [Vulnerability-Lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | CIRCL platform that correlates vulnerabilities from many sources and lets you search and comment findings. | ⭐ 591 | Oct 2026 | AGPL-3.0 | 🟢 active |
 
-_15 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_15 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

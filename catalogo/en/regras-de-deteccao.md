@@ -21,4 +21,4 @@
 | [Zircolite](https://github.com/wagga40/Zircolite) | Standalone detection tool that applies Sigma rules to EVTX, Auditd and Sysmon for Linux logs. | ⭐ 863 | Oct 2026 | other | 🟢 active |
 | [pySigma](https://github.com/SigmaHQ/pySigma) | Python library that parses Sigma rules and converts them into queries for each SIEM. | ⭐ 601 | Oct 2026 | LGPL-2.1 | 🟢 active |
 
-_11 items · GitHub metrics from 2026-10-18 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
