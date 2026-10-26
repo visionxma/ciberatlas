@@ -9,8 +9,8 @@
 
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
-| [Eventos Infosec Brasil](https://github.com/IncursioHack/Eventos-Infosec-Brasil) | Collaborative list of information security events, talks and meetups in Brazil. | ⭐ 123 | Jan 2025 | — | 🟡 slow |
-| [EventosCybersec](https://github.com/zero2flag/EventosCybersec) | Collaborative, updated table of cybersecurity events in Brazil and worldwide. | ⭐ 85 | Apr 2026 | — | 🟡 slow |
+| [Eventos Infosec Brasil](https://github.com/IncursioHack/Eventos-Infosec-Brasil) | Collaborative list of information security events, talks and meetups in Brazil. | ⭐ 120 | Jan 2025 | — | 🟡 slow |
+| [EventosCybersec](https://github.com/zero2flag/EventosCybersec) | Collaborative, updated table of cybersecurity events in Brazil and worldwide. | ⭐ 86 | Apr 2026 | — | 🟡 slow |
 | [C-DAYS (CNCS, Portugal)](https://c-days.cncs.gov.pt/) | Annual conference of Portugal's National Cybersecurity Centre, with program and registration. | — | — | free · pt | 🌐 website |
 | [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br) | Portuguese-language CERT.br guide with security recommendations for users, as a book and booklets. | — | — | free · entry · pt | 🌐 website |
 | [CERT.br](https://cert.br) | NIC.br's incident response group: notifications, statistics, documents and best practices. | — | — | free · pt | 🌐 website |
@@ -21,4 +21,4 @@
 | [SegInfo](https://seginfo.com.br) | Portuguese-language portal, podcast and event on information security. | — | — | free · pt | 🌐 website |
 | [Segurança Legal](https://www.segurancalegal.com) | Brazilian podcast on information security, privacy and technology law, running since 2012. | — | — | free · pt | 🌐 website |
 
-_11 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-10-26 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

@@ -14,6 +14,6 @@
 | [Schemathesis](https://github.com/schemathesis/schemathesis) | Gera testes a partir do esquema OpenAPI/GraphQL para achar falhas e erros em APIs em execução. | ⭐ 3,7 mil | out 2026 | MIT | 🟢 ativo |
 | [RESTler](https://github.com/microsoft/restler-fuzzer) | Fuzzer com estado para APIs REST que testa serviços de nuvem em busca de falhas de segurança e confiabilidade. | ⭐ 3 mil | fev 2026 | MIT | 🟡 morno |
 | [Wapiti](https://github.com/wapiti-scanner/wapiti) | Scanner de vulnerabilidades web em Python, que testa o app em execução por requisições (caixa-preta). | ⭐ 1,9 mil | out 2026 | GPL-2.0 | 🟢 ativo |
-| [VulnAPI](https://github.com/cerberauth/vulnapi) | Scanner de vulnerabilidades de APIs para ajudar a proteger as suas próprias APIs. | ⭐ 288 | set 2026 | MIT | 🟢 ativo |
+| [VulnAPI](https://github.com/cerberauth/vulnapi) | Scanner de vulnerabilidades de APIs para ajudar a proteger as suas próprias APIs. | ⭐ 289 | set 2026 | MIT | 🟢 ativo |
 
-_6 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_6 itens · métricas do GitHub de 26/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

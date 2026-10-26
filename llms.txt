@@ -324,8 +324,8 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [T-Pot](https://github.com/telekom-security/tpotce): Plataforma que reúne vários honeypots e painéis de visualização num único sistema.
 - [Cowrie](https://github.com/cowrie/cowrie): Honeypot SSH e Telnet de interação média que registra ataques de força bruta e comandos.
 - [OpenCanary](https://github.com/thinkst/opencanary): Honeypot modular e descentralizado que imita serviços e avisa quando alguém os toca.
-- [Beelzebub](https://github.com/beelzebub-labs/beelzebub): Framework de enganação de baixo código que usa IA para simular sistemas e capturar atacantes.
 - [Canarytokens](https://github.com/thinkst/canarytokens): Gera iscas (tokens) em arquivos, links e chaves que avisam quando alguém as usa.
+- [Beelzebub](https://github.com/beelzebub-labs/beelzebub): Framework de enganação de baixo código que usa IA para simular sistemas e capturar atacantes.
 - [Conpot](https://github.com/mushorg/conpot): Honeypot de baixa interação que imita sistemas industriais (ICS/SCADA).
 - [qeeqbox honeypots](https://github.com/qeeqbox/honeypots): Pacote com 30 honeypots (DNS, FTP, HTTP, SSH e outros) que registram o que os atacantes fazem.
 - [Galah](https://github.com/0x4D31/galah): Honeypot web que usa um modelo de linguagem para gerar respostas HTTP dinâmicas.

@@ -9,12 +9,12 @@
 
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
-| [SafeLine](https://github.com/chaitin/SafeLine) | Self-hosted WAF and reverse proxy that protects web applications from attacks and bots. | ⭐ 22.8k | Sep 2026 | GPL-3.0 | 🟢 active |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Open-source IDS/IPS with WAF and bot detection that blocks IPs using collaborative intelligence. | ⭐ 15.2k | Oct 2026 | MIT | 🟢 active |
+| [SafeLine](https://github.com/chaitin/SafeLine) | Self-hosted WAF and reverse proxy that protects web applications from attacks and bots. | ⭐ 23k | Oct 2026 | GPL-3.0 | 🟢 active |
+| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Open-source IDS/IPS with WAF and bot detection that blocks IPs using collaborative intelligence. | ⭐ 15.3k | Oct 2026 | MIT | 🟢 active |
 | [BunkerWeb](https://github.com/bunkerity/bunkerweb) | Open-source, cloud-native WAF built on Nginx, with security enabled by default. | ⭐ 11.1k | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity) | Cross-platform WAF engine for Apache, IIS and Nginx, with rules and request logging. | ⭐ 9.8k | Oct 2026 | Apache-2.0 | 🟢 active |
-| [OWASP Coraza](https://github.com/corazawaf/coraza) | WAF library in Go compatible with ModSecurity and the CRS rules. | ⭐ 3.9k | Oct 2026 | Apache-2.0 | 🟢 active |
+| [OWASP Coraza](https://github.com/corazawaf/coraza) | WAF library in Go compatible with ModSecurity and the CRS rules. | ⭐ 4k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [OWASP Core Rule Set](https://github.com/coreruleset/coreruleset) | Official set of generic attack detection rules for ModSecurity, Coraza and compatible WAFs. | ⭐ 3.3k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [open-appsec](https://github.com/openappsec/openappsec) | Machine-learning security engine that prevents web and API attacks without manual rules. | ⭐ 1.7k | Sep 2026 | Apache-2.0 | 🟢 active |
 
-_7 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_7 items · GitHub metrics from 2026-10-26 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

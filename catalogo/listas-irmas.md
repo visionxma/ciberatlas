@@ -9,8 +9,8 @@
 
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
-| [awesome-web-security](https://github.com/qazbnm456/awesome-web-security) | Lista de materiais e recursos sobre segurança web. | ⭐ 13,9 mil | set 2026 | — | 🟢 ativo |
-| [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | Lista de recursos de inteligência de ameaças: feeds, plataformas, ferramentas e leituras. | ⭐ 10,7 mil | mai 2026 | Apache-2.0 | 🟢 ativo |
+| [awesome-web-security](https://github.com/qazbnm456/awesome-web-security) | Lista de materiais e recursos sobre segurança web. | ⭐ 14 mil | set 2026 | — | 🟢 ativo |
+| [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | Lista de recursos de inteligência de ameaças: feeds, plataformas, ferramentas e leituras. | ⭐ 10,8 mil | mai 2026 | Apache-2.0 | 🟢 ativo |
 | [awesome-honeypots](https://github.com/paralax/awesome-honeypots) | Lista de honeypots (iscas) e ferramentas relacionadas, organizada por serviço. | ⭐ 10,6 mil | jun 2026 | Artistic-2.0 | 🟢 ativo |
 | [Awesome Privacy](https://github.com/lissy93/awesome-privacy) | Lista de software e serviços focados em privacidade e segurança, por categoria. | ⭐ 10 mil | out 2026 | CC0-1.0 | 🟢 ativo |
 | [android-security-awesome](https://github.com/ashishb/android-security-awesome) | Lista de recursos de segurança para Android: ferramentas, artigos e laboratórios. | ⭐ 9,8 mil | out 2026 | Apache-2.0 | 🟢 ativo |
@@ -25,4 +25,4 @@
 | [awesome-ai-security (ottosulin)](https://github.com/ottosulin/awesome-ai-security) | Coleção de recursos sobre segurança de sistemas de inteligência artificial. | ⭐ 1,6 mil | out 2026 | MIT | 🟢 ativo |
 | [awesome-detection-engineering](https://github.com/infosecB/awesome-detection-engineering) | Lista de recursos de engenharia de detecção: regras, processos, métricas e ferramentas. | ⭐ 1,4 mil | out 2026 | CC0-1.0 | 🟢 ativo |
 
-_15 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_15 itens · métricas do GitHub de 26/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

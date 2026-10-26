@@ -9,7 +9,7 @@
 
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
-| [uBlock Origin](https://github.com/gorhill/uBlock) | Bloqueador de conteúdo para Chromium e Firefox que corta rastreadores e anúncios com listas de filtros. | ⭐ 68,7 mil | out 2026 | GPL-3.0 | 🟢 ativo |
+| [uBlock Origin](https://github.com/gorhill/uBlock) | Bloqueador de conteúdo para Chromium e Firefox que corta rastreadores e anúncios com listas de filtros. | ⭐ 68,8 mil | out 2026 | GPL-3.0 | 🟢 ativo |
 | [Signal](https://github.com/signalapp/Signal-Android) · [site](https://signal.org) | Mensageiro de código aberto com criptografia de ponta a ponta por padrão, em mensagens e chamadas. | ⭐ 29,5 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
 | [Personal Security Checklist](https://github.com/lissy93/personal-security-checklist) | Lista de mais de 300 dicas para proteger sua segurança digital e privacidade no dia a dia. | ⭐ 22,6 mil | out 2026 | outra | 🟢 ativo |
 | [SimpleX Chat](https://github.com/simplex-chat/simplex-chat) | Mensageiro de código aberto que funciona sem identificadores de usuário de qualquer tipo. | ⭐ 19,6 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
@@ -24,4 +24,4 @@
 | [Tails](https://tails.net) | Sistema operacional que roda a partir de um pendrive e não deixa rastros, com todo o tráfego pela rede Tor. | — | — | grátis · pt/en/es | 🌐 site |
 | [Tor Project](https://www.torproject.org) | Rede e Navegador Tor para navegar com anonimato e contornar rastreamento e censura. | — | — | grátis · en/pt/es | 🌐 site |
 
-_14 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_14 itens · métricas do GitHub de 26/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

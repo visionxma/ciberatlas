@@ -9,7 +9,7 @@
 
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
-| [uBlock Origin](https://github.com/gorhill/uBlock) | Content blocker for Chromium and Firefox that cuts trackers and ads with filter lists. | ⭐ 68.7k | Oct 2026 | GPL-3.0 | 🟢 active |
+| [uBlock Origin](https://github.com/gorhill/uBlock) | Content blocker for Chromium and Firefox that cuts trackers and ads with filter lists. | ⭐ 68.8k | Oct 2026 | GPL-3.0 | 🟢 active |
 | [Signal](https://github.com/signalapp/Signal-Android) · [site](https://signal.org) | Open source messenger with end-to-end encryption by default for messages and calls. | ⭐ 29.5k | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [Personal Security Checklist](https://github.com/lissy93/personal-security-checklist) | Checklist of 300+ tips to protect your digital security and privacy day to day. | ⭐ 22.6k | Oct 2026 | other | 🟢 active |
 | [SimpleX Chat](https://github.com/simplex-chat/simplex-chat) | Open source messenger that works without user identifiers of any kind. | ⭐ 19.6k | Oct 2026 | AGPL-3.0 | 🟢 active |
@@ -24,4 +24,4 @@
 | [Tails](https://tails.net) | Live operating system that runs from a USB stick and leaves no trace, routing all traffic through Tor. | — | — | free · pt/en/es | 🌐 website |
 | [Tor Project](https://www.torproject.org) | Tor network and Tor Browser for browsing anonymously and avoiding tracking and censorship. | — | — | free · en/pt/es | 🌐 website |
 
-_14 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_14 items · GitHub metrics from 2026-10-26 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

@@ -16,9 +16,9 @@
 | [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) | Library and command-line tools to analyze disk images and file systems. | ⭐ 3.2k | Oct 2026 | — | 🟢 active |
 | [IPED](https://github.com/sepinf-inc/IPED) | Open forensic tool from the Brazilian Federal Police to process and analyze digital evidence. | ⭐ 3.1k | Oct 2026 | other | 🟢 active |
 | [Plaso (log2timeline)](https://github.com/log2timeline/plaso) | Builds a super timeline for an investigation by merging events from many artifacts. | ⭐ 2.2k | Oct 2026 | Apache-2.0 | 🟢 active |
-| [ForensicArtifacts](https://github.com/ForensicArtifacts/artifacts) | Repository of forensic artifact definitions, in YAML, consumed by many tools. | ⭐ 1.3k | Sep 2026 | Apache-2.0 | 🟢 active |
+| [ForensicArtifacts](https://github.com/ForensicArtifacts/artifacts) | Repository of forensic artifact definitions, in YAML, consumed by many tools. | ⭐ 1.3k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [Dissect](https://github.com/fox-it/dissect) | Forensics and incident response framework that accesses data in disks and images without extracting. | ⭐ 1.2k | Oct 2026 | AGPL-3.0 | 🟢 active |
 | [AVML](https://github.com/microsoft/avml) | Acquires volatile memory from Linux machines without needing to know the kernel version. | ⭐ 1.1k | Oct 2026 | MIT | 🟢 active |
 | [mac_apt](https://github.com/ydkhatri/mac_apt) | Tool that extracts and parses forensic artifacts from macOS and iOS. | ⭐ 1.1k | Oct 2026 | MIT | 🟢 active |
 
-_11 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-10-26 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

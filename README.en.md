@@ -10,13 +10,13 @@ MITRE D3FEND and the CIS Controls.
 **[🔎 Search the site](https://visionxma.github.io/ciberatlas/?lang=en)** · [Português](README.md) · [Catalog](catalogo/en/README.md) · [Start here (in Portuguese)](docs/comece-aqui/README.md) · [Contribute](CONTRIBUTING.en.md) · [Open data](#use-the-data)
 
 <!-- atlas:selos -->
-![itens](https://img.shields.io/badge/items-412-0b7285) ![projetos](https://img.shields.io/badge/verified%20projects-341-2b8a3e) ![atualizado](https://img.shields.io/badge/updated-2026--10--19-495057) ![licença](https://img.shields.io/badge/data-CC0--1.0-495057)
+![itens](https://img.shields.io/badge/items-412-0b7285) ![projetos](https://img.shields.io/badge/verified%20projects-341-2b8a3e) ![atualizado](https://img.shields.io/badge/updated-2026--10--26-495057) ![licença](https://img.shields.io/badge/data-CC0--1.0-495057)
 <!-- /atlas:selos -->
 
 </div>
 
 <!-- atlas:numeros -->
-**412 items** in **37 categories** · **341 open-source projects** checked by the bot on 2026-10-19 (312 active in the last 6 months) · 2.97M combined stars · 3 in the [graveyard](catalogo/cemiterio.md)
+**412 items** in **37 categories** · **341 open-source projects** checked by the bot on 2026-10-26 (313 active in the last 6 months) · 2.98M combined stars · 3 in the [graveyard](catalogo/cemiterio.md)
 <!-- /atlas:numeros -->
 
 ---

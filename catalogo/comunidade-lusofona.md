@@ -9,8 +9,8 @@
 
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
-| [Eventos Infosec Brasil](https://github.com/IncursioHack/Eventos-Infosec-Brasil) | Lista colaborativa de eventos, palestras e encontros de segurança da informação no Brasil. | ⭐ 123 | jan 2025 | — | 🟡 morno |
-| [EventosCybersec](https://github.com/zero2flag/EventosCybersec) | Tabela colaborativa e atualizada de eventos de cibersegurança no Brasil e no mundo. | ⭐ 85 | abr 2026 | — | 🟡 morno |
+| [Eventos Infosec Brasil](https://github.com/IncursioHack/Eventos-Infosec-Brasil) | Lista colaborativa de eventos, palestras e encontros de segurança da informação no Brasil. | ⭐ 120 | jan 2025 | — | 🟡 morno |
+| [EventosCybersec](https://github.com/zero2flag/EventosCybersec) | Tabela colaborativa e atualizada de eventos de cibersegurança no Brasil e no mundo. | ⭐ 86 | abr 2026 | — | 🟡 morno |
 | [C-DAYS (CNCS, Portugal)](https://c-days.cncs.gov.pt/) | Conferência anual do Centro Nacional de Cibersegurança de Portugal, com programa e inscrições. | — | — | grátis · pt | 🌐 site |
 | [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br) | Guia em português do CERT.br com recomendações de segurança para usuários, em livro e fascículos. | — | — | grátis · entrada · pt | 🌐 site |
 | [CERT.br](https://cert.br) | Grupo de resposta a incidentes do NIC.br: notificações, estatísticas, documentos e boas práticas. | — | — | grátis · pt | 🌐 site |
@@ -21,4 +21,4 @@
 | [SegInfo](https://seginfo.com.br) | Portal, podcast e evento em português sobre segurança da informação. | — | — | grátis · pt | 🌐 site |
 | [Segurança Legal](https://www.segurancalegal.com) | Podcast brasileiro sobre segurança da informação, privacidade e direito da tecnologia, no ar desde 2012. | — | — | grátis · pt | 🌐 site |
 
-_11 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_11 itens · métricas do GitHub de 26/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

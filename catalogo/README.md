@@ -1,7 +1,7 @@
 <!-- Gerado por scripts/ciberatlas.py — não edite à mão -->
 # Catálogo do CiberAtlas
 
-**412 itens** em **37 categorias** · **341 projetos abertos** conferidos pelo robô em 19/10/2026 (312 com atividade nos últimos 6 meses) · 2,97 milhões de estrelas somadas · 3 no [cemitério](cemiterio.md)
+**412 itens** em **37 categorias** · **341 projetos abertos** conferidos pelo robô em 26/10/2026 (313 com atividade nos últimos 6 meses) · 2,98 milhões de estrelas somadas · 3 no [cemitério](cemiterio.md)
 
 [English](en/README.md) · [← Início](../README.md) · [Cemitério](cemiterio.md)
 

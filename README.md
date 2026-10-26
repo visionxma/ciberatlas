@@ -10,13 +10,13 @@ pelo MITRE D3FEND e pelos CIS Controls.
 **[🔎 Buscar no site](https://visionxma.github.io/ciberatlas/)** · [English](README.en.md) · [Catálogo](catalogo/README.md) · [Comece aqui](docs/comece-aqui/README.md) · [Brasil](docs/brasil/README.md) · [Contribuir](CONTRIBUTING.md) · [Dados abertos](#use-os-dados)
 
 <!-- atlas:selos -->
-![itens](https://img.shields.io/badge/itens-412-0b7285) ![projetos](https://img.shields.io/badge/projetos%20verificados-341-2b8a3e) ![atualizado](https://img.shields.io/badge/atualizado-2026--10--19-495057) ![licença](https://img.shields.io/badge/dados-CC0--1.0-495057)
+![itens](https://img.shields.io/badge/itens-412-0b7285) ![projetos](https://img.shields.io/badge/projetos%20verificados-341-2b8a3e) ![atualizado](https://img.shields.io/badge/atualizado-2026--10--26-495057) ![licença](https://img.shields.io/badge/dados-CC0--1.0-495057)
 <!-- /atlas:selos -->
 
 </div>
 
 <!-- atlas:numeros -->
-**412 itens** em **37 categorias** · **341 projetos abertos** conferidos pelo robô em 19/10/2026 (312 com atividade nos últimos 6 meses) · 2,97 milhões de estrelas somadas · 3 no [cemitério](catalogo/cemiterio.md)
+**412 itens** em **37 categorias** · **341 projetos abertos** conferidos pelo robô em 26/10/2026 (313 com atividade nos últimos 6 meses) · 2,98 milhões de estrelas somadas · 3 no [cemitério](catalogo/cemiterio.md)
 <!-- /atlas:numeros -->
 
 ---

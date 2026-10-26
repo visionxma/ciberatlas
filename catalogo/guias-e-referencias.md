@@ -10,10 +10,10 @@
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
 | [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries) · [site](https://cheatsheetseries.owasp.org/) | Coleção de guias curtos e objetivos do OWASP com boas práticas de segurança de aplicações. | ⭐ 33,7 mil | out 2026 | CC-BY-SA-4.0 | 🟢 ativo |
-| [OWASP MASTG](https://github.com/OWASP/mastg) · [site](https://mas.owasp.org/) | Guia do OWASP de teste de segurança de aplicativos móveis, com técnicas para Android e iOS. | ⭐ 13,3 mil | set 2026 | CC-BY-SA-4.0 | 🟢 ativo |
-| [YubiKey Guide (drduh)](https://github.com/drduh/YubiKey-Guide) | Guia da comunidade para usar a YubiKey com GnuPG e SSH, protegendo chaves em hardware. | ⭐ 12,5 mil | out 2026 | MIT | 🟢 ativo |
+| [OWASP MASTG](https://github.com/OWASP/mastg) · [site](https://mas.owasp.org/) | Guia do OWASP de teste de segurança de aplicativos móveis, com técnicas para Android e iOS. | ⭐ 13,3 mil | out 2026 | CC-BY-SA-4.0 | 🟢 ativo |
+| [YubiKey Guide (drduh)](https://github.com/drduh/YubiKey-Guide) | Guia da comunidade para usar a YubiKey com GnuPG e SSH, protegendo chaves em hardware. | ⭐ 13 mil | out 2026 | MIT | 🟢 ativo |
 | [OWASP Web Security Testing Guide](https://github.com/OWASP/wstg) | Guia aberto e completo da OWASP para testar a segurança de aplicações web e serviços. | ⭐ 10,1 mil | out 2026 | CC-BY-SA-4.0 | 🟢 ativo |
-| [OWASP Top 10:2025](https://github.com/OWASP/Top10) · [site](https://owasp.org/Top10/2025/) | Lista do OWASP com os dez riscos mais críticos de segurança em aplicações web, edição 2025. | ⭐ 6,3 mil | set 2026 | outra | 🟢 ativo |
+| [OWASP Top 10:2025](https://github.com/OWASP/Top10) · [site](https://owasp.org/Top10/2025/) | Lista do OWASP com os dez riscos mais críticos de segurança em aplicações web, edição 2025. | ⭐ 6,4 mil | set 2026 | outra | 🟢 ativo |
 | [OWASP ASVS](https://github.com/OWASP/ASVS) | Padrão de verificação de segurança de aplicações, com requisitos para guiar testes e desenvolvimento. | ⭐ 3,7 mil | out 2026 | CC-BY-SA-4.0 | 🟢 ativo |
 | [OWASP DevSecOps Guideline](https://github.com/OWASP/DevSecOpsGuideline) | Guia do OWASP para incorporar segurança ao pipeline de desenvolvimento e entrega. | ⭐ 1,1 mil | out 2026 | outra | 🟢 ativo |
 | [OpenSSF Best Practices Guides](https://github.com/ossf/wg-best-practices-os-developers) · [site](https://best.openssf.org/) | Guias do grupo de práticas da OpenSSF para quem mantém e desenvolve software de código aberto. | ⭐ 1,1 mil | out 2026 | Apache-2.0 | 🟢 ativo |
@@ -28,4 +28,4 @@
 | [SANS Posters](https://www.sans.org/posters/) | Pôsteres de referência rápida do SANS sobre resposta a incidentes, forense, nuvem e detecção. | — | — | grátis · en | 🌐 site |
 | [Security Engineering (Ross Anderson)](https://www.cl.cam.ac.uk/~rja14/book.html) | Livro de Ross Anderson sobre como projetar sistemas confiáveis diante de falhas e adversários, com leitura livre. | — | — | grátis · intermediário · en | 🌐 site |
 
-_18 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_18 itens · métricas do GitHub de 26/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

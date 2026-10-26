@@ -16,8 +16,8 @@
 | [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) | Web app to browse and annotate MITRE ATT&CK matrices, for example to map detection coverage. | ⭐ 2.5k | Sep 2026 | Apache-2.0 | 🟢 active |
 | [Yeti](https://github.com/yeti-platform/yeti) | Threat knowledge repository that unifies indicators, techniques and actors in one place. | ⭐ 2k | Oct 2026 | Apache-2.0 | 🟢 active |
 | [Decider](https://github.com/cisagov/decider) | CISA web app that helps map adversary behavior to the MITRE ATT&CK framework. | ⭐ 1.2k | Apr 2025 | other | 🟡 slow |
-| [IntelMQ](https://github.com/certtools/intelmq) | Collects and processes security feeds through message queues, used by CERT teams. | ⭐ 1.1k | Apr 2026 | AGPL-3.0 | 🟢 active |
+| [IntelMQ](https://github.com/certtools/intelmq) | Collects and processes security feeds through message queues, used by CERT teams. | ⭐ 1.1k | Apr 2026 | AGPL-3.0 | 🟡 slow |
 | [AIL Framework](https://github.com/ail-project/ail-framework) | Analyzes public and dark web sources to find information leaks. | ⭐ 1k | Oct 2026 | AGPL-3.0 | 🟢 active |
-| [Lookyloo](https://github.com/Lookyloo/lookyloo) | Captures a web page and shows the tree of domains it loads, useful for phishing analysis. | ⭐ 784 | Oct 2026 | other | 🟢 active |
+| [Lookyloo](https://github.com/Lookyloo/lookyloo) | Captures a web page and shows the tree of domains it loads, useful for phishing analysis. | ⭐ 786 | Oct 2026 | other | 🟢 active |
 
-_10 items · GitHub metrics from 2026-10-19 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_10 items · GitHub metrics from 2026-10-26 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

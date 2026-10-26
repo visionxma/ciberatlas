@@ -19,4 +19,4 @@
 | [kubesec](https://github.com/controlplaneio/kubesec) | Análise de risco de segurança em recursos do Kubernetes, com pontuação por manifesto. | ⭐ 1,5 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 | [StackRox](https://github.com/stackrox/stackrox) | Plataforma de segurança para Kubernetes que analisa risco, conformidade e ameaças em tempo de execução. | ⭐ 1,3 mil | out 2026 | Apache-2.0 | 🟢 ativo |
 
-_9 itens · métricas do GitHub de 19/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_9 itens · métricas do GitHub de 26/10/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
