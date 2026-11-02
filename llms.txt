@@ -234,8 +234,8 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [checkdmarc](https://github.com/domainaware/checkdmarc): Analisador dos registros DNS de SPF e DMARC de um domínio, que aponta erros de configuração.
 - [Sublime Platform](https://github.com/sublime-security/sublime-platform): Plataforma aberta para detectar e prevenir ataques por e-mail como fraude, malware e phishing.
 - [Internet.nl](https://github.com/internetstandards/Internet.nl): Suíte de testes de conformidade com padrões da internet, incluindo SPF, DKIM, DMARC, STARTTLS e DANE.
-- [trustymail](https://github.com/cisagov/trustymail): Varre domínios e retorna dados sobre boas práticas de e-mail confiável, como SPF, DKIM e DMARC.
 - [parse-dmarc](https://github.com/dmarcguardhq/parse-dmarc): Leitor de relatórios DMARC agregados com painel, métricas Prometheus e binário Go único.
+- [trustymail](https://github.com/cisagov/trustymail): Varre domínios e retorna dados sobre boas práticas de e-mail confiável, como SPF, DKIM e DMARC.
 - [Mailgoose](https://github.com/CERT-Polska/mailgoose): Aplicação web do CERT Polska que checa se SPF, DMARC e DKIM estão configurados corretamente.
 - [postfix-mta-sts-resolver](https://github.com/Snawoot/postfix-mta-sts-resolver): Daemon que entrega ao Postfix a política de TLS do destino, conforme o MTA-STS do domínio.
 
