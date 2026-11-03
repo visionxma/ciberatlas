@@ -318,6 +318,13 @@
   desc: Aplicação web para navegar e anotar as matrizes do MITRE ATT&CK, por exemplo para cobrir detecções.
   desc_en: Web app to browse and annotate MITRE ATT&CK matrices, for example to map detection coverage.
   tags: [mitre-attack]
+- nome: ICHI Internet Cyber Health Index
+  url: https://ichi.global
+  categoria: inteligencia-de-ameacas
+  desc: Painel público gratuito que agrega fontes de ameaças para mostrar o estado diário da saúde cibernética da internet.
+  desc_en: Free public dashboard that aggregates threat sources to show the daily cyber health state of the internet.
+  custo: gratis
+  tags: [monitoramento, feeds, osint]
 # --- enganacao-e-iscas
 - nome: T-Pot
   repo: telekom-security/tpotce
