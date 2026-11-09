@@ -17,12 +17,12 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 ## Governar / GRC e conformidade
 
 - [CISO Assistant](https://github.com/intuitem/ciso-assistant-community): Plataforma GRC aberta: riscos, controles, auditorias e conformidade com mais de 100 frameworks (ISO 27001, NIST, CIS, LGPD).
-- [CSET](https://github.com/cisagov/cset): Ferramenta da CISA para autoavaliar a postura de segurança contra padrões como NIST CSF e CIS Controls.
 - [Probo](https://github.com/getprobo/probo): Plataforma aberta para preparar e manter conformidade com SOC 2, ISO 27001 e GDPR, com tarefas, evidências e políticas.
 - [OSCAL](https://github.com/usnistgov/OSCAL): Linguagem do NIST em JSON, XML e YAML para descrever controles, avaliações e planos de segurança de forma legível por máquina.
 - [gapps](https://github.com/bmarsh9/gapps): Plataforma de conformidade que acompanha controles de SOC 2, ISO 27001, NIST CSF, CIS e HIPAA com evidências e políticas.
 - [Deming](https://github.com/sourcentis/deming): Gestão do SGSI (ISO 27001): controles, medições periódicas, plano de ação e acompanhamento de auditorias.
 - [Compliance Trestle](https://github.com/oscal-compass/compliance-trestle): Ferramenta Python para gerir conformidade como código com OSCAL do NIST, integrável a pipelines de CI.
+- [CSET](https://github.com/cisagov/cset): Ferramenta da CISA para autoavaliar a postura de segurança contra padrões como NIST CSF e CIS Controls.
 
 ## Governar / Privacidade e dados pessoais
 
@@ -44,8 +44,8 @@ Dados legíveis por máquina: https://github.com/visionxma/ciberatlas/blob/main/
 - [Snipe-IT](https://github.com/grokability/snipe-it): Gestão de ativos e licenças de TI: quem usa cada equipamento, histórico, check-in e check-out.
 - [Nmap](https://github.com/nmap/nmap): Descoberta de hosts e serviços na rede, para manter o inventário e achar portas abertas inesperadas.
 - [NetAlertX](https://github.com/netalertx/NetAlertX): Descobre dispositivos na rede local e avisa quando aparece um equipamento novo ou desconhecido.
-- [CloudQuery](https://github.com/cloudquery/cloudquery): Extrai configuração de nuvem para um banco de dados, base para inventário de ativos e análise de postura.
 - [GLPI](https://github.com/glpi-project/glpi): Inventário de ativos de TI, licenças e chamados (ITIL), com agente para descobrir máquinas e softwares.
+- [CloudQuery](https://github.com/cloudquery/cloudquery): Extrai configuração de nuvem para um banco de dados, base para inventário de ativos e análise de postura.
 - [Cartography](https://github.com/cartography-cncf/cartography): Reúne ativos de nuvem e suas relações em um grafo Neo4j para achar caminhos de exposição.
 - [Ralph](https://github.com/allegro/ralph): CMDB e gestão de ativos para hardware de data center e escritório, com ciclo de vida e responsáveis.
 - [Nautobot](https://github.com/nautobot/nautobot): Fonte da verdade da rede e plataforma de automação: inventário de dispositivos, IPs e configuração.

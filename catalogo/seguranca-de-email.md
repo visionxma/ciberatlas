@@ -13,11 +13,11 @@
 | [parsedmarc](https://github.com/domainaware/parsedmarc) | Pacote e CLI em Python que leem relatórios DMARC agregados e forenses e os enviam para análise. | ⭐ 1,3 mil | nov 2026 | Apache-2.0 | 🟢 ativo |
 | [Apache SpamAssassin](https://github.com/apache/spamassassin) | Filtro de spam clássico em Perl que pontua mensagens por regras e testes de rede; espelho de leitura. | ⭐ 345 | nov 2026 | Apache-2.0 | 🟢 ativo |
 | [checkdmarc](https://github.com/domainaware/checkdmarc) | Analisador dos registros DNS de SPF e DMARC de um domínio, que aponta erros de configuração. | ⭐ 324 | out 2026 | Apache-2.0 | 🟢 ativo |
-| [Sublime Platform](https://github.com/sublime-security/sublime-platform) | Plataforma aberta para detectar e prevenir ataques por e-mail como fraude, malware e phishing. | ⭐ 277 | out 2026 | MIT | 🟢 ativo |
-| [Internet.nl](https://github.com/internetstandards/Internet.nl) | Suíte de testes de conformidade com padrões da internet, incluindo SPF, DKIM, DMARC, STARTTLS e DANE. | ⭐ 239 | out 2026 | — | 🟢 ativo |
-| [parse-dmarc](https://github.com/dmarcguardhq/parse-dmarc) | Leitor de relatórios DMARC agregados com painel, métricas Prometheus e binário Go único. | ⭐ 226 | out 2026 | Apache-2.0 | 🟢 ativo |
+| [Sublime Platform](https://github.com/sublime-security/sublime-platform) | Plataforma aberta para detectar e prevenir ataques por e-mail como fraude, malware e phishing. | ⭐ 277 | nov 2026 | MIT | 🟢 ativo |
+| [Internet.nl](https://github.com/internetstandards/Internet.nl) | Suíte de testes de conformidade com padrões da internet, incluindo SPF, DKIM, DMARC, STARTTLS e DANE. | ⭐ 239 | nov 2026 | — | 🟢 ativo |
+| [parse-dmarc](https://github.com/dmarcguardhq/parse-dmarc) | Leitor de relatórios DMARC agregados com painel, métricas Prometheus e binário Go único. | ⭐ 230 | nov 2026 | Apache-2.0 | 🟢 ativo |
 | [trustymail](https://github.com/cisagov/trustymail) | Varre domínios e retorna dados sobre boas práticas de e-mail confiável, como SPF, DKIM e DMARC. | ⭐ 225 | out 2026 | CC0-1.0 | 🟢 ativo |
-| [Mailgoose](https://github.com/CERT-Polska/mailgoose) | Aplicação web do CERT Polska que checa se SPF, DMARC e DKIM estão configurados corretamente. | ⭐ 210 | out 2026 | BSD-3-Clause | 🟢 ativo |
+| [Mailgoose](https://github.com/CERT-Polska/mailgoose) | Aplicação web do CERT Polska que checa se SPF, DMARC e DKIM estão configurados corretamente. | ⭐ 210 | nov 2026 | BSD-3-Clause | 🟢 ativo |
 | [postfix-mta-sts-resolver](https://github.com/Snawoot/postfix-mta-sts-resolver) | Daemon que entrega ao Postfix a política de TLS do destino, conforme o MTA-STS do domínio. | ⭐ 126 | out 2025 | MIT | 🟡 morno |
 
-_10 itens · métricas do GitHub de 02/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 09/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

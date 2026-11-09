@@ -10,11 +10,11 @@
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
 | [CISO Assistant](https://github.com/intuitem/ciso-assistant-community) | Open GRC platform: risk, controls, audits and compliance across 100+ frameworks (ISO 27001, NIST, CIS, GDPR). | ⭐ 4.6k | Nov 2026 | other | 🟢 active |
-| [CSET](https://github.com/cisagov/cset) | CISA tool to self-assess security posture against standards such as NIST CSF and CIS Controls. | ⭐ 1.9k | Oct 2026 | MIT | 🟢 active |
 | [Probo](https://github.com/getprobo/probo) | Open platform to prepare and maintain SOC 2, ISO 27001 and GDPR compliance with tasks, evidence and policies. | ⭐ 1.5k | Nov 2026 | MIT | 🟢 active |
-| [OSCAL](https://github.com/usnistgov/OSCAL) | NIST language in JSON, XML and YAML to describe controls, assessments and security plans in machine-readable form. | ⭐ 965 | Aug 2026 | other | 🟢 active |
-| [gapps](https://github.com/bmarsh9/gapps) | Compliance platform tracking SOC 2, ISO 27001, NIST CSF, CIS and HIPAA controls with evidence and policies. | ⭐ 698 | Feb 2026 | other | 🟡 slow |
+| [OSCAL](https://github.com/usnistgov/OSCAL) | NIST language in JSON, XML and YAML to describe controls, assessments and security plans in machine-readable form. | ⭐ 967 | Aug 2026 | other | 🟢 active |
+| [gapps](https://github.com/bmarsh9/gapps) | Compliance platform tracking SOC 2, ISO 27001, NIST CSF, CIS and HIPAA controls with evidence and policies. | ⭐ 699 | Feb 2026 | other | 🟡 slow |
 | [Deming](https://github.com/sourcentis/deming) | ISMS management (ISO 27001): controls, periodic measurements, action plans and audit follow-up. | ⭐ 393 | Nov 2026 | GPL-3.0 | 🟢 active |
 | [Compliance Trestle](https://github.com/oscal-compass/compliance-trestle) | Python tooling to manage compliance as code with NIST OSCAL, ready for CI pipelines. | ⭐ 290 | Nov 2026 | Apache-2.0 | 🟢 active |
+| [CSET](https://github.com/cisagov/cset) | CISA tool to self-assess security posture against standards such as NIST CSF and CIS Controls. | ⭐ 12 | Oct 2026 | MIT | 🟢 active |
 
-_7 items · GitHub metrics from 2026-11-02 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_7 items · GitHub metrics from 2026-11-09 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

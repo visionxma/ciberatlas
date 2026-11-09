@@ -14,11 +14,11 @@
 | [Velociraptor](https://github.com/Velocidex/velociraptor) | Coleta e caça remota em endpoints com consultas VQL, para resposta a incidentes e forense. | ⭐ 4,4 mil | nov 2026 | outra | 🟢 ativo |
 | [Tracecat](https://github.com/TracecatHQ/tracecat) | Plataforma aberta de automação de segurança para equipes, com fluxos de trabalho e agentes. | ⭐ 3,9 mil | nov 2026 | AGPL-3.0 | 🟢 ativo |
 | [Shuffle](https://github.com/Shuffle/Shuffle) | Plataforma aberta de automação de segurança (SOAR) com fluxos de trabalho visuais. | ⭐ 2,5 mil | set 2026 | AGPL-3.0 | 🟢 ativo |
-| [FIR](https://github.com/certsocietegenerale/FIR) | Plataforma de gestão de incidentes de segurança do CERT Société Générale. | ⭐ 2 mil | set 2026 | GPL-3.0 | 🟢 ativo |
+| [FIR](https://github.com/certsocietegenerale/FIR) | Plataforma de gestão de incidentes de segurança do CERT Société Générale. | ⭐ 2,1 mil | set 2026 | GPL-3.0 | 🟢 ativo |
 | [Cortex](https://github.com/TheHive-Project/Cortex) | Motor que analisa observáveis (IPs, arquivos, domínios) e executa ações de resposta ativa. | ⭐ 1,6 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
 | [DFIR-IRIS](https://github.com/dfir-iris/iris-web) | Plataforma colaborativa de resposta a incidentes para registrar casos, evidências e linha do tempo. | ⭐ 1,6 mil | set 2026 | LGPL-3.0 | 🟢 ativo |
-| [Untitled Goose Tool](https://github.com/cisagov/untitledgoosetool) | Ferramenta da CISA para caça e resposta a incidentes em ambientes Azure, Entra ID e Microsoft 365. | ⭐ 967 | out 2026 | CC0-1.0 | 🟢 ativo |
-| [Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | Módulo PowerShell que coleta dados do Microsoft 365 e do Azure para resposta a incidentes. | ⭐ 864 | jun 2026 | GPL-2.0 | 🟢 ativo |
+| [Untitled Goose Tool](https://github.com/cisagov/untitledgoosetool) | Ferramenta da CISA para caça e resposta a incidentes em ambientes Azure, Entra ID e Microsoft 365. | ⭐ 968 | out 2026 | CC0-1.0 | 🟢 ativo |
+| [Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | Módulo PowerShell que coleta dados do Microsoft 365 e do Azure para resposta a incidentes. | ⭐ 868 | nov 2026 | GPL-2.0 | 🟢 ativo |
 | [DFIR-ORC](https://github.com/DFIR-ORC/dfir-orc) | Ferramenta da ANSSI que coleta artefatos forenses em sistemas Windows. | ⭐ 453 | out 2026 | LGPL-2.1 | 🟢 ativo |
 
-_11 itens · métricas do GitHub de 02/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_11 itens · métricas do GitHub de 09/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
