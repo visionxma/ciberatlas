@@ -9,8 +9,8 @@
 
 | Projeto | O que faz | Estrelas | Última atividade | Licença ou acesso | Saúde |
 |---|---|--:|---|---|---|
-| [acme.sh](https://github.com/acmesh-official/acme.sh) | Cliente ACME em shell puro para emitir e renovar certificados TLS automaticamente. | ⭐ 47,9 mil | nov 2026 | GPL-3.0 | 🟢 ativo |
-| [Certbot](https://github.com/certbot/certbot) | Cliente da EFF que obtém certificados do Let's Encrypt e pode ativar o HTTPS automaticamente. | ⭐ 33,3 mil | out 2026 | outra | 🟢 ativo |
+| [acme.sh](https://github.com/acmesh-official/acme.sh) | Cliente ACME em shell puro para emitir e renovar certificados TLS automaticamente. | ⭐ 48 mil | nov 2026 | GPL-3.0 | 🟢 ativo |
+| [Certbot](https://github.com/certbot/certbot) | Cliente da EFF que obtém certificados do Let's Encrypt e pode ativar o HTTPS automaticamente. | ⭐ 33,3 mil | nov 2026 | outra | 🟢 ativo |
 | [age](https://github.com/FiloSottile/age) | Criptografia de arquivos com chaves pequenas e sem arquivo de configuração. | ⭐ 24,3 mil | ago 2026 | BSD-3-Clause | 🟢 ativo |
 | [Cryptomator](https://github.com/cryptomator/cryptomator) | Criptografia do lado do cliente para arquivos em nuvem no Windows, macOS e Linux. | ⭐ 16,5 mil | nov 2026 | GPL-3.0 | 🟢 ativo |
 | [cert-manager](https://github.com/cert-manager/cert-manager) | Emite e renova automaticamente certificados TLS em clusters Kubernetes. | ⭐ 14,2 mil | nov 2026 | Apache-2.0 | 🟢 ativo |
@@ -20,4 +20,4 @@
 | [step-ca](https://github.com/smallstep/certificates) | Autoridade certificadora privada (X.509 e SSH) e servidor ACME para certificados automáticos. | ⭐ 9,1 mil | nov 2026 | Apache-2.0 | 🟢 ativo |
 | [SSLyze](https://github.com/nabla-c0d3/sslyze) | Biblioteca e CLI rápidos que analisam a configuração TLS de servidores. | ⭐ 3,8 mil | out 2026 | AGPL-3.0 | 🟢 ativo |
 
-_10 itens · métricas do GitHub de 09/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 16/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

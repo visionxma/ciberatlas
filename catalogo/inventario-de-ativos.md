@@ -20,6 +20,6 @@
 | [Ralph](https://github.com/allegro/ralph) | CMDB e gestão de ativos para hardware de data center e escritório, com ciclo de vida e responsáveis. | ⭐ 2,5 mil | nov 2026 | Apache-2.0 | 🟢 ativo |
 | [Nautobot](https://github.com/nautobot/nautobot) | Fonte da verdade da rede e plataforma de automação: inventário de dispositivos, IPs e configuração. | ⭐ 1,6 mil | nov 2026 | Apache-2.0 | 🟢 ativo |
 | [iTop](https://github.com/Combodo/iTop) | CMDB e gestão de serviços de TI (ITSM) para relacionar ativos, serviços, mudanças e incidentes. | ⭐ 1,2 mil | nov 2026 | AGPL-3.0 | 🟢 ativo |
-| [Mercator](https://github.com/sourcentis/mercator) | Cartografia do sistema de informação: mapeia processos, aplicações, servidores e fluxos para análise de riscos. | ⭐ 562 | nov 2026 | GPL-3.0 | 🟢 ativo |
+| [Mercator](https://github.com/sourcentis/mercator) | Cartografia do sistema de informação: mapeia processos, aplicações, servidores e fluxos para análise de riscos. | ⭐ 561 | nov 2026 | GPL-3.0 | 🟢 ativo |
 
-_12 itens · métricas do GitHub de 09/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_12 itens · métricas do GitHub de 16/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
