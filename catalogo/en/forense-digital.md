@@ -9,7 +9,7 @@
 
 | Project | What it does | Stars | Last activity | License or access | Health |
 |---|---|--:|---|---|---|
-| [Volatility 3](https://github.com/volatilityfoundation/volatility3) | Memory forensics framework to extract processes, connections and modules from RAM dumps. | ⭐ 4.6k | Oct 2026 | other | 🟢 active |
+| [Volatility 3](https://github.com/volatilityfoundation/volatility3) | Memory forensics framework to extract processes, connections and modules from RAM dumps. | ⭐ 4.6k | Nov 2026 | other | 🟢 active |
 | [MemProcFS](https://github.com/ufrisk/MemProcFS) | Presents physical memory as a file system to explore and analyze it easily. | ⭐ 4.4k | Nov 2026 | AGPL-3.0 | 🟢 active |
 | [Autopsy](https://github.com/sleuthkit/autopsy) | Digital forensics platform with a graphical interface on top of The Sleuth Kit. | ⭐ 3.5k | May 2026 | — | 🟡 slow |
 | [Timesketch](https://github.com/google/timesketch) | Collaborative forensic timeline analysis with search, tagging and automated analyzers. | ⭐ 3.5k | Nov 2026 | Apache-2.0 | 🟢 active |
@@ -21,4 +21,4 @@
 | [AVML](https://github.com/microsoft/avml) | Acquires volatile memory from Linux machines without needing to know the kernel version. | ⭐ 1.1k | Nov 2026 | MIT | 🟢 active |
 | [mac_apt](https://github.com/ydkhatri/mac_apt) | Tool that extracts and parses forensic artifacts from macOS and iOS. | ⭐ 1.1k | Nov 2026 | MIT | 🟢 active |
 
-_11 items · GitHub metrics from 2026-11-16 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_
+_11 items · GitHub metrics from 2026-11-23 · 🟢 activity in the last 6 months · 🟡 6 to 24 months · 🌐 resource outside GitHub_

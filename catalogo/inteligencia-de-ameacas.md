@@ -18,6 +18,6 @@
 | [Decider](https://github.com/cisagov/decider) | Aplicação da CISA que ajuda a mapear o comportamento de adversários para o MITRE ATT&CK. | ⭐ 1,2 mil | abr 2025 | outra | 🟡 morno |
 | [IntelMQ](https://github.com/certtools/intelmq) | Coleta e processa feeds de segurança por filas de mensagens, usado por equipes de CERT. | ⭐ 1,1 mil | abr 2026 | AGPL-3.0 | 🟡 morno |
 | [AIL Framework](https://github.com/ail-project/ail-framework) | Analisa fontes públicas e da dark web para achar vazamentos de informação. | ⭐ 1,1 mil | nov 2026 | AGPL-3.0 | 🟢 ativo |
-| [Lookyloo](https://github.com/Lookyloo/lookyloo) | Captura uma página web e mostra a árvore de domínios carregados, útil para analisar phishing. | ⭐ 791 | nov 2026 | outra | 🟢 ativo |
+| [Lookyloo](https://github.com/Lookyloo/lookyloo) | Captura uma página web e mostra a árvore de domínios carregados, útil para analisar phishing. | ⭐ 790 | nov 2026 | outra | 🟢 ativo |
 
-_10 itens · métricas do GitHub de 16/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_
+_10 itens · métricas do GitHub de 23/11/2026 · 🟢 atividade nos últimos 6 meses · 🟡 entre 6 e 24 meses · 🌐 recurso fora do GitHub_

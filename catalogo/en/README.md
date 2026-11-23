@@ -1,7 +1,7 @@
 <!-- Gerado por scripts/ciberatlas.py — não edite à mão -->
 # CiberAtlas catalog
 
-**412 items** in **37 categories** · **341 open-source projects** checked by the bot on 2026-11-16 (313 active in the last 6 months) · 3.02M combined stars · 3 in the [graveyard](../cemiterio.md)
+**412 items** in **37 categories** · **341 open-source projects** checked by the bot on 2026-11-23 (312 active in the last 6 months) · 3.03M combined stars · 3 in the [graveyard](../cemiterio.md)
 
 [Português](../README.md) · [← Home](../../README.en.md)
 
